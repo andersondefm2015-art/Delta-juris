@@ -1,5 +1,5 @@
 
 window.DELTA_SUPABASE_CONFIG = {
-  url: "COLE_AQUI_A_PROJECT_URL",
-  publishableKey: "COLE_AQUI_A_PUBLISHABLE_KEY"
+  url: "https://sflufykddtiafeisfskq.supabase.co/rest/v1/",
+  publishableKey: "sb_publishable_ReWRaRX2MN3auurADLwlvQ_Em7xqo8F"
 };
