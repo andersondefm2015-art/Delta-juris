@@ -1,1 +1,5 @@
 
+window.DELTA_SUPABASE_CONFIG = {
+  url: "COLE_AQUI_A_PROJECT_URL",
+  publishableKey: "COLE_AQUI_A_PUBLISHABLE_KEY"
+};
