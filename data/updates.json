@@ -1,5 +1,250 @@
 {
-  "updated_at": null,
-  "items": [],
-  "errors": []
+  "updated_at": "2026-11-23T04:50:11.236876+00:00",
+  "items": [
+    {
+      "source": "STJ",
+      "title": "Informativo n. 910 - 17 de Novembro de 2026",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0910.cod.&from=feed",
+      "published": "2026-11-17T00:00:00-03:00"
+    },
+    {
+      "source": "STJ",
+      "title": "Informativo n. 909 - 10 de Novembro de 2026",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0909.cod.&from=feed",
+      "published": "2026-11-10T00:00:00-03:00"
+    },
+    {
+      "source": "STJ",
+      "title": "Informativo n. 908 - 3 de Novembro de 2026",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0908.cod.&from=feed",
+      "published": "2026-11-03T00:00:00-03:00"
+    },
+    {
+      "source": "STJ",
+      "title": "Informativo n. 907 - 27 de Outubro de 2026",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0907.cod.&from=feed",
+      "published": "2026-10-27T00:00:00-03:00"
+    },
+    {
+      "source": "STJ",
+      "title": "Informativo n. 906 - 20 de Outubro de 2026",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0906.cod.&from=feed",
+      "published": "2026-10-20T00:00:00-03:00"
+    },
+    {
+      "source": "STJ",
+      "title": "Informativo n. 905 - 13 de Outubro de 2026",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0905.cod.&from=feed",
+      "published": "2026-10-13T00:00:00-03:00"
+    },
+    {
+      "source": "STJ",
+      "title": "Informativo n. 904 - 6 de Outubro de 2026",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0904.cod.&from=feed",
+      "published": "2026-10-06T00:00:00-03:00"
+    },
+    {
+      "source": "STJ",
+      "title": "Informativo n. 903 - 29 de Setembro de 2026",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0903.cod.&from=feed",
+      "published": "2026-09-29T00:00:00-03:00"
+    },
+    {
+      "source": "STJ",
+      "title": "Informativo n. 902 - 22 de Setembro de 2026",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0902.cod.&from=feed",
+      "published": "2026-09-22T00:00:00-03:00"
+    },
+    {
+      "source": "STJ",
+      "title": "Informativo n. 901 - 15 de Setembro de 2026",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0901.cod.&from=feed",
+      "published": "2026-09-15T00:00:00-03:00"
+    },
+    {
+      "source": "STJ",
+      "title": "Informativo n. 900 - 8 de Setembro de 2026",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0900.cod.&from=feed",
+      "published": "2026-09-08T00:00:00-03:00"
+    },
+    {
+      "source": "STJ",
+      "title": "Informativo n. 899 - 1 de Setembro de 2026",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0899.cod.&from=feed",
+      "published": "2026-09-01T00:00:00-03:00"
+    },
+    {
+      "source": "STJ",
+      "title": "Informativo n. 898 - 25 de Agosto de 2026",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0898.cod.&from=feed",
+      "published": "2026-08-25T00:00:00-03:00"
+    },
+    {
+      "source": "STJ",
+      "title": "Informativo n. 897 - 18 de Agosto de 2026",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0897.cod.&from=feed",
+      "published": "2026-08-18T00:00:00-03:00"
+    },
+    {
+      "source": "STJ",
+      "title": "Informativo n. 896 - 12 de Agosto de 2026",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0896.cod.&from=feed",
+      "published": "2026-08-12T00:00:00-03:00"
+    },
+    {
+      "source": "STJ",
+      "title": "Informativo n. 895 - 4 de Agosto de 2026",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0895.cod.&from=feed",
+      "published": "2026-08-04T00:00:00-03:00"
+    },
+    {
+      "source": "STJ",
+      "title": "Informativo n. 33 - 28 de Julho de 2026 - Direito Penal",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0033E.cod.&from=feed",
+      "published": "2026-07-28T00:00:00-03:00"
+    },
+    {
+      "source": "STJ",
+      "title": "Informativo n. 32 - 21 de Julho de 2026 - Direito Privado",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0032E.cod.&from=feed",
+      "published": "2026-07-21T00:00:00-03:00"
+    },
+    {
+      "source": "STJ",
+      "title": "Informativo n. 31 - 14 de Julho de 2026 - Direito Público",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0031E.cod.&from=feed",
+      "published": "2026-07-14T00:00:00-03:00"
+    },
+    {
+      "source": "STJ",
+      "title": "Informativo n. 894 - 30 de Junho de 2026",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0894.cod.&from=feed",
+      "published": "2026-06-30T00:00:00-03:00"
+    },
+    {
+      "source": "STJ",
+      "title": "Informativo n. 893 - 23 de Junho de 2026",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0893.cod.&from=feed",
+      "published": "2026-06-23T00:00:00-03:00"
+    },
+    {
+      "source": "STJ",
+      "title": "Informativo n. 892 - 16 de Junho de 2026",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0892.cod.&from=feed",
+      "published": "2026-06-16T00:00:00-03:00"
+    },
+    {
+      "source": "STJ",
+      "title": "Informativo n. 891 - 2 de Junho de 2026",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0891.cod.&from=feed",
+      "published": "2026-06-02T00:00:00-03:00"
+    },
+    {
+      "source": "STJ",
+      "title": "Informativo n. 890 - 26 de Maio de 2026",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0890.cod.&from=feed",
+      "published": "2026-05-26T00:00:00-03:00"
+    },
+    {
+      "source": "STJ",
+      "title": "Informativo n. 889 - 19 de Maio de 2026",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0889.cod.&from=feed",
+      "published": "2026-05-19T00:00:00-03:00"
+    },
+    {
+      "source": "STJ",
+      "title": "Informativo n. 888 - 12 de Maio de 2026",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0888.cod.&from=feed",
+      "published": "2026-05-12T00:00:00-03:00"
+    },
+    {
+      "source": "STJ",
+      "title": "Informativo n. 887 - 5 de Maio de 2026",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0887.cod.&from=feed",
+      "published": "2026-05-05T00:00:00-03:00"
+    },
+    {
+      "source": "STJ",
+      "title": "Informativo n. 886 - 28 de Abril de 2026",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0886.cod.&from=feed",
+      "published": "2026-04-28T00:00:00-03:00"
+    },
+    {
+      "source": "STJ",
+      "title": "Informativo n. 885 - 22 de Abril de 2026",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0885.cod.&from=feed",
+      "published": "2026-04-22T00:00:00-03:00"
+    },
+    {
+      "source": "STJ",
+      "title": "Informativo n. 884 - 14 de Abril de 2026",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0884.cod.&from=feed",
+      "published": "2026-04-14T00:00:00-03:00"
+    },
+    {
+      "source": "STJ",
+      "title": "Informativo n. 883 - 31 de Março de 2026",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0883.cod.&from=feed",
+      "published": "2026-03-31T00:00:00-03:00"
+    },
+    {
+      "source": "STJ",
+      "title": "Informativo n. 882 - 24 de Março de 2026",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0882.cod.&from=feed",
+      "published": "2026-03-24T00:00:00-03:00"
+    },
+    {
+      "source": "STJ",
+      "title": "Informativo n. 881 - 17 de Março de 2026",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0881.cod.&from=feed",
+      "published": "2026-03-17T00:00:00-03:00"
+    },
+    {
+      "source": "STJ",
+      "title": "Informativo n. 880 - 10 de Março de 2026",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0880.cod.&from=feed",
+      "published": "2026-03-10T00:00:00-03:00"
+    },
+    {
+      "source": "STJ",
+      "title": "Informativo n. 879 - 3 de Março de 2026",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0879.cod.&from=feed",
+      "published": "2026-03-03T00:00:00-03:00"
+    },
+    {
+      "source": "STF",
+      "title": "Informativo STF",
+      "url": "https://www.stf.jus.br/arquivo/cms/informativoSTF/anexo/Informativo_PDF/informativo_stf_1000.pdf",
+      "published": ""
+    },
+    {
+      "source": "STF",
+      "title": "Última edição: 1237/2026 (pdf)",
+      "url": "https://www.stf.jus.br/arquivo/cms/informativoSTF/anexo/Informativo_PDF/Informativo_stf_1237.pdf",
+      "published": ""
+    },
+    {
+      "source": "STF",
+      "title": "Informativo STF",
+      "url": "https://www.stf.jus.br/arquivo/cms/informativoSTF/anexo/Infograficos/Infogrfico_NOVO_INFORMATIVO_2025.pdf",
+      "published": ""
+    }
+  ],
+  "errors": [
+    {
+      "source": "STJ",
+      "url": "https://scon.stj.jus.br/SCON/JurisprudenciaEmTesesFeed",
+      "message": "not well-formed (invalid token): line 4, column 22"
+    },
+    {
+      "source": "STJ",
+      "url": "https://scon.stj.jus.br/SCON/PesquisaProntaFeed",
+      "message": "not well-formed (invalid token): line 7, column 37"
+    },
+    {
+      "source": "Dizer o Direito",
+      "url": "https://www.dizerodireito.com.br/feeds/posts/default?alt=rss",
+      "message": "not well-formed (invalid token): line 1, column 1103"
+    }
+  ]
 }
