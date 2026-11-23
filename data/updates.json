@@ -1,7 +1,807 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-23T12:54:37.750756+00:00",
+  "updated_at": "2026-11-23T13:11:14.996783+00:00",
   "items": [
+    {
+      "id": "8a751d9402cc2f05c5c5",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 285: DIREITO À EDUCAÇÃO III",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=285",
+      "published": "2026-08-14T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "a3e050887d48210b8ba1",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 284: DIREITO À EDUCAÇÃO II",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=284",
+      "published": "2026-07-17T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "68329876564235a9a1d4",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 283: DIREITO À EDUCAÇÃO",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=283",
+      "published": "2026-06-26T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "538b08fcf13a04ed0e3b",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 282: SUPERENDIVIDAMENTO",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=282",
+      "published": "2026-06-12T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "44bad6f12d20c8d40ad2",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 281: DIREITO PENAL E PROCESSUAL PENAL EM AMBIENTE DIGITAL III",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=281",
+      "published": "2026-05-29T00:00:00-03:00",
+      "category": "Direito Penal",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "7d44497dd90b9dfb49d2",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 280: DIREITO PENAL E PROCESSUAL PENAL EM AMBIENTE DIGITAL II",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=280",
+      "published": "2026-05-15T00:00:00-03:00",
+      "category": "Direito Penal",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "6f53905bed113d84202d",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 279: DIREITO PENAL E PROCESSUAL PENAL EM AMBIENTE DIGITAL",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=279",
+      "published": "2026-04-24T00:00:00-03:00",
+      "category": "Direito Penal",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "c714852a430721fc2460",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 278: RECLAMAÇÃO III",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=278",
+      "published": "2026-04-10T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "75fcd582fdc4713e91c4",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 277: RECLAMAÇÃO II",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=277",
+      "published": "2026-03-27T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "628182f422dffdfd9e8e",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 276: RECLAMAÇÃO",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=276",
+      "published": "2026-03-13T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "e007fd8cf6fa6c6188f7",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 275: SIMPLES NACIONAL",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=275",
+      "published": "2026-02-27T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "b78c5fd6ee521fc09bd9",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 274: PLANOS DE SAÚDE VI",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=274",
+      "published": "2026-02-13T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "e70a9bc50e9696a37153",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 273: AÇÃO CIVIL PÚBLICA II",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=273",
+      "published": "2026-01-30T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "c2d6e6a2ebde8f198fae",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 272: AÇÃO CIVIL PÚBLICA",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=272",
+      "published": "2025-12-11T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "1a52cd3f9bb45032debd",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 271: PLANOS DE SAÚDE V",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=271",
+      "published": "2025-11-19T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "920244bfde19168a7888",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 270: PLANOS DE SAÚDE IV",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=270",
+      "published": "2025-11-07T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "aceedbc206942f0c3916",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 269: DIREITO AUTORAL V",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=269",
+      "published": "2025-10-24T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "f2b5ee98548f385b35c7",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 268: DIREITO AUTORAL IV",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=268",
+      "published": "2025-10-10T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "1404b7b1a4d3d044a4be",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 267: DIREITO AUTORAL III",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=267",
+      "published": "2025-09-26T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "21e91aa406ab928d0f22",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 266: DIREITO AUTORAL II",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=266",
+      "published": "2025-09-12T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "0aa96bd00387fcae62dc",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 265: DIREITO AUTORAL",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=265",
+      "published": "2025-08-22T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "10ceb45ce36b4744f126",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 264: EQUIDADE RACIAL",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=264",
+      "published": "2025-08-08T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "8a1e29d9f945646e7a64",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 263: MEDIDAS SOCIOEDUCATIVAS III",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=263",
+      "published": "2025-07-18T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "fd3bb212216af23c45ca",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 262: MEDIDAS SOCIOEDUCATIVAS II",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=262",
+      "published": "2025-06-27T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "aa3bab9d3aa3c4162377",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 261: POVOS ORIGINÁRIOS II",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=261",
+      "published": "2025-06-13T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "01b05504faa171f52f05",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 260: INTERROGATÓRIO",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=260",
+      "published": "2025-05-30T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "8f88541b0fd86d422c6d",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 259: DIREITOS DA PESSOA COM TRANSTORNO DO ESPECTRO AUTISTA - TEA",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=259",
+      "published": "2025-05-19T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "bfb8f6f32b7b8df5db0d",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 258: AMICUS CURIAE",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=258",
+      "published": "2025-05-09T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "15dd60c5d376e23a9178",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 257: RESPONSABILIDADE POR DANO AMBIENTAL II",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=257",
+      "published": "2025-04-15T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "49f34883effcf996d814",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 256: DIREITOS DA CRIANÇA E DO ADOLESCENTE VI",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=256",
+      "published": "2025-04-04T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "bdb2a26ae7f216cf354a",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 255: 10 ANOS DO CÓDIGO DE PROCESSO CIVIL",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=255",
+      "published": "2025-03-14T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "9552ecca3e5e16b9062f",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 254: DIREITOS DA CRIANÇA E DO ADOLESCENTE V",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=254",
+      "published": "2025-03-07T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "79a4f54ccfdae5de842c",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 253: DIREITOS DA CRIANÇA E DO ADOLESCENTE IV",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=253",
+      "published": "2025-02-21T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "6a754ef59aaefba50ac9",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 252: 20 ANOS DA LEI DE RECUPERAÇÃO JUDICIAL E EXTRAJUDICIAL E FALÊNCIA (LEI N. 11.101/2005)",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=252",
+      "published": "2025-02-07T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "b0b071eb0d14f5f6c027",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 251: DIREITOS DA CRIANÇA E DO ADOLESCENTE III",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=251",
+      "published": "2025-01-17T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "9f777af6014ae4bcc816",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 250: DIREITOS DA CRIANÇA E DO ADOLESCENTE II",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=250",
+      "published": "2024-12-13T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "ae8a6010a706f492be61",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 249: REMIÇÃO DA PENA III",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=249",
+      "published": "2024-11-29T00:00:00-03:00",
+      "category": "Direito Penal",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "be4d6db40f651015be3b",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 248: REMIÇÃO DA PENA II",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=248",
+      "published": "2024-11-14T00:00:00-03:00",
+      "category": "Direito Penal",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "f28b17992540930cd80b",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 247: DIREITO DAS SUCESSÕES V",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=247",
+      "published": "2024-10-30T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "afc06eab20b9e1fb83c1",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 246: DIREITO DAS SUCESSÕES IV",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=246",
+      "published": "2024-10-18T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "c234095482db3e0002d1",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 245: DIREITOS DA CRIANÇA E DO ADOLESCENTE",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=245",
+      "published": "2024-10-04T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "51d0475b71a3ea6a72d1",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 244: DIREITOS DA PESSOA IDOSA",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=244",
+      "published": "2024-10-01T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "35c36597d2fa7406e9ba",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 243: DIREITO DAS SUCESSÕES III",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=243",
+      "published": "2024-09-20T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "900ed186698433c34177",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 242: DIREITO DAS SUCESSÕES II",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=242",
+      "published": "2024-09-06T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "bb477467b660b8aa42ba",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 241: DIREITO DAS SUCESSÕES",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=241",
+      "published": "2024-08-23T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "2fb4880c443f49408e25",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 240: LEGISLAÇÃO DE TRÂNSITO IV",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=240",
+      "published": "2024-08-09T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "add121a08c45e73ec0fd",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 239: LEGISLAÇÃO DE TRÂNSITO III",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=239",
+      "published": "2024-07-12T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "95e47588db16436e5a9c",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 238: DIREITOS RELATIVOS À DIVERSIDADE",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=238",
+      "published": "2024-06-21T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "fbb8019c57d04b0b88e5",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 237: BUSCA E APREENSÃO EM PROCESSO PENAL II",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=237",
+      "published": "2024-06-07T00:00:00-03:00",
+      "category": "Direito Processual Penal",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "80e64212693eddeef87d",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 236: BUSCA E APREENSÃO EM PROCESSO PENAL",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=236",
+      "published": "2024-05-23T00:00:00-03:00",
+      "category": "Direito Processual Penal",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "0dc0aca670d90fc29eca",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 235: SUCESSÃO TESTAMENTÁRIA",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=235",
+      "published": "2024-05-10T00:00:00-03:00",
+      "category": "Direito Civil",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "6d04d23ff89faa381835",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 234: IMPROBIDADE ADMINISTRATIVA VI",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=234",
+      "published": "2024-04-26T00:00:00-03:00",
+      "category": "Direito Administrativo",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "a09c486cf9f8d0479151",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 233: POVOS ORIGINÁRIOS",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=233",
+      "published": "2024-04-12T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "2214c96ab071e9f66049",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 232: CONTRATOS DE SEGURO VI",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=232",
+      "published": "2024-03-22T00:00:00-03:00",
+      "category": "Direito Civil",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "21656cfca9750dc73da6",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 231: JULGAMENTOS COM PERSPECTIVA DE GÊNERO IV",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=231",
+      "published": "2024-03-01T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "533e4008cd9de1bc5306",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 230: CONTRATOS DE SEGURO V",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=230",
+      "published": "2024-02-23T00:00:00-03:00",
+      "category": "Direito Civil",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "49e2467775c2940b5ed0",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 229: REGISTROS PÚBLICOS, CARTORÁRIOS E NOTARIAIS VI",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=229",
+      "published": "2024-02-09T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "bf15996d27e3ec473d13",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 228: REGISTROS PÚBLICOS, CARTORÁRIOS E NOTARIAIS V",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=228",
+      "published": "2024-01-19T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "b3281b5869b08b71fc18",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 227: REGISTROS PÚBLICOS, CARTORÁRIOS E NOTARIAIS IV",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=227",
+      "published": "2023-12-07T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "f315ee19ec0c5e8e35f4",
+      "source": "STJ",
+      "title": "EDIÇÃO N. 226: REGISTROS PÚBLICOS, CARTORÁRIOS E NOTARIAIS III",
+      "url": "https://scon.stj.jus.br/SCON/jt/?action=file&num=226",
+      "published": "2023-11-24T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "c7403a3c1acec37cb94e",
+      "source": "STJ",
+      "title": "A retratação da vítima não autoriza a absolvição em revisão criminal quando não apoiada nas demais provas dos autos.",
+      "url": "https://scon.stj.jus.br/SCON/pesquisa_pronta/toc.jsp?livre=@docn='8766'",
+      "published": "2026-11-17T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "57b6d72ee8d1b14be5b0",
+      "source": "STJ",
+      "title": "O crime de lavagem de capitais é autônomo em relação à infração penal antecedente, sendo suficientes indícios da origem ilícita dos valores.",
+      "url": "https://scon.stj.jus.br/SCON/pesquisa_pronta/toc.jsp?livre=@docn='3923'",
+      "published": "2019-08-02T00:00:00-03:00",
+      "category": "Direito Penal",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "354815fc4f315166ec78",
+      "source": "STJ",
+      "title": "As agências de turismo não respondem solidariamente por falhas na prestação do serviço quando atuam apenas como intermediárias na venda, sem participação direta na execução do serviço.",
+      "url": "https://scon.stj.jus.br/SCON/pesquisa_pronta/toc.jsp?livre=@docn='9104'",
+      "published": "2025-05-12T00:00:00-03:00",
+      "category": "Direito Penal",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "4a84536918421593fadd",
+      "source": "STJ",
+      "title": "A divulgação da imagem de criança ou adolescente sem autorização de seu representante legal viola seus direitos da personalidade e configura dano moral presumido.",
+      "url": "https://scon.stj.jus.br/SCON/pesquisa_pronta/toc.jsp?livre=@docn='7673'",
+      "published": "2026-10-29T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "fe766e13da0c5ee7f70d",
+      "source": "STJ",
+      "title": "Aplicação do Protocolo para Julgamento com Perspectiva de Gênero nas decisões do STJ.",
+      "url": "https://scon.stj.jus.br/SCON/pesquisa_pronta/toc.jsp?livre=@docn='12447'",
+      "published": "2026-10-23T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "2bd4312bd7102fffe153",
+      "source": "STJ",
+      "title": "O tráfico de drogas próximo a locais protegidos por lei, como escolas e presídios, autoriza o aumento da pena mesmo que a venda não seja destinada aos frequentadores desses locais.",
+      "url": "https://scon.stj.jus.br/SCON/pesquisa_pronta/toc.jsp?livre=@docn='6870'",
+      "published": "2020-09-28T00:00:00-03:00",
+      "category": "Direito Penal",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "fc299df1b9a855c4035b",
+      "source": "STJ",
+      "title": "A redução parcial e permanente da capacidade de trabalho da vítima garante o direito à pensão vitalícia, mesmo que ela possa exercer outras atividades profissionais.",
+      "url": "https://scon.stj.jus.br/SCON/pesquisa_pronta/toc.jsp?livre=@docn='6027'",
+      "published": "2019-09-03T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "fdc8f5896c3b63d31900",
+      "source": "STJ",
+      "title": "O reajuste do plano de saúde por mudança de faixa etária é válido se atender aos requisitos legais e não onerar excessivamente o consumidor nem discriminar a pessoa idosa.",
+      "url": "https://scon.stj.jus.br/SCON/pesquisa_pronta/toc.jsp?livre=@docn='3122'",
+      "published": "2019-09-29T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "e7a1707e4e9a18a7cc9b",
+      "source": "STJ",
+      "title": "A disponibilização de dados pessoais não sensíveis não enseja dano moral presumido, exigindo-se prova de abalo significativo aos direitos da personalidade.",
+      "url": "https://scon.stj.jus.br/SCON/pesquisa_pronta/toc.jsp?livre=@docn='7911'",
+      "published": "2026-09-23T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "de78eb503f3010d62d72",
+      "source": "STJ",
+      "title": "O seguro de vida não cobre suicídio ocorrido nos primeiros dois anos de vigência do contrato.",
+      "url": "https://scon.stj.jus.br/SCON/pesquisa_pronta/toc.jsp?livre=@docn='5009'",
+      "published": "2026-09-15T00:00:00-03:00",
+      "category": "Direito Civil",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "1c18c9604a5509f4330a",
+      "source": "STJ",
+      "title": "Os planos de saúde devem cobrir procedimentos e exames integrantes do tratamento oncológico, e a recusa indevida pode gerar danos morais.",
+      "url": "https://scon.stj.jus.br/SCON/pesquisa_pronta/toc.jsp?livre=@docn='4226'",
+      "published": "2026-09-08T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "ef5d6887ffef1c9b60ea",
+      "source": "STJ",
+      "title": "A prisão preventiva é admitida para garantir o cumprimento de medidas protetivas em casos de violência doméstica e familiar.",
+      "url": "https://scon.stj.jus.br/SCON/pesquisa_pronta/toc.jsp?livre=@docn='4086'",
+      "published": "2026-08-25T00:00:00-03:00",
+      "category": "Direito Processual Penal",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "9f2b6b0b9be8013ee17c",
+      "source": "STJ",
+      "title": "A palavra da vítima tem especial relevância nos casos de violência doméstica, pois esses crimes geralmente ocorrem sem a presença de testemunhas.",
+      "url": "https://scon.stj.jus.br/SCON/pesquisa_pronta/toc.jsp?livre=@docn='7592'",
+      "published": "2022-06-20T00:00:00-03:00",
+      "category": "Direito Penal",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "bb97220a9208a37e31f9",
+      "source": "STJ",
+      "title": "A revogação das medidas protetivas da Lei Maria da Penha exige a oitiva prévia da vítima.",
+      "url": "https://scon.stj.jus.br/SCON/pesquisa_pronta/toc.jsp?livre=@docn='9015'",
+      "published": "2026-08-13T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "837862664abee12d8dae",
+      "source": "STJ",
+      "title": "A ação penal por lesão corporal (ainda que leve) e vias de fato em contexto de violência doméstica independe de representação da vítima.",
+      "url": "https://scon.stj.jus.br/SCON/pesquisa_pronta/toc.jsp?livre=@docn='4246'",
+      "published": "2026-08-13T00:00:00-03:00",
+      "category": "Direito Penal",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "12e4b922ff7dc93c073c",
+      "source": "STJ",
+      "title": "A Lei Maria da Penha aplica-se à violência doméstica e familiar contra mulheres, inclusive mulheres trans, independentemente do gênero de quem pratica a agressão.",
+      "url": "https://scon.stj.jus.br/SCON/pesquisa_pronta/toc.jsp?livre=@docn='12078'",
+      "published": "2026-08-04T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "f826d86c0ad60db336d6",
+      "source": "STJ",
+      "title": "A Lei Maria da Penha se aplica às agressões ocorridas em relações entre namorados independentemente de coabitação.",
+      "url": "https://scon.stj.jus.br/SCON/pesquisa_pronta/toc.jsp?livre=@docn='2339'",
+      "published": "2026-08-04T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "6f01bfc37557a434be80",
+      "source": "STJ",
+      "title": "Plantio e aquisição de cannabis sativa. Fins medicinais. Tipicidade penal.",
+      "url": "https://scon.stj.jus.br/SCON/pesquisa_pronta/toc.jsp?livre=@docn='8784'",
+      "published": "2026-07-21T00:00:00-03:00",
+      "category": "Direito Penal",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "7432af8321c87dfc6712",
+      "source": "STJ",
+      "title": "É possível a concessão de salvo-conduto para o cultivo de cannabis sativa para fins medicinais, desde que comprovada a necessidade terapêutica por documentação suficiente.",
+      "url": "https://scon.stj.jus.br/SCON/pesquisa_pronta/toc.jsp?livre=@docn='12013'",
+      "published": "2026-07-21T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "06307018f7082d620882",
+      "source": "STJ",
+      "title": "Cobertura obrigatória das cirurgias relacionadas ao processo transexualizador pelos planos de saúde.",
+      "url": "https://scon.stj.jus.br/SCON/pesquisa_pronta/toc.jsp?livre=@docn='11993'",
+      "published": "2026-07-08T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
     {
       "id": "a6584920d97e2c34f34a",
       "source": "STJ",
@@ -643,14 +1443,14 @@
     {
       "source": "STJ",
       "url": "https://scon.stj.jus.br/SCON/JurisprudenciaEmTesesFeed",
-      "status": "error",
-      "count": 0
+      "status": "ok",
+      "count": 60
     },
     {
       "source": "STJ",
       "url": "https://scon.stj.jus.br/SCON/PesquisaProntaFeed",
-      "status": "error",
-      "count": 0
+      "status": "ok",
+      "count": 21
     },
     {
       "source": "Dizer o Direito",
@@ -667,24 +1467,14 @@
   ],
   "errors": [
     {
-      "source": "STJ",
-      "url": "https://scon.stj.jus.br/SCON/JurisprudenciaEmTesesFeed",
-      "message": "XML/RSS inválido (application/atom+xml;charset=ISO-8859-1): not well-formed (invalid token): line 4, column 22"
-    },
-    {
-      "source": "STJ",
-      "url": "https://scon.stj.jus.br/SCON/PesquisaProntaFeed",
-      "message": "XML/RSS inválido (application/atom+xml;charset=ISO-8859-1): not well-formed (invalid token): line 7, column 37"
-    },
-    {
       "source": "Dizer o Direito",
       "url": "https://www.dizerodireito.com.br/feeds/posts/default?alt=rss",
       "message": "HTML recebido em vez de RSS/Atom (text/html;charset=utf-8)"
     }
   ],
   "stats": {
-    "fetched": 63,
-    "stored": 63,
-    "failed_sources": 3
+    "fetched": 144,
+    "stored": 143,
+    "failed_sources": 1
   }
 }
