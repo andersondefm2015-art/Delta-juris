@@ -1,250 +1,690 @@
 {
-  "updated_at": "2026-11-23T04:50:11.236876+00:00",
+  "schema_version": 2,
+  "updated_at": "2026-11-23T12:43:19.722636+00:00",
   "items": [
+    {
+      "id": "a6584920d97e2c34f34a",
+      "source": "STJ",
+      "title": "Informativo n. 878 - 24 de Fevereiro de 2026",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0878.cod.&from=feed",
+      "published": "2026-02-24T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "48e83f2981ccaed2b913",
+      "source": "STJ",
+      "title": "Informativo n. 877 - 18 de Fevereiro de 2026",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0877.cod.&from=feed",
+      "published": "2026-02-18T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "f4ee8b4b81eaf70d9e6f",
+      "source": "STJ",
+      "title": "Informativo n. 876 - 10 de Fevereiro de 2026",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0876.cod.&from=feed",
+      "published": "2026-02-10T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "07405ee1b4fb5de110fe",
+      "source": "STJ",
+      "title": "Informativo n. 875 - 3 de Fevereiro de 2026",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0875.cod.&from=feed",
+      "published": "2026-02-03T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "cfc998497ad4df334946",
+      "source": "STJ",
+      "title": "Informativo n. 30 - 27 de Janeiro de 2026 - Direito Penal",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0030E.cod.&from=feed",
+      "published": "2026-01-27T00:00:00-03:00",
+      "category": "Direito Penal",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "21f0320461856bf24212",
+      "source": "STJ",
+      "title": "Informativo n. 29 - 20 de Janeiro de 2026 - Direito Privado",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0029E.cod.&from=feed",
+      "published": "2026-01-20T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "4a3e03c09d38c9847535",
+      "source": "STJ",
+      "title": "Informativo n. 28 - 13 de Janeiro de 2026 - Direito Público",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0028E.cod.&from=feed",
+      "published": "2026-01-13T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "841a67ff7cd9b3d9484f",
+      "source": "STJ",
+      "title": "Informativo n. 874 - 16 de Dezembro de 2025",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0874.cod.&from=feed",
+      "published": "2025-12-16T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "1588190ee49f29b479b6",
+      "source": "STJ",
+      "title": "Informativo n. 873 - 9 de Dezembro de 2025",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0873.cod.&from=feed",
+      "published": "2025-12-09T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "9597735800ff11a59f89",
+      "source": "STJ",
+      "title": "Informativo n. 872 - 2 de Dezembro de 2025",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0872.cod.&from=feed",
+      "published": "2025-12-02T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "52efbea994180e9e0b83",
+      "source": "STJ",
+      "title": "Informativo n. 871 - 18 de Novembro de 2025",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0871.cod.&from=feed",
+      "published": "2025-11-18T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "e872a95e0ed9f75e1e2d",
+      "source": "STJ",
+      "title": "Informativo n. 870 - 11 de Novembro de 2025",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0870.cod.&from=feed",
+      "published": "2025-11-11T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "63c24145b5367e0c6606",
+      "source": "STJ",
+      "title": "Informativo n. 869 - 4 de Novembro de 2025",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0869.cod.&from=feed",
+      "published": "2025-11-04T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "ddc933864650959f2c0d",
+      "source": "STJ",
+      "title": "Informativo n. 868 - 28 de Outubro de 2025",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0868.cod.&from=feed",
+      "published": "2025-10-28T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "ebcf4b98d549b43ab780",
+      "source": "STJ",
+      "title": "Informativo n. 867 - 21 de Outubro de 2025",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0867.cod.&from=feed",
+      "published": "2025-10-21T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "003b946b58e178d96e46",
+      "source": "STJ",
+      "title": "Informativo n. 866 - 14 de Outubro de 2025",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0866.cod.&from=feed",
+      "published": "2025-10-14T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "5e20d66a883932bcb6ba",
+      "source": "STJ",
+      "title": "Informativo n. 865 - 7 de Outubro de 2025",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0865.cod.&from=feed",
+      "published": "2025-10-07T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "ac61c8c6a3d0f53f9565",
+      "source": "STJ",
+      "title": "Informativo n. 864 - 30 de Setembro de 2025",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0864.cod.&from=feed",
+      "published": "2025-09-30T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "ff4de6beb4762da005a4",
+      "source": "STJ",
+      "title": "Informativo n. 863 - 23 de Setembro de 2025",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0863.cod.&from=feed",
+      "published": "2025-09-23T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "42d30d200ae580b16605",
+      "source": "STJ",
+      "title": "Informativo n. 862 - 16 de Setembro de 2025",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0862.cod.&from=feed",
+      "published": "2025-09-16T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "8b39cc095a44a4fa0497",
+      "source": "STJ",
+      "title": "Informativo n. 861 - 9 de Setembro de 2025",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0861.cod.&from=feed",
+      "published": "2025-09-09T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "05a0b34e49ca72769472",
+      "source": "STJ",
+      "title": "Informativo n. 860 - 2 de Setembro de 2025",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0860.cod.&from=feed",
+      "published": "2025-09-02T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "5e05ea08bc2b089405d4",
+      "source": "STJ",
+      "title": "Informativo n. 859 - 26 de Agosto de 2025",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0859.cod.&from=feed",
+      "published": "2025-08-26T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "3f044aa7a3ad2a43fba7",
+      "source": "STJ",
+      "title": "Informativo n. 858 - 19 de Agosto de 2025",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0858.cod.&from=feed",
+      "published": "2025-08-19T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "d8b7d094cf51b30aeba8",
+      "source": "STJ",
+      "title": "Informativo n. 857 - 12 de Agosto de 2025",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0857.cod.&from=feed",
+      "published": "2025-08-12T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
     {
       "source": "STJ",
       "title": "Informativo n. 910 - 17 de Novembro de 2026",
       "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0910.cod.&from=feed",
-      "published": "2026-11-17T00:00:00-03:00"
+      "published": "2026-11-17T00:00:00-03:00",
+      "id": "0387b09a89a7c30ea6f3",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
     },
     {
       "source": "STJ",
       "title": "Informativo n. 909 - 10 de Novembro de 2026",
       "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0909.cod.&from=feed",
-      "published": "2026-11-10T00:00:00-03:00"
+      "published": "2026-11-10T00:00:00-03:00",
+      "id": "d6eb0bcc98132e82901a",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
     },
     {
       "source": "STJ",
       "title": "Informativo n. 908 - 3 de Novembro de 2026",
       "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0908.cod.&from=feed",
-      "published": "2026-11-03T00:00:00-03:00"
+      "published": "2026-11-03T00:00:00-03:00",
+      "id": "e029c992456a6212b802",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
     },
     {
       "source": "STJ",
       "title": "Informativo n. 907 - 27 de Outubro de 2026",
       "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0907.cod.&from=feed",
-      "published": "2026-10-27T00:00:00-03:00"
+      "published": "2026-10-27T00:00:00-03:00",
+      "id": "31673c1c78a465a526b9",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
     },
     {
       "source": "STJ",
       "title": "Informativo n. 906 - 20 de Outubro de 2026",
       "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0906.cod.&from=feed",
-      "published": "2026-10-20T00:00:00-03:00"
+      "published": "2026-10-20T00:00:00-03:00",
+      "id": "c951497ea3f15707fbb1",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
     },
     {
       "source": "STJ",
       "title": "Informativo n. 905 - 13 de Outubro de 2026",
       "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0905.cod.&from=feed",
-      "published": "2026-10-13T00:00:00-03:00"
+      "published": "2026-10-13T00:00:00-03:00",
+      "id": "b8141dc364a89f85b138",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
     },
     {
       "source": "STJ",
       "title": "Informativo n. 904 - 6 de Outubro de 2026",
       "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0904.cod.&from=feed",
-      "published": "2026-10-06T00:00:00-03:00"
+      "published": "2026-10-06T00:00:00-03:00",
+      "id": "a5c20d3863f8c3c9f79e",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
     },
     {
       "source": "STJ",
       "title": "Informativo n. 903 - 29 de Setembro de 2026",
       "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0903.cod.&from=feed",
-      "published": "2026-09-29T00:00:00-03:00"
+      "published": "2026-09-29T00:00:00-03:00",
+      "id": "41cdf4ef4e00e6ec8667",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
     },
     {
       "source": "STJ",
       "title": "Informativo n. 902 - 22 de Setembro de 2026",
       "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0902.cod.&from=feed",
-      "published": "2026-09-22T00:00:00-03:00"
+      "published": "2026-09-22T00:00:00-03:00",
+      "id": "9186a085981c3470fcac",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
     },
     {
       "source": "STJ",
       "title": "Informativo n. 901 - 15 de Setembro de 2026",
       "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0901.cod.&from=feed",
-      "published": "2026-09-15T00:00:00-03:00"
+      "published": "2026-09-15T00:00:00-03:00",
+      "id": "cff8f4d7532f9cf08854",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
     },
     {
       "source": "STJ",
       "title": "Informativo n. 900 - 8 de Setembro de 2026",
       "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0900.cod.&from=feed",
-      "published": "2026-09-08T00:00:00-03:00"
+      "published": "2026-09-08T00:00:00-03:00",
+      "id": "c32cad4924b96052c00d",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
     },
     {
       "source": "STJ",
       "title": "Informativo n. 899 - 1 de Setembro de 2026",
       "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0899.cod.&from=feed",
-      "published": "2026-09-01T00:00:00-03:00"
+      "published": "2026-09-01T00:00:00-03:00",
+      "id": "ab10faa660fb68beebf1",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
     },
     {
       "source": "STJ",
       "title": "Informativo n. 898 - 25 de Agosto de 2026",
       "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0898.cod.&from=feed",
-      "published": "2026-08-25T00:00:00-03:00"
+      "published": "2026-08-25T00:00:00-03:00",
+      "id": "06aeb12a5649e18b4164",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
     },
     {
       "source": "STJ",
       "title": "Informativo n. 897 - 18 de Agosto de 2026",
       "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0897.cod.&from=feed",
-      "published": "2026-08-18T00:00:00-03:00"
+      "published": "2026-08-18T00:00:00-03:00",
+      "id": "dc938e39da92b84179c0",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
     },
     {
       "source": "STJ",
       "title": "Informativo n. 896 - 12 de Agosto de 2026",
       "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0896.cod.&from=feed",
-      "published": "2026-08-12T00:00:00-03:00"
+      "published": "2026-08-12T00:00:00-03:00",
+      "id": "b818d7aa3d2c1d69b1ba",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
     },
     {
       "source": "STJ",
       "title": "Informativo n. 895 - 4 de Agosto de 2026",
       "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0895.cod.&from=feed",
-      "published": "2026-08-04T00:00:00-03:00"
+      "published": "2026-08-04T00:00:00-03:00",
+      "id": "fed772229068d2a2d70d",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
     },
     {
       "source": "STJ",
       "title": "Informativo n. 33 - 28 de Julho de 2026 - Direito Penal",
       "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0033E.cod.&from=feed",
-      "published": "2026-07-28T00:00:00-03:00"
+      "published": "2026-07-28T00:00:00-03:00",
+      "id": "3f1d1900f1e41c443a1f",
+      "category": "Direito Penal",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
     },
     {
       "source": "STJ",
       "title": "Informativo n. 32 - 21 de Julho de 2026 - Direito Privado",
       "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0032E.cod.&from=feed",
-      "published": "2026-07-21T00:00:00-03:00"
+      "published": "2026-07-21T00:00:00-03:00",
+      "id": "343e25583b8ede7e20a2",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
     },
     {
       "source": "STJ",
       "title": "Informativo n. 31 - 14 de Julho de 2026 - Direito Público",
       "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0031E.cod.&from=feed",
-      "published": "2026-07-14T00:00:00-03:00"
+      "published": "2026-07-14T00:00:00-03:00",
+      "id": "8188c7cef3b8eb97dd06",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
     },
     {
       "source": "STJ",
       "title": "Informativo n. 894 - 30 de Junho de 2026",
       "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0894.cod.&from=feed",
-      "published": "2026-06-30T00:00:00-03:00"
+      "published": "2026-06-30T00:00:00-03:00",
+      "id": "e9652c388ca3d1630c71",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
     },
     {
       "source": "STJ",
       "title": "Informativo n. 893 - 23 de Junho de 2026",
       "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0893.cod.&from=feed",
-      "published": "2026-06-23T00:00:00-03:00"
+      "published": "2026-06-23T00:00:00-03:00",
+      "id": "85105869d93771449c11",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
     },
     {
       "source": "STJ",
       "title": "Informativo n. 892 - 16 de Junho de 2026",
       "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0892.cod.&from=feed",
-      "published": "2026-06-16T00:00:00-03:00"
+      "published": "2026-06-16T00:00:00-03:00",
+      "id": "1919e2bdb758c7179420",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
     },
     {
       "source": "STJ",
       "title": "Informativo n. 891 - 2 de Junho de 2026",
       "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0891.cod.&from=feed",
-      "published": "2026-06-02T00:00:00-03:00"
+      "published": "2026-06-02T00:00:00-03:00",
+      "id": "5cdffef405400c93ff51",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
     },
     {
       "source": "STJ",
       "title": "Informativo n. 890 - 26 de Maio de 2026",
       "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0890.cod.&from=feed",
-      "published": "2026-05-26T00:00:00-03:00"
+      "published": "2026-05-26T00:00:00-03:00",
+      "id": "e5d1cc888d270e73dd19",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
     },
     {
       "source": "STJ",
       "title": "Informativo n. 889 - 19 de Maio de 2026",
       "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0889.cod.&from=feed",
-      "published": "2026-05-19T00:00:00-03:00"
+      "published": "2026-05-19T00:00:00-03:00",
+      "id": "f371508e9c49f8c7db49",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
     },
     {
       "source": "STJ",
       "title": "Informativo n. 888 - 12 de Maio de 2026",
       "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0888.cod.&from=feed",
-      "published": "2026-05-12T00:00:00-03:00"
+      "published": "2026-05-12T00:00:00-03:00",
+      "id": "0928f6a7471d9d0abf50",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
     },
     {
       "source": "STJ",
       "title": "Informativo n. 887 - 5 de Maio de 2026",
       "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0887.cod.&from=feed",
-      "published": "2026-05-05T00:00:00-03:00"
+      "published": "2026-05-05T00:00:00-03:00",
+      "id": "9dc9964186b3d2af48ab",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
     },
     {
       "source": "STJ",
       "title": "Informativo n. 886 - 28 de Abril de 2026",
       "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0886.cod.&from=feed",
-      "published": "2026-04-28T00:00:00-03:00"
+      "published": "2026-04-28T00:00:00-03:00",
+      "id": "ffb891e4722dcfeebb9e",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
     },
     {
       "source": "STJ",
       "title": "Informativo n. 885 - 22 de Abril de 2026",
       "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0885.cod.&from=feed",
-      "published": "2026-04-22T00:00:00-03:00"
+      "published": "2026-04-22T00:00:00-03:00",
+      "id": "07ba69b5af3cb56cc8a4",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
     },
     {
       "source": "STJ",
       "title": "Informativo n. 884 - 14 de Abril de 2026",
       "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0884.cod.&from=feed",
-      "published": "2026-04-14T00:00:00-03:00"
+      "published": "2026-04-14T00:00:00-03:00",
+      "id": "1f0bd24288e229fba4ba",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
     },
     {
       "source": "STJ",
       "title": "Informativo n. 883 - 31 de Março de 2026",
       "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0883.cod.&from=feed",
-      "published": "2026-03-31T00:00:00-03:00"
+      "published": "2026-03-31T00:00:00-03:00",
+      "id": "62b81837b62cdd7d0f46",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
     },
     {
       "source": "STJ",
       "title": "Informativo n. 882 - 24 de Março de 2026",
       "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0882.cod.&from=feed",
-      "published": "2026-03-24T00:00:00-03:00"
+      "published": "2026-03-24T00:00:00-03:00",
+      "id": "e4e33d8bd95952e5a453",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
     },
     {
       "source": "STJ",
       "title": "Informativo n. 881 - 17 de Março de 2026",
       "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0881.cod.&from=feed",
-      "published": "2026-03-17T00:00:00-03:00"
+      "published": "2026-03-17T00:00:00-03:00",
+      "id": "5563b7a1d1c7bdcf15a7",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
     },
     {
       "source": "STJ",
       "title": "Informativo n. 880 - 10 de Março de 2026",
       "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0880.cod.&from=feed",
-      "published": "2026-03-10T00:00:00-03:00"
+      "published": "2026-03-10T00:00:00-03:00",
+      "id": "5eac3ce89a91c8c7b13e",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
     },
     {
       "source": "STJ",
       "title": "Informativo n. 879 - 3 de Março de 2026",
       "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0879.cod.&from=feed",
-      "published": "2026-03-03T00:00:00-03:00"
+      "published": "2026-03-03T00:00:00-03:00",
+      "id": "8fb5782f4279c1ee6517",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
     },
     {
       "source": "STF",
       "title": "Informativo STF",
       "url": "https://www.stf.jus.br/arquivo/cms/informativoSTF/anexo/Informativo_PDF/informativo_stf_1000.pdf",
-      "published": ""
+      "published": "",
+      "id": "12174aacfc41c44445f4",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
     },
     {
       "source": "STF",
       "title": "Última edição: 1237/2026 (pdf)",
       "url": "https://www.stf.jus.br/arquivo/cms/informativoSTF/anexo/Informativo_PDF/Informativo_stf_1237.pdf",
-      "published": ""
+      "published": "",
+      "id": "50df163bdd01a2a46c97",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
     },
     {
       "source": "STF",
       "title": "Informativo STF",
       "url": "https://www.stf.jus.br/arquivo/cms/informativoSTF/anexo/Infograficos/Infogrfico_NOVO_INFORMATIVO_2025.pdf",
-      "published": ""
+      "published": "",
+      "id": "737e509350fea26eb26d",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    }
+  ],
+  "sources_status": [
+    {
+      "source": "STJ",
+      "url": "https://processo.stj.jus.br/jurisprudencia/externo/InformativoFeed",
+      "status": "ok",
+      "count": 60
+    },
+    {
+      "source": "STJ",
+      "url": "https://scon.stj.jus.br/SCON/JurisprudenciaEmTesesFeed",
+      "status": "error",
+      "count": 0
+    },
+    {
+      "source": "STJ",
+      "url": "https://scon.stj.jus.br/SCON/PesquisaProntaFeed",
+      "status": "error",
+      "count": 0
+    },
+    {
+      "source": "Dizer o Direito",
+      "url": "https://www.dizerodireito.com.br/feeds/posts/default?alt=rss",
+      "status": "error",
+      "count": 0
+    },
+    {
+      "source": "STF",
+      "url": "https://www.stf.jus.br/textos/verTexto.asp?servico=informativoSTF",
+      "status": "ok",
+      "count": 3
     }
   ],
   "errors": [
     {
       "source": "STJ",
       "url": "https://scon.stj.jus.br/SCON/JurisprudenciaEmTesesFeed",
-      "message": "not well-formed (invalid token): line 4, column 22"
+      "message": "XML/RSS inválido (application/atom+xml;charset=ISO-8859-1): not well-formed (invalid token): line 4, column 22"
     },
     {
       "source": "STJ",
       "url": "https://scon.stj.jus.br/SCON/PesquisaProntaFeed",
-      "message": "not well-formed (invalid token): line 7, column 37"
+      "message": "XML/RSS inválido (application/atom+xml;charset=ISO-8859-1): not well-formed (invalid token): line 7, column 37"
     },
     {
       "source": "Dizer o Direito",
       "url": "https://www.dizerodireito.com.br/feeds/posts/default?alt=rss",
-      "message": "not well-formed (invalid token): line 1, column 1103"
+      "message": "HTML recebido em vez de RSS/Atom (text/html;charset=utf-8)"
     }
-  ]
+  ],
+  "stats": {
+    "fetched": 63,
+    "stored": 63,
+    "failed_sources": 3
+  }
 }
