@@ -14,6 +14,7 @@ import json
 import os
 from pathlib import Path
 import re
+import codecs
 import urllib.error
 import urllib.request
 from urllib.parse import urljoin, urlparse
@@ -104,14 +105,38 @@ def make_item(source: str, title: str, url: str, published: str = '') -> dict | 
     }
 
 
+def parse_xml_with_fallback(raw: bytes, content_type: str) -> ET.Element:
+    """Tenta XML original e uma reparação conservadora de codificação/entidades."""
+    try:
+        return ET.fromstring(raw)
+    except ET.ParseError as first_error:
+        charset_match = re.search(r'charset\s*=\s*["\']?([\w-]+)', content_type, re.I)
+        charset = charset_match.group(1) if charset_match else 'utf-8'
+        try:
+            codecs.lookup(charset)
+            decoded = raw.decode(charset, errors='replace')
+        except (LookupError, UnicodeError):
+            decoded = raw.decode('utf-8', errors='replace')
+        # Remove declaração de encoding: agora a entrada é texto Unicode.
+        decoded = re.sub(r'^\ufeff?\s*<\?xml[^>]*\?>', '', decoded, count=1, flags=re.I)
+        # Remove caracteres de controle proibidos em XML 1.0.
+        decoded = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f]', '', decoded)
+        # Corrige apenas & isolados, sem alterar entidades XML válidas.
+        decoded = re.sub(r'&(?!#(?:[0-9]+|x[0-9a-fA-F]+);|[a-zA-Z][a-zA-Z0-9._:-]*;)', '&amp;', decoded)
+        try:
+            return ET.fromstring(decoded)
+        except ET.ParseError as second_error:
+            raise ValueError(f'XML inválido; original: {first_error}; após reparo: {second_error}') from second_error
+
+
 def parse_feed(source: str, url: str) -> list[dict]:
     raw, content_type = fetch(url)
     sample = raw[:300].lstrip().lower()
     if b'<html' in sample or b'<!doctype html' in sample:
         raise ValueError(f'HTML recebido em vez de RSS/Atom ({content_type})')
     try:
-        root = ET.fromstring(raw)
-    except ET.ParseError as exc:
+        root = parse_xml_with_fallback(raw, content_type)
+    except ValueError as exc:
         raise ValueError(f'XML/RSS inválido ({content_type}): {exc}') from exc
     result = []
     for entry in root.findall('.//item')[:60]:
