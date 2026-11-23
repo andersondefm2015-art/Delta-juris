@@ -14,10 +14,18 @@
     return;
   }
 
-  const client = window.supabase.createClient(
-    config.url,
-    config.publishableKey
-  );
+ const client = window.supabase.createClient(
+  config.url,
+  config.publishableKey,
+  {
+    auth: {
+      persistSession: true,
+      autoRefreshToken: true,
+      detectSessionInUrl: true,
+      storage: window.localStorage
+    }
+  }
+);
 
   window.deltaAuth = {
     client,
