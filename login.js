@@ -188,13 +188,17 @@
     }
 
     try {
-      const { data, error } =
-        await auth.client.auth.getUser();
+      
+const { data: sessionData, error: sessionError } =
+  await auth.client.auth.getSession();
 
-      if (error || !data?.user) {
-        message("Entre para acessar o Delta Juris.");
-        return;
-      }
+if (sessionError) throw sessionError;
+
+if (!sessionData?.session) {
+  message("Entre para acessar o Delta Juris.");
+  return;
+}
+
 
       const profile = await auth.getProfile();
 
