@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-23T13:11:14.996783+00:00",
+  "updated_at": "2026-11-24T20:41:25.626995+00:00",
   "items": [
     {
       "id": "8a751d9402cc2f05c5c5",
@@ -1461,8 +1461,8 @@
     {
       "source": "STF",
       "url": "https://www.stf.jus.br/textos/verTexto.asp?servico=informativoSTF",
-      "status": "ok",
-      "count": 3
+      "status": "error",
+      "count": 0
     }
   ],
   "errors": [
@@ -1470,11 +1470,16 @@
       "source": "Dizer o Direito",
       "url": "https://www.dizerodireito.com.br/feeds/posts/default?alt=rss",
       "message": "HTML recebido em vez de RSS/Atom (text/html;charset=utf-8)"
+    },
+    {
+      "source": "STF",
+      "url": "https://www.stf.jus.br/textos/verTexto.asp?servico=informativoSTF",
+      "message": "HTTP Error 404: Not Found"
     }
   ],
   "stats": {
-    "fetched": 144,
+    "fetched": 141,
     "stored": 143,
-    "failed_sources": 1
+    "failed_sources": 2
   }
 }
