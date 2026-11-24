@@ -23,7 +23,7 @@ import xml.etree.ElementTree as ET
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / 'data' / 'updates.json'
 TIMEOUT = 20
-MAX_ITEMS = 350
+MAX_ITEMS = 10000
 USER_AGENT = 'DeltaJurisEducationalCollector/2.0 (public metadata)'
 
 # URLs candidatas: disponibilidade e formato precisam ser validados a cada execução.
@@ -35,10 +35,11 @@ FEEDS = {
     ],
     'Dizer o Direito': [
         'https://www.dizerodireito.com.br/feeds/posts/default?alt=rss',
+        'https://www.dizerodireito.com.br/feeds/posts/default?alt=atom',
     ],
 }
-STF_PAGE = 'https://portal.stf.jus.br/textos/verTexto.asp?servico=informativoSTF'
 
+STF_PAGE = 'https://portal.stf.jus.br/textos/verTexto.asp?servico=informativoSTF'
 
 def fetch(url: str) -> tuple[bytes, str]:
     req = urllib.request.Request(url, headers={
