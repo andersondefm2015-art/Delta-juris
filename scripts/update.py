@@ -37,7 +37,7 @@ FEEDS = {
         'https://www.dizerodireito.com.br/feeds/posts/default?alt=rss',
     ],
 }
-STF_PAGE = 'https://www.stf.jus.br/textos/verTexto.asp?servico=informativoSTF'
+STF_PAGE = 'https://portal.stf.jus.br/textos/verTexto.asp?servico=informativoSTF'
 
 
 def fetch(url: str) -> tuple[bytes, str]:
