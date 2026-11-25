@@ -33,10 +33,6 @@ FEEDS = {
         'https://scon.stj.jus.br/SCON/JurisprudenciaEmTesesFeed',
         'https://scon.stj.jus.br/SCON/PesquisaProntaFeed',
     ],
-    'Dizer o Direito': [
-        'https://www.dizerodireito.com.br/feeds/posts/default?alt=rss',
-        'https://www.dizerodireito.com.br/feeds/posts/default?alt=atom',
-    ],
 }
 
 STF_PAGE = 'https://portal.stf.jus.br/textos/verTexto.asp?servico=informativoSTF'
