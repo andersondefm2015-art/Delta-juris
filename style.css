@@ -1,24 +1,87 @@
 
-/* DELTA JURIS 3.0 — EDICAO TATICA */
+/* =====================================================
+   DELTA JURIS 4.0
+   TACTICAL EDITION
+   CARREIRAS POLICIAIS E JURIDICAS
+   ===================================================== */
+
+/* IDENTIDADE VISUAL */
 
 :root {
-    --gold: #d7b56d;
-    --gold-light: #ffd47c;
-    --dark: #070e15;
-    --panel: #101e29;
+    --gold: #d5ad59;
+    --gold-light: #f4db9b;
+    --gold-dark: #92713b;
+    --dark: #080808;
+    --panel: #171717;
+    --panel-light: #202020;
     --teal: #79e0ce;
-    --border: #304452;
+    --border: #38332a;
+    --text: #f0f0f0;
+    --muted: #a5a5a5;
+    --danger: #ffadad;
+    --success: #79e0ce;
     color-scheme: dark;
 }
 
+/* CONFIGURACOES GERAIS */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    background: #070e15;
-    color: #edf2f7;
+    margin: 0;
+    background: var(--dark) !important;
+    color: var(--text);
+    font-family: system-ui, -apple-system,
+        BlinkMacSystemFont, "Segoe UI", sans-serif;
+    overflow-x: hidden;
+}
+
+[hidden] {
+    display: none !important;
+}
+
+button,
+input,
+select,
+textarea {
+    font: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:disabled {
+    opacity: .45;
+    cursor: not-allowed;
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+a:focus-visible {
+    outline: 2px solid var(--gold);
+    outline-offset: 3px;
+}
+
+a {
+    color: var(--teal);
+}
+
+img {
+    max-width: 100%;
 }
 
 .layout {
+    display: grid;
     min-height: 100vh;
-    grid-template-columns: 250px 1fr;
+    grid-template-columns: 250px minmax(0, 1fr);
 }
 
 /* MENU LATERAL */
@@ -27,20 +90,24 @@ aside {
     background:
         linear-gradient(
             180deg,
-            #071019 0%,
-            #071019 30%,
-            rgba(7,16,25,.70) 65%,
-            rgba(7,16,25,.25) 100%
+            #080808 0%,
+            #080808 30%,
+            rgba(8,8,8,.90) 65%,
+            rgba(8,8,8,.45) 100%
         ),
         url('./assets/equipamentos.jpg')
-        center bottom / cover no-repeat;
+        center bottom / cover no-repeat !important;
+
     border-right: 1px solid var(--border);
-    padding: 24px 12px;
+    padding: 24px 14px;
+    min-width: 0;
 }
 
 aside .logo {
-    background: url('./assets/logo.png')
+    background:
+        url('./assets/logo.png')
         center / contain no-repeat;
+
     height: 135px;
     font-size: 0;
     margin-bottom: 10px;
@@ -49,45 +116,119 @@ aside .logo {
 aside .sub {
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 1.2px;
     font-size: 10px;
-    color: #b7c6d4;
-    margin-bottom: 28px;
+    color: var(--gold-light);
+    line-height: 1.6;
+    margin-bottom: 22px;
+}
+
+.dj-edition {
+    color: var(--gold);
+    text-align: center;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 24px;
+}
+
+.navbox {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
 }
 
 .nav {
-    color: #e0e7ef;
+    width: 100%;
+    padding: 13px 12px;
+    color: #dedede;
+    background: transparent;
     border: 1px solid transparent;
     border-radius: 8px;
+    text-align: left;
+    font-weight: 650;
     transition: .2s ease;
 }
 
 .nav.active,
 .nav:hover {
-    background: linear-gradient(
-        135deg,#c89b47,#574725
-    );
+    background:
+        linear-gradient(
+            135deg,
+            #4c3b20,
+            #201b13
+        ) !important;
+
     border-color: var(--gold);
-    color: #fff;
+    color: var(--gold-light);
 }
 
 /* PAINEL PRINCIPAL */
 
 main {
+    width: 100%;
     max-width: 1450px;
+    min-width: 0;
     padding: 28px;
     margin: 0 auto;
+    background: var(--dark);
 }
+
+main section {
+    min-width: 0;
+}
+
+h1 {
+    color: #f5f5f5;
+    font-weight: 850;
+    line-height: 1.2;
+}
+
+h2 {
+    color: #ededed;
+    font-weight: 750;
+}
+
+h3 {
+    color: var(--gold-light);
+}
+
+h4 {
+    color: var(--gold);
+}
+
+p {
+    line-height: 1.6;
+}
+
+.muted {
+    color: var(--muted) !important;
+}
+
+.small {
+    font-size: 13px;
+}
+
+.good {
+    color: var(--success) !important;
+}
+
+.bad {
+    color: var(--danger) !important;
+}
+
+/* PAGINA INICIAL */
 
 #inicio {
     background:
         linear-gradient(
             180deg,
-            rgba(7,14,21,.10),
-            #070e15 300px
+            rgba(8,8,8,.12),
+            #080808 360px
         ),
         url('./assets/hero-policial.jpg')
         center top / 100% auto no-repeat;
+
     padding: 24px;
     border-radius: 14px;
 }
@@ -99,25 +240,70 @@ main {
     text-shadow: 0 3px 15px #000;
 }
 
-h1 {
-    color: #f5f7fa;
+/* HERO TATICO */
+
+.dj-hero,
+.dj-mission-hero {
+    position: relative;
+    min-height: 270px;
+    padding: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    overflow: hidden;
+
+    background:
+        linear-gradient(
+            90deg,
+            rgba(8,8,8,.98) 5%,
+            rgba(8,8,8,.85) 45%,
+            rgba(8,8,8,.20) 100%
+        ),
+        url('./assets/hero-policial.jpg')
+        center / cover no-repeat;
 }
 
-h2 {
-    color: #f0f4f8;
+.dj-hero h1,
+.dj-mission-hero h1 {
+    font-size: clamp(28px, 4vw, 46px);
+    margin: 10px 0;
 }
 
-.muted {
-    color: #aabac9;
+.dj-hero p,
+.dj-mission-hero p {
+    max-width: 620px;
+    color: #c8c8c8;
+}
+
+.dj-kicker {
+    color: var(--gold);
+    font-size: 11px;
+    font-weight: 850;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 /* CARTOES E INDICADORES */
 
+.cards {
+    display: grid;
+    grid-template-columns:
+        repeat(auto-fit, minmax(150px, 1fr));
+    gap: 14px;
+}
+
 .card,
 .panel {
-    background: linear-gradient(
-        135deg,#12232f,#0a151e
-    );
+    min-width: 0;
+    background:
+        linear-gradient(
+            135deg,
+            #1b1b1b,
+            #111111
+        ) !important;
+
     border: 1px solid var(--border);
     border-radius: 14px;
     box-shadow: 0 8px 25px #0004;
@@ -128,63 +314,124 @@ h2 {
 }
 
 .metric {
-    color: var(--teal);
+    color: var(--gold-light) !important;
     font-weight: 850;
 }
 
 #inicio > .panel:first-of-type {
     background:
         linear-gradient(
-            90deg,#0d1b26 25%,
-            rgba(13,27,38,.90) 55%,
-            rgba(13,27,38,.25)
+            90deg,
+            #111111 25%,
+            rgba(17,17,17,.92) 55%,
+            rgba(17,17,17,.35)
         ),
         url('./assets/justica.jpg')
-        right center / cover no-repeat;
+        right center / cover no-repeat !important;
 }
 
 /* BOTOES */
 
 .btn {
-    background: linear-gradient(
-        135deg,#ffd47c,#b58a3d
-    );
-    color: #111820;
-    border: 1px solid #e8bd68;
+    background:
+        linear-gradient(
+            135deg,
+            #f4db9b,
+            #b58a3d
+        ) !important;
+
+    color: #101010 !important;
+    border: 1px solid var(--gold);
+    border-radius: 9px;
+    padding: 12px 16px;
     font-weight: 800;
     transition: .2s ease;
 }
 
-.btn:hover {
+.btn:hover:not(:disabled) {
     filter: brightness(1.12);
 }
 
 .btn.secondary {
-    background: #132633;
-    border: 1px solid #597c8e;
-    color: #edf5ff;
+    background: #202020 !important;
+    border: 1px solid #524735;
+    color: #ededed !important;
 }
+
+.btn.danger {
+    background: #382222 !important;
+    border: 1px solid #855252;
+    color: var(--danger) !important;
+}
+
+/* CAMPOS E FILTROS */
 
 input,
-select {
-    background: #0b1923;
-    border-color: #3b5261;
-    color: #edf5ff;
+select,
+textarea {
+    min-width: 0;
+    max-width: 100%;
+    background: #101010 !important;
+    border: 1px solid #49433a !important;
+    border-radius: 9px;
+    color: #f0f0f0 !important;
+    padding: 12px;
 }
 
+input::placeholder,
+textarea::placeholder {
+    color: #929292;
+}
+
+select {
+    min-height: 44px;
+}
+
+option {
+    background: #171717;
+    color: #f0f0f0;
+}
+
+.toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.toolbar > * {
+    flex: 1 1 170px !important;
+    min-width: 0;
+    max-width: 100%;
+}
+
+.toolbar input,
+.toolbar select {
+    width: 100%;
+}
+
+/* ETIQUETAS */
+
 .tag {
-    background: #302b20;
-    color: #f3d18a;
+    display: inline-block;
+    background: #30291d !important;
+    border: 1px solid #51432c;
+    color: var(--gold-light) !important;
+    border-radius: 6px;
+    padding: 5px 8px;
+    font-size: 11px;
 }
 
 .tag.fresh {
-    background: #17473d;
-    color: #9ff5d6;
+    background: #17382f !important;
+    border-color: #285b4e;
+    color: #9ff5d6 !important;
 }
 
 .links a,
 .feed-actions a {
-    color: var(--teal);
+    color: var(--teal) !important;
+    overflow-wrap: anywhere;
 }
 
 /* BANCAS EXAMINADORAS */
@@ -195,19 +442,52 @@ select {
 
 .bancas-grid {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns:
+        repeat(4, minmax(0, 1fr));
     gap: 12px;
 }
 
 .banca-card {
-    background: #0b151e;
-    border: 1px solid var(--gold);
+    background: #111111;
+    border: 1px solid var(--gold-dark);
     border-radius: 10px;
     padding: 18px 8px;
     text-align: center;
     color: var(--gold-light);
     font-weight: 850;
     font-size: 18px;
+    transition: .2s ease;
+}
+
+.banca-card:hover {
+    background: #292216;
+    border-color: var(--gold);
+}
+
+/* MODULOS DA PLATAFORMA */
+
+.dj-module-grid {
+    display: grid;
+    grid-template-columns:
+        repeat(auto-fit, minmax(220px, 1fr));
+    gap: 14px;
+}
+
+.dj-module {
+    background: #171717;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+    transition: .2s ease;
+}
+
+.dj-module:hover {
+    border-color: var(--gold);
+    transform: translateY(-2px);
+}
+
+.dj-module h3 {
+    color: var(--gold-light);
 }
 
 /* PAINEL MOTIVACIONAL */
@@ -218,19 +498,21 @@ select {
     padding: 28px;
     border: 1px solid var(--border);
     border-radius: 14px;
+
     background:
         linear-gradient(
-            90deg,#071019 10%,
-            rgba(7,16,25,.85) 50%,
-            rgba(7,16,25,.20)
+            90deg,
+            #080808 10%,
+            rgba(8,8,8,.85) 50%,
+            rgba(8,8,8,.20)
         ),
         url('./assets/motivacional.jpg')
-        right center / cover no-repeat;
+        right center / cover no-repeat !important;
 }
 
 .motivacional h2 {
     color: var(--gold-light);
-    font-family: Georgia,serif;
+    font-family: Georgia, serif;
     font-style: italic;
     font-size: 27px;
     line-height: 1.4;
@@ -238,8 +520,297 @@ select {
 }
 
 .motivacional p {
-    color: #c4d1dd;
+    color: #c4c4c4;
     max-width: 75%;
+}
+
+/* BIBLIOTECA JURIDICA */
+
+#biblioteca {
+    background: var(--dark);
+}
+
+#library {
+    display: grid;
+    gap: 14px;
+}
+
+#library > * {
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+#libraryCount,
+#libraryStatus {
+    color: var(--muted);
+}
+
+#library .panel,
+#library .card {
+    border-left: 3px solid var(--gold-dark);
+}
+
+/* RADAR JURISPRUDENCIAL */
+
+#atualizacoes {
+    background: var(--dark);
+}
+
+#feedItems {
+    display: grid;
+    gap: 14px;
+}
+
+#feedItems > * {
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+#feedStatus {
+    color: var(--teal);
+}
+
+#feedMore {
+    margin: 18px auto;
+}
+
+/* SIMULADOS */
+
+#simulados {
+    background: var(--dark);
+}
+
+.dj-sim-config,
+.dj-filter-grid {
+    display: grid;
+    grid-template-columns:
+        repeat(auto-fit, minmax(210px, 1fr));
+    gap: 16px;
+}
+
+.dj-field {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    min-width: 0;
+}
+
+.dj-field label {
+    color: var(--gold-light);
+    font-size: 12px;
+    font-weight: 750;
+}
+
+.dj-field input,
+.dj-field select {
+    width: 100%;
+    min-height: 46px;
+}
+
+.dj-full {
+    grid-column: 1 / -1;
+}
+
+#config {
+    margin-top: 18px;
+}
+
+#availability,
+#missionSummary {
+    margin-top: 14px;
+    padding: 14px;
+    border: 1px solid var(--border);
+    border-radius: 9px;
+    background: #111111;
+    color: var(--gold-light);
+    line-height: 1.6;
+}
+
+#startButton {
+    width: 100%;
+    min-height: 48px;
+    margin-top: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* CRONOMETRO */
+
+.dj-clock {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: #171717;
+    border: 1px solid var(--gold-dark);
+    color: var(--gold-light);
+    border-radius: 9px;
+    padding: 12px 16px;
+    font-weight: 800;
+    font-variant-numeric: tabular-nums;
+}
+
+/* QUESTOES */
+
+#quiz,
+#result {
+    margin-top: 18px;
+}
+
+.question,
+.q,
+.dj-question {
+    background: #171717 !important;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 16px;
+    overflow-wrap: anywhere;
+}
+
+.question h3,
+.dj-question h3 {
+    color: var(--gold-light);
+}
+
+.option,
+.opt,
+.dj-option {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    background: #111111 !important;
+    border: 1px solid #383838;
+    border-radius: 9px;
+    padding: 14px;
+    margin: 8px 0;
+    line-height: 1.6;
+    cursor: pointer;
+}
+
+.option:hover,
+.opt:hover,
+.dj-option:hover {
+    border-color: var(--gold-dark);
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    accent-color: var(--gold);
+    flex-shrink: 0;
+    width: auto;
+    min-width: 16px;
+    margin-top: 5px;
+}
+
+/* RESOLUCAO COMENTADA */
+
+.dj-answer-box {
+    margin-top: 16px;
+    background: #111111 !important;
+    border: 1px solid var(--border) !important;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.dj-answer-status {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 16px;
+}
+
+.dj-answer-tabs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-top: 1px solid var(--border) !important;
+}
+
+.dj-answer-tabs button {
+    background: #202020 !important;
+    color: #dedede;
+    border: 0;
+    border-bottom: 3px solid transparent;
+    padding: 14px 8px;
+    font-weight: 750;
+}
+
+.dj-answer-tabs button.active {
+    background: #30291d !important;
+    color: var(--gold-light) !important;
+    border-bottom-color: var(--gold);
+}
+
+.dj-answer-content {
+    padding: 18px;
+    line-height: 1.7;
+    overflow-wrap: anywhere;
+}
+
+.dj-answer-content[hidden] {
+    display: none !important;
+}
+
+.dj-resolution h3 {
+    color: var(--teal);
+}
+
+.dj-resolution h4 {
+    color: var(--gold-light);
+    margin-top: 20px;
+}
+
+.dj-resolution p {
+    white-space: pre-line;
+}
+
+.dj-trap {
+    background: #30291d;
+    border-left: 3px solid var(--gold);
+    border-radius: 8px;
+    padding: 14px;
+    margin: 16px 0;
+}
+
+.dj-trap strong {
+    color: var(--gold-light);
+}
+
+.dj-option-analysis {
+    padding: 14px;
+    margin-bottom: 12px;
+    border: 1px solid var(--border);
+    border-radius: 9px;
+}
+
+.dj-option-analysis p {
+    white-space: pre-line;
+}
+
+.dj-option-correct {
+    background: #122c27 !important;
+    border-left: 3px solid var(--teal);
+}
+
+.dj-option-wrong {
+    background: #2c1b1b !important;
+    border-left: 3px solid #c66b6b;
+}
+
+/* CADERNO DE ERROS */
+
+#erros {
+    background: var(--dark);
+}
+
+#errorList {
+    display: grid;
+    gap: 14px;
+}
+
+#errorList > * {
+    min-width: 0;
+    overflow-wrap: anywhere;
 }
 
 /* DESEMPENHO */
@@ -247,10 +818,13 @@ select {
 #desempenho {
     background:
         linear-gradient(
-            180deg,#07101966,#070e15 260px
+            180deg,
+            rgba(8,8,8,.40),
+            #080808 280px
         ),
         url('./assets/bombeiros.jpg')
         center top / 100% auto no-repeat;
+
     border-radius: 14px;
     padding: 25px;
 }
@@ -260,25 +834,234 @@ select {
     text-shadow: 0 3px 12px #000;
 }
 
+#stats {
+    min-width: 0;
+    overflow-x: auto;
+}
+
+/* TABELAS */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+th {
+    color: var(--gold-light);
+    background: #202020;
+    text-align: left;
+}
+
+th,
+td {
+    padding: 12px;
+    border-bottom: 1px solid var(--border);
+}
+
+td {
+    color: #dedede;
+}
+
+/* AUTENTICACAO */
+
+#dj-auth-screen {
+    background:
+        linear-gradient(
+            rgba(8,8,8,.85),
+            rgba(8,8,8,.96)
+        ),
+        url('./assets/hero-policial.jpg')
+        center / cover no-repeat !important;
+
+    color: var(--text) !important;
+}
+
+.dj-auth-card {
+    background: #171717 !important;
+    border: 1px solid var(--gold-dark) !important;
+    border-radius: 18px;
+    box-shadow: 0 20px 60px #0008;
+}
+
+.dj-auth-brand {
+    color: #f5f5f5;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.dj-auth-brand span {
+    color: var(--gold) !important;
+}
+
+.dj-auth-card p,
+#dj-auth-message {
+    color: #bcbcbc !important;
+}
+
+#dj-auth-submit {
+    background:
+        linear-gradient(
+            135deg,
+            #f4db9b,
+            #b58a3d
+        ) !important;
+
+    color: #101010 !important;
+}
+
+#dj-auth-switch,
+#dj-auth-recover {
+    color: var(--gold-light) !important;
+}
+
+#dj-logout {
+    background: #202020 !important;
+    color: #dedede !important;
+    border: 1px solid #49433a !important;
+}
+
+/* ADMINISTRACAO */
+
+#dj-admin-open {
+    background: #30291d !important;
+    border: 1px solid var(--gold-dark) !important;
+    color: var(--gold-light) !important;
+}
+
+#dj-admin-panel {
+    background: #080808 !important;
+    color: var(--text) !important;
+}
+
+.dj-admin-inner {
+    max-width: 1000px !important;
+}
+
+.dj-admin-user {
+    background: #171717 !important;
+    border: 1px solid var(--border) !important;
+}
+
+.dj-admin-muted {
+    color: #bcbcbc !important;
+}
+
+.dj-admin-close {
+    background: #252525 !important;
+    color: #ededed !important;
+}
+
+.dj-admin-refresh {
+    background: var(--gold) !important;
+    color: #101010 !important;
+}
+
+.dj-admin-approve {
+    background: #79e0ce !important;
+    color: #102820 !important;
+}
+
+.dj-admin-reject {
+    background: #f2a0a0 !important;
+    color: #321018 !important;
+}
+
+.dj-admin-block {
+    background: #d5ad59 !important;
+    color: #332000 !important;
+}
+
+.dj-admin-metrics {
+    display: grid;
+    grid-template-columns:
+        repeat(auto-fit, minmax(130px, 1fr));
+    gap: 12px;
+}
+
+.dj-admin-metric {
+    background: #171717;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px;
+}
+
+.dj-admin-metric strong {
+    display: block;
+    font-size: 26px;
+    color: var(--gold-light);
+}
+
+.dj-admin-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 16px 0;
+}
+
+.dj-admin-filters > * {
+    flex: 1 1 180px;
+}
+
 /* RODAPE */
 
 .footer {
-    color: #879baa;
-    border-top: 1px solid #263744;
+    color: #858585;
+    border-top: 1px solid var(--border);
     padding-top: 18px;
+    margin-top: 25px;
 }
 
-/* ADAPTACAO PARA CELULAR */
+/* BARRA DE ROLAGEM */
 
-@media(max-width:800px) {
+::-webkit-scrollbar {
+    width: 8px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #080808;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #494033;
+    border-radius: 8px;
+}
+
+/* =====================================================
+   RESPONSIVIDADE
+   TABLETS E CELULARES
+   ===================================================== */
+
+@media (max-width: 1000px) {
+
+    .layout {
+        grid-template-columns:
+            210px minmax(0, 1fr);
+    }
+
+    main {
+        padding: 18px;
+    }
+
+    .bancas-grid {
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+    }
+
+}
+
+@media (max-width: 800px) {
 
     .layout {
         display: block;
     }
 
     aside {
-        padding: 12px;
-        background: #09151f;
+        width: 100%;
+        padding: 14px;
+        background: #080808 !important;
+        border-right: 0;
         border-bottom: 1px solid var(--border);
     }
 
@@ -287,37 +1070,71 @@ select {
     }
 
     aside .sub {
-        margin-bottom: 12px;
+        margin-bottom: 14px;
     }
 
     .navbox {
         display: flex;
+        flex-direction: row;
         overflow-x: auto;
-        gap: 6px;
+        gap: 7px;
+        padding-bottom: 6px;
     }
 
     .nav {
-        flex-shrink: 0;
+        flex: 0 0 auto;
+        width: auto;
+        white-space: nowrap;
         padding: 11px;
         font-size: 13px;
     }
 
     main {
+        width: 100%;
         padding: 12px;
     }
 
     #inicio {
         padding: 12px;
-        background-size: auto, auto 220px;
+        background-size: auto, auto 230px;
     }
 
     #inicio > h1 {
         padding-top: 140px;
-        font-size: 25px;
+        font-size: 26px;
+    }
+
+    .dj-hero,
+    .dj-mission-hero {
+        min-height: 230px;
+        padding: 24px;
+    }
+
+    .cards {
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+        gap: 10px;
+    }
+
+    .toolbar {
+        display: grid !important;
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+        gap: 10px;
+    }
+
+    .toolbar > * {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .toolbar input {
+        grid-column: 1 / -1;
     }
 
     .bancas-grid {
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
     }
 
     .banca-card {
@@ -336,16 +1153,136 @@ select {
     .motivacional p {
         max-width: 100%;
     }
+
+    .dj-sim-config,
+    .dj-filter-grid {
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+        gap: 12px;
+    }
+
+    #desempenho {
+        padding: 14px;
+    }
+
+    .dj-admin-top {
+        flex-wrap: wrap;
+    }
+
 }
 
-@media(max-width:440px) {
+@media (max-width: 480px) {
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
 
     .cards {
-        grid-template-columns: 1fr;
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
     }
 
-    .panel,
-    .card {
-        padding: 16px;
+    .card,
+    .panel {
+        padding: 15px;
     }
+
+    .toolbar {
+        grid-template-columns:
+            minmax(0, 1fr) !important;
+    }
+
+    .dj-sim-config,
+    .dj-filter-grid {
+        grid-template-columns:
+            minmax(0, 1fr);
+    }
+
+    .dj-module-grid {
+        grid-template-columns:
+            minmax(0, 1fr);
+    }
+
+    input,
+    select,
+    textarea {
+        font-size: 16px !important;
+        width: 100%;
+    }
+
+    input[type="radio"],
+    input[type="checkbox"] {
+        width: auto;
+    }
+
+    .question,
+    .q,
+    .dj-question {
+        padding: 15px;
+    }
+
+    .option,
+    .opt,
+    .dj-option {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .dj-answer-content {
+        padding: 13px;
+    }
+
+    .dj-answer-tabs button {
+        font-size: 13px;
+    }
+
+    .dj-auth-card {
+        padding: 22px;
+    }
+
+    .dj-admin-metrics {
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+    }
+
+    .dj-admin-actions button {
+        flex: 1 1 auto;
+    }
+
+    .dj-admin-filters {
+        flex-direction: column;
+    }
+
+    .dj-admin-filters > * {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .dj-hero,
+    .dj-mission-hero {
+        min-height: 220px;
+        padding: 20px;
+    }
+
 }
+
+@media (prefers-reduced-motion: reduce) {
+
+    html {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        transition: none !important;
+        animation: none !important;
+    }
+
+}
+
+/* FIM — DELTA JURIS 4.0 */
