@@ -1,4 +1,5 @@
 
+
 name: Atualizar fontes jurisprudenciais
 
 on:
@@ -34,16 +35,35 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Coletar publicacoes
-        run: python scripts/update.py
-
-      - name: Salvar publicacoes
+      - name: Coletar e salvar publicacoes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/updates.json
-          if ! git diff --cached --quiet; then
-            git commit -m "Atualizacao diaria"
-            git pull --rebase origin main
-            git push origin main
-          fi
+
+          for tentativa in 1 2 3; do
+            echo "Tentativa $tentativa"
+
+            git fetch origin main
+            git reset --hard origin/main
+
+            python scripts/update.py
+
+            git add data/updates.json
+
+            if git diff --cached --quiet; then
+              echo "Nenhuma alteracao encontrada"
+              exit 0
+            fi
+
+            git commit -m "Atualizacao diaria de jurisprudencias"
+
+            if git push origin main; then
+              echo "Publicacoes salvas com sucesso"
+              exit 0
+            fi
+
+            sleep 5
+          done
+
+          echo "Falha ao salvar apos 3 tentativas"
+          exit 1
