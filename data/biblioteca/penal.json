@@ -1,0 +1,276 @@
+
+[
+  {
+    "id": "STJ-444",
+    "title": "Súmula 444/STJ",
+    "disc": "Direito Penal",
+    "trib": "STJ",
+    "orgao": "Terceira Seção",
+    "type": "Súmula",
+    "topic": "Dosimetria da pena",
+    "subtopic": "Circunstâncias judiciais",
+    "thesis": "Investigações e processos penais ainda em curso não podem fundamentar o agravamento da pena-base.",
+    "fundamento": "Art. 59 do CP e art. 5º, LVII, da CF.",
+    "example": "O magistrado utiliza dois inquéritos policiais em andamento para valorar negativamente a personalidade do condenado.",
+    "exceptions": "A vedação não impede a análise de condenações definitivas juridicamente aptas à valoração.",
+    "trap": "A utilização de investigações em andamento não se torna legítima pela simples mudança da circunstância judicial valorada.",
+    "correct": "Inquéritos em andamento não autorizam o agravamento da pena-base.",
+    "status": "pendente_verificacao",
+    "source": "https://scon.stj.jus.br/SCON/",
+    "questions": [
+      {
+        "id": "PEN-0001",
+        "bank": "CEBRASPE",
+        "difficulty": "Difícil",
+        "prompt": "Durante a dosimetria, o magistrado deixou de considerar dois inquéritos policiais em andamento como maus antecedentes, mas utilizou exclusivamente esses mesmos registros para valorar negativamente a personalidade do agente. Nesse caso, a fundamentação é compatível com a jurisprudência do STJ, pois não houve reconhecimento de maus antecedentes.",
+        "opts": ["Certo", "Errado"],
+        "right": 1,
+        "comment": "A vedação alcança a utilização de investigações em andamento para agravar a pena-base, inclusive sob o fundamento de personalidade negativa.",
+        "reference": "Súmula 444/STJ."
+      },
+      {
+        "id": "PEN-0002",
+        "bank": "FGV",
+        "difficulty": "Difícil",
+        "prompt": "Carlos, primário, foi condenado por furto. Na primeira fase da dosimetria, o magistrado considerou negativamente sua conduta social, utilizando exclusivamente três ações penais ainda sem trânsito em julgado. À luz da jurisprudência do STJ, assinale a alternativa correta.",
+        "opts": [
+          "A fundamentação é válida porque a conduta social não se confunde com os antecedentes.",
+          "A fundamentação é válida caso as ações penais sejam relativas a crimes patrimoniais.",
+          "A fundamentação é inválida, pois processos em curso não podem ser utilizados dessa maneira para agravar a pena-base.",
+          "A fundamentação é válida desde que não haja reconhecimento simultâneo da reincidência.",
+          "A fundamentação é inválida apenas quando os processos estiverem na fase de investigação policial."
+        ],
+        "right": 2,
+        "comment": "A pendência de processos criminais não constitui fundamento idôneo para exasperar a pena-base.",
+        "optionComments": [
+          "Incorreta. A mudança da circunstância judicial não afasta a vedação.",
+          "Incorreta. A natureza patrimonial não modifica a regra.",
+          "Correta. Aplica-se a Súmula 444 do STJ.",
+          "Incorreta. A vedação independe do reconhecimento de reincidência.",
+          "Incorreta. A regra também alcança ações penais em curso."
+        ],
+        "reference": "Art. 59 do CP e Súmula 444/STJ."
+      }
+    ]
+  },
+  {
+    "id": "STJ-241",
+    "title": "Súmula 241/STJ",
+    "disc": "Direito Penal",
+    "trib": "STJ",
+    "type": "Súmula",
+    "topic": "Dosimetria da pena",
+    "subtopic": "Reincidência e bis in idem",
+    "thesis": "Uma mesma condenação definitiva não pode ser valorada simultaneamente como antecedente negativo e agravante da reincidência.",
+    "fundamento": "Arts. 59, 61, I, 63 e 68 do CP.",
+    "example": "Uma única condenação anterior é utilizada para aumentar a pena na primeira e na segunda fases.",
+    "exceptions": "Condenações distintas podem receber valorações diferentes, respeitados os requisitos legais.",
+    "trap": "Não confundir dupla valoração da mesma condenação com utilização de condenações diferentes.",
+    "correct": "A mesma condenação não pode fundamentar simultaneamente maus antecedentes e reincidência.",
+    "status": "pendente_verificacao",
+    "source": "https://scon.stj.jus.br/SCON/",
+    "questions": [
+      {
+        "id": "PEN-0003",
+        "bank": "FCC",
+        "difficulty": "Difícil",
+        "prompt": "Paulo possui duas condenações definitivas anteriores à prática de novo delito, ambas juridicamente aptas às respectivas valorações. O juiz utiliza uma delas como maus antecedentes e a outra como agravante da reincidência. Nessa situação, é correto afirmar que:",
+        "opts": [
+          "A técnica viola necessariamente o princípio do ne bis in idem.",
+          "A técnica é admissível, desde que não haja dupla valoração da mesma condenação.",
+          "Todas as condenações anteriores devem ser utilizadas exclusivamente na segunda fase.",
+          "A existência de reincidência impede a análise dos antecedentes.",
+          "As condenações anteriores somente podem influenciar o regime inicial."
+        ],
+        "right": 1,
+        "comment": "A proibição incide sobre a utilização duplicada da mesma condenação, e não sobre a valoração juridicamente adequada de condenações distintas.",
+        "optionComments": [
+          "Incorreta. Não houve repetição do mesmo fundamento.",
+          "Correta. As condenações são distintas.",
+          "Incorreta. Os antecedentes são examinados na primeira fase.",
+          "Incorreta. Não existe impedimento absoluto.",
+          "Incorreta. Podem repercutir na dosimetria."
+        ],
+        "reference": "Súmula 241/STJ e art. 68 do CP."
+      }
+    ]
+  },
+  {
+    "id": "STJ-440",
+    "title": "Súmula 440/STJ",
+    "disc": "Direito Penal",
+    "trib": "STJ",
+    "type": "Súmula",
+    "topic": "Regime inicial",
+    "subtopic": "Fundamentação individualizada",
+    "thesis": "Fixada a pena-base no mínimo legal, a gravidade abstrata do delito, isoladamente, não justifica a imposição de regime inicial mais rigoroso.",
+    "fundamento": "Arts. 33, §§ 2º e 3º, e 59 do CP.",
+    "example": "Réu primário recebe pena de cinco anos, com circunstâncias judiciais favoráveis, mas o juiz impõe regime fechado apenas pela gravidade abstrata do crime.",
+    "exceptions": "Fundamentos concretos e juridicamente idôneos podem justificar regime mais severo.",
+    "trap": "Gravidade concreta não se confunde com gravidade abstrata.",
+    "correct": "A gravidade abstrata, isoladamente, não justifica regime inicial mais severo.",
+    "status": "pendente_verificacao",
+    "source": "https://scon.stj.jus.br/SCON/",
+    "questions": [
+      {
+        "id": "PEN-0004",
+        "bank": "FUNDATEC",
+        "difficulty": "Difícil",
+        "prompt": "Sobre a fixação do regime inicial de cumprimento da pena, analise as assertivas: I. A gravidade abstrata do delito, isoladamente, autoriza regime mais rigoroso quando a pena-base foi fixada no mínimo. II. As circunstâncias judiciais podem influenciar a determinação do regime inicial. III. A imposição de regime mais rigoroso exige fundamentação juridicamente idônea. Quais estão corretas?",
+        "opts": [
+          "Apenas I.",
+          "Apenas II.",
+          "Apenas I e III.",
+          "Apenas II e III.",
+          "I, II e III."
+        ],
+        "right": 3,
+        "comment": "A assertiva I é falsa, pois a gravidade abstrata não basta. As assertivas II e III estão corretas.",
+        "optionComments": [
+          "Incorreta. A assertiva I é falsa.",
+          "Incorreta. A assertiva III também é verdadeira.",
+          "Incorreta. Inclui a assertiva I.",
+          "Correta. Apenas II e III são verdadeiras.",
+          "Incorreta. A assertiva I é falsa."
+        ],
+        "reference": "Súmula 440/STJ e art. 33 do CP."
+      }
+    ]
+  },
+  {
+    "id": "STJ-567",
+    "title": "Súmula 567/STJ",
+    "disc": "Direito Penal",
+    "trib": "STJ",
+    "type": "Súmula",
+    "topic": "Crime impossível",
+    "subtopic": "Furto e vigilância",
+    "thesis": "A existência de monitoramento eletrônico ou segurança em estabelecimento comercial não torna impossível, por si só, a configuração do furto.",
+    "fundamento": "Arts. 14, II, 17 e 155 do CP.",
+    "example": "Um agente tenta subtrair mercadorias de estabelecimento comercial monitorado por câmeras.",
+    "exceptions": "O crime impossível pressupõe ineficácia absoluta do meio ou impropriedade absoluta do objeto.",
+    "trap": "A redução da possibilidade de êxito não equivale à impossibilidade absoluta de consumação.",
+    "correct": "O monitoramento eletrônico não configura automaticamente crime impossível.",
+    "status": "pendente_verificacao",
+    "source": "https://scon.stj.jus.br/SCON/",
+    "questions": [
+      {
+        "id": "PEN-0005",
+        "bank": "FGV",
+        "difficulty": "Difícil",
+        "prompt": "Durante investigação de furtos em um estabelecimento comercial, o delegado verifica que determinado suspeito iniciou atos executórios de subtração, mas foi interceptado por seguranças antes da inversão da posse. A defesa sustenta crime impossível porque o estabelecimento possuía câmeras e vigilância permanente. Considerando exclusivamente esses elementos, assinale a alternativa correta.",
+        "opts": [
+          "Existe crime impossível, pois o monitoramento torna absolutamente ineficaz qualquer meio empregado.",
+          "Existe desistência voluntária, pois o agente não concluiu a subtração.",
+          "Existe arrependimento eficaz, pois os seguranças impediram o resultado.",
+          "O monitoramento não caracteriza automaticamente crime impossível, sendo possível reconhecer a tentativa de furto.",
+          "O furto está necessariamente consumado desde o início dos atos executórios."
+        ],
+        "right": 3,
+        "comment": "A vigilância não demonstra, isoladamente, impossibilidade absoluta. A interrupção externa dos atos executórios pode configurar tentativa.",
+        "optionComments": [
+          "Incorreta. O monitoramento não produz necessariamente ineficácia absoluta.",
+          "Incorreta. A interrupção ocorreu por circunstância externa.",
+          "Incorreta. O agente não impediu voluntariamente o resultado.",
+          "Correta. Aplica-se a Súmula 567 do STJ.",
+          "Incorreta. O início da execução não equivale automaticamente à consumação."
+        ],
+        "reference": "Súmula 567/STJ e arts. 14 e 17 do CP."
+      },
+      {
+        "id": "PEN-0006",
+        "bank": "CEBRASPE",
+        "difficulty": "Muito difícil",
+        "prompt": "A existência de mecanismos de vigilância capazes de dificultar substancialmente a consumação do furto não implica necessariamente atipicidade da conduta, uma vez que a ineficácia meramente relativa do meio empregado não afasta a possibilidade de punição pela tentativa.",
+        "opts": ["Certo", "Errado"],
+        "right": 0,
+        "comment": "O art. 17 do CP exige impossibilidade absoluta. A dificuldade relativa de consumação não impede, por si só, a configuração da tentativa.",
+        "reference": "Art. 17 do CP e Súmula 567/STJ."
+      }
+    ]
+  },
+  {
+    "id": "STJ-582",
+    "title": "Súmula 582/STJ",
+    "disc": "Direito Penal",
+    "trib": "STJ",
+    "type": "Súmula",
+    "topic": "Crimes contra o patrimônio",
+    "subtopic": "Consumação do roubo",
+    "thesis": "O roubo se consuma com a inversão da posse mediante violência ou grave ameaça, ainda que momentânea e seguida de recuperação imediata do bem.",
+    "fundamento": "Arts. 14, I, e 157 do CP.",
+    "example": "Após ameaçar a vítima e obter seu celular, o agente é imediatamente detido.",
+    "exceptions": "Se não ocorrer a inversão da posse, poderá haver tentativa, conforme os elementos do caso.",
+    "trap": "Não é necessária a posse tranquila ou desvigiada do bem.",
+    "correct": "A recuperação imediata do objeto não impede a consumação do roubo quando ocorreu a inversão da posse.",
+    "status": "pendente_verificacao",
+    "source": "https://scon.stj.jus.br/SCON/",
+    "questions": [
+      {
+        "id": "PEN-0007",
+        "bank": "FCC",
+        "difficulty": "Difícil",
+        "prompt": "Mediante grave ameaça, determinado agente retira o telefone celular da vítima e passa a exercer domínio sobre o objeto. Imediatamente, policiais efetuam sua prisão e recuperam o aparelho. Considerando a orientação do STJ, o agente responde por:",
+        "opts": [
+          "Roubo tentado, por ausência de posse desvigiada.",
+          "Roubo tentado, em razão da recuperação imediata.",
+          "Furto consumado em concurso com ameaça.",
+          "Crime impossível, em razão da intervenção policial.",
+          "Roubo consumado, em razão da efetiva inversão da posse."
+        ],
+        "right": 4,
+        "comment": "A inversão da posse mediante violência ou grave ameaça é suficiente para a consumação, dispensando-se posse tranquila.",
+        "optionComments": [
+          "Incorreta. A posse desvigiada é dispensável.",
+          "Incorreta. A recuperação imediata não descaracteriza a consumação.",
+          "Incorreta. A grave ameaça integra o tipo penal de roubo.",
+          "Incorreta. O delito chegou a ser consumado.",
+          "Correta. Houve inversão da posse."
+        ],
+        "reference": "Art. 157 do CP e Súmula 582/STJ."
+      }
+    ]
+  },
+  {
+    "id": "STJ-511",
+    "title": "Súmula 511/STJ",
+    "disc": "Direito Penal",
+    "trib": "STJ",
+    "type": "Súmula",
+    "topic": "Crimes contra o patrimônio",
+    "subtopic": "Furto privilegiado-qualificado",
+    "thesis": "O privilégio do furto pode coexistir com qualificadora objetiva quando presentes a primariedade e o pequeno valor da coisa.",
+    "fundamento": "Art. 155, §§ 2º e 4º, do CP.",
+    "example": "Agente primário pratica furto de coisa de pequeno valor mediante rompimento de obstáculo.",
+    "exceptions": "A qualificadora deve possuir natureza objetiva para incidência do entendimento sumulado.",
+    "trap": "A presença de qualificadora não impede necessariamente o reconhecimento do privilégio.",
+    "correct": "O privilégio pode coexistir com qualificadora objetiva do furto.",
+    "status": "pendente_verificacao",
+    "source": "https://scon.stj.jus.br/SCON/",
+    "questions": [
+      {
+        "id": "PEN-0008",
+        "bank": "FUNDATEC",
+        "difficulty": "Muito difícil",
+        "prompt": "Considerando o entendimento sumulado do STJ acerca do furto privilegiado-qualificado, analise: I. A primariedade constitui requisito para o reconhecimento do privilégio. II. O pequeno valor da coisa é requisito relevante. III. A natureza objetiva da qualificadora permite sua compatibilização com o privilégio. IV. A existência de qualquer qualificadora impede necessariamente a incidência do art. 155, § 2º, do Código Penal. Quais estão corretas?",
+        "opts": [
+          "Apenas I e II.",
+          "Apenas II e IV.",
+          "Apenas I, III e IV.",
+          "Apenas I, II e III.",
+          "I, II, III e IV."
+        ],
+        "right": 3,
+        "comment": "As três primeiras assertivas reproduzem os requisitos da orientação sumulada. A quarta é falsa, pois qualificadoras objetivas admitem compatibilização com o privilégio.",
+        "optionComments": [
+          "Incorreta. A assertiva III também está correta.",
+          "Incorreta. A assertiva IV é falsa.",
+          "Incorreta. Exclui a assertiva II e inclui a IV.",
+          "Correta. Apenas I, II e III.",
+          "Incorreta. A assertiva IV é falsa."
+        ],
+        "reference": "Art. 155, § 2º, do CP e Súmula 511/STJ."
+      }
+    ]
+  }
+]
