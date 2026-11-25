@@ -1,73 +1,2789 @@
-<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b1730"><title>Delta Juris | Delegado PC</title><style>
-:root{font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;color:#e9eef8;background:#081224}*{box-sizing:border-box}body{margin:0}button,input,select{font:inherit}button{cursor:pointer}.layout{display:grid;grid-template-columns:245px 1fr;min-height:100vh}aside{background:#0d1b33;border-right:1px solid #263753;padding:25px 17px}.logo{font-size:22px;font-weight:850;letter-spacing:-.8px;margin-bottom:8px}.logo span{color:#67d6c1}.sub{color:#a8bad3;font-size:12px;margin-bottom:30px}.nav{display:block;width:100%;padding:13px 14px;margin:5px 0;text-align:left;color:#c3d2e8;background:transparent;border:0;border-radius:10px}.nav.active,.nav:hover{background:#18365b;color:#fff}main{padding:32px;max-width:1250px;width:100%;margin:auto}h1{font-size:30px;margin:0 0 8px}h2{font-size:20px;margin:0 0 15px}.muted{color:#a5b5cc}.intro{margin-bottom:25px}.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px;margin:24px 0}.card,.panel{background:#11213b;border:1px solid #263b58;border-radius:16px;padding:21px}.metric{font-size:31px;font-weight:800;color:#79e0ce}.toolbar{display:flex;flex-wrap:wrap;gap:10px;margin:17px 0}input,select{background:#0b1a30;border:1px solid #36506d;color:#eef5ff;padding:11px;border-radius:9px;min-width:145px;max-width:100%}input[type=number]{width:125px}.btn{background:#44bea9;color:#061d27;border:0;padding:11px 16px;border-radius:9px;font-weight:750}.btn.secondary{background:#203a59;color:#f1f7ff}.btn:disabled{opacity:.5;cursor:not-allowed}.item{padding:19px 0;border-bottom:1px solid #30405b}.item:last-child{border:0}.tag{display:inline-block;background:#224b68;color:#b6e9ff;font-size:12px;font-weight:700;border-radius:6px;padding:5px 8px;margin:0 6px 8px 0}.item h3{margin:5px 0 8px}.item p{line-height:1.6}.small{font-size:13px}.links a{color:#80d9ce;margin-right:15px}.hidden{display:none!important}.question{background:#0c1c34;border:1px solid #304664;border-radius:12px;padding:18px;margin:14px 0}.option{display:block;margin:10px 0;padding:12px;border:1px solid #39516c;border-radius:9px;cursor:pointer}.option:has(input:checked){border-color:#61d7c0;background:#173b47}.option input{min-width:0;margin-right:10px}.answer{margin-top:14px;padding:12px;background:#16354b;border-radius:9px;line-height:1.5}.good{color:#77e5bb}.bad{color:#ffadad}.footer{margin-top:35px;font-size:12px;color:#a5b5cc;line-height:1.6}.progress{height:9px;border-radius:20px;background:#263a56;overflow:hidden}.progress>div{height:100%;background:#56d6bb}.mobilehead{display:none}@media(max-width:800px){.layout{display:block}aside{padding:15px;border-right:0;border-bottom:1px solid #263753}.logo{margin-bottom:0}.sub{margin-bottom:12px}.navbox{display:flex;gap:5px;overflow:auto}.nav{white-space:nowrap;width:auto;margin:0;padding:10px}main{padding:20px 15px}.cards{grid-template-columns:1fr 1fr}h1{font-size:25px}}@media(max-width:440px){.cards{grid-template-columns:1fr}.toolbar>*{flex:1;min-width:0}}
 
-/* Delta Juris 2.0: painel responsivo */
-:root{color-scheme:dark}body{background:radial-gradient(circle at 90% 0%,#12314a 0,transparent 38%),#081224}.logo{font-size:24px}.card,.panel{box-shadow:0 10px 30px #030a171f}.card{position:relative;overflow:hidden}.card:before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:#44bea9}.tag{letter-spacing:.01em}.feeditem{display:grid;gap:8px}.feeditem h3{font-size:17px;line-height:1.4}.feedmeta{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.statusline{font-size:13px;color:#b6c7dc;line-height:1.6}.notice{border:1px solid #3d566e;border-radius:10px;padding:12px 14px;background:#102941;margin:12px 0}.fresh{background:#1c5149;color:#bff9dc}.toolbar input[type=search]{flex:2;min-width:190px}.toolbar select{flex:1}.empty{padding:28px;text-align:center;color:#a5b5cc}.tiny{font-size:12px}.feed-actions{display:flex;gap:8px;flex-wrap:wrap}.feed-actions a{display:inline-block;padding:9px 12px;border-radius:8px;background:#203a59;color:#b8f5ed;text-decoration:none;font-size:13px}.feed-actions a:hover{background:#2b5275}.pill{border:1px solid #31526c;border-radius:999px;padding:5px 9px;color:#a8d9eb;font-size:12px}.section-top{display:flex;justify-content:space-between;align-items:flex-start;gap:14px;flex-wrap:wrap}.section-top .btn{white-space:nowrap}button:focus-visible,input:focus-visible,select:focus-visible,a:focus-visible{outline:2px solid #80e7d4;outline-offset:2px}@media(max-width:650px){.feed-actions a{width:100%;text-align:center}.section-top{display:block}.section-top button{margin-top:10px}}
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0b131c">
+<title>Delta Juris | Delegado PC</title>
+
+<style>
+:root {
+    font-family: Inter, system-ui, -apple-system, Segoe UI, sans-serif;
+    color: #e9eef8;
+    background: #090f16;
+    color-scheme: dark;
+    --gold: #d5ad59;
+    --gold-light: #f4db9b;
+    --dark: #090f16;
+    --panel: #111e29;
+    --border: #354653;
+    --muted: #a5b5cc;
+    --green: #79e0ce;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #090f16;
+}
+
+button, input, select {
+    font: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 245px minmax(0, 1fr);
+    min-height: 100vh;
+}
+
+aside {
+    background: #0c1721;
+    border-right: 1px solid var(--border);
+    padding: 25px 17px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 850;
+    letter-spacing: -.8px;
+    margin-bottom: 8px;
+}
+
+.logo span {
+    color: var(--gold);
+}
+
+.sub {
+    color: #b7c4d0;
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.nav {
+    display: block;
+    width: 100%;
+    padding: 13px 14px;
+    margin: 5px 0;
+    text-align: left;
+    color: #c3d2e8;
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 9px;
+}
+
+.nav.active,
+.nav:hover {
+    background: linear-gradient(135deg,#b68c3d,#544321);
+    color: #fff;
+    border-color: #d5ad59;
+}
+
+main {
+    padding: 30px;
+    max-width: 1400px;
+    width: 100%;
+    min-width: 0;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 30px;
+    margin: 0 0 8px;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 0 0 15px;
+}
+
+.muted {
+    color: var(--muted);
+}
+
+.intro {
+    margin-bottom: 25px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+    gap: 15px;
+    margin: 24px 0;
+}
+
+.card, .panel {
+    background: linear-gradient(135deg,#14232e,#0d1720);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 21px;
+    box-shadow: 0 10px 30px #00000025;
+}
+
+.card {
+    position: relative;
+    overflow: hidden;
+}
+
+.card:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: linear-gradient(#f4db9b,#99702e);
+}
+
+.metric {
+    font-size: 31px;
+    font-weight: 800;
+    color: var(--green);
+}
+
+.toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 17px 0;
+}
+
+input, select {
+    background: #0b1621;
+    border: 1px solid #3b4e5e;
+    color: #eef5ff;
+    padding: 11px;
+    border-radius: 9px;
+    min-width: 145px;
+    max-width: 100%;
+}
+
+input[type=number] {
+    width: 125px;
+}
+
+.btn {
+    background: linear-gradient(135deg,#e0bc70,#a77d32);
+    color: #111820;
+    border: 0;
+    padding: 12px 16px;
+    border-radius: 9px;
+    font-weight: 750;
+}
+
+.btn.secondary {
+    background: #203a50;
+    color: #f1f7ff;
+}
+
+.btn:disabled {
+    opacity: .5;
+    cursor: not-allowed;
+}
+
+.item {
+    padding: 19px 0;
+    border-bottom: 1px solid #30405b;
+}
+
+.item:last-child {
+    border: 0;
+}
+
+.tag {
+    display: inline-block;
+    background: #243745;
+    color: #e4c783;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 6px;
+    padding: 5px 8px;
+    margin: 0 6px 8px 0;
+}
+
+.item h3 {
+    margin: 5px 0 8px;
+}
+
+.item p {
+    line-height: 1.6;
+}
+
+.small {
+    font-size: 13px;
+}
+
+.tiny {
+    font-size: 12px;
+}
+
+.links a {
+    color: #dfc17d;
+    margin-right: 15px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.question {
+    background: #0c1823;
+    border: 1px solid #304664;
+    border-radius: 12px;
+    padding: 18px;
+    margin: 14px 0;
+}
+
+.option {
+    display: block;
+    margin: 10px 0;
+    padding: 12px;
+    border: 1px solid #39516c;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.option:has(input:checked) {
+    border-color: var(--gold);
+    background: #3a3221;
+}
+
+.option input {
+    min-width: 0;
+    margin-right: 10px;
+}
+
+.answer {
+    margin-top: 14px;
+    padding: 12px;
+    background: #16354b;
+    border-radius: 9px;
+    line-height: 1.5;
+}
+
+.good {
+    color: #77e5bb;
+}
+
+.bad {
+    color: #ffadad;
+}
+
+.footer {
+    margin-top: 35px;
+    font-size: 12px;
+    color: var(--muted);
+    line-height: 1.6;
+}
+
+.progress {
+    height: 9px;
+    border-radius: 20px;
+    background: #263a56;
+    overflow: hidden;
+}
+
+.progress > div {
+    height: 100%;
+    background: linear-gradient(90deg,#b88b36,#f4db9b);
+}
+
+.feeditem {
+    display: grid;
+    gap: 8px;
+}
+
+.feeditem h3 {
+    font-size: 17px;
+    line-height: 1.4;
+}
+
+.feedmeta {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.statusline {
+    font-size: 13px;
+    color: #b6c7dc;
+    line-height: 1.6;
+}
+
+.notice {
+    border: 1px solid #3d566e;
+    border-radius: 10px;
+    padding: 12px 14px;
+    background: #102431;
+    margin: 12px 0;
+}
+
+.fresh {
+    background: #1c5149;
+    color: #bff9dc;
+}
+
+.toolbar input[type=search] {
+    flex: 2;
+    min-width: 190px;
+}
+
+.toolbar select {
+    flex: 1;
+}
+
+.empty {
+    padding: 28px;
+    text-align: center;
+    color: var(--muted);
+}
+
+.feed-actions {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.feed-actions a {
+    display: inline-block;
+    padding: 9px 12px;
+    border-radius: 8px;
+    background: #203a50;
+    color: #e9d39d;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.feed-actions a:hover {
+    background: #304d65;
+}
+
+.pill {
+    border: 1px solid #465666;
+    border-radius: 999px;
+    padding: 5px 9px;
+    color: #d4c49e;
+    font-size: 12px;
+}
+
+.section-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+
+.section-top .btn {
+    white-space: nowrap;
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+a:focus-visible {
+    outline: 2px solid var(--gold-light);
+    outline-offset: 2px;
+}
+
+@media(max-width:800px) {
+    .layout {
+        display: block;
+    }
+
+    aside {
+        padding: 15px;
+        border-right: 0;
+        border-bottom: 1px solid var(--border);
+    }
+
+    .logo {
+        margin-bottom: 0;
+    }
+
+    .sub {
+        margin-bottom: 12px;
+    }
+
+    .navbox {
+        display: flex;
+        gap: 5px;
+        overflow-x: auto;
+    }
+
+    .nav {
+        white-space: nowrap;
+        width: auto;
+        margin: 0;
+        padding: 10px;
+    }
+
+    main {
+        padding: 20px 15px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+}
+
+@media(max-width:650px) {
+    .feed-actions a {
+        width: 100%;
+        text-align: center;
+    }
+
+    .section-top {
+        display: block;
+    }
+
+    .section-top button {
+        margin-top: 10px;
+    }
+}
+
+@media(max-width:440px) {
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .toolbar > * {
+        flex: 1;
+        min-width: 0;
+    }
+}
 </style>
-<link rel="stylesheet" href="./style.css?v=3.0">
+
+<link rel="stylesheet" href="./style.css?v=3.1">
+
+<style>
+
+/* DELTA JURIS 3.1 — IDENTIDADE TÁTICA */
+
+#inicio {
+    background: none !important;
+    padding: 0 !important;
+}
+
+.dj-hero {
+    min-height: 365px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 32px;
+    border: 1px solid #76613c;
+    border-radius: 18px;
+    background:
+        linear-gradient(
+            90deg,
+            rgba(5,10,16,.83),
+            rgba(5,10,16,.15)
+        ),
+        linear-gradient(
+            0deg,
+            #090f16,
+            transparent 85%
+        ),
+        url('./assets/hero-policial.jpg') center/cover no-repeat;
+    overflow: hidden;
+}
+
+.dj-edition {
+    color: #e6c37b;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.dj-hero h1 {
+    color: #fff;
+    font-size: clamp(29px,4vw,46px);
+    font-weight: 900;
+    line-height: 1.12;
+    text-shadow: 0 3px 15px #000;
+}
+
+.dj-hero h1 span {
+    color: #e2bd70;
+}
+
+.dj-hero p {
+    color: #d4dce4;
+    max-width: 650px;
+    line-height: 1.6;
+}
+
+.dj-motto {
+    color: #e6c37b !important;
+    font-size: 15px;
+    font-weight: 750;
+    letter-spacing: 1px;
+}
+
+.dj-bancas {
+    display: grid;
+    grid-template-columns: repeat(4,minmax(0,1fr));
+    gap: 12px;
+    margin: 20px 0;
+}
+
+.dj-banca {
+    background: linear-gradient(145deg,#17232e,#0d161f);
+    border: 1px solid #655538;
+    border-radius: 10px;
+    padding: 19px 8px;
+    color: #e5c47d;
+    font-size: 17px;
+    font-weight: 850;
+    text-align: center;
+}
+
+.dj-banca small {
+    display: block;
+    color: #aab8c6;
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: 6px;
+}
+
+.dj-banca:hover {
+    border-color: #e6c37b;
+    background: #25303a;
+}
+
+.dj-modules {
+    display: grid;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.dj-module {
+    min-height: 220px;
+    border: 1px solid #655538;
+    border-radius: 14px;
+    overflow: hidden;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: left;
+    color: #fff;
+    background-color: #14212b;
+}
+
+.dj-module:hover {
+    border-color: #e6c37b;
+}
+
+.dj-module strong {
+    font-size: 19px;
+    margin-bottom: 7px;
+}
+
+.dj-module small {
+    font-size: 12px;
+    line-height: 1.5;
+    color: #cbd5de;
+}
+
+.dj-justice {
+    background:
+        linear-gradient(0deg,#080e16 0%,transparent 130%),
+        url('./assets/justica.jpg') center/cover no-repeat;
+}
+
+.dj-equipment {
+    background:
+        linear-gradient(0deg,#080e16 0%,transparent 130%),
+        url('./assets/equipamentos.jpg') center/cover no-repeat;
+}
+
+.dj-fire {
+    background:
+        linear-gradient(0deg,#080e16 0%,transparent 130%),
+        url('./assets/bombeiros.jpg') center/cover no-repeat;
+}
+
+.dj-motivation {
+    margin-top: 24px;
+    min-height: 210px;
+    padding: 28px;
+    border: 1px solid #77613a;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background:
+        linear-gradient(90deg,#080e16ed,#080e1655),
+        url('./assets/motivacional.jpg') center/cover no-repeat;
+}
+
+.dj-motivation small {
+    color: #d9b86f;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.dj-motivation h2 {
+    color: #f4e0b1;
+    font-size: clamp(21px,3vw,30px);
+    max-width: 650px;
+    line-height: 1.4;
+    margin: 15px 0;
+}
+
+.dj-motivation p {
+    color: #b9c4cf;
+    margin: 0;
+}
+
+.dj-heading {
+    color: #e2c17d;
+    font-size: 18px;
+    font-weight: 800;
+    margin: 28px 0 12px;
+    letter-spacing: .6px;
+}
+
+@media(max-width:800px) {
+    .dj-hero {
+        min-height: 320px;
+        padding: 22px;
+    }
+
+    .dj-bancas {
+        grid-template-columns: repeat(2,minmax(0,1fr));
+    }
+
+    .dj-modules {
+        grid-template-columns: 1fr;
+    }
+
+    .dj-module {
+        min-height: 190px;
+    }
+
+    .dj-motivation {
+        padding: 20px;
+    }
+}
+
+</style>
 </head>
-<body><div class="layout"><aside><div class="logo">DELTA<span>JURIS</span></div><div class="sub">Revisão estratégica • Delegado de Polícia</div><div class="navbox"><button class="nav active" data-page="inicio">◈ Visão geral</button><button class="nav" data-page="biblioteca">▤ Jurisprudências e súmulas</button><button class="nav" data-page="atualizacoes">↻ Atualizações diárias</button><button class="nav" data-page="simulados">✎ Simulados</button><button class="nav" data-page="desempenho">▥ Desempenho</button></div></aside><main>
-<section id="inicio"><h1>Seu painel de revisão</h1><p class="muted intro">FGV e CESPE/CEBRASPE • STF, STJ e referências ao Dizer o Direito</p><div class="cards"><div class="card"><div class="muted">Teses editoriais cadastradas</div><div class="metric" id="nTeses">0</div></div><div class="card"><div class="muted">Simulados concluídos</div><div class="metric" id="nSim">0</div></div><div class="card"><div class="muted">Média de acertos</div><div class="metric" id="media">—</div></div></div><div class="panel"><h2>Comece a estudar</h2><p>Consulte jurisprudências e súmulas, marque as revisadas e faça simulados autorais com correção comentada.</p><div class="toolbar"><button class="btn" onclick="go('biblioteca')">Explorar jurisprudências</button><button class="btn secondary" onclick="go('simulados')">Criar simulado</button></div></div><div class="panel" style="margin-top:16px"><div class="section-top"><div><h2>Radar de jurisprudências</h2><p class="muted small" id="homeFeedStatus">Consultando a base de publicações…</p></div><button class="btn secondary" onclick="go('atualizacoes')">Ver publicações</button></div><div class="cards"><div class="card"><div class="muted">Publicações registradas</div><div class="metric" id="homeTotal">—</div></div><div class="card"><div class="muted">Últimos 7 dias</div><div class="metric" id="homeWeek">—</div></div><div class="card"><div class="muted">Fontes com erro</div><div class="metric" id="homeErrors">—</div></div></div><div id="homeRecent" class="small muted">Carregando…</div></div><p class="footer">Protótipo educacional com conteúdo inicial limitado. Publicações são sincronizadas diariamente pelo GitHub Actions; a curadoria das teses permanece necessária. Confira a vigência de cada entendimento nas fontes oficiais.</p></section>
-<section id="biblioteca" class="hidden"><h1>Jurisprudências e súmulas</h1><p class="muted">Pesquise, filtre e registre suas revisões.</p><div class="toolbar"><input id="search" placeholder="Buscar assunto, súmula..." oninput="renderLibrary()"><select id="filterDisc" onchange="renderLibrary()"><option value="">Todas as disciplinas</option></select><select id="filterTrib" onchange="renderLibrary()"><option value="">STF e STJ</option><option>STF</option><option>STJ</option></select><select id="filterType" onchange="renderLibrary()"><option value="">Todos os tipos</option><option>Súmula</option><option>Jurisprudência</option></select><select id="filterBanca" onchange="renderLibrary()"><option value="">Ambas as bancas</option><option>FGV</option><option>CEBRASPE</option></select></div><div class="panel" id="library"></div></section>
-<section id="atualizacoes" class="hidden"><div class="section-top"><div><h1>Radar de jurisprudências</h1><p class="muted">STF • STJ • fontes complementares | Atualização diária automática</p></div><button class="btn secondary" onclick="loadFeeds()">↻ Recarregar dados</button></div><div class="cards"><div class="card"><div class="muted">Última coleta</div><div class="metric" style="font-size:19px" id="feedDate">—</div></div><div class="card"><div class="muted">Publicações armazenadas</div><div class="metric" id="feedCount">—</div></div><div class="card"><div class="muted">Novidades nos últimos 7 dias</div><div class="metric" id="feedWeek">—</div></div></div><div id="feedStatus" class="notice statusline" role="status">Carregando situação das fontes…</div><div class="panel"><h2>Pesquisar publicações</h2><div class="toolbar"><input type="search" id="feedSearch" aria-label="Pesquisar publicações" placeholder="Título, assunto, número do informativo…" oninput="renderFeeds()"><select id="feedSource" aria-label="Filtrar por fonte" onchange="renderFeeds()"><option value="">Todas as fontes</option></select><select id="feedDisc" aria-label="Filtrar por disciplina" onchange="renderFeeds()"><option value="">Todas as disciplinas</option></select><select id="feedPeriod" aria-label="Filtrar por período" onchange="renderFeeds()"><option value="">Todo o histórico</option><option value="1">Últimas 24 horas</option><option value="7">Últimos 7 dias</option><option value="30">Últimos 30 dias</option></select><select id="feedSort" aria-label="Ordenação" onchange="renderFeeds()"><option value="recent">Mais recentes</option><option value="oldest">Mais antigos</option><option value="title">Título A–Z</option></select></div><p id="feedResultCount" class="small muted" aria-live="polite"></p><div id="feedItems">Carregando publicações…</div><div class="toolbar"><button class="btn secondary" id="feedMore" onclick="feedLimit+=20;renderFeeds()" style="display:none">Mostrar mais publicações</button></div></div><p class="footer">Os resultados são metadados e links externos. Classificações por disciplina, quando presentes, são preliminares e podem exigir revisão. Uma publicação não equivale a uma tese jurídica validada. Consulte sempre a decisão original e sua vigência antes de estudar ou utilizar um entendimento.</p></section><section id="simulados" class="hidden"><h1>Simulados personalizados</h1><p class="muted">Questões autorais para treino. Não são questões oficiais das bancas.</p><div class="panel" id="config"><h2>Configurar simulado</h2><div class="toolbar"><select id="simBanca"><option value="CEBRASPE">CESPE / CEBRASPE (Certo ou Errado)</option><option value="FGV">FGV (5 alternativas)</option></select><select id="simDisc"><option value="">Todas as disciplinas</option></select><select id="simCount"><option value="5">5 questões</option><option value="10">10 questões</option><option value="15">15 questões</option></select><select id="simMode"><option value="end">Correção ao final</option><option value="immediate">Correção imediata</option></select></div><p class="small muted" id="availability"></p><button class="btn" onclick="startQuiz()">Iniciar simulado</button></div><div id="quiz" class="hidden"></div><div id="result" class="hidden"></div></section>
-<section id="desempenho" class="hidden"><h1>Seu desempenho</h1><p class="muted">Os dados são salvos neste navegador, neste dispositivo.</p><div id="stats"></div><button class="btn secondary" onclick="if(confirm('Apagar o histórico de simulados e revisões deste navegador?')){localStorage.removeItem('dj_results');localStorage.removeItem('dj_review');refresh();renderStats()}" >Limpar histórico</button></section>
-</main></div><script>
-const STF='https://jurisprudencia.stf.jus.br/',STJ='https://scon.stj.jus.br/SCON/',DIZER='https://www.dizerodireito.com.br/';
-const data=[
-{id:'STJ-444',title:'Súmula 444/STJ',disc:'Direito Penal',trib:'STJ',type:'Súmula',topic:'Dosimetria da pena',thesis:'É vedada a utilização de inquéritos policiais e ações penais em curso para agravar a pena-base.',example:'Um acusado possui investigação sem trânsito em julgado: isso não autoriza aumento da pena-base a título de maus antecedentes.',trap:'Inquérito em andamento não equivale a condenação definitiva.',correct:'Inquéritos policiais e ações penais em curso não podem agravar a pena-base.'},
-{id:'STJ-231',title:'Súmula 231/STJ',disc:'Direito Penal',trib:'STJ',type:'Súmula',topic:'Atenuantes',thesis:'A incidência da circunstância atenuante não pode conduzir à redução da pena abaixo do mínimo legal.',example:'Pena-base no mínimo legal: a confissão não permite reduzir abaixo do mínimo na segunda fase.',trap:'Não confundir atenuante com causa de diminuição da terceira fase.',correct:'A atenuante não pode reduzir a pena abaixo do mínimo legal na segunda fase.'},
-{id:'STJ-522',title:'Súmula 522/STJ',disc:'Direito Penal',trib:'STJ',type:'Súmula',topic:'Falsa identidade',thesis:'A conduta de atribuir-se falsa identidade perante autoridade policial é típica, ainda que em situação de alegada autodefesa.',example:'Suspeito informa nome falso durante abordagem.',trap:'O direito ao silêncio não autoriza fornecer identidade falsa.',correct:'A falsa identidade perante a polícia é típica mesmo sob alegação de autodefesa.'},
-{id:'STF-SV11',title:'Súmula Vinculante 11/STF',disc:'Direito Processual Penal',trib:'STF',type:'Súmula',topic:'Uso de algemas',thesis:'Algemas somente são lícitas em caso de resistência, fundado receio de fuga ou perigo à integridade física própria ou alheia, com justificativa escrita da excepcionalidade.',example:'Preso colaborativo, sem risco concreto, não deve ser algemado automaticamente.',trap:'Prisão em flagrante, por si só, não justifica algemas.',correct:'O uso excepcional de algemas exige justificativa nas hipóteses admitidas pela SV 11.'},
-{id:'STF-SV14',title:'Súmula Vinculante 14/STF',disc:'Direito Processual Penal',trib:'STF',type:'Súmula',topic:'Acesso do defensor ao inquérito',thesis:'É direito do defensor acessar os elementos de prova já documentados em procedimento investigatório que digam respeito ao exercício do direito de defesa.',example:'Defensor consulta depoimentos já juntados, mas não exige conhecimento prévio de diligência sigilosa ainda não documentada.',trap:'Distinguir prova documentada de diligência em andamento.',correct:'O defensor tem acesso aos elementos já documentados pertinentes ao exercício da defesa.'},
-{id:'STF-145',title:'Súmula 145/STF',disc:'Direito Penal',trib:'STF',type:'Súmula',topic:'Flagrante preparado',thesis:'Não há crime quando a preparação do flagrante pela polícia torna impossível a sua consumação.',example:'Policiais induzem o comportamento e controlam a situação de modo a impedir a consumação.',trap:'Flagrante preparado não se confunde com flagrante esperado.',correct:'O flagrante preparado pode configurar crime impossível quando impede a consumação.'},
-{id:'STF-SV25',title:'Súmula Vinculante 25/STF',disc:'Direito Constitucional',trib:'STF',type:'Súmula',topic:'Prisão civil',thesis:'É ilícita a prisão civil de depositário infiel, qualquer que seja a modalidade do depósito.',example:'Não se admite prisão civil por descumprimento de dever de depositário infiel.',trap:'Não confundir com prisão civil por dívida alimentar.',correct:'É ilícita a prisão civil do depositário infiel.'},
-{id:'STF-SV13',title:'Súmula Vinculante 13/STF',disc:'Direito Administrativo',trib:'STF',type:'Súmula',topic:'Nepotismo',thesis:'A nomeação de parentes nas hipóteses descritas no enunciado viola a Constituição, inclusive por designações recíprocas.',example:'Duas autoridades nomeiam parentes uma da outra para funções de confiança.',trap:'O nepotismo cruzado também é abrangido; cargos políticos têm particularidades jurisprudenciais.',correct:'A vedação ao nepotismo pode alcançar nomeações recíprocas.'},
-{id:'STJ-672',title:'Súmula 672/STJ',disc:'Direito Administrativo',trib:'STJ',type:'Súmula',topic:'Processo administrativo disciplinar',thesis:'A alteração da capitulação legal da conduta do servidor, por si só, não enseja a nulidade do processo administrativo disciplinar.',example:'Os fatos imputados permanecem os mesmos, mas a autoridade altera seu enquadramento legal.',trap:'Mudança de capitulação não é automaticamente nulidade.',correct:'A alteração isolada da capitulação legal não torna nulo o PAD.'},
-{id:'STF-524',title:'Súmula 524/STF',disc:'Direito Processual Penal',trib:'STF',type:'Súmula',topic:'Arquivamento do inquérito',thesis:'Arquivado o inquérito a requerimento do Ministério Público, a ação penal não pode ser iniciada sem novas provas, conforme o enunciado.',example:'Após arquivamento por insuficiência probatória, surge prova nova relevante.',trap:'O fundamento do arquivamento e o regime atual do CPP exigem atenção.',correct:'Novas provas podem ser necessárias para retomar a persecução após arquivamento por insuficiência de provas.'},
-{id:'STJ-INV-SOC',title:'Investigação social em concurso policial',disc:'Direito Administrativo',trib:'STJ',type:'Jurisprudência',topic:'Concurso público',thesis:'A análise de condutas graves e reiteradas na investigação social exige fundamentação individualizada; a mera existência isolada de inquérito não autoriza exclusão automática.',example:'Candidato é avaliado por histórico de condutas e pela motivação específica do ato administrativo.',trap:'Evitar afirmar que toda investigação em curso elimina o candidato ou que nunca pode ser considerada.',correct:'A eliminação na investigação social exige exame motivado e não decorre automaticamente de inquérito isolado.'}
+
+<body>
+
+<div class="layout">
+
+<aside>
+
+<div class="logo">DELTA<span>JURIS</span></div>
+
+<div class="sub">
+Revisão estratégica • Delegado de Polícia
+</div>
+
+<div class="navbox">
+
+<button class="nav active" data-page="inicio">
+◈ Visão geral
+</button>
+
+<button class="nav" data-page="biblioteca">
+▤ Jurisprudências e súmulas
+</button>
+
+<button class="nav" data-page="atualizacoes">
+↻ Atualizações diárias
+</button>
+
+<button class="nav" data-page="simulados">
+✎ Simulados
+</button>
+
+<button class="nav" data-page="desempenho">
+▥ Desempenho
+</button>
+
+</div>
+
+</aside>
+
+<main>
+
+<!-- PÁGINA INICIAL -->
+
+<section id="inicio">
+
+<div class="dj-hero">
+
+<div class="dj-edition">
+Delta Juris 3.1 • Edição Tática
+</div>
+
+<h1>
+Sua missão começa <span>agora.</span>
+</h1>
+
+<p>
+Preparação estratégica para concursos de Delegado de Polícia e carreiras jurídicas.
+</p>
+
+<p class="dj-motto">
+DISCIPLINA • ESTRATÉGIA • CONSTÂNCIA
+</p>
+
+<div class="toolbar">
+
+<button class="btn" onclick="go('biblioteca')">
+Iniciar missão
+</button>
+
+<button class="btn secondary" onclick="go('simulados')">
+Realizar simulado
+</button>
+
+</div>
+
+</div>
+
+<div class="dj-heading">
+BANCAS EXAMINADORAS
+</div>
+
+<div class="dj-bancas">
+
+<button class="dj-banca" onclick="selectBank('CEBRASPE')">
+CEBRASPE
+<small>CESPE • Certo ou Errado</small>
+</button>
+
+<button class="dj-banca" onclick="selectBank('FGV')">
+FGV
+<small>Múltipla escolha</small>
+</button>
+
+<button class="dj-banca" onclick="selectBank('FUNDATEC')">
+FUNDATEC
+<small>Múltipla escolha</small>
+</button>
+
+<button class="dj-banca" onclick="selectBank('FCC')">
+FCC
+<small>Múltipla escolha</small>
+</button>
+
+</div>
+
+<div class="dj-heading">
+SEU DESEMPENHO OPERACIONAL
+</div>
+
+<div class="cards">
+
+<div class="card">
+<div class="muted">Teses editoriais cadastradas</div>
+<div class="metric" id="nTeses">0</div>
+</div>
+
+<div class="card">
+<div class="muted">Simulados concluídos</div>
+<div class="metric" id="nSim">0</div>
+</div>
+
+<div class="card">
+<div class="muted">Média de acertos</div>
+<div class="metric" id="media">—</div>
+</div>
+
+</div>
+
+<div class="dj-heading">
+CENTRAL DE TREINAMENTO
+</div>
+
+<div class="dj-modules">
+
+<button class="dj-module dj-justice"
+onclick="go('biblioteca')">
+
+<strong>Jurisprudências e súmulas</strong>
+
+<small>
+Domine os entendimentos do STF e STJ.
+</small>
+
+</button>
+
+<button class="dj-module dj-equipment"
+onclick="go('simulados')">
+
+<strong>Treinamento estratégico</strong>
+
+<small>
+Teste seus conhecimentos com simulados comentados.
+</small>
+
+</button>
+
+<button class="dj-module dj-fire"
+onclick="go('desempenho')">
+
+<strong>Evolução e desempenho</strong>
+
+<small>
+Acompanhe seus resultados e supere seus limites.
+</small>
+
+</button>
+
+</div>
+
+<div class="dj-motivation">
+
+<small>MENTALIDADE DE MISSÃO</small>
+
+<h2 id="motivationalQuote">
+A disciplina de hoje constrói a conquista de amanhã.
+</h2>
+
+<p>
+O objetivo permanece. A missão continua.
+</p>
+
+</div>
+
+<div class="panel" style="margin-top:24px">
+
+<div class="section-top">
+
+<div>
+
+<h2>Radar de jurisprudências</h2>
+
+<p class="muted small" id="homeFeedStatus">
+Consultando a base de publicações…
+</p>
+
+</div>
+
+<button class="btn secondary"
+onclick="go('atualizacoes')">
+Ver publicações
+</button>
+
+</div>
+
+<div class="cards">
+
+<div class="card">
+<div class="muted">Publicações registradas</div>
+<div class="metric" id="homeTotal">—</div>
+</div>
+
+<div class="card">
+<div class="muted">Últimos 7 dias</div>
+<div class="metric" id="homeWeek">—</div>
+</div>
+
+<div class="card">
+<div class="muted">Fontes com erro</div>
+<div class="metric" id="homeErrors">—</div>
+</div>
+
+</div>
+
+<div id="homeRecent" class="small muted">
+Carregando…
+</div>
+
+</div>
+
+<p class="footer">
+DELTA JURIS • EDIÇÃO TÁTICA<br>
+Preparação estratégica para carreiras policiais e jurídicas.
+Publicações sincronizadas automaticamente pelo GitHub Actions.
+Confira a vigência dos entendimentos nas fontes oficiais.
+</p>
+
+</section>
+
+<!-- BIBLIOTECA -->
+
+<section id="biblioteca" class="hidden">
+
+<h1>Jurisprudências e súmulas</h1>
+
+<p class="muted">
+Pesquise, filtre e registre suas revisões.
+</p>
+
+<div class="toolbar">
+
+<input id="search"
+placeholder="Buscar assunto, súmula..."
+oninput="renderLibrary()">
+
+<select id="filterDisc" onchange="renderLibrary()">
+<option value="">Todas as disciplinas</option>
+</select>
+
+<select id="filterTrib" onchange="renderLibrary()">
+<option value="">STF e STJ</option>
+<option>STF</option>
+<option>STJ</option>
+</select>
+
+<select id="filterType" onchange="renderLibrary()">
+<option value="">Todos os tipos</option>
+<option>Súmula</option>
+<option>Jurisprudência</option>
+</select>
+
+</div>
+
+<p class="small muted">
+Conteúdo jurídico comum às quatro bancas.
+Ainda não há classificação por incidência em provas.
+</p>
+
+<div class="panel" id="library"></div>
+
+</section>
+
+<!-- ATUALIZAÇÕES -->
+
+<section id="atualizacoes" class="hidden">
+
+<div class="section-top">
+
+<div>
+
+<h1>Radar de jurisprudências</h1>
+
+<p class="muted">
+STF • STJ | Atualização diária automática
+</p>
+
+</div>
+
+<button class="btn secondary" onclick="loadFeeds()">
+↻ Recarregar dados
+</button>
+
+</div>
+
+<div class="cards">
+
+<div class="card">
+<div class="muted">Última coleta</div>
+<div class="metric" style="font-size:19px" id="feedDate">—</div>
+</div>
+
+<div class="card">
+<div class="muted">Publicações armazenadas</div>
+<div class="metric" id="feedCount">—</div>
+</div>
+
+<div class="card">
+<div class="muted">Novidades nos últimos 7 dias</div>
+<div class="metric" id="feedWeek">—</div>
+</div>
+
+</div>
+
+<div id="feedStatus" class="notice statusline" role="status">
+Carregando situação das fontes…
+</div>
+
+<div class="panel">
+
+<h2>Pesquisar publicações</h2>
+
+<div class="toolbar">
+
+<input type="search"
+id="feedSearch"
+aria-label="Pesquisar publicações"
+placeholder="Título, assunto, número do informativo…"
+oninput="renderFeeds()">
+
+<select id="feedSource" onchange="renderFeeds()">
+<option value="">Todas as fontes</option>
+</select>
+
+<select id="feedDisc" onchange="renderFeeds()">
+<option value="">Todas as disciplinas</option>
+</select>
+
+<select id="feedPeriod" onchange="renderFeeds()">
+<option value="">Todo o histórico</option>
+<option value="1">Últimas 24 horas</option>
+<option value="7">Últimos 7 dias</option>
+<option value="30">Últimos 30 dias</option>
+</select>
+
+<select id="feedSort" onchange="renderFeeds()">
+<option value="recent">Mais recentes</option>
+<option value="oldest">Mais antigos</option>
+<option value="title">Título A–Z</option>
+</select>
+
+</div>
+
+<p id="feedResultCount" class="small muted" aria-live="polite"></p>
+
+<div id="feedItems">
+Carregando publicações…
+</div>
+
+<div class="toolbar">
+
+<button class="btn secondary"
+id="feedMore"
+onclick="feedLimit+=20;renderFeeds()"
+style="display:none">
+
+Mostrar mais publicações
+
+</button>
+
+</div>
+
+</div>
+
+<p class="footer">
+Os resultados são metadados e links externos.
+As classificações por disciplina são preliminares.
+Uma publicação não equivale a uma tese jurídica validada.
+Consulte sempre a decisão original.
+</p>
+
+</section>
+
+<!-- SIMULADOS -->
+
+<section id="simulados" class="hidden">
+
+<h1>Simulados personalizados</h1>
+
+<p class="muted">
+Treinamento estratégico • CEBRASPE, FGV, FUNDATEC e FCC.
+Questões autorais, não oficiais.
+</p>
+
+<div class="panel" id="config">
+
+<h2>Configurar treinamento</h2>
+
+<div class="toolbar">
+
+<select id="simBanca">
+
+<option value="CEBRASPE">
+CESPE / CEBRASPE (Certo ou Errado)
+</option>
+
+<option value="FGV">
+FGV (5 alternativas)
+</option>
+
+<option value="FUNDATEC">
+FUNDATEC (5 alternativas)
+</option>
+
+<option value="FCC">
+FCC (5 alternativas)
+</option>
+
+</select>
+
+<select id="simDisc">
+<option value="">Todas as disciplinas</option>
+</select>
+
+<select id="simCount">
+<option value="5">5 questões</option>
+<option value="10">10 questões</option>
+<option value="15">15 questões</option>
+<option value="20">20 questões</option>
+<option value="30">30 questões</option>
+<option value="50">50 questões</option>
+</select>
+
+<select id="simMode">
+<option value="end">Correção ao final</option>
+<option value="immediate">Correção imediata</option>
+</select>
+
+</div>
+
+<p class="small muted" id="availability"></p>
+
+<button class="btn" onclick="startQuiz()">
+Iniciar simulado
+</button>
+
+</div>
+
+<div id="quiz" class="hidden"></div>
+
+<div id="result" class="hidden"></div>
+
+</section>
+
+<!-- DESEMPENHO -->
+
+<section id="desempenho" class="hidden">
+
+<h1>Seu desempenho</h1>
+
+<p class="muted">
+Acompanhe sua evolução na preparação.
+Os dados são salvos neste navegador e dispositivo.
+</p>
+
+<div id="stats"></div>
+
+<button class="btn secondary" onclick="clearHistory()">
+Limpar histórico
+</button>
+
+</section>
+
+</main>
+
+</div>
+
+<script>
+
+/* FONTES OFICIAIS */
+
+const STF = 'https://jurisprudencia.stf.jus.br/';
+const STJ = 'https://scon.stj.jus.br/SCON/';
+
+/* BANCO EDITORIAL */
+
+const data = [
+
+{
+id:'STJ-444',
+title:'Súmula 444/STJ',
+disc:'Direito Penal',
+trib:'STJ',
+type:'Súmula',
+topic:'Dosimetria da pena',
+thesis:'É vedada a utilização de inquéritos policiais e ações penais em curso para agravar a pena-base.',
+example:'Um acusado possui investigação sem trânsito em julgado: isso não autoriza aumento da pena-base a título de maus antecedentes.',
+trap:'Inquérito em andamento não equivale a condenação definitiva.',
+correct:'Inquéritos policiais e ações penais em curso não podem agravar a pena-base.',
+falseStatement:'Inquéritos policiais em andamento podem ser utilizados para agravar a pena-base.'
+},
+
+{
+id:'STJ-231',
+title:'Súmula 231/STJ',
+disc:'Direito Penal',
+trib:'STJ',
+type:'Súmula',
+topic:'Atenuantes',
+thesis:'A incidência da circunstância atenuante não pode conduzir à redução da pena abaixo do mínimo legal.',
+example:'Pena-base no mínimo legal: a confissão não permite reduzir abaixo do mínimo na segunda fase.',
+trap:'Não confundir atenuante com causa de diminuição da terceira fase.',
+correct:'A atenuante não pode reduzir a pena abaixo do mínimo legal na segunda fase.',
+falseStatement:'Segundo a Súmula 231 do STJ, a atenuante permite reduzir a pena abaixo do mínimo legal.'
+},
+
+{
+id:'STJ-522',
+title:'Súmula 522/STJ',
+disc:'Direito Penal',
+trib:'STJ',
+type:'Súmula',
+topic:'Falsa identidade',
+thesis:'A conduta de atribuir-se falsa identidade perante autoridade policial é típica, ainda que em situação de alegada autodefesa.',
+example:'Suspeito informa nome falso durante abordagem.',
+trap:'O direito ao silêncio não autoriza fornecer identidade falsa.',
+correct:'A falsa identidade perante a polícia é típica mesmo sob alegação de autodefesa.',
+falseStatement:'A alegação de autodefesa torna atípica a falsa identidade perante autoridade policial.'
+},
+
+{
+id:'STF-SV11',
+title:'Súmula Vinculante 11/STF',
+disc:'Direito Processual Penal',
+trib:'STF',
+type:'Súmula',
+topic:'Uso de algemas',
+thesis:'Algemas somente são lícitas em caso de resistência, fundado receio de fuga ou perigo à integridade física própria ou alheia, com justificativa escrita da excepcionalidade.',
+example:'Preso colaborativo, sem risco concreto, não deve ser algemado automaticamente.',
+trap:'Prisão em flagrante, por si só, não justifica algemas.',
+correct:'O uso excepcional de algemas exige justificativa nas hipóteses admitidas pela SV 11.',
+falseStatement:'O uso de algemas é obrigatório em toda prisão em flagrante, independentemente de justificativa.'
+},
+
+{
+id:'STF-SV14',
+title:'Súmula Vinculante 14/STF',
+disc:'Direito Processual Penal',
+trib:'STF',
+type:'Súmula',
+topic:'Acesso do defensor ao inquérito',
+thesis:'É direito do defensor acessar os elementos de prova já documentados em procedimento investigatório que digam respeito ao exercício do direito de defesa.',
+example:'Defensor consulta depoimentos já juntados, mas não exige conhecimento prévio de diligência sigilosa ainda não documentada.',
+trap:'Distinguir prova documentada de diligência em andamento.',
+correct:'O defensor tem acesso aos elementos já documentados pertinentes ao exercício da defesa.',
+falseStatement:'O defensor não pode acessar elementos de prova já documentados no inquérito policial.'
+},
+
+{
+id:'STF-145',
+title:'Súmula 145/STF',
+disc:'Direito Penal',
+trib:'STF',
+type:'Súmula',
+topic:'Flagrante preparado',
+thesis:'Não há crime quando a preparação do flagrante pela polícia torna impossível a sua consumação.',
+example:'Policiais induzem o comportamento e controlam a situação de modo a impedir a consumação.',
+trap:'Flagrante preparado não se confunde com flagrante esperado.',
+correct:'O flagrante preparado pode configurar crime impossível quando impede a consumação.',
+falseStatement:'O flagrante preparado sempre configura crime punível, mesmo quando impossível a consumação.'
+},
+
+{
+id:'STF-SV25',
+title:'Súmula Vinculante 25/STF',
+disc:'Direito Constitucional',
+trib:'STF',
+type:'Súmula',
+topic:'Prisão civil',
+thesis:'É ilícita a prisão civil de depositário infiel, qualquer que seja a modalidade do depósito.',
+example:'Não se admite prisão civil por descumprimento de dever de depositário infiel.',
+trap:'Não confundir com prisão civil por dívida alimentar.',
+correct:'É ilícita a prisão civil do depositário infiel.',
+falseStatement:'É admitida a prisão civil do depositário infiel na modalidade de depósito judicial.'
+},
+
+{
+id:'STF-SV13',
+title:'Súmula Vinculante 13/STF',
+disc:'Direito Administrativo',
+trib:'STF',
+type:'Súmula',
+topic:'Nepotismo',
+thesis:'A nomeação de parentes nas hipóteses descritas no enunciado viola a Constituição, inclusive por designações recíprocas.',
+example:'Duas autoridades nomeiam parentes uma da outra para funções de confiança.',
+trap:'O nepotismo cruzado também é abrangido; cargos políticos têm particularidades jurisprudenciais.',
+correct:'A vedação ao nepotismo pode alcançar nomeações recíprocas.',
+falseStatement:'A vedação constitucional ao nepotismo não alcança designações recíprocas.'
+},
+
+{
+id:'STJ-672',
+title:'Súmula 672/STJ',
+disc:'Direito Administrativo',
+trib:'STJ',
+type:'Súmula',
+topic:'Processo administrativo disciplinar',
+thesis:'A alteração da capitulação legal da conduta do servidor, por si só, não enseja a nulidade do processo administrativo disciplinar.',
+example:'Os fatos imputados permanecem os mesmos, mas a autoridade altera seu enquadramento legal.',
+trap:'Mudança de capitulação não é automaticamente nulidade.',
+correct:'A alteração isolada da capitulação legal não torna nulo o PAD.',
+falseStatement:'Qualquer alteração da capitulação legal torna automaticamente nulo o processo administrativo disciplinar.'
+},
+
+{
+id:'STF-524',
+title:'Súmula 524/STF',
+disc:'Direito Processual Penal',
+trib:'STF',
+type:'Súmula',
+topic:'Arquivamento do inquérito',
+thesis:'Arquivado o inquérito a requerimento do Ministério Público, a ação penal não pode ser iniciada sem novas provas, conforme o enunciado.',
+example:'Após arquivamento por insuficiência probatória, surge prova nova relevante.',
+trap:'O fundamento do arquivamento e o regime atual do CPP exigem atenção.',
+correct:'Novas provas podem ser necessárias para retomar a persecução após arquivamento por insuficiência de provas.',
+falseStatement:'Após arquivamento por insuficiência probatória, a ação penal pode ser iniciada com as mesmas provas, sem qualquer elemento novo.'
+},
+
+{
+id:'STJ-INV-SOC',
+title:'Investigação social em concurso policial',
+disc:'Direito Administrativo',
+trib:'STJ',
+type:'Jurisprudência',
+topic:'Concurso público',
+thesis:'A análise de condutas graves e reiteradas na investigação social exige fundamentação individualizada; a mera existência isolada de inquérito não autoriza exclusão automática.',
+example:'Candidato é avaliado por histórico de condutas e pela motivação específica do ato administrativo.',
+trap:'Evitar afirmar que toda investigação em curso elimina o candidato ou que nunca pode ser considerada.',
+correct:'A eliminação na investigação social exige exame motivado e não decorre automaticamente de inquérito isolado.',
+falseStatement:'A mera existência de inquérito policial determina automaticamente a exclusão do candidato de concurso policial.'
+}
+
 ];
-const wrongs=[
-'Uma investigação em andamento equivale sempre a condenação definitiva.',
-'O juiz pode ignorar os requisitos expressos do entendimento consolidado.',
-'A regra se aplica automaticamente sem análise das circunstâncias do caso.',
-'A orientação permite afastar garantias fundamentais sem fundamentação.',
-'A conclusão é obrigatoriamente oposta à tese firmada pelo tribunal.'
+
+/* ALTERNATIVAS INCORRETAS DE TREINAMENTO */
+
+const wrongs = [
+
+'A regra pode ser afastada livremente, independentemente de fundamentação jurídica.',
+
+'A orientação admite aplicação automática, sem consideração de seus requisitos.',
+
+'O entendimento autoriza o afastamento irrestrito das garantias fundamentais.',
+
+'A conclusão jurídica é necessariamente oposta ao entendimento consolidado.',
+
+'A autoridade pode desconsiderar todos os requisitos expressos no entendimento.'
+
 ];
-let quiz=[],answers={},mode='end',bank='CEBRASPE';const get=(k)=>JSON.parse(localStorage.getItem(k)||'[]');const save=(k,v)=>localStorage.setItem(k,JSON.stringify(v));const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-function go(p){document.querySelectorAll('main section').forEach(e=>e.classList.toggle('hidden',e.id!==p));document.querySelectorAll('.nav').forEach(e=>e.classList.toggle('active',e.dataset.page===p));if(p==='biblioteca')renderLibrary();if(p==='atualizacoes')loadFeeds();if(p==='desempenho')renderStats();refresh();scrollTo(0,0)}document.querySelectorAll('.nav').forEach(e=>e.onclick=()=>go(e.dataset.page));
-function refresh(){let r=get('dj_results'),v=get('dj_review');document.getElementById('nTeses').textContent=data.length;document.getElementById('nSim').textContent=r.length;document.getElementById('media').textContent=r.length?Math.round(r.reduce((a,b)=>a+b.percent,0)/r.length)+'%':'—';document.getElementById('availability').textContent='Banco inicial: '+data.length+' teses. Se houver menos questões do que o solicitado, o simulado usará as disponíveis.'}
-function renderLibrary(){let s=document.getElementById('search').value.toLowerCase(),d=document.getElementById('filterDisc').value,t=document.getElementById('filterTrib').value,y=document.getElementById('filterType').value,b=document.getElementById('filterBanca').value;let arr=data.filter(x=>(!d||x.disc===d)&&(!t||x.trib===t)&&(!y||x.type===y)&&(!b||['FGV','CEBRASPE'].includes(b))&&JSON.stringify(x).toLowerCase().includes(s));let rev=get('dj_review');document.getElementById('library').innerHTML=arr.length?arr.map(x=>`<article class="item"><span class="tag">${esc(x.trib)}</span><span class="tag">${esc(x.disc)}</span><span class="tag">${esc(x.type)}</span><h3>${esc(x.title)} — ${esc(x.topic)}</h3><p><strong>Tese:</strong> ${esc(x.thesis)}</p><p><strong>Exemplo:</strong> ${esc(x.example)}</p><p><strong>Pegadinha:</strong> ${esc(x.trap)}</p><p class="links small"><a href="${x.trib==='STF'?STF:STJ}" target="_blank" rel="noopener">Pesquisar no ${x.trib}</a><a href="${DIZER}" target="_blank" rel="noopener">Pesquisar no Dizer o Direito</a></p><button class="btn ${rev.includes(x.id)?'secondary':''}" onclick="toggleReview('${x.id}')">${rev.includes(x.id)?'✓ Revisado':'Marcar revisado'}</button></article>`).join(''):'<p>Nenhum conteúdo encontrado.</p>'}
-function toggleReview(id){let r=get('dj_review');save('dj_review',r.includes(id)?r.filter(x=>x!==id):[...r,id]);renderLibrary()}
-function startQuiz(){bank=document.getElementById('simBanca').value;mode=document.getElementById('simMode').value;let d=document.getElementById('simDisc').value,n=+document.getElementById('simCount').value;let pool=data.filter(x=>!d||x.disc===d);quiz=pool.sort(()=>Math.random()-.5).slice(0,n);answers={};document.getElementById('config').classList.add('hidden');document.getElementById('result').classList.add('hidden');document.getElementById('quiz').classList.remove('hidden');renderQuiz()}
-function options(x){if(bank==='CEBRASPE'){let correct=Math.random()>.5;return{prompt:correct?x.correct:'É correto afirmar que: '+wrongs[Math.floor(Math.random()*wrongs.length)],opts:['Certo','Errado'],right:correct?0:1}}let opts=[x.correct,...wrongs.slice().sort(()=>Math.random()-.5).slice(0,4)].sort(()=>Math.random()-.5);return{prompt:'Sobre '+x.topic.toLowerCase()+', assinale a alternativa correta:',opts,right:opts.indexOf(x.correct)}}
-let qs=[];function renderQuiz(){qs=quiz.map(options);drawQuiz()}
-function drawQuiz(){document.getElementById('quiz').innerHTML=`<div class="panel"><h2>Simulado ${bank} • ${quiz.length} questões</h2><p class="muted small">${mode==='immediate'?'Correção imediata':'Correção ao final'} • questões inéditas de treinamento</p>${quiz.map((x,i)=>`<div class="question"><span class="tag">Questão ${i+1}</span><span class="tag">${esc(x.disc)}</span><p><strong>${esc(qs[i].prompt)}</strong></p>${qs[i].opts.map((o,j)=>`<label class="option"><input type="radio" name="q${i}" value="${j}" ${answers[i]===j?'checked':''} onchange="choose(${i},${j})">${bank==='FGV'?String.fromCharCode(65+j)+') ':''}${esc(o)}</label>`).join('')}<div id="feedback${i}">${mode==='immediate'&&answers[i]!==undefined?feedback(i):''}</div></div>`).join('')}<button class="btn" onclick="finishQuiz()">Finalizar e ver resultado</button> <button class="btn secondary" onclick="resetQuiz()">Cancelar</button></div>`}
-function choose(i,j){answers[i]=j;if(mode==='immediate')document.getElementById('feedback'+i).innerHTML=feedback(i)}function feedback(i){let ok=answers[i]===qs[i].right;return `<div class="answer"><strong class="${ok?'good':'bad'}">${ok?'Correto':'Incorreto'}</strong><p>Gabarito: ${esc(qs[i].opts[qs[i].right])}</p><p>${esc(quiz[i].thesis)}</p><p><strong>Atenção:</strong> ${esc(quiz[i].trap)}</p></div>`}
-function finishQuiz(){if(Object.keys(answers).length<quiz.length&&!confirm('Há questões sem resposta. Finalizar mesmo assim?'))return;let correct=quiz.reduce((a,x,i)=>a+(answers[i]===qs[i].right?1:0),0),percent=Math.round(100*correct/quiz.length);let r=get('dj_results');r.push({date:new Date().toLocaleString('pt-BR'),bank,correct,total:quiz.length,percent,disc:document.getElementById('simDisc').value||'Todas'});save('dj_results',r);document.getElementById('quiz').classList.add('hidden');document.getElementById('result').classList.remove('hidden');document.getElementById('result').innerHTML=`<div class="panel"><h2>Resultado do simulado</h2><div class="metric">${percent}% de acertos</div><p>${correct} de ${quiz.length} questões corretas</p><div class="progress"><div style="width:${percent}%"></div></div><h2 style="margin-top:25px">Gabarito comentado</h2>${quiz.map((x,i)=>`<div class="item"><strong>Questão ${i+1}: <span class="${answers[i]===qs[i].right?'good':'bad'}">${answers[i]===qs[i].right?'Acerto':'Erro'}</span></strong><p>${esc(qs[i].prompt)}</p><p>Resposta: <strong>${esc(qs[i].opts[qs[i].right])}</strong></p><p>${esc(x.thesis)}</p></div>`).join('')}<button class="btn" onclick="resetQuiz()">Novo simulado</button></div>`;refresh();scrollTo(0,0)}function resetQuiz(){document.getElementById('config').classList.remove('hidden');document.getElementById('quiz').classList.add('hidden');document.getElementById('result').classList.add('hidden')}
-function renderStats(){let r=get('dj_results'),rev=get('dj_review');document.getElementById('stats').innerHTML=`<div class="cards"><div class="card"><div class="muted">Simulados</div><div class="metric">${r.length}</div></div><div class="card"><div class="muted">Teses revisadas</div><div class="metric">${rev.length}/${data.length}</div></div><div class="card"><div class="muted">Acertos totais</div><div class="metric">${r.length?Math.round(100*r.reduce((a,b)=>a+b.correct,0)/r.reduce((a,b)=>a+b.total,0))+'%':'—'}</div></div></div><div class="panel"><h2>Histórico</h2>${r.length?r.slice().reverse().map(x=>`<div class="item"><strong>${esc(x.bank)} — ${x.percent}%</strong><p class="muted small">${esc(x.date)} • ${esc(x.disc)} • ${x.correct}/${x.total} acertos</p></div>`).join(''):'<p class="muted">Nenhum simulado realizado ainda.</p>'}</div><br>`}
-let discs=[...new Set(data.map(x=>x.disc))].sort();['filterDisc','simDisc'].forEach(id=>document.getElementById(id).insertAdjacentHTML('beforeend',discs.map(x=>`<option value="${esc(x)}">${esc(x)}</option>`).join('')));refresh();renderLibrary();
-let feedData={updated_at:null,items:[],errors:[],stats:{}},feedLimit=20,feedLoaded=false;
-function dateOf(x){const raw=x.published||x.date||x.published_at||'';if(!raw)return null;const d=new Date(raw);return Number.isNaN(d.getTime())?null:d}
-function recent(x,days){const d=dateOf(x);if(!d)return false;const age=Date.now()-d.getTime();return age>=0&&age<=days*86400000}
-function sourceOf(x){return String(x.source||x.tribunal||'Fonte não informada')}
-function discOf(x){const v=x.discipline||x.disc||x.subject||x.category||x.area||'';return Array.isArray(v)?v.join(', '):String(v)}
-function textOf(x){return [x.title,x.source,x.summary,x.description,discOf(x)].filter(Boolean).join(' ').toLocaleLowerCase('pt-BR')}
-function dateLabel(x){const d=dateOf(x);return d?d.toLocaleDateString('pt-BR'):String(x.published||'Data não informada')}
-function validLink(u){try{const x=new URL(u);return x.protocol==='https:'||x.protocol==='http:'}catch{return false}}
-function updateHome(){const items=feedData.items||[];document.getElementById('homeTotal').textContent=feedLoaded?items.length:'—';document.getElementById('homeWeek').textContent=feedLoaded?items.filter(x=>recent(x,7)).length:'—';document.getElementById('homeErrors').textContent=feedLoaded?(feedData.errors||[]).length:'—';document.getElementById('homeFeedStatus').textContent=feedLoaded?(feedData.updated_at?'Última coleta: '+new Date(feedData.updated_at).toLocaleString('pt-BR'):'Base carregada; horário não informado'):'Aguardando base de publicações';const top=items.filter(x=>validLink(x.url)).slice().sort((a,b)=>(dateOf(b)?.getTime()||0)-(dateOf(a)?.getTime()||0)).slice(0,3);document.getElementById('homeRecent').innerHTML=feedLoaded?(top.length?top.map(x=>`<div class="item"><span class="tag">${esc(sourceOf(x))}</span><span class="small muted">${esc(dateLabel(x))}</span><p><strong>${esc(x.title||'Publicação sem título')}</strong></p><div class="links"><a href="${esc(x.url)}" target="_blank" rel="noopener noreferrer">Consultar fonte original</a></div></div>`).join(''):'Nenhuma publicação disponível.'):'Aguardando coleta.'}
-function fillFeedFilters(){for(const [id,values] of [['feedSource',[...new Set(feedData.items.map(sourceOf))]],['feedDisc',[...new Set(feedData.items.map(discOf).filter(Boolean))]]]){const el=document.getElementById(id),prev=el.value;el.replaceChildren(el.options[0]);values.sort((a,b)=>a.localeCompare(b,'pt-BR')).forEach(v=>el.add(new Option(v,v)));if(values.includes(prev))el.value=prev}}
-async function loadFeeds(){const el=document.getElementById('feedItems');el.textContent='Carregando publicações…';try{const response=await fetch('./data/updates.json?cache='+Date.now(),{cache:'no-store'});if(!response.ok)throw Error('HTTP '+response.status);const payload=await response.json();if(!Array.isArray(payload.items))throw Error('Formato de dados inesperado');feedData={updated_at:payload.updated_at||null,items:payload.items,errors:Array.isArray(payload.errors)?payload.errors:[],stats:payload.stats||{}};feedLoaded=true;feedLimit=20;fillFeedFilters();renderFeeds();updateHome()}catch(e){feedLoaded=false;el.innerHTML='<div class="empty">Não foi possível carregar as atualizações. Confira se data/updates.json está publicado no GitHub Pages.<p class="small">'+esc(e.message)+'</p></div>';document.getElementById('feedStatus').textContent='Não foi possível consultar a base publicada.';updateHome()}}
-function renderFeeds(){if(!feedLoaded)return;const items=feedData.items;const stamp=feedData.updated_at?new Date(feedData.updated_at):null;document.getElementById('feedDate').textContent=stamp&&!isNaN(stamp)?stamp.toLocaleString('pt-BR',{dateStyle:'short',timeStyle:'short'}):'Não informada';document.getElementById('feedCount').textContent=items.length;document.getElementById('feedWeek').textContent=items.filter(x=>recent(x,7)).length;const errors=feedData.errors||[];document.getElementById('feedStatus').textContent=errors.length?'Coleta concluída com '+errors.length+' fonte(s) com falha: '+[...new Set(errors.map(x=>x.source||'Fonte desconhecida'))].join(', ')+'. As demais publicações permanecem disponíveis.':'Nenhum erro de fonte registrado na última coleta.';const source=document.getElementById('feedSource').value,disc=document.getElementById('feedDisc').value,q=document.getElementById('feedSearch').value.trim().toLocaleLowerCase('pt-BR'),period=Number(document.getElementById('feedPeriod').value),sort=document.getElementById('feedSort').value;const arr=items.filter(x=>(!source||sourceOf(x)===source)&&(!disc||discOf(x)===disc)&&(!q||textOf(x).includes(q))&&(!period||recent(x,period)));arr.sort((a,b)=>sort==='title'?String(a.title||'').localeCompare(String(b.title||''),'pt-BR'):(sort==='oldest'?1:-1)*((dateOf(a)?.getTime()||0)-(dateOf(b)?.getTime()||0)));document.getElementById('feedResultCount').textContent=arr.length+' publicação(ões) encontrada(s)';document.getElementById('feedItems').innerHTML=arr.length?arr.slice(0,feedLimit).map(x=>{const url=validLink(x.url)?`<div class="feed-actions"><a href="${esc(x.url)}" target="_blank" rel="noopener noreferrer">Ler na fonte original ↗️</a></div>`:'<p class="small muted">Link indisponível</p>';return `<article class="item feeditem"><div class="feedmeta"><span class="tag">${esc(sourceOf(x))}</span>${discOf(x)?`<span class="pill">${esc(discOf(x))}</span>`:''}${recent(x,7)?'<span class="tag fresh">Últimos 7 dias</span>':''}<span class="small muted">${esc(dateLabel(x))}</span></div><h3>${esc(x.title||'Publicação sem título')}</h3>${url}<p class="tiny muted">Registro de publicação; conteúdo jurídico ainda não validado para simulados.</p></article>`}).join(''):'<div class="empty">Nenhuma publicação encontrada. Experimente remover algum filtro.</div>';document.getElementById('feedMore').style.display=arr.length>feedLimit?'inline-block':'none'}
+
+/* FRASES MOTIVACIONAIS */
+
+const motivationalQuotes = [
+
+'A disciplina de hoje constrói a conquista de amanhã.',
+
+'O distintivo começa a ser conquistado muito antes da posse.',
+
+'Enquanto muitos desistem, você continua.',
+
+'Não espere motivação. Construa disciplina.',
+
+'Cada questão resolvida é um passo em direção à aprovação.',
+
+'O cansaço é temporário. O propósito permanece.',
+
+'A missão não termina quando fica difícil.',
+
+'Não negocie com seus objetivos.',
+
+'Estude em silêncio. Deixe sua aprovação fazer o barulho.',
+
+'A constância transforma esforço em conquista.',
+
+'Honre o compromisso que você assumiu consigo mesmo.',
+
+'Um dia, todo esse esforço terá um nome: aprovação.',
+
+'A preparação é diária. A conquista é consequência.',
+
+'Não importa quantas vezes seja necessário recomeçar. Continue.',
+
+'Seu futuro exige a disciplina do presente.'
+
+];
+
+let quoteIndex = Math.floor(
+Math.random() * motivationalQuotes.length
+);
+
+function rotateQuote() {
+
+const el = document.getElementById('motivationalQuote');
+
+if (!el) return;
+
+el.textContent = motivationalQuotes[quoteIndex];
+
+quoteIndex = (quoteIndex + 1) % motivationalQuotes.length;
+
+}
+
+rotateQuote();
+
+setInterval(rotateQuote,20000);
+
+/* VARIÁVEIS DO SISTEMA */
+
+let quiz = [];
+let answers = {};
+let mode = 'end';
+let bank = 'CEBRASPE';
+let qs = [];
+let quizDisc = '';
+
+const get = k => {
+
+try {
+
+const value = JSON.parse(
+localStorage.getItem(k) || '[]'
+);
+
+return Array.isArray(value) ? value : [];
+
+} catch {
+
+return [];
+
+}
+
+};
+
+const save = (k,v) => {
+
+localStorage.setItem(k,JSON.stringify(v));
+
+};
+
+const esc = s => String(s).replace(
+/[&<>"']/g,
+c => ({
+'&':'&amp;',
+'<':'&lt;',
+'>':'&gt;',
+'"':'&quot;',
+"'":'&#39;'
+}[c])
+);
+
+function shuffle(arr) {
+
+const copy = [...arr];
+
+for(let i=copy.length-1;i>0;i--) {
+
+const j = Math.floor(Math.random()*(i+1));
+
+[copy[i],copy[j]] = [copy[j],copy[i]];
+
+}
+
+return copy;
+
+}
+
+/* NAVEGAÇÃO */
+
+function go(p) {
+
+if (!document.getElementById(p)) return;
+
+document.querySelectorAll('main section')
+.forEach(e => {
+
+e.classList.toggle('hidden',e.id!==p);
+
+});
+
+document.querySelectorAll('.nav')
+.forEach(e => {
+
+e.classList.toggle('active',e.dataset.page===p);
+
+});
+
+if(p==='biblioteca') renderLibrary();
+
+if(p==='atualizacoes') loadFeeds();
+
+if(p==='desempenho') renderStats();
+
+refresh();
+
+scrollTo(0,0);
+
+}
+
+document.querySelectorAll('.nav')
+.forEach(e => {
+
+e.onclick = () => go(e.dataset.page);
+
+});
+
+function selectBank(selectedBank) {
+
+go('simulados');
+
+resetQuiz();
+
+document.getElementById('simBanca').value = selectedBank;
+
+}
+
+/* INDICADORES */
+
+function refresh() {
+
+const r = get('dj_results');
+
+document.getElementById('nTeses').textContent =
+data.length;
+
+document.getElementById('nSim').textContent =
+r.length;
+
+document.getElementById('media').textContent =
+r.length
+? Math.round(
+r.reduce((a,b)=>a+b.percent,0)/r.length
+)+'%'
+:'—';
+
+document.getElementById('availability').textContent =
+'Banco atual: '+data.length+
+' teses. Se houver menos questões do que o solicitado, serão utilizadas as disponíveis. As bancas compartilham o banco editorial inicial.';
+
+}
+
+/* BIBLIOTECA */
+
+function renderLibrary() {
+
+const s = document.getElementById('search')
+.value.toLowerCase();
+
+const d = document.getElementById('filterDisc').value;
+
+const t = document.getElementById('filterTrib').value;
+
+const y = document.getElementById('filterType').value;
+
+const arr = data.filter(x =>
+
+(!d || x.disc===d) &&
+(!t || x.trib===t) &&
+(!y || x.type===y) &&
+JSON.stringify(x).toLowerCase().includes(s)
+
+);
+
+const rev = get('dj_review');
+
+document.getElementById('library').innerHTML =
+
+arr.length
+
+? arr.map(x => `
+
+<article class="item">
+
+<span class="tag">${esc(x.trib)}</span>
+
+<span class="tag">${esc(x.disc)}</span>
+
+<span class="tag">${esc(x.type)}</span>
+
+<h3>${esc(x.title)} — ${esc(x.topic)}</h3>
+
+<p>
+<strong>Tese:</strong> ${esc(x.thesis)}
+</p>
+
+<p>
+<strong>Exemplo:</strong> ${esc(x.example)}
+</p>
+
+<p>
+<strong>Pegadinha:</strong> ${esc(x.trap)}
+</p>
+
+<p class="links small">
+
+<a href="${x.trib==='STF'?STF:STJ}"
+target="_blank"
+rel="noopener noreferrer">
+
+Pesquisar no ${esc(x.trib)}
+
+</a>
+
+</p>
+
+<button class="btn ${rev.includes(x.id)?'secondary':''}"
+onclick="toggleReview('${x.id}')">
+
+${rev.includes(x.id)?'✓ Revisado':'Marcar revisado'}
+
+</button>
+
+</article>
+
+`).join('')
+
+: '<p>Nenhum conteúdo encontrado.</p>';
+
+}
+
+function toggleReview(id) {
+
+const r = get('dj_review');
+
+save(
+'dj_review',
+r.includes(id)
+? r.filter(x=>x!==id)
+: [...r,id]
+);
+
+renderLibrary();
+
+}
+
+/* SIMULADOS */
+
+function startQuiz() {
+
+bank = document.getElementById('simBanca').value;
+
+mode = document.getElementById('simMode').value;
+
+quizDisc = document.getElementById('simDisc').value;
+
+const n = Number(
+document.getElementById('simCount').value
+);
+
+const pool = data.filter(
+x => !quizDisc || x.disc===quizDisc
+);
+
+if (!pool.length) {
+
+alert('Não existem questões disponíveis para esta disciplina.');
+
+return;
+
+}
+
+quiz = shuffle(pool).slice(0,n);
+
+answers = {};
+
+document.getElementById('config')
+.classList.add('hidden');
+
+document.getElementById('result')
+.classList.add('hidden');
+
+document.getElementById('quiz')
+.classList.remove('hidden');
+
+renderQuiz();
+
+}
+
+function options(x) {
+
+if(bank==='CEBRASPE') {
+
+const correct = Math.random()>.5;
+
+return {
+
+prompt: correct ? x.correct : x.falseStatement,
+
+opts:['Certo','Errado'],
+
+right: correct ? 0 : 1
+
+};
+
+}
+
+const distractors = shuffle(wrongs).slice(0,3);
+
+const opts = shuffle([
+
+x.correct,
+
+x.falseStatement,
+
+...distractors
+
+]);
+
+return {
+
+prompt:
+'Sobre '+x.topic.toLowerCase()+
+', assinale a alternativa correta:',
+
+opts,
+
+right: opts.indexOf(x.correct)
+
+};
+
+}
+
+function renderQuiz() {
+
+qs = quiz.map(options);
+
+drawQuiz();
+
+}
+
+function drawQuiz() {
+
+document.getElementById('quiz').innerHTML = `
+
+<div class="panel">
+
+<h2>
+Simulado ${esc(bank)} • ${quiz.length} questões
+</h2>
+
+<p class="muted small">
+
+${mode==='immediate'
+?'Correção imediata'
+:'Correção ao final'}
+
+• Questões autorais de treinamento
+
+</p>
+
+${quiz.map((x,i)=>`
+
+<div class="question">
+
+<span class="tag">Questão ${i+1}</span>
+
+<span class="tag">${esc(x.disc)}</span>
+
+<p>
+<strong>${esc(qs[i].prompt)}</strong>
+</p>
+
+${qs[i].opts.map((o,j)=>`
+
+<label class="option">
+
+<input type="radio"
+name="q${i}"
+value="${j}"
+${answers[i]===j?'checked':''}
+onchange="choose(${i},${j})">
+
+${bank!=='CEBRASPE'
+?String.fromCharCode(65+j)+') '
+:''}
+
+${esc(o)}
+
+</label>
+
+`).join('')}
+
+<div id="feedback${i}">
+
+${mode==='immediate'&&answers[i]!==undefined
+?feedback(i)
+:''}
+
+</div>
+
+</div>
+
+`).join('')}
+
+<div class="toolbar">
+
+<button class="btn" onclick="finishQuiz()">
+Finalizar e ver resultado
+</button>
+
+<button class="btn secondary" onclick="resetQuiz()">
+Cancelar
+</button>
+
+</div>
+
+</div>
+
+`;
+
+}
+
+function choose(i,j) {
+
+answers[i] = j;
+
+if(mode==='immediate') {
+
+document.getElementById('feedback'+i).innerHTML =
+feedback(i);
+
+}
+
+}
+
+function feedback(i) {
+
+const ok = answers[i]===qs[i].right;
+
+return `
+
+<div class="answer">
+
+<strong class="${ok?'good':'bad'}">
+
+${ok?'Correto':'Incorreto'}
+
+</strong>
+
+<p>
+Gabarito: ${esc(qs[i].opts[qs[i].right])}
+</p>
+
+<p>${esc(quiz[i].thesis)}</p>
+
+<p>
+<strong>Atenção:</strong> ${esc(quiz[i].trap)}
+</p>
+
+</div>
+
+`;
+
+}
+
+function finishQuiz() {
+
+if(!quiz.length) return;
+
+if(
+Object.keys(answers).length<quiz.length &&
+!confirm('Há questões sem resposta. Finalizar mesmo assim?')
+) return;
+
+const correct = quiz.reduce(
+
+(a,x,i)=>a+(answers[i]===qs[i].right?1:0),
+
+0
+
+);
+
+const percent = Math.round(
+100*correct/quiz.length
+);
+
+const r = get('dj_results');
+
+r.push({
+
+date:new Date().toLocaleString('pt-BR'),
+
+bank,
+
+correct,
+
+total:quiz.length,
+
+percent,
+
+disc:quizDisc||'Todas'
+
+});
+
+save('dj_results',r);
+
+document.getElementById('quiz')
+.classList.add('hidden');
+
+document.getElementById('result')
+.classList.remove('hidden');
+
+document.getElementById('result').innerHTML = `
+
+<div class="panel">
+
+<h2>Missão concluída</h2>
+
+<div class="metric">${percent}% de acertos</div>
+
+<p>${correct} de ${quiz.length} questões corretas</p>
+
+<div class="progress">
+
+<div style="width:${percent}%"></div>
+
+</div>
+
+<p class="muted">
+
+${percent>=80
+?'Excelente resultado. Continue evoluindo.'
+:percent>=60
+?'Bom progresso. Revise os pontos de dificuldade.'
+:'Identifique seus erros, revise e continue treinando.'}
+
+</p>
+
+<h2 style="margin-top:25px">
+
+Gabarito comentado
+
+</h2>
+
+${quiz.map((x,i)=>`
+
+<div class="item">
+
+<strong>
+
+Questão ${i+1}:
+
+<span class="${answers[i]===qs[i].right?'good':'bad'}">
+
+${answers[i]===undefined
+?'Não respondida'
+:answers[i]===qs[i].right
+?'Acerto'
+:'Erro'}
+
+</span>
+
+</strong>
+
+<p>${esc(qs[i].prompt)}</p>
+
+<p>
+
+Resposta correta:
+
+<strong>${esc(qs[i].opts[qs[i].right])}</strong>
+
+</p>
+
+<p>${esc(x.thesis)}</p>
+
+<p>
+
+<strong>Pegadinha:</strong> ${esc(x.trap)}
+
+</p>
+
+</div>
+
+`).join('')}
+
+<button class="btn" onclick="resetQuiz()">
+
+Novo simulado
+
+</button>
+
+</div>
+
+`;
+
+refresh();
+
+scrollTo(0,0);
+
+}
+
+function resetQuiz() {
+
+document.getElementById('config')
+.classList.remove('hidden');
+
+document.getElementById('quiz')
+.classList.add('hidden');
+
+document.getElementById('result')
+.classList.add('hidden');
+
+}
+
+/* DESEMPENHO */
+
+function renderStats() {
+
+const r = get('dj_results');
+
+const rev = get('dj_review');
+
+const total = r.reduce((a,b)=>a+b.total,0);
+
+const correct = r.reduce((a,b)=>a+b.correct,0);
+
+const banks = ['CEBRASPE','FGV','FUNDATEC','FCC'];
+
+document.getElementById('stats').innerHTML = `
+
+<div class="cards">
+
+<div class="card">
+
+<div class="muted">Simulados concluídos</div>
+
+<div class="metric">${r.length}</div>
+
+</div>
+
+<div class="card">
+
+<div class="muted">Teses revisadas</div>
+
+<div class="metric">${rev.length}/${data.length}</div>
+
+</div>
+
+<div class="card">
+
+<div class="muted">Acertos totais</div>
+
+<div class="metric">
+
+${total?Math.round(100*correct/total)+'%':'—'}
+
+</div>
+
+</div>
+
+</div>
+
+<div class="panel">
+
+<h2>Desempenho por banca</h2>
+
+${banks.map(b=>{
+
+const records = r.filter(x=>x.bank===b);
+
+const t = records.reduce((a,x)=>a+x.total,0);
+
+const c = records.reduce((a,x)=>a+x.correct,0);
+
+const pct = t?Math.round(100*c/t):0;
+
+return `
+
+<div class="item">
+
+<strong>${b}</strong>
+
+<p class="muted small">
+
+${records.length} simulados • ${c}/${t} acertos
+
+</p>
+
+<div class="progress">
+
+<div style="width:${pct}%"></div>
+
+</div>
+
+<p class="small">${t?pct+'%':'Sem treinamento registrado'}</p>
+
+</div>
+
+`;
+
+}).join('')}
+
+</div>
+
+<div class="panel" style="margin-top:20px">
+
+<h2>Histórico de treinamento</h2>
+
+${r.length
+
+?r.slice().reverse().map(x=>`
+
+<div class="item">
+
+<strong>${esc(x.bank)} — ${esc(x.percent)}%</strong>
+
+<p class="muted small">
+
+${esc(x.date)} • ${esc(x.disc)} •
+
+${esc(x.correct)}/${esc(x.total)} acertos
+
+</p>
+
+</div>
+
+`).join('')
+
+:'<p class="muted">Nenhum simulado realizado ainda.</p>'
+
+}
+
+</div>
+
+<br>
+
+`;
+
+}
+
+function clearHistory() {
+
+if(confirm(
+'Apagar o histórico de simulados e revisões deste navegador?'
+)) {
+
+localStorage.removeItem('dj_results');
+
+localStorage.removeItem('dj_review');
+
+refresh();
+
+renderStats();
+
+}
+
+}
+
+/* INICIALIZAÇÃO DAS DISCIPLINAS */
+
+const discs = [
+
+...new Set(data.map(x=>x.disc))
+
+].sort();
+
+['filterDisc','simDisc'].forEach(id=>{
+
+document.getElementById(id).insertAdjacentHTML(
+
+'beforeend',
+
+discs.map(x=>`
+
+<option value="${esc(x)}">${esc(x)}</option>
+
+`).join('')
+
+);
+
+});
+
+refresh();
+
+renderLibrary();
+
+/* RADAR AUTOMÁTICO STF E STJ */
+
+let feedData = {
+
+updated_at:null,
+
+items:[],
+
+errors:[],
+
+stats:{}
+
+};
+
+let feedLimit = 20;
+
+let feedLoaded = false;
+
+function dateOf(x) {
+
+const raw =
+x.published ||
+x.date ||
+x.published_at ||
+'';
+
+if(!raw) return null;
+
+const d = new Date(raw);
+
+return Number.isNaN(d.getTime())?null:d;
+
+}
+
+function recent(x,days) {
+
+const d = dateOf(x);
+
+if(!d) return false;
+
+const age = Date.now()-d.getTime();
+
+return age>=0 && age<=days*86400000;
+
+}
+
+function sourceOf(x) {
+
+return String(
+
+x.source ||
+x.tribunal ||
+'Fonte não informada'
+
+);
+
+}
+
+function discOf(x) {
+
+const v =
+
+x.discipline ||
+x.disc ||
+x.subject ||
+x.category ||
+x.area ||
+'';
+
+return Array.isArray(v)?v.join(', '):String(v);
+
+}
+
+function textOf(x) {
+
+return [
+
+x.title,
+
+x.source,
+
+x.summary,
+
+x.description,
+
+discOf(x)
+
+].filter(Boolean)
+.join(' ')
+.toLocaleLowerCase('pt-BR');
+
+}
+
+function dateLabel(x) {
+
+const d = dateOf(x);
+
+return d
+
+?d.toLocaleDateString('pt-BR')
+
+:String(x.published||'Data não informada');
+
+}
+
+function validLink(u) {
+
+try {
+
+const x = new URL(u);
+
+return x.protocol==='https:' ||
+x.protocol==='http:';
+
+} catch {
+
+return false;
+
+}
+
+}
+
+/* IDENTIFICAÇÃO DAS FONTES OFICIAIS */
+
+function officialSource(x) {
+
+const source = sourceOf(x).toUpperCase();
+
+if(/\b(STF|STJ)\b/.test(source)) return true;
+
+try {
+
+const host = new URL(x.url).hostname.toLowerCase();
+
+return host==='stf.jus.br' ||
+host.endsWith('.stf.jus.br') ||
+host==='stj.jus.br' ||
+host.endsWith('.stj.jus.br');
+
+} catch {
+
+return false;
+
+}
+
+}
+
+/* RADAR NA PÁGINA INICIAL */
+
+function updateHome() {
+
+const items = feedData.items || [];
+
+document.getElementById('homeTotal').textContent =
+
+feedLoaded?items.length:'—';
+
+document.getElementById('homeWeek').textContent =
+
+feedLoaded?items.filter(x=>recent(x,7)).length:'—';
+
+document.getElementById('homeErrors').textContent =
+
+feedLoaded?(feedData.errors||[]).length:'—';
+
+document.getElementById('homeFeedStatus').textContent =
+
+feedLoaded
+
+?(
+feedData.updated_at
+?'Última coleta: '+new Date(
+feedData.updated_at
+).toLocaleString('pt-BR')
+:'Base carregada; horário não informado'
+)
+
+:'Aguardando base de publicações';
+
+const top = items
+
+.filter(x=>validLink(x.url))
+
+.slice()
+
+.sort((a,b)=>
+
+(dateOf(b)?.getTime()||0)-
+(dateOf(a)?.getTime()||0)
+
+)
+
+.slice(0,3);
+
+document.getElementById('homeRecent').innerHTML =
+
+feedLoaded
+
+?(
+top.length
+
+?top.map(x=>`
+
+<div class="item">
+
+<span class="tag">${esc(sourceOf(x))}</span>
+
+<span class="small muted">
+
+${esc(dateLabel(x))}
+
+</span>
+
+<p>
+
+<strong>
+
+${esc(x.title||'Publicação sem título')}
+
+</strong>
+
+</p>
+
+<div class="links">
+
+<a href="${esc(x.url)}"
+target="_blank"
+rel="noopener noreferrer">
+
+Consultar fonte original
+
+</a>
+
+</div>
+
+</div>
+
+`).join('')
+
+:'Nenhuma publicação disponível.'
+
+)
+
+:'Aguardando coleta.';
+
+}
+
+/* FILTROS DO RADAR */
+
+function fillFeedFilters() {
+
+for(const [id,values] of [
+
+['feedSource',
+
+[...new Set(feedData.items.map(sourceOf))]
+
+],
+
+['feedDisc',
+
+[...new Set(feedData.items.map(discOf).filter(Boolean))]
+
+]
+
+]) {
+
+const el = document.getElementById(id);
+
+const prev = el.value;
+
+el.replaceChildren(el.options[0]);
+
+values.sort(
+
+(a,b)=>a.localeCompare(b,'pt-BR')
+
+).forEach(v=>el.add(new Option(v,v)));
+
+if(values.includes(prev)) el.value=prev;
+
+}
+
+}
+
+/* CARREGAMENTO DAS PUBLICAÇÕES */
+
+async function loadFeeds() {
+
+const el = document.getElementById('feedItems');
+
+el.textContent = 'Carregando publicações…';
+
+try {
+
+const response = await fetch(
+
+'./data/updates.json?cache='+Date.now(),
+
+{cache:'no-store'}
+
+);
+
+if(!response.ok) {
+
+throw Error('HTTP '+response.status);
+
+}
+
+const payload = await response.json();
+
+if(!Array.isArray(payload.items)) {
+
+throw Error('Formato de dados inesperado');
+
+}
+
+feedData = {
+
+updated_at:payload.updated_at||null,
+
+items:payload.items.filter(officialSource),
+
+errors:Array.isArray(payload.errors)
+
+?payload.errors.filter(x=>
+
+!String(x.source||'')
+.toLowerCase()
+.includes('dizer')
+
+)
+
+:[],
+
+stats:payload.stats||{}
+
+};
+
+feedLoaded = true;
+
+feedLimit = 20;
+
+fillFeedFilters();
+
+renderFeeds();
+
+updateHome();
+
+} catch(e) {
+
+feedLoaded = false;
+
+el.innerHTML = `
+
+<div class="empty">
+
+Não foi possível carregar as atualizações.
+
+Confira se data/updates.json está publicado no GitHub Pages.
+
+<p class="small">${esc(e.message)}</p>
+
+</div>
+
+`;
+
+document.getElementById('feedStatus').textContent =
+
+'Não foi possível consultar a base publicada.';
+
+document.getElementById('feedDate').textContent = '—';
+
+document.getElementById('feedCount').textContent = '—';
+
+document.getElementById('feedWeek').textContent = '—';
+
+document.getElementById('feedResultCount').textContent = '';
+
+document.getElementById('feedMore').style.display = 'none';
+
+updateHome();
+
+}
+
+}
+
+/* EXIBIÇÃO DO RADAR */
+
+function renderFeeds() {
+
+if(!feedLoaded) return;
+
+const items = feedData.items;
+
+const stamp = feedData.updated_at
+
+?new Date(feedData.updated_at)
+
+:null;
+
+document.getElementById('feedDate').textContent =
+
+stamp&&!isNaN(stamp)
+
+?stamp.toLocaleString(
+
+'pt-BR',
+
+{dateStyle:'short',timeStyle:'short'}
+
+)
+
+:'Não informada';
+
+document.getElementById('feedCount').textContent =
+
+items.length;
+
+document.getElementById('feedWeek').textContent =
+
+items.filter(x=>recent(x,7)).length;
+
+const errors = feedData.errors||[];
+
+document.getElementById('feedStatus').textContent =
+
+errors.length
+
+?'Coleta concluída com '+errors.length+
+
+' fonte(s) com falha: '+
+
+[...new Set(
+
+errors.map(x=>x.source||'Fonte desconhecida')
+
+)].join(', ')+
+
+'. As demais publicações permanecem disponíveis.'
+
+:'Nenhum erro de fonte registrado na última coleta do radar.';
+
+const source =
+document.getElementById('feedSource').value;
+
+const disc =
+document.getElementById('feedDisc').value;
+
+const q =
+document.getElementById('feedSearch')
+.value.trim().toLocaleLowerCase('pt-BR');
+
+const period = Number(
+
+document.getElementById('feedPeriod').value
+
+);
+
+const sort =
+document.getElementById('feedSort').value;
+
+const arr = items.filter(x=>
+
+(!source||sourceOf(x)===source) &&
+
+(!disc||discOf(x)===disc) &&
+
+(!q||textOf(x).includes(q)) &&
+
+(!period||recent(x,period))
+
+);
+
+arr.sort((a,b)=>
+
+sort==='title'
+
+?String(a.title||'').localeCompare(
+
+String(b.title||''),'pt-BR'
+
+)
+
+:(sort==='oldest'?1:-1)*
+
+(
+
+(dateOf(a)?.getTime()||0)-
+
+(dateOf(b)?.getTime()||0)
+
+)
+
+);
+
+document.getElementById('feedResultCount').textContent =
+
+arr.length+' publicação(ões) encontrada(s)';
+
+document.getElementById('feedItems').innerHTML =
+
+arr.length
+
+?arr.slice(0,feedLimit).map(x=>{
+
+const url = validLink(x.url)
+
+?`
+
+<div class="feed-actions">
+
+<a href="${esc(x.url)}"
+target="_blank"
+rel="noopener noreferrer">
+
+Ler na fonte original ↗
+
+</a>
+
+</div>
+
+`
+
+:'<p class="small muted">Link indisponível</p>';
+
+return `
+
+<article class="item feeditem">
+
+<div class="feedmeta">
+
+<span class="tag">${esc(sourceOf(x))}</span>
+
+${discOf(x)
+
+?`<span class="pill">${esc(discOf(x))}</span>`
+
+:''
+
+}
+
+${recent(x,7)
+
+?'<span class="tag fresh">Últimos 7 dias</span>'
+
+:''
+
+}
+
+<span class="small muted">
+
+${esc(dateLabel(x))}
+
+</span>
+
+</div>
+
+<h3>
+
+${esc(x.title||'Publicação sem título')}
+
+</h3>
+
+${url}
+
+<p class="tiny muted">
+
+Registro de publicação; conteúdo jurídico ainda não validado para simulados.
+
+</p>
+
+</article>
+
+`;
+
+}).join('')
+
+:'<div class="empty">Nenhuma publicação encontrada. Experimente remover algum filtro.</div>';
+
+document.getElementById('feedMore').style.display =
+
+arr.length>feedLimit?'inline-block':'none';
+
+}
 
 loadFeeds();
+
 </script>
 
+<!-- AUTENTICAÇÃO E ADMINISTRAÇÃO SUPABASE -->
+
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+
 <script src="./supabase-config.js"></script>
+
 <script src="./auth.js"></script>
+
 <script src="./login.js"></script>
+
 <script src="./admin.js"></script>
 
 </body>
 </html>
-
