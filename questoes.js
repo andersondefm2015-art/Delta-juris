@@ -12,6 +12,38 @@
 /* CONFIGURAÇÕES */
 
 const BASE = "./data/questoes/";
+let manifesto = null;
+
+async function carregarManifesto() {
+
+    const resposta = await fetch(
+        BASE + "manifest.json",
+        { cache: "no-store" }
+    );
+
+    if (!resposta.ok) {
+
+        throw new Error(
+            "Erro ao carregar manifest.json"
+        );
+
+    }
+
+    const dados = await resposta.json();
+
+    if (!Array.isArray(dados.disciplines)) {
+
+        throw new Error(
+            "Manifesto inválido"
+        );
+
+    }
+
+    manifesto = dados;
+
+    return manifesto;
+
+}
 
 const DISCIPLINAS = {
 
