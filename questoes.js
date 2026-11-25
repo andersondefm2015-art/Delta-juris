@@ -361,12 +361,39 @@ function validarQuestao(q) {
     }
 
     if (
-        !q.legalBasis &&
-        !q.jurisprudence &&
-        !q.reference
-    ) {
-        falhas.push("Fundamentação jurídica ausente");
-    }
+    !q.legalBasis &&
+    !q.jurisprudence &&
+    !q.reference &&
+    !q.sumula &&
+    !q.tema &&
+    !q.precedent &&
+    !q.informativo
+) {
+    falhas.push("Fundamentação jurídica ausente");
+}
+
+if (
+    manifesto &&
+    !manifesto.contentTypes.some(
+        tipo => tipo.id === q.contentType
+    )
+) {
+    falhas.push("Tipo de conteúdo inválido");
+}
+
+if (
+    q.court &&
+    !["STF", "STJ"].includes(q.court)
+) {
+    falhas.push("Tribunal inválido");
+}
+
+if (
+    q.status === "validada" &&
+    !q.reviewedAt
+) {
+    falhas.push("Data de revisão jurídica ausente");
+}
 
     if (
         q.optionComments.length !==
@@ -641,7 +668,24 @@ function filtrar(filtros = {}) {
     return banco.filter(q => {
 
         if (q.status !== "validada") {
-            return false;
+    return false;
+}
+
+if (
+    filtros.contentType &&
+    filtros.contentType !== "all" &&
+    q.contentType !== filtros.contentType
+) {
+    return false;
+}
+
+if (
+    filtros.court &&
+    filtros.court !== "all" &&
+    q.court !== filtros.court
+) {
+    return false;
+}
         }
 
         if (
@@ -683,13 +727,23 @@ function filtrar(filtros = {}) {
 
             const texto = normalizar([
 
-                q.disc,
-                q.topic,
-                q.subtopic,
-                q.prompt,
-                q.reference
+    q.disc,
+    q.topic,
+    q.subtopic,
+    q.prompt,
+    q.reference,
+    q.contentType,
+    q.court,
+    q.sumula,
+    q.tema,
+    q.informativo,
+    q.precedent,
+    q.legalBasis,
+    q.jurisprudence,
+    q.doctrine,
+    q.comment
 
-            ].join(" "));
+].join(" "));
 
             if (!texto.includes(pesquisa)) {
                 return false;
@@ -809,13 +863,53 @@ function renderComentario(q) {
 
             ` : ""}
 
-            ${q.jurisprudence ? `
+            ${q.court ? `
 
-                <h4>Jurisprudência</h4>
+    <h4>Tribunal</h4>
 
-                <p>${esc(q.jurisprudence)}</p>
+    <p>${esc(q.court)}</p>
 
-            ` : ""}
+` : ""}
+
+${q.jurisprudence ? `
+
+    <h4>Jurisprudência</h4>
+
+    <p>${esc(q.jurisprudence)}</p>
+
+` : ""}
+
+${q.sumula ? `
+
+    <h4>Súmula / Súmula vinculante</h4>
+
+    <p>${esc(q.sumula)}</p>
+
+` : ""}
+
+${q.tema ? `
+
+    <h4>Tema jurisprudencial</h4>
+
+    <p>${esc(q.tema)}</p>
+
+` : ""}
+
+${q.informativo ? `
+
+    <h4>Informativo de jurisprudência</h4>
+
+    <p>${esc(q.informativo)}</p>
+
+` : ""}
+
+${q.precedent ? `
+
+    <h4>Precedente judicial</h4>
+
+    <p>${esc(q.precedent)}</p>
+
+` : ""}
 
             ${q.doctrine ? `
 
@@ -1375,6 +1469,10 @@ function instalarEstilos() {
 window.DeltaQuestoes = Object.freeze({
 
     carregarBanco,
+
+    carregarManifesto,
+
+    getManifesto: () => manifesto,
 
     resumo,
 
