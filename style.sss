@@ -1,0 +1,351 @@
+
+/* DELTA JURIS 3.0 — EDICAO TATICA */
+
+:root {
+    --gold: #d7b56d;
+    --gold-light: #ffd47c;
+    --dark: #070e15;
+    --panel: #101e29;
+    --teal: #79e0ce;
+    --border: #304452;
+    color-scheme: dark;
+}
+
+body {
+    background: #070e15;
+    color: #edf2f7;
+}
+
+.layout {
+    min-height: 100vh;
+    grid-template-columns: 250px 1fr;
+}
+
+/* MENU LATERAL */
+
+aside {
+    background:
+        linear-gradient(
+            180deg,
+            #071019 0%,
+            #071019 30%,
+            rgba(7,16,25,.70) 65%,
+            rgba(7,16,25,.25) 100%
+        ),
+        url('./assets/equipamentos.jpg')
+        center bottom / cover no-repeat;
+    border-right: 1px solid var(--border);
+    padding: 24px 12px;
+}
+
+aside .logo {
+    background: url('./assets/logo.png')
+        center / contain no-repeat;
+    height: 135px;
+    font-size: 0;
+    margin-bottom: 10px;
+}
+
+aside .sub {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 10px;
+    color: #b7c6d4;
+    margin-bottom: 28px;
+}
+
+.nav {
+    color: #e0e7ef;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition: .2s ease;
+}
+
+.nav.active,
+.nav:hover {
+    background: linear-gradient(
+        135deg,#c89b47,#574725
+    );
+    border-color: var(--gold);
+    color: #fff;
+}
+
+/* PAINEL PRINCIPAL */
+
+main {
+    max-width: 1450px;
+    padding: 28px;
+    margin: 0 auto;
+}
+
+#inicio {
+    background:
+        linear-gradient(
+            180deg,
+            rgba(7,14,21,.10),
+            #070e15 300px
+        ),
+        url('./assets/hero-policial.jpg')
+        center top / 100% auto no-repeat;
+    padding: 24px;
+    border-radius: 14px;
+}
+
+#inicio > h1 {
+    padding-top: 170px;
+    font-size: 34px;
+    font-weight: 850;
+    text-shadow: 0 3px 15px #000;
+}
+
+h1 {
+    color: #f5f7fa;
+}
+
+h2 {
+    color: #f0f4f8;
+}
+
+.muted {
+    color: #aabac9;
+}
+
+/* CARTOES E INDICADORES */
+
+.card,
+.panel {
+    background: linear-gradient(
+        135deg,#12232f,#0a151e
+    );
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    box-shadow: 0 8px 25px #0004;
+}
+
+.card:before {
+    background: var(--gold);
+}
+
+.metric {
+    color: var(--teal);
+    font-weight: 850;
+}
+
+#inicio > .panel:first-of-type {
+    background:
+        linear-gradient(
+            90deg,#0d1b26 25%,
+            rgba(13,27,38,.90) 55%,
+            rgba(13,27,38,.25)
+        ),
+        url('./assets/justica.jpg')
+        right center / cover no-repeat;
+}
+
+/* BOTOES */
+
+.btn {
+    background: linear-gradient(
+        135deg,#ffd47c,#b58a3d
+    );
+    color: #111820;
+    border: 1px solid #e8bd68;
+    font-weight: 800;
+    transition: .2s ease;
+}
+
+.btn:hover {
+    filter: brightness(1.12);
+}
+
+.btn.secondary {
+    background: #132633;
+    border: 1px solid #597c8e;
+    color: #edf5ff;
+}
+
+input,
+select {
+    background: #0b1923;
+    border-color: #3b5261;
+    color: #edf5ff;
+}
+
+.tag {
+    background: #302b20;
+    color: #f3d18a;
+}
+
+.tag.fresh {
+    background: #17473d;
+    color: #9ff5d6;
+}
+
+.links a,
+.feed-actions a {
+    color: var(--teal);
+}
+
+/* BANCAS EXAMINADORAS */
+
+.bancas-panel {
+    margin-top: 18px;
+}
+
+.bancas-grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 12px;
+}
+
+.banca-card {
+    background: #0b151e;
+    border: 1px solid var(--gold);
+    border-radius: 10px;
+    padding: 18px 8px;
+    text-align: center;
+    color: var(--gold-light);
+    font-weight: 850;
+    font-size: 18px;
+}
+
+/* PAINEL MOTIVACIONAL */
+
+.motivacional {
+    margin-top: 18px;
+    min-height: 190px;
+    padding: 28px;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    background:
+        linear-gradient(
+            90deg,#071019 10%,
+            rgba(7,16,25,.85) 50%,
+            rgba(7,16,25,.20)
+        ),
+        url('./assets/motivacional.jpg')
+        right center / cover no-repeat;
+}
+
+.motivacional h2 {
+    color: var(--gold-light);
+    font-family: Georgia,serif;
+    font-style: italic;
+    font-size: 27px;
+    line-height: 1.4;
+    max-width: 75%;
+}
+
+.motivacional p {
+    color: #c4d1dd;
+    max-width: 75%;
+}
+
+/* DESEMPENHO */
+
+#desempenho {
+    background:
+        linear-gradient(
+            180deg,#07101966,#070e15 260px
+        ),
+        url('./assets/bombeiros.jpg')
+        center top / 100% auto no-repeat;
+    border-radius: 14px;
+    padding: 25px;
+}
+
+#desempenho > h1 {
+    padding-top: 100px;
+    text-shadow: 0 3px 12px #000;
+}
+
+/* RODAPE */
+
+.footer {
+    color: #879baa;
+    border-top: 1px solid #263744;
+    padding-top: 18px;
+}
+
+/* ADAPTACAO PARA CELULAR */
+
+@media(max-width:800px) {
+
+    .layout {
+        display: block;
+    }
+
+    aside {
+        padding: 12px;
+        background: #09151f;
+        border-bottom: 1px solid var(--border);
+    }
+
+    aside .logo {
+        height: 100px;
+    }
+
+    aside .sub {
+        margin-bottom: 12px;
+    }
+
+    .navbox {
+        display: flex;
+        overflow-x: auto;
+        gap: 6px;
+    }
+
+    .nav {
+        flex-shrink: 0;
+        padding: 11px;
+        font-size: 13px;
+    }
+
+    main {
+        padding: 12px;
+    }
+
+    #inicio {
+        padding: 12px;
+        background-size: auto, auto 220px;
+    }
+
+    #inicio > h1 {
+        padding-top: 140px;
+        font-size: 25px;
+    }
+
+    .bancas-grid {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .banca-card {
+        font-size: 15px;
+    }
+
+    .motivacional {
+        padding: 20px;
+    }
+
+    .motivacional h2 {
+        font-size: 21px;
+        max-width: 100%;
+    }
+
+    .motivacional p {
+        max-width: 100%;
+    }
+}
+
+@media(max-width:440px) {
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .panel,
+    .card {
+        padding: 16px;
+    }
+}
