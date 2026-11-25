@@ -657,6 +657,7 @@ function resumo() {
 
 }
 
+
 /* FILTROS DE QUESTÕES */
 
 function filtrar(filtros = {}) {
@@ -665,59 +666,59 @@ function filtrar(filtros = {}) {
         filtros.pesquisa || ""
     );
 
+    const ativo = valor =>
+        Boolean(valor && valor !== "all");
+
     return banco.filter(q => {
 
         if (q.status !== "validada") {
-    return false;
-}
-
-if (
-    filtros.contentType &&
-    filtros.contentType !== "all" &&
-    q.contentType !== filtros.contentType
-) {
-    return false;
-}
-
-if (
-    filtros.court &&
-    filtros.court !== "all" &&
-    q.court !== filtros.court
-) {
-    return false;
-}
+            return false;
         }
 
         if (
-            filtros.disc &&
+            ativo(filtros.contentType) &&
+            q.contentType !== filtros.contentType
+        ) {
+            return false;
+        }
+
+        if (
+            ativo(filtros.court) &&
+            q.court !== filtros.court
+        ) {
+            return false;
+        }
+
+        if (
+            ativo(filtros.disc) &&
             q.disc !== filtros.disc
         ) {
             return false;
         }
 
         if (
-            filtros.bank &&
+            ativo(filtros.bank) &&
             q.bank !== filtros.bank
         ) {
             return false;
         }
 
         if (
-            filtros.difficulty &&
+            ativo(filtros.difficulty) &&
             q.difficulty !== filtros.difficulty
         ) {
             return false;
         }
 
         if (
-            filtros.career &&
+            ativo(filtros.career) &&
             !q.careers.includes(filtros.career)
         ) {
             return false;
         }
 
         if (
-            filtros.topic &&
+            ativo(filtros.topic) &&
             q.topic !== filtros.topic
         ) {
             return false;
@@ -727,23 +728,23 @@ if (
 
             const texto = normalizar([
 
-    q.disc,
-    q.topic,
-    q.subtopic,
-    q.prompt,
-    q.reference,
-    q.contentType,
-    q.court,
-    q.sumula,
-    q.tema,
-    q.informativo,
-    q.precedent,
-    q.legalBasis,
-    q.jurisprudence,
-    q.doctrine,
-    q.comment
+                q.disc,
+                q.topic,
+                q.subtopic,
+                q.prompt,
+                q.reference,
+                q.contentType,
+                q.court,
+                q.sumula,
+                q.tema,
+                q.informativo,
+                q.precedent,
+                q.legalBasis,
+                q.jurisprudence,
+                q.doctrine,
+                q.comment
 
-].join(" "));
+            ].join(" "));
 
             if (!texto.includes(pesquisa)) {
                 return false;
@@ -756,6 +757,7 @@ if (
     });
 
 }
+
 
 /* MONTAGEM DO SIMULADO */
 
