@@ -209,17 +209,62 @@ def main() -> None:
     indexed = {x['url']: x for x in previous}
     errors, statuses = [], []
     current_count = 0
-    for source, urls in FEEDS.items():
+        for source, urls in FEEDS.items():
+        source_errors = []
+        source_success = False
+
         for url in urls:
             try:
                 items = parse_feed(source, url)
                 current_count += len(items)
+
                 for item in items:
-                    indexed[item['url']] = {**indexed.get(item['url'], {}), **item}
-                statuses.append({'source': source, 'url': url, 'status': 'ok', 'count': len(items)})
-            except (urllib.error.URLError, TimeoutError, ValueError, ET.ParseError, OSError) as exc:
-                errors.append({'source': source, 'url': url, 'message': str(exc)[:250]})
-                statuses.append({'source': source, 'url': url, 'status': 'error', 'count': 0})
+                    old_item = indexed.get(item['url'], {})
+
+                    if not item['published']:
+                        item['published'] = old_item.get(
+                            'published', ''
+                        )
+
+                    indexed[item['url']] = {
+                        **old_item,
+                        **item
+                    }
+
+                statuses.append({
+                    'source': source,
+                    'url': url,
+                    'status': 'ok',
+                    'count': len(items)
+                })
+
+                source_success = True
+
+                if source == 'Dizer o Direito':
+                    break
+
+            except (
+                urllib.error.URLError,
+                TimeoutError,
+                ValueError,
+                ET.ParseError,
+                OSError
+            ) as exc:
+                source_errors.append({
+                    'source': source,
+                    'url': url,
+                    'message': str(exc)[:250]
+                })
+
+        if source != 'Dizer o Direito' or not source_success:
+            for error in source_errors:
+                errors.append(error)
+                statuses.append({
+                    'source': source,
+                    'url': error['url'],
+                    'status': 'error',
+                    'count': 0
+                })
     try:
         items = collect_stf()
         current_count += len(items)
