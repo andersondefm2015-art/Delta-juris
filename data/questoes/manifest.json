@@ -1,0 +1,256 @@
+
+{
+  "name": "Delta Juris",
+  "version": "4.0.0",
+  "edition": "Carreiras Policiais e Jurídicas",
+  "language": "pt-BR",
+  "authorialQuestions": true,
+  "disciplines": [
+    {
+      "id": "penal",
+      "name": "Direito Penal",
+      "file": "penal.json",
+      "enabled": true
+    },
+    {
+      "id": "processo-penal",
+      "name": "Direito Processual Penal",
+      "file": "processo-penal.json",
+      "enabled": true
+    },
+    {
+      "id": "constitucional",
+      "name": "Direito Constitucional",
+      "file": "constitucional.json",
+      "enabled": true
+    },
+    {
+      "id": "administrativo",
+      "name": "Direito Administrativo",
+      "file": "administrativo.json",
+      "enabled": true
+    },
+    {
+      "id": "civil",
+      "name": "Direito Civil",
+      "file": "civil.json",
+      "enabled": true
+    },
+    {
+      "id": "processo-civil",
+      "name": "Direito Processual Civil",
+      "file": "processo-civil.json",
+      "enabled": true
+    },
+    {
+      "id": "legislacao-especial",
+      "name": "Legislação Penal Especial",
+      "file": "legislacao-especial.json",
+      "enabled": true
+    },
+    {
+      "id": "criminologia",
+      "name": "Criminologia",
+      "file": "criminologia.json",
+      "enabled": true
+    },
+    {
+      "id": "direitos-humanos",
+      "name": "Direitos Humanos",
+      "file": "direitos-humanos.json",
+      "enabled": true
+    },
+    {
+      "id": "ambiental",
+      "name": "Direito Ambiental",
+      "file": "ambiental.json",
+      "enabled": true
+    },
+    {
+      "id": "medicina-legal",
+      "name": "Medicina Legal",
+      "file": "medicina-legal.json",
+      "enabled": true
+    }
+  ],
+  "banks": [
+    {
+      "id": "CEBRASPE",
+      "name": "CESPE / CEBRASPE",
+      "format": "certo_errado",
+      "options": 2,
+      "optionalPenalty": true
+    },
+    {
+      "id": "FGV",
+      "name": "Fundação Getulio Vargas",
+      "format": "multipla_escolha",
+      "options": 5
+    },
+    {
+      "id": "FUNDATEC",
+      "name": "FUNDATEC",
+      "format": "multipla_escolha",
+      "options": 5
+    },
+    {
+      "id": "FCC",
+      "name": "Fundação Carlos Chagas",
+      "format": "multipla_escolha",
+      "options": 5
+    }
+  ],
+  "careers": [
+    "Juiz de Direito",
+    "Juiz Federal",
+    "Promotor de Justiça",
+    "Procurador da República",
+    "Defensor Público",
+    "Delegado PC",
+    "Delegado PF",
+    "Policial Rodoviário Federal",
+    "Agente PC",
+    "Escrivão PC",
+    "Investigador PC",
+    "Agente PF",
+    "Escrivão PF"
+  ],
+  "difficultyLevels": [
+    "Básico",
+    "Intermediário",
+    "Difícil",
+    "Muito difícil",
+    "Especialista"
+  ],
+  "contentTypes": [
+    {
+      "id": "legislacao",
+      "name": "Legislação e lei seca"
+    },
+    {
+      "id": "jurisprudencia",
+      "name": "Jurisprudência"
+    },
+    {
+      "id": "sumula",
+      "name": "Súmula"
+    },
+    {
+      "id": "sumula_vinculante",
+      "name": "Súmula vinculante"
+    },
+    {
+      "id": "repercussao_geral",
+      "name": "Repercussão geral"
+    },
+    {
+      "id": "repetitivo",
+      "name": "Recurso repetitivo"
+    },
+    {
+      "id": "informativo",
+      "name": "Informativo de jurisprudência"
+    },
+    {
+      "id": "doutrina",
+      "name": "Doutrina e teorias jurídicas"
+    },
+    {
+      "id": "misto",
+      "name": "Conteúdo misto"
+    }
+  ],
+  "courts": [
+    {
+      "id": "STF",
+      "name": "Supremo Tribunal Federal",
+      "url": "https://jurisprudencia.stf.jus.br/"
+    },
+    {
+      "id": "STJ",
+      "name": "Superior Tribunal de Justiça",
+      "url": "https://scon.stj.jus.br/SCON/"
+    }
+  ],
+  "officialSources": [
+    {
+      "name": "Portal da Legislação",
+      "url": "https://www.planalto.gov.br/"
+    },
+    {
+      "name": "Supremo Tribunal Federal",
+      "url": "https://portal.stf.jus.br/"
+    },
+    {
+      "name": "Superior Tribunal de Justiça",
+      "url": "https://www.stj.jus.br/"
+    }
+  ],
+  "quizSettings": {
+    "questionCounts": [
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      60,
+      80,
+      100
+    ],
+    "correctionModes": [
+      "end",
+      "immediate"
+    ],
+    "shuffleQuestions": true,
+    "allowMixedDisciplines": true,
+    "allowMixedContent": true,
+    "validatedQuestionsOnly": true
+  },
+  "resolution": {
+    "tabs": [
+      {
+        "id": "comment",
+        "name": "Comentário",
+        "include": [
+          "gabarito",
+          "explicacao_juridica",
+          "fundamentacao_legal",
+          "jurisprudencia",
+          "sumulas",
+          "doutrina",
+          "excecoes",
+          "pegadinhas",
+          "fontes_oficiais"
+        ]
+      },
+      {
+        "id": "options",
+        "name": "Alternativas",
+        "include": [
+          "alternativa_correta",
+          "analise_individual",
+          "justificativa_dos_erros"
+        ]
+      }
+    ]
+  },
+  "editorialPolicy": {
+    "requireUniqueId": true,
+    "requireComment": true,
+    "requireOptionComments": true,
+    "requireLegalBasis": true,
+    "requireOfficialSources": true,
+    "requireCareerClassification": true,
+    "requireDifficultyClassification": true,
+    "requireContentClassification": true,
+    "requireLegalReview": true,
+    "automaticPublication": false,
+    "statuses": [
+      "pendente_verificacao",
+      "validada",
+      "desatualizada",
+      "arquivada"
+    ]
+  }
+}
