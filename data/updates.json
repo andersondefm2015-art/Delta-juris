@@ -1,7 +1,27 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-24T20:43:21.937521+00:00",
+  "updated_at": "2026-11-25T01:31:37.335115+00:00",
   "items": [
+    {
+      "id": "dd347d1321bccc701e42",
+      "source": "STJ",
+      "title": "Informativo n. 911 - 24 de Novembro de 2026",
+      "url": "https://ww2.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=0911.cod.&from=feed",
+      "published": "2026-11-24T00:00:00-03:00",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
+    {
+      "id": "79b4de899e1be49e6be5",
+      "source": "STF",
+      "title": "Última edição: 1238/2026 (pdf)",
+      "url": "https://www.stf.jus.br/arquivo/cms/informativoSTF/anexo/Informativo_PDF/Informativo_stf_1238.pdf",
+      "published": "",
+      "category": "Não classificado",
+      "content_status": "metadata_only",
+      "verified_legal_summary": false
+    },
     {
       "id": "8a751d9402cc2f05c5c5",
       "source": "STJ",
@@ -1459,10 +1479,16 @@
       "count": 0
     },
     {
-      "source": "STF",
-      "url": "https://www.stf.jus.br/textos/verTexto.asp?servico=informativoSTF",
+      "source": "Dizer o Direito",
+      "url": "https://www.dizerodireito.com.br/feeds/posts/default?alt=atom",
       "status": "error",
       "count": 0
+    },
+    {
+      "source": "STF",
+      "url": "https://portal.stf.jus.br/textos/verTexto.asp?servico=informativoSTF",
+      "status": "ok",
+      "count": 3
     }
   ],
   "errors": [
@@ -1472,14 +1498,14 @@
       "message": "HTML recebido em vez de RSS/Atom (text/html;charset=utf-8)"
     },
     {
-      "source": "STF",
-      "url": "https://www.stf.jus.br/textos/verTexto.asp?servico=informativoSTF",
-      "message": "HTTP Error 404: Not Found"
+      "source": "Dizer o Direito",
+      "url": "https://www.dizerodireito.com.br/feeds/posts/default?alt=atom",
+      "message": "HTML recebido em vez de RSS/Atom (text/html;charset=utf-8)"
     }
   ],
   "stats": {
-    "fetched": 141,
-    "stored": 143,
+    "fetched": 144,
+    "stored": 145,
     "failed_sources": 2
   }
 }
