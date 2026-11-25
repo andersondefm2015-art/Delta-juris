@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-25T01:56:22.240512+00:00",
+  "updated_at": "2026-11-25T02:06:00.080659+00:00",
   "items": [
     {
       "id": "dd347d1321bccc701e42",
@@ -1473,39 +1473,16 @@
       "count": 21
     },
     {
-      "source": "Dizer o Direito",
-      "url": "https://www.dizerodireito.com.br/feeds/posts/default?alt=rss",
-      "status": "error",
-      "count": 0
-    },
-    {
-      "source": "Dizer o Direito",
-      "url": "https://www.dizerodireito.com.br/feeds/posts/default?alt=atom",
-      "status": "error",
-      "count": 0
-    },
-    {
       "source": "STF",
       "url": "https://portal.stf.jus.br/textos/verTexto.asp?servico=informativoSTF",
       "status": "ok",
       "count": 3
     }
   ],
-  "errors": [
-    {
-      "source": "Dizer o Direito",
-      "url": "https://www.dizerodireito.com.br/feeds/posts/default?alt=rss",
-      "message": "HTML recebido em vez de RSS/Atom (text/html;charset=utf-8)"
-    },
-    {
-      "source": "Dizer o Direito",
-      "url": "https://www.dizerodireito.com.br/feeds/posts/default?alt=atom",
-      "message": "HTML recebido em vez de RSS/Atom (text/html;charset=utf-8)"
-    }
-  ],
+  "errors": [],
   "stats": {
     "fetched": 144,
     "stored": 145,
-    "failed_sources": 2
+    "failed_sources": 0
   }
 }
