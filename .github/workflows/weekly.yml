@@ -8,20 +8,26 @@ on:
     paths:
       - '.github/workflows/weekly.yml'
   workflow_dispatch:
-   schedule:
+  schedule:
     - cron: '17 9,21 * * *'
+
 concurrency:
   group: delta-juris-coleta
   cancel-in-progress: false
+
 permissions:
   contents: write
 
 jobs:
   collect:
     runs-on: ubuntu-latest
+
     steps:
       - name: Baixar repositorio
         uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
 
       - name: Configurar Python
         uses: actions/setup-python@v5
@@ -37,7 +43,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/updates.json
           if ! git diff --cached --quiet; then
-            git commit -m "Atualizacao semanal"
+            git commit -m "Atualizacao diaria"
             git pull --rebase origin main
             git push origin main
           fi
