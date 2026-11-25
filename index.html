@@ -8,685 +8,526 @@
 <title>Delta Juris | Delegado PC</title>
 
 <style>
-:root {
-    font-family: Inter, system-ui, -apple-system, Segoe UI, sans-serif;
-    color: #e9eef8;
-    background: #090f16;
-    color-scheme: dark;
-    --gold: #d5ad59;
-    --gold-light: #f4db9b;
-    --dark: #090f16;
-    --panel: #111e29;
-    --border: #354653;
-    --muted: #a5b5cc;
-    --green: #79e0ce;
+:root{
+font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;
+color:#e9eef8;
+background:#090f16;
+color-scheme:dark;
+--gold:#d5ad59;
+--gold-light:#f4db9b;
+--panel:#111e29;
+--border:#354653;
+--muted:#a5b5cc;
+--green:#79e0ce;
 }
 
-* {
-    box-sizing: border-box;
+*{box-sizing:border-box}
+body{margin:0;background:#090f16}
+button,input,select{font:inherit}
+button{cursor:pointer}
+button:disabled{opacity:.5;cursor:not-allowed}
+
+.layout{
+display:grid;
+grid-template-columns:245px minmax(0,1fr);
+min-height:100vh;
 }
 
-body {
-    margin: 0;
-    background: #090f16;
+aside{
+background:#0c1721;
+border-right:1px solid var(--border);
+padding:25px 17px;
 }
 
-button, input, select {
-    font: inherit;
+.logo{
+font-size:24px;
+font-weight:850;
+letter-spacing:-.8px;
+margin-bottom:8px;
 }
 
-button {
-    cursor: pointer;
+.logo span{color:var(--gold)}
+
+.sub{
+color:#b7c4d0;
+font-size:11px;
+letter-spacing:1.5px;
+text-transform:uppercase;
+margin-bottom:25px;
 }
 
-.layout {
-    display: grid;
-    grid-template-columns: 245px minmax(0, 1fr);
-    min-height: 100vh;
+.nav{
+display:block;
+width:100%;
+padding:13px 14px;
+margin:5px 0;
+text-align:left;
+color:#c3d2e8;
+background:transparent;
+border:1px solid transparent;
+border-radius:9px;
 }
 
-aside {
-    background: #0c1721;
-    border-right: 1px solid var(--border);
-    padding: 25px 17px;
+.nav.active,.nav:hover{
+background:linear-gradient(135deg,#b68c3d,#544321);
+color:#fff;
+border-color:#d5ad59;
 }
 
-.logo {
-    font-size: 24px;
-    font-weight: 850;
-    letter-spacing: -.8px;
-    margin-bottom: 8px;
+main{
+padding:30px;
+max-width:1400px;
+width:100%;
+min-width:0;
+margin:0 auto;
 }
 
-.logo span {
-    color: var(--gold);
+h1{font-size:30px;margin:0 0 8px}
+h2{font-size:20px;margin:0 0 15px}
+.muted{color:var(--muted)}
+.small{font-size:13px}
+.tiny{font-size:12px}
+.hidden{display:none!important}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(3,minmax(0,1fr));
+gap:15px;
+margin:24px 0;
 }
 
-.sub {
-    color: #b7c4d0;
-    font-size: 11px;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    margin-bottom: 25px;
+.card,.panel{
+background:linear-gradient(135deg,#14232e,#0d1720);
+border:1px solid var(--border);
+border-radius:14px;
+padding:21px;
+box-shadow:0 10px 30px #00000025;
 }
 
-.nav {
-    display: block;
-    width: 100%;
-    padding: 13px 14px;
-    margin: 5px 0;
-    text-align: left;
-    color: #c3d2e8;
-    background: transparent;
-    border: 1px solid transparent;
-    border-radius: 9px;
+.card{position:relative;overflow:hidden}
+
+.card:before{
+content:"";
+position:absolute;
+left:0;
+top:0;
+bottom:0;
+width:3px;
+background:linear-gradient(#f4db9b,#99702e);
 }
 
-.nav.active,
-.nav:hover {
-    background: linear-gradient(135deg,#b68c3d,#544321);
-    color: #fff;
-    border-color: #d5ad59;
+.metric{
+font-size:31px;
+font-weight:800;
+color:var(--green);
 }
 
-main {
-    padding: 30px;
-    max-width: 1400px;
-    width: 100%;
-    min-width: 0;
-    margin: 0 auto;
+.toolbar{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+margin:17px 0;
 }
 
-h1 {
-    font-size: 30px;
-    margin: 0 0 8px;
+input,select{
+background:#0b1621;
+border:1px solid #3b4e5e;
+color:#eef5ff;
+padding:11px;
+border-radius:9px;
+min-width:145px;
+max-width:100%;
 }
 
-h2 {
-    font-size: 20px;
-    margin: 0 0 15px;
+.toolbar select{flex:1}
+.toolbar input[type=search]{flex:2}
+
+.btn{
+background:linear-gradient(135deg,#e0bc70,#a77d32);
+color:#111820;
+border:0;
+padding:12px 16px;
+border-radius:9px;
+font-weight:750;
 }
 
-.muted {
-    color: var(--muted);
+.btn.secondary{
+background:#203a50;
+color:#f1f7ff;
 }
 
-.intro {
-    margin-bottom: 25px;
+.item{
+padding:19px 0;
+border-bottom:1px solid #30405b;
+overflow-wrap:anywhere;
 }
 
-.cards {
-    display: grid;
-    grid-template-columns: repeat(3,minmax(0,1fr));
-    gap: 15px;
-    margin: 24px 0;
+.item:last-child{border:0}
+.item h3{margin:5px 0 8px}
+.item p{line-height:1.6}
+
+.tag{
+display:inline-block;
+background:#243745;
+color:#e4c783;
+font-size:12px;
+font-weight:700;
+border-radius:6px;
+padding:5px 8px;
+margin:0 6px 8px 0;
 }
 
-.card, .panel {
-    background: linear-gradient(135deg,#14232e,#0d1720);
-    border: 1px solid var(--border);
-    border-radius: 14px;
-    padding: 21px;
-    box-shadow: 0 10px 30px #00000025;
+.fresh{background:#1c5149;color:#bff9dc}
+.pending{background:#493b22;color:#f4db9b}
+.links a{color:#79e0ce;margin-right:15px}
+
+.question{
+background:#0c1823;
+border:1px solid #304664;
+border-radius:12px;
+padding:18px;
+margin:14px 0;
+line-height:1.65;
 }
 
-.card {
-    position: relative;
-    overflow: hidden;
+.question p{white-space:pre-line}
+
+.option{
+display:block;
+margin:10px 0;
+padding:12px;
+border:1px solid #39516c;
+border-radius:9px;
+cursor:pointer;
 }
 
-.card:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    width: 3px;
-    background: linear-gradient(#f4db9b,#99702e);
+.option:has(input:checked){
+border-color:var(--gold);
+background:#3a3221;
 }
 
-.metric {
-    font-size: 31px;
-    font-weight: 800;
-    color: var(--green);
+.option input{
+min-width:0;
+margin-right:10px;
 }
 
-.toolbar {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin: 17px 0;
+.answer{
+margin-top:14px;
+padding:14px;
+background:#16354b;
+border-radius:9px;
+line-height:1.6;
 }
 
-input, select {
-    background: #0b1621;
-    border: 1px solid #3b4e5e;
-    color: #eef5ff;
-    padding: 11px;
-    border-radius: 9px;
-    min-width: 145px;
-    max-width: 100%;
+.good{color:#77e5bb}
+.bad{color:#ffadad}
+
+.footer{
+margin-top:35px;
+font-size:12px;
+color:var(--muted);
+line-height:1.6;
 }
 
-input[type=number] {
-    width: 125px;
+.progress{
+height:9px;
+border-radius:20px;
+background:#263a56;
+overflow:hidden;
 }
 
-.btn {
-    background: linear-gradient(135deg,#e0bc70,#a77d32);
-    color: #111820;
-    border: 0;
-    padding: 12px 16px;
-    border-radius: 9px;
-    font-weight: 750;
+.progress>div{
+height:100%;
+background:linear-gradient(90deg,#b88b36,#f4db9b);
 }
 
-.btn.secondary {
-    background: #203a50;
-    color: #f1f7ff;
+.feeditem{display:grid;gap:8px}
+.feeditem h3{font-size:17px;line-height:1.4}
+
+.feedmeta{
+display:flex;
+gap:8px;
+flex-wrap:wrap;
+align-items:center;
 }
 
-.btn:disabled {
-    opacity: .5;
-    cursor: not-allowed;
+.statusline{
+font-size:13px;
+color:#b6c7dc;
+line-height:1.6;
 }
 
-.item {
-    padding: 19px 0;
-    border-bottom: 1px solid #30405b;
+.notice{
+border:1px solid #3d566e;
+border-radius:10px;
+padding:12px 14px;
+background:#102431;
+margin:12px 0;
 }
 
-.item:last-child {
-    border: 0;
+.empty{
+padding:28px;
+text-align:center;
+color:var(--muted);
 }
 
-.tag {
-    display: inline-block;
-    background: #243745;
-    color: #e4c783;
-    font-size: 12px;
-    font-weight: 700;
-    border-radius: 6px;
-    padding: 5px 8px;
-    margin: 0 6px 8px 0;
+.feed-actions{
+display:flex;
+gap:8px;
+flex-wrap:wrap;
 }
 
-.item h3 {
-    margin: 5px 0 8px;
+.feed-actions a{
+display:inline-block;
+padding:9px 12px;
+border-radius:8px;
+background:#203a50;
+color:#e9d39d;
+text-decoration:none;
+font-size:13px;
 }
 
-.item p {
-    line-height: 1.6;
+.pill{
+border:1px solid #465666;
+border-radius:999px;
+padding:5px 9px;
+color:#d4c49e;
+font-size:12px;
 }
 
-.small {
-    font-size: 13px;
-}
-
-.tiny {
-    font-size: 12px;
-}
-
-.links a {
-    color: #dfc17d;
-    margin-right: 15px;
-}
-
-.hidden {
-    display: none !important;
-}
-
-.question {
-    background: #0c1823;
-    border: 1px solid #304664;
-    border-radius: 12px;
-    padding: 18px;
-    margin: 14px 0;
-}
-
-.option {
-    display: block;
-    margin: 10px 0;
-    padding: 12px;
-    border: 1px solid #39516c;
-    border-radius: 9px;
-    cursor: pointer;
-}
-
-.option:has(input:checked) {
-    border-color: var(--gold);
-    background: #3a3221;
-}
-
-.option input {
-    min-width: 0;
-    margin-right: 10px;
-}
-
-.answer {
-    margin-top: 14px;
-    padding: 12px;
-    background: #16354b;
-    border-radius: 9px;
-    line-height: 1.5;
-}
-
-.good {
-    color: #77e5bb;
-}
-
-.bad {
-    color: #ffadad;
-}
-
-.footer {
-    margin-top: 35px;
-    font-size: 12px;
-    color: var(--muted);
-    line-height: 1.6;
-}
-
-.progress {
-    height: 9px;
-    border-radius: 20px;
-    background: #263a56;
-    overflow: hidden;
-}
-
-.progress > div {
-    height: 100%;
-    background: linear-gradient(90deg,#b88b36,#f4db9b);
-}
-
-.feeditem {
-    display: grid;
-    gap: 8px;
-}
-
-.feeditem h3 {
-    font-size: 17px;
-    line-height: 1.4;
-}
-
-.feedmeta {
-    display: flex;
-    gap: 8px;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.statusline {
-    font-size: 13px;
-    color: #b6c7dc;
-    line-height: 1.6;
-}
-
-.notice {
-    border: 1px solid #3d566e;
-    border-radius: 10px;
-    padding: 12px 14px;
-    background: #102431;
-    margin: 12px 0;
-}
-
-.fresh {
-    background: #1c5149;
-    color: #bff9dc;
-}
-
-.toolbar input[type=search] {
-    flex: 2;
-    min-width: 190px;
-}
-
-.toolbar select {
-    flex: 1;
-}
-
-.empty {
-    padding: 28px;
-    text-align: center;
-    color: var(--muted);
-}
-
-.feed-actions {
-    display: flex;
-    gap: 8px;
-    flex-wrap: wrap;
-}
-
-.feed-actions a {
-    display: inline-block;
-    padding: 9px 12px;
-    border-radius: 8px;
-    background: #203a50;
-    color: #e9d39d;
-    text-decoration: none;
-    font-size: 13px;
-}
-
-.feed-actions a:hover {
-    background: #304d65;
-}
-
-.pill {
-    border: 1px solid #465666;
-    border-radius: 999px;
-    padding: 5px 9px;
-    color: #d4c49e;
-    font-size: 12px;
-}
-
-.section-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 14px;
-    flex-wrap: wrap;
-}
-
-.section-top .btn {
-    white-space: nowrap;
+.section-top{
+display:flex;
+justify-content:space-between;
+align-items:flex-start;
+gap:14px;
+flex-wrap:wrap;
 }
 
 button:focus-visible,
 input:focus-visible,
 select:focus-visible,
-a:focus-visible {
-    outline: 2px solid var(--gold-light);
-    outline-offset: 2px;
+a:focus-visible{
+outline:2px solid var(--gold-light);
+outline-offset:2px;
 }
 
-@media(max-width:800px) {
-    .layout {
-        display: block;
-    }
-
-    aside {
-        padding: 15px;
-        border-right: 0;
-        border-bottom: 1px solid var(--border);
-    }
-
-    .logo {
-        margin-bottom: 0;
-    }
-
-    .sub {
-        margin-bottom: 12px;
-    }
-
-    .navbox {
-        display: flex;
-        gap: 5px;
-        overflow-x: auto;
-    }
-
-    .nav {
-        white-space: nowrap;
-        width: auto;
-        margin: 0;
-        padding: 10px;
-    }
-
-    main {
-        padding: 20px 15px;
-    }
-
-    .cards {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    h1 {
-        font-size: 25px;
-    }
+@media(max-width:800px){
+.layout{display:block}
+aside{
+padding:15px;
+border-right:0;
+border-bottom:1px solid var(--border);
+}
+.logo{margin-bottom:0}
+.sub{margin-bottom:12px}
+.navbox{display:flex;gap:5px;overflow-x:auto}
+.nav{white-space:nowrap;width:auto;margin:0;padding:10px}
+main{padding:20px 15px}
+.cards{grid-template-columns:1fr 1fr}
+h1{font-size:25px}
 }
 
-@media(max-width:650px) {
-    .feed-actions a {
-        width: 100%;
-        text-align: center;
-    }
-
-    .section-top {
-        display: block;
-    }
-
-    .section-top button {
-        margin-top: 10px;
-    }
+@media(max-width:650px){
+.feed-actions a{width:100%;text-align:center}
+.section-top{display:block}
+.section-top button{margin-top:10px}
 }
 
-@media(max-width:440px) {
-    .cards {
-        grid-template-columns: 1fr;
-    }
-
-    .toolbar > * {
-        flex: 1;
-        min-width: 0;
-    }
+@media(max-width:440px){
+.cards{grid-template-columns:1fr}
+.toolbar>*{flex:1;min-width:0}
 }
 </style>
 
-<link rel="stylesheet" href="./style.css?v=3.1">
+<link rel="stylesheet" href="./style.css?v=3.2">
 
 <style>
+/* DELTA JURIS 3.2 — IDENTIDADE TÁTICA */
 
-/* DELTA JURIS 3.1 — IDENTIDADE TÁTICA */
-
-#inicio {
-    background: none !important;
-    padding: 0 !important;
+#inicio{
+background:none!important;
+padding:0!important;
 }
 
-.dj-hero {
-    min-height: 365px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    padding: 32px;
-    border: 1px solid #76613c;
-    border-radius: 18px;
-    background:
-        linear-gradient(
-            90deg,
-            rgba(5,10,16,.83),
-            rgba(5,10,16,.15)
-        ),
-        linear-gradient(
-            0deg,
-            #090f16,
-            transparent 85%
-        ),
-        url('./assets/hero-policial.jpg') center/cover no-repeat;
-    overflow: hidden;
+.dj-hero{
+min-height:365px;
+display:flex;
+flex-direction:column;
+justify-content:flex-end;
+padding:32px;
+border:1px solid #76613c;
+border-radius:18px;
+background:
+linear-gradient(90deg,rgba(5,10,16,.83),rgba(5,10,16,.15)),
+linear-gradient(0deg,#090f16,transparent 85%),
+url('./assets/hero-policial.jpg') center/cover no-repeat;
+overflow:hidden;
 }
 
-.dj-edition {
-    color: #e6c37b;
-    font-size: 11px;
-    font-weight: 800;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    margin-bottom: 12px;
+.dj-edition{
+color:#e6c37b;
+font-size:11px;
+font-weight:800;
+letter-spacing:3px;
+text-transform:uppercase;
+margin-bottom:12px;
 }
 
-.dj-hero h1 {
-    color: #fff;
-    font-size: clamp(29px,4vw,46px);
-    font-weight: 900;
-    line-height: 1.12;
-    text-shadow: 0 3px 15px #000;
+.dj-hero h1{
+color:#fff;
+font-size:clamp(29px,4vw,46px);
+font-weight:900;
+line-height:1.12;
+text-shadow:0 3px 15px #000;
 }
 
-.dj-hero h1 span {
-    color: #e2bd70;
+.dj-hero h1 span{color:#e2bd70}
+
+.dj-hero p{
+color:#d4dce4;
+max-width:650px;
+line-height:1.6;
 }
 
-.dj-hero p {
-    color: #d4dce4;
-    max-width: 650px;
-    line-height: 1.6;
+.dj-motto{
+color:#e6c37b!important;
+font-size:15px;
+font-weight:750;
+letter-spacing:1px;
 }
 
-.dj-motto {
-    color: #e6c37b !important;
-    font-size: 15px;
-    font-weight: 750;
-    letter-spacing: 1px;
+.dj-bancas{
+display:grid;
+grid-template-columns:repeat(4,minmax(0,1fr));
+gap:12px;
+margin:20px 0;
 }
 
-.dj-bancas {
-    display: grid;
-    grid-template-columns: repeat(4,minmax(0,1fr));
-    gap: 12px;
-    margin: 20px 0;
+.dj-banca{
+background:linear-gradient(145deg,#17232e,#0d161f);
+border:1px solid #655538;
+border-radius:10px;
+padding:19px 8px;
+color:#e5c47d;
+font-size:17px;
+font-weight:850;
+text-align:center;
 }
 
-.dj-banca {
-    background: linear-gradient(145deg,#17232e,#0d161f);
-    border: 1px solid #655538;
-    border-radius: 10px;
-    padding: 19px 8px;
-    color: #e5c47d;
-    font-size: 17px;
-    font-weight: 850;
-    text-align: center;
+.dj-banca small{
+display:block;
+color:#aab8c6;
+font-size:10px;
+font-weight:500;
+margin-top:6px;
 }
 
-.dj-banca small {
-    display: block;
-    color: #aab8c6;
-    font-size: 10px;
-    font-weight: 500;
-    margin-top: 6px;
+.dj-banca:hover{
+border-color:#e6c37b;
+background:#25303a;
 }
 
-.dj-banca:hover {
-    border-color: #e6c37b;
-    background: #25303a;
+.dj-modules{
+display:grid;
+grid-template-columns:repeat(3,minmax(0,1fr));
+gap:15px;
+margin:20px 0;
 }
 
-.dj-modules {
-    display: grid;
-    grid-template-columns: repeat(3,minmax(0,1fr));
-    gap: 15px;
-    margin: 20px 0;
+.dj-module{
+min-height:220px;
+border:1px solid #655538;
+border-radius:14px;
+overflow:hidden;
+padding:20px;
+display:flex;
+flex-direction:column;
+justify-content:flex-end;
+text-align:left;
+color:#fff;
+background-color:#14212b;
 }
 
-.dj-module {
-    min-height: 220px;
-    border: 1px solid #655538;
-    border-radius: 14px;
-    overflow: hidden;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    text-align: left;
-    color: #fff;
-    background-color: #14212b;
+.dj-module:hover{border-color:#e6c37b}
+
+.dj-module strong{
+font-size:19px;
+margin-bottom:7px;
 }
 
-.dj-module:hover {
-    border-color: #e6c37b;
+.dj-module small{
+font-size:12px;
+line-height:1.5;
+color:#cbd5de;
 }
 
-.dj-module strong {
-    font-size: 19px;
-    margin-bottom: 7px;
+.dj-justice{
+background:
+linear-gradient(0deg,#080e16 0%,transparent 130%),
+url('./assets/justica.jpg') center/cover no-repeat;
 }
 
-.dj-module small {
-    font-size: 12px;
-    line-height: 1.5;
-    color: #cbd5de;
+.dj-equipment{
+background:
+linear-gradient(0deg,#080e16 0%,transparent 130%),
+url('./assets/equipamentos.jpg') center/cover no-repeat;
 }
 
-.dj-justice {
-    background:
-        linear-gradient(0deg,#080e16 0%,transparent 130%),
-        url('./assets/justica.jpg') center/cover no-repeat;
+.dj-fire{
+background:
+linear-gradient(0deg,#080e16 0%,transparent 130%),
+url('./assets/bombeiros.jpg') center/cover no-repeat;
 }
 
-.dj-equipment {
-    background:
-        linear-gradient(0deg,#080e16 0%,transparent 130%),
-        url('./assets/equipamentos.jpg') center/cover no-repeat;
+.dj-motivation{
+margin-top:24px;
+min-height:210px;
+padding:28px;
+border:1px solid #77613a;
+border-radius:14px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+background:
+linear-gradient(90deg,#080e16ed,#080e1655),
+url('./assets/motivacional.jpg') center/cover no-repeat;
 }
 
-.dj-fire {
-    background:
-        linear-gradient(0deg,#080e16 0%,transparent 130%),
-        url('./assets/bombeiros.jpg') center/cover no-repeat;
+.dj-motivation small{
+color:#d9b86f;
+font-size:11px;
+font-weight:800;
+letter-spacing:2px;
 }
 
-.dj-motivation {
-    margin-top: 24px;
-    min-height: 210px;
-    padding: 28px;
-    border: 1px solid #77613a;
-    border-radius: 14px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background:
-        linear-gradient(90deg,#080e16ed,#080e1655),
-        url('./assets/motivacional.jpg') center/cover no-repeat;
+.dj-motivation h2{
+color:#f4e0b1;
+font-size:clamp(21px,3vw,30px);
+max-width:650px;
+line-height:1.4;
+margin:15px 0;
 }
 
-.dj-motivation small {
-    color: #d9b86f;
-    font-size: 11px;
-    font-weight: 800;
-    letter-spacing: 2px;
+.dj-motivation p{
+color:#b9c4cf;
+margin:0;
 }
 
-.dj-motivation h2 {
-    color: #f4e0b1;
-    font-size: clamp(21px,3vw,30px);
-    max-width: 650px;
-    line-height: 1.4;
-    margin: 15px 0;
+.dj-heading{
+color:#e2c17d;
+font-size:18px;
+font-weight:800;
+margin:28px 0 12px;
+letter-spacing:.6px;
 }
 
-.dj-motivation p {
-    color: #b9c4cf;
-    margin: 0;
+@media(max-width:800px){
+.dj-hero{min-height:320px;padding:22px}
+.dj-bancas{grid-template-columns:repeat(2,minmax(0,1fr))}
+.dj-modules{grid-template-columns:1fr}
+.dj-module{min-height:190px}
+.dj-motivation{padding:20px}
 }
-
-.dj-heading {
-    color: #e2c17d;
-    font-size: 18px;
-    font-weight: 800;
-    margin: 28px 0 12px;
-    letter-spacing: .6px;
-}
-
-@media(max-width:800px) {
-    .dj-hero {
-        min-height: 320px;
-        padding: 22px;
-    }
-
-    .dj-bancas {
-        grid-template-columns: repeat(2,minmax(0,1fr));
-    }
-
-    .dj-modules {
-        grid-template-columns: 1fr;
-    }
-
-    .dj-module {
-        min-height: 190px;
-    }
-
-    .dj-motivation {
-        padding: 20px;
-    }
-}
-
 </style>
 </head>
 
@@ -720,12 +561,15 @@ Revisão estratégica • Delegado de Polícia
 ✎ Simulados
 </button>
 
+<button class="nav" data-page="erros">
+▧ Caderno de erros
+</button>
+
 <button class="nav" data-page="desempenho">
 ▥ Desempenho
 </button>
 
 </div>
-
 </aside>
 
 <main>
@@ -737,15 +581,14 @@ Revisão estratégica • Delegado de Polícia
 <div class="dj-hero">
 
 <div class="dj-edition">
-Delta Juris 3.1 • Edição Tática
+Delta Juris 3.2 • Edição Tática
 </div>
 
-<h1>
-Sua missão começa <span>agora.</span>
-</h1>
+<h1>Sua missão começa <span>agora.</span></h1>
 
 <p>
-Preparação estratégica para concursos de Delegado de Polícia e carreiras jurídicas.
+Preparação estratégica para concursos de Delegado
+de Polícia e carreiras jurídicas.
 </p>
 
 <p class="dj-motto">
@@ -763,12 +606,9 @@ Realizar simulado
 </button>
 
 </div>
-
 </div>
 
-<div class="dj-heading">
-BANCAS EXAMINADORAS
-</div>
+<div class="dj-heading">BANCAS EXAMINADORAS</div>
 
 <div class="dj-bancas">
 
@@ -794,15 +634,18 @@ FCC
 
 </div>
 
-<div class="dj-heading">
-SEU DESEMPENHO OPERACIONAL
-</div>
+<div class="dj-heading">SEU DESEMPENHO OPERACIONAL</div>
 
 <div class="cards">
 
 <div class="card">
 <div class="muted">Teses editoriais cadastradas</div>
 <div class="metric" id="nTeses">0</div>
+</div>
+
+<div class="card">
+<div class="muted">Questões elaboradas</div>
+<div class="metric" id="nQuestions">0</div>
 </div>
 
 <div class="card">
@@ -815,45 +658,35 @@ SEU DESEMPENHO OPERACIONAL
 <div class="metric" id="media">—</div>
 </div>
 
+<div class="card">
+<div class="muted">Teses revisadas</div>
+<div class="metric" id="nReview">0</div>
 </div>
 
-<div class="dj-heading">
-CENTRAL DE TREINAMENTO
+<div class="card">
+<div class="muted">Questões para revisar</div>
+<div class="metric" id="nErrors">0</div>
 </div>
+
+</div>
+
+<div class="dj-heading">CENTRAL DE TREINAMENTO</div>
 
 <div class="dj-modules">
 
-<button class="dj-module dj-justice"
-onclick="go('biblioteca')">
-
+<button class="dj-module dj-justice" onclick="go('biblioteca')">
 <strong>Jurisprudências e súmulas</strong>
-
-<small>
-Domine os entendimentos do STF e STJ.
-</small>
-
+<small>Domine os entendimentos do STF e STJ.</small>
 </button>
 
-<button class="dj-module dj-equipment"
-onclick="go('simulados')">
-
+<button class="dj-module dj-equipment" onclick="go('simulados')">
 <strong>Treinamento estratégico</strong>
-
-<small>
-Teste seus conhecimentos com simulados comentados.
-</small>
-
+<small>Questões elaboradas e simulados comentados.</small>
 </button>
 
-<button class="dj-module dj-fire"
-onclick="go('desempenho')">
-
+<button class="dj-module dj-fire" onclick="go('desempenho')">
 <strong>Evolução e desempenho</strong>
-
-<small>
-Acompanhe seus resultados e supere seus limites.
-</small>
-
+<small>Acompanhe seus resultados e supere seus limites.</small>
 </button>
 
 </div>
@@ -866,9 +699,7 @@ Acompanhe seus resultados e supere seus limites.
 A disciplina de hoje constrói a conquista de amanhã.
 </h2>
 
-<p>
-O objetivo permanece. A missão continua.
-</p>
+<p>O objetivo permanece. A missão continua.</p>
 
 </div>
 
@@ -877,17 +708,13 @@ O objetivo permanece. A missão continua.
 <div class="section-top">
 
 <div>
-
 <h2>Radar de jurisprudências</h2>
-
 <p class="muted small" id="homeFeedStatus">
 Consultando a base de publicações…
 </p>
-
 </div>
 
-<button class="btn secondary"
-onclick="go('atualizacoes')">
+<button class="btn secondary" onclick="go('atualizacoes')">
 Ver publicações
 </button>
 
@@ -921,7 +748,7 @@ Carregando…
 <p class="footer">
 DELTA JURIS • EDIÇÃO TÁTICA<br>
 Preparação estratégica para carreiras policiais e jurídicas.
-Publicações sincronizadas automaticamente pelo GitHub Actions.
+Publicações sincronizadas pelo GitHub Actions.
 Confira a vigência dos entendimentos nas fontes oficiais.
 </p>
 
@@ -931,16 +758,20 @@ Confira a vigência dos entendimentos nas fontes oficiais.
 
 <section id="biblioteca" class="hidden">
 
-<h1>Jurisprudências e súmulas</h1>
+<h1>Biblioteca jurídica</h1>
 
 <p class="muted">
-Pesquise, filtre e registre suas revisões.
+Jurisprudências, súmulas, fundamentos e exemplos práticos.
 </p>
+
+<div class="notice" id="libraryStatus">
+Carregando biblioteca…
+</div>
 
 <div class="toolbar">
 
-<input id="search"
-placeholder="Buscar assunto, súmula..."
+<input type="search" id="search"
+placeholder="Buscar assunto, artigo ou súmula..."
 oninput="renderLibrary()">
 
 <select id="filterDisc" onchange="renderLibrary()">
@@ -948,7 +779,7 @@ oninput="renderLibrary()">
 </select>
 
 <select id="filterTrib" onchange="renderLibrary()">
-<option value="">STF e STJ</option>
+<option value="">Todos os tribunais</option>
 <option>STF</option>
 <option>STJ</option>
 </select>
@@ -959,12 +790,15 @@ oninput="renderLibrary()">
 <option>Jurisprudência</option>
 </select>
 
+<select id="filterReview" onchange="renderLibrary()">
+<option value="">Todas as teses</option>
+<option value="reviewed">Revisadas</option>
+<option value="pending">Não revisadas</option>
+</select>
+
 </div>
 
-<p class="small muted">
-Conteúdo jurídico comum às quatro bancas.
-Ainda não há classificação por incidência em provas.
-</p>
+<p id="libraryCount" class="small muted"></p>
 
 <div class="panel" id="library"></div>
 
@@ -977,13 +811,10 @@ Ainda não há classificação por incidência em provas.
 <div class="section-top">
 
 <div>
-
 <h1>Radar de jurisprudências</h1>
-
 <p class="muted">
 STF • STJ | Atualização diária automática
 </p>
-
 </div>
 
 <button class="btn secondary" onclick="loadFeeds()">
@@ -1021,9 +852,7 @@ Carregando situação das fontes…
 
 <div class="toolbar">
 
-<input type="search"
-id="feedSearch"
-aria-label="Pesquisar publicações"
+<input type="search" id="feedSearch"
 placeholder="Título, assunto, número do informativo…"
 oninput="renderFeeds()">
 
@@ -1050,25 +879,19 @@ oninput="renderFeeds()">
 
 </div>
 
-<p id="feedResultCount" class="small muted" aria-live="polite"></p>
+<p id="feedResultCount" class="small muted"></p>
 
-<div id="feedItems">
-Carregando publicações…
-</div>
+<div id="feedItems">Carregando publicações…</div>
 
 <div class="toolbar">
 
-<button class="btn secondary"
-id="feedMore"
+<button class="btn secondary" id="feedMore"
 onclick="feedLimit+=20;renderFeeds()"
 style="display:none">
-
 Mostrar mais publicações
-
 </button>
 
 </div>
-
 </div>
 
 <p class="footer">
@@ -1087,8 +910,8 @@ Consulte sempre a decisão original.
 <h1>Simulados personalizados</h1>
 
 <p class="muted">
-Treinamento estratégico • CEBRASPE, FGV, FUNDATEC e FCC.
-Questões autorais, não oficiais.
+Questões autorais de nível avançado,
+organizadas por banca examinadora.
 </p>
 
 <div class="panel" id="config">
@@ -1097,31 +920,30 @@ Questões autorais, não oficiais.
 
 <div class="toolbar">
 
-<select id="simBanca">
+<select id="simBanca" onchange="updateAvailability()">
 
 <option value="CEBRASPE">
-CESPE / CEBRASPE (Certo ou Errado)
+CEBRASPE • Certo ou Errado
 </option>
 
-<option value="FGV">
-FGV (5 alternativas)
-</option>
-
-<option value="FUNDATEC">
-FUNDATEC (5 alternativas)
-</option>
-
-<option value="FCC">
-FCC (5 alternativas)
-</option>
+<option value="FGV">FGV</option>
+<option value="FUNDATEC">FUNDATEC</option>
+<option value="FCC">FCC</option>
 
 </select>
 
-<select id="simDisc">
+<select id="simDisc" onchange="updateAvailability()">
 <option value="">Todas as disciplinas</option>
 </select>
 
-<select id="simCount">
+<select id="simDifficulty" onchange="updateAvailability()">
+<option value="">Todas as dificuldades</option>
+<option value="Intermediário">Intermediário</option>
+<option value="Difícil">Difícil</option>
+<option value="Muito difícil">Muito difícil</option>
+</select>
+
+<select id="simCount" onchange="updateAvailability()">
 <option value="5">5 questões</option>
 <option value="10">10 questões</option>
 <option value="15">15 questões</option>
@@ -1135,19 +957,69 @@ FCC (5 alternativas)
 <option value="immediate">Correção imediata</option>
 </select>
 
+<select id="simPool" onchange="updateAvailability()">
+<option value="all">Banco completo</option>
+<option value="errors">Somente meus erros</option>
+</select>
+
 </div>
 
-<p class="small muted" id="availability"></p>
+<p class="notice small" id="availability">
+Carregando banco de questões…
+</p>
 
-<button class="btn" onclick="startQuiz()">
+<p class="small muted">
+Questões autorais, não oficiais.
+Materiais pendentes de verificação são identificados.
+A pontuação representa o percentual de acertos,
+sem penalização por erro.
+</p>
+
+<button class="btn" id="startButton"
+onclick="startQuiz()" disabled>
 Iniciar simulado
 </button>
 
 </div>
 
 <div id="quiz" class="hidden"></div>
-
 <div id="result" class="hidden"></div>
+
+</section>
+
+<!-- CADERNO DE ERROS -->
+
+<section id="erros" class="hidden">
+
+<h1>Caderno de erros</h1>
+
+<p class="muted">
+Revise as questões erradas ou não respondidas
+e fortaleça seus pontos de dificuldade.
+</p>
+
+<div class="cards">
+
+<div class="card">
+<div class="muted">Questões pendentes de revisão</div>
+<div class="metric" id="errorCount">0</div>
+</div>
+
+</div>
+
+<div class="toolbar">
+
+<button class="btn" onclick="trainErrors()">
+Treinar meus erros
+</button>
+
+<button class="btn secondary" onclick="clearErrors()">
+Limpar caderno
+</button>
+
+</div>
+
+<div class="panel" id="errorList"></div>
 
 </section>
 
@@ -1158,8 +1030,8 @@ Iniciar simulado
 <h1>Seu desempenho</h1>
 
 <p class="muted">
-Acompanhe sua evolução na preparação.
-Os dados são salvos neste navegador e dispositivo.
+Acompanhe sua evolução.
+Os dados são armazenados neste navegador e dispositivo.
 </p>
 
 <div id="stats"></div>
@@ -1171,7 +1043,6 @@ Limpar histórico
 </section>
 
 </main>
-
 </div>
 
 <script>
@@ -1181,9 +1052,27 @@ Limpar histórico
 const STF = 'https://jurisprudencia.stf.jus.br/';
 const STJ = 'https://scon.stj.jus.br/SCON/';
 
-/* BANCO EDITORIAL */
+const BANKS = [
+'CEBRASPE',
+'FGV',
+'FUNDATEC',
+'FCC'
+];
 
-const data = [
+/* ARQUIVOS DA BIBLIOTECA */
+
+/*
+Adicione os próximos arquivos nesta lista
+somente depois de criá-los no GitHub.
+*/
+
+const libraryFiles = [
+'./data/biblioteca/penal.json'
+];
+
+/* BANCO EDITORIAL ORIGINAL */
+
+const baseData = [
 
 {
 id:'STJ-444',
@@ -1193,10 +1082,8 @@ trib:'STJ',
 type:'Súmula',
 topic:'Dosimetria da pena',
 thesis:'É vedada a utilização de inquéritos policiais e ações penais em curso para agravar a pena-base.',
-example:'Um acusado possui investigação sem trânsito em julgado: isso não autoriza aumento da pena-base a título de maus antecedentes.',
-trap:'Inquérito em andamento não equivale a condenação definitiva.',
-correct:'Inquéritos policiais e ações penais em curso não podem agravar a pena-base.',
-falseStatement:'Inquéritos policiais em andamento podem ser utilizados para agravar a pena-base.'
+example:'Investigação em andamento não autoriza aumento da pena-base.',
+trap:'Inquérito em andamento não equivale a condenação definitiva.'
 },
 
 {
@@ -1208,9 +1095,7 @@ type:'Súmula',
 topic:'Atenuantes',
 thesis:'A incidência da circunstância atenuante não pode conduzir à redução da pena abaixo do mínimo legal.',
 example:'Pena-base no mínimo legal: a confissão não permite reduzir abaixo do mínimo na segunda fase.',
-trap:'Não confundir atenuante com causa de diminuição da terceira fase.',
-correct:'A atenuante não pode reduzir a pena abaixo do mínimo legal na segunda fase.',
-falseStatement:'Segundo a Súmula 231 do STJ, a atenuante permite reduzir a pena abaixo do mínimo legal.'
+trap:'Não confundir atenuante com causa de diminuição da terceira fase.'
 },
 
 {
@@ -1222,9 +1107,7 @@ type:'Súmula',
 topic:'Falsa identidade',
 thesis:'A conduta de atribuir-se falsa identidade perante autoridade policial é típica, ainda que em situação de alegada autodefesa.',
 example:'Suspeito informa nome falso durante abordagem.',
-trap:'O direito ao silêncio não autoriza fornecer identidade falsa.',
-correct:'A falsa identidade perante a polícia é típica mesmo sob alegação de autodefesa.',
-falseStatement:'A alegação de autodefesa torna atípica a falsa identidade perante autoridade policial.'
+trap:'O direito ao silêncio não autoriza fornecer identidade falsa.'
 },
 
 {
@@ -1236,9 +1119,7 @@ type:'Súmula',
 topic:'Uso de algemas',
 thesis:'Algemas somente são lícitas em caso de resistência, fundado receio de fuga ou perigo à integridade física própria ou alheia, com justificativa escrita da excepcionalidade.',
 example:'Preso colaborativo, sem risco concreto, não deve ser algemado automaticamente.',
-trap:'Prisão em flagrante, por si só, não justifica algemas.',
-correct:'O uso excepcional de algemas exige justificativa nas hipóteses admitidas pela SV 11.',
-falseStatement:'O uso de algemas é obrigatório em toda prisão em flagrante, independentemente de justificativa.'
+trap:'Prisão em flagrante, por si só, não justifica algemas.'
 },
 
 {
@@ -1249,10 +1130,8 @@ trib:'STF',
 type:'Súmula',
 topic:'Acesso do defensor ao inquérito',
 thesis:'É direito do defensor acessar os elementos de prova já documentados em procedimento investigatório que digam respeito ao exercício do direito de defesa.',
-example:'Defensor consulta depoimentos já juntados, mas não exige conhecimento prévio de diligência sigilosa ainda não documentada.',
-trap:'Distinguir prova documentada de diligência em andamento.',
-correct:'O defensor tem acesso aos elementos já documentados pertinentes ao exercício da defesa.',
-falseStatement:'O defensor não pode acessar elementos de prova já documentados no inquérito policial.'
+example:'Defensor consulta depoimentos já juntados.',
+trap:'Distinguir prova documentada de diligência em andamento.'
 },
 
 {
@@ -1264,9 +1143,7 @@ type:'Súmula',
 topic:'Flagrante preparado',
 thesis:'Não há crime quando a preparação do flagrante pela polícia torna impossível a sua consumação.',
 example:'Policiais induzem o comportamento e controlam a situação de modo a impedir a consumação.',
-trap:'Flagrante preparado não se confunde com flagrante esperado.',
-correct:'O flagrante preparado pode configurar crime impossível quando impede a consumação.',
-falseStatement:'O flagrante preparado sempre configura crime punível, mesmo quando impossível a consumação.'
+trap:'Flagrante preparado não se confunde com flagrante esperado.'
 },
 
 {
@@ -1278,9 +1155,7 @@ type:'Súmula',
 topic:'Prisão civil',
 thesis:'É ilícita a prisão civil de depositário infiel, qualquer que seja a modalidade do depósito.',
 example:'Não se admite prisão civil por descumprimento de dever de depositário infiel.',
-trap:'Não confundir com prisão civil por dívida alimentar.',
-correct:'É ilícita a prisão civil do depositário infiel.',
-falseStatement:'É admitida a prisão civil do depositário infiel na modalidade de depósito judicial.'
+trap:'Não confundir com prisão civil por dívida alimentar.'
 },
 
 {
@@ -1292,9 +1167,7 @@ type:'Súmula',
 topic:'Nepotismo',
 thesis:'A nomeação de parentes nas hipóteses descritas no enunciado viola a Constituição, inclusive por designações recíprocas.',
 example:'Duas autoridades nomeiam parentes uma da outra para funções de confiança.',
-trap:'O nepotismo cruzado também é abrangido; cargos políticos têm particularidades jurisprudenciais.',
-correct:'A vedação ao nepotismo pode alcançar nomeações recíprocas.',
-falseStatement:'A vedação constitucional ao nepotismo não alcança designações recíprocas.'
+trap:'O nepotismo cruzado também é abrangido; cargos políticos têm particularidades jurisprudenciais.'
 },
 
 {
@@ -1306,9 +1179,7 @@ type:'Súmula',
 topic:'Processo administrativo disciplinar',
 thesis:'A alteração da capitulação legal da conduta do servidor, por si só, não enseja a nulidade do processo administrativo disciplinar.',
 example:'Os fatos imputados permanecem os mesmos, mas a autoridade altera seu enquadramento legal.',
-trap:'Mudança de capitulação não é automaticamente nulidade.',
-correct:'A alteração isolada da capitulação legal não torna nulo o PAD.',
-falseStatement:'Qualquer alteração da capitulação legal torna automaticamente nulo o processo administrativo disciplinar.'
+trap:'Mudança de capitulação não é automaticamente nulidade.'
 },
 
 {
@@ -1320,9 +1191,7 @@ type:'Súmula',
 topic:'Arquivamento do inquérito',
 thesis:'Arquivado o inquérito a requerimento do Ministério Público, a ação penal não pode ser iniciada sem novas provas, conforme o enunciado.',
 example:'Após arquivamento por insuficiência probatória, surge prova nova relevante.',
-trap:'O fundamento do arquivamento e o regime atual do CPP exigem atenção.',
-correct:'Novas provas podem ser necessárias para retomar a persecução após arquivamento por insuficiência de provas.',
-falseStatement:'Após arquivamento por insuficiência probatória, a ação penal pode ser iniciada com as mesmas provas, sem qualquer elemento novo.'
+trap:'O fundamento do arquivamento e o regime atual do CPP exigem atenção.'
 },
 
 {
@@ -1334,32 +1203,298 @@ type:'Jurisprudência',
 topic:'Concurso público',
 thesis:'A análise de condutas graves e reiteradas na investigação social exige fundamentação individualizada; a mera existência isolada de inquérito não autoriza exclusão automática.',
 example:'Candidato é avaliado por histórico de condutas e pela motivação específica do ato administrativo.',
-trap:'Evitar afirmar que toda investigação em curso elimina o candidato ou que nunca pode ser considerada.',
-correct:'A eliminação na investigação social exige exame motivado e não decorre automaticamente de inquérito isolado.',
-falseStatement:'A mera existência de inquérito policial determina automaticamente a exclusão do candidato de concurso policial.'
+trap:'Evitar afirmar que toda investigação em curso elimina o candidato ou que nunca pode ser considerada.'
 }
 
 ];
 
-/* ALTERNATIVAS INCORRETAS DE TREINAMENTO */
+/* VARIÁVEIS */
 
-const wrongs = [
+let data = [...baseData];
+let questionBank = [];
+let libraryLoaded = false;
+let quiz = [];
+let qs = [];
+let answers = {};
+let mode = 'end';
+let bank = 'CEBRASPE';
+let quizDisc = '';
+let quizFinished = false;
 
-'A regra pode ser afastada livremente, independentemente de fundamentação jurídica.',
+const $ = id => document.getElementById(id);
 
-'A orientação admite aplicação automática, sem consideração de seus requisitos.',
+const esc = s => String(s ?? '').replace(
+/[&<>"']/g,
+c => ({
+'&':'&amp;',
+'<':'&lt;',
+'>':'&gt;',
+'"':'&quot;',
+"'":'&#39;'
+}[c])
+);
 
-'O entendimento autoriza o afastamento irrestrito das garantias fundamentais.',
+function get(k){
+try{
+const v = JSON.parse(localStorage.getItem(k)||'[]');
+return Array.isArray(v)?v:[];
+}catch{
+return [];
+}
+}
 
-'A conclusão jurídica é necessariamente oposta ao entendimento consolidado.',
+function save(k,v){
+try{
+localStorage.setItem(k,JSON.stringify(v));
+}catch(e){
+console.error(e);
+alert('Não foi possível salvar o progresso neste navegador.');
+}
+}
 
-'A autoridade pode desconsiderar todos os requisitos expressos no entendimento.'
+function normalize(s){
+return String(s??'')
+.normalize('NFD')
+.replace(/[\u0300-\u036f]/g,'')
+.toLowerCase();
+}
 
-];
+function shuffle(arr){
+const copy=[...arr];
+for(let i=copy.length-1;i>0;i--){
+const j=Math.floor(Math.random()*(i+1));
+[copy[i],copy[j]]=[copy[j],copy[i]];
+}
+return copy;
+}
+
+function validLink(u){
+try{
+const url=new URL(u);
+return ['https:','http:'].includes(url.protocol);
+}catch{
+return false;
+}
+}
+
+function officialHost(u){
+try{
+const h=new URL(u).hostname.toLowerCase();
+return h==='stf.jus.br'||
+h.endsWith('.stf.jus.br')||
+h==='stj.jus.br'||
+h.endsWith('.stj.jus.br');
+}catch{
+return false;
+}
+}
+
+function sourceLink(x){
+return validLink(x.source)&&officialHost(x.source)
+?x.source
+:x.trib==='STF'?STF:STJ;
+}
+
+function isPending(x){
+return x.status!=='verificado';
+}
+
+/* CARREGAMENTO DA BIBLIOTECA */
+
+function validThesis(x){
+return x &&
+typeof x.id==='string' &&
+/^[A-Za-z0-9_-]+$/.test(x.id) &&
+typeof x.title==='string' &&
+typeof x.disc==='string' &&
+typeof x.thesis==='string';
+}
+
+function validQuestion(q){
+return q &&
+typeof q.id==='string' &&
+/^[A-Za-z0-9_-]+$/.test(q.id) &&
+BANKS.includes(q.bank) &&
+typeof q.prompt==='string' &&
+Array.isArray(q.opts) &&
+q.opts.length===(q.bank==='CEBRASPE'?2:5) &&
+q.opts.every(o=>typeof o==='string'&&o.trim()) &&
+new Set(q.opts).size===q.opts.length &&
+Number.isInteger(q.right) &&
+q.right>=0 &&
+q.right<q.opts.length &&
+typeof q.comment==='string';
+}
+
+async function loadLibrary(){
+
+libraryLoaded=false;
+$('startButton').disabled=true;
+
+const merged=new Map(
+baseData.map(x=>[x.id,x])
+);
+
+const failures=[];
+let invalid=0;
+let loadedFiles=0;
+
+const results=await Promise.allSettled(
+libraryFiles.map(async path=>{
+
+const response=await fetch(
+path+'?cache='+Date.now(),
+{cache:'no-store'}
+);
+
+if(!response.ok){
+throw Error(path+' — HTTP '+response.status);
+}
+
+const payload=await response.json();
+
+if(!Array.isArray(payload)){
+throw Error(path+' — formato inválido');
+}
+
+return payload;
+
+})
+);
+
+results.forEach((result,i)=>{
+
+if(result.status==='rejected'){
+failures.push(libraryFiles[i]);
+console.error(result.reason);
+return;
+}
+
+loadedFiles++;
+
+result.value.forEach(x=>{
+
+if(!validThesis(x)){
+invalid++;
+return;
+}
+
+const previous=merged.get(x.id)||{};
+
+const questions=new Map();
+
+[
+...(Array.isArray(previous.questions)?previous.questions:[]),
+...(Array.isArray(x.questions)?x.questions:[])
+].forEach(q=>{
+if(validQuestion(q)){
+questions.set(q.id,q);
+}else{
+invalid++;
+}
+});
+
+merged.set(x.id,{
+...previous,
+...x,
+questions:[...questions.values()]
+});
+
+});
+
+});
+
+data=[...merged.values()];
+
+const uniqueQuestions=new Map();
+
+data.forEach(t=>{
+
+(Array.isArray(t.questions)?t.questions:[])
+.forEach(q=>{
+
+if(!validQuestion(q))return;
+
+if(uniqueQuestions.has(q.id)){
+invalid++;
+return;
+}
+
+uniqueQuestions.set(q.id,{
+...q,
+thesisId:t.id,
+disc:t.disc,
+topic:t.topic,
+trib:t.trib,
+title:t.title,
+thesis:t.thesis,
+fundamento:t.fundamento||'',
+trap:t.trap||'',
+status:t.status||'pendente_verificacao',
+source:sourceLink(t)
+});
+
+});
+
+});
+
+questionBank=[...uniqueQuestions.values()];
+
+libraryLoaded=true;
+
+fillLibraryFilters();
+
+$('libraryStatus').textContent=
+data.length+' teses • '+
+questionBank.length+' questões autorais • '+
+loadedFiles+' arquivo(s) carregado(s).'+
+(failures.length
+?' Falha ao carregar: '+failures.join(', ')+'.'
+:'')+
+(invalid
+?' '+invalid+' registro(s) inválido(s) ou duplicado(s) ignorado(s).'
+:'');
+
+refresh();
+renderLibrary();
+updateAvailability();
+
+}
+
+/* FILTROS */
+
+function fillSelect(id,values){
+
+const el=$(id);
+const previous=el.value;
+const first=el.options[0];
+
+el.replaceChildren(first);
+
+[...new Set(values)]
+.filter(Boolean)
+.sort((a,b)=>a.localeCompare(b,'pt-BR'))
+.forEach(v=>el.add(new Option(v,v)));
+
+if([...el.options].some(o=>o.value===previous)){
+el.value=previous;
+}
+
+}
+
+function fillLibraryFilters(){
+
+fillSelect('filterDisc',data.map(x=>x.disc));
+
+fillSelect('simDisc',questionBank.map(x=>x.disc));
+
+fillSelect('filterType',data.map(x=>x.type));
+
+}
 
 /* FRASES MOTIVACIONAIS */
 
-const motivationalQuotes = [
+const motivationalQuotes=[
 
 'A disciplina de hoje constrói a conquista de amanhã.',
 
@@ -1377,242 +1512,185 @@ const motivationalQuotes = [
 
 'Não negocie com seus objetivos.',
 
-'Estude em silêncio. Deixe sua aprovação fazer o barulho.',
-
 'A constância transforma esforço em conquista.',
 
-'Honre o compromisso que você assumiu consigo mesmo.',
-
-'Um dia, todo esse esforço terá um nome: aprovação.',
-
 'A preparação é diária. A conquista é consequência.',
-
-'Não importa quantas vezes seja necessário recomeçar. Continue.',
 
 'Seu futuro exige a disciplina do presente.'
 
 ];
 
-let quoteIndex = Math.floor(
-Math.random() * motivationalQuotes.length
+let quoteIndex=Math.floor(
+Math.random()*motivationalQuotes.length
 );
 
-function rotateQuote() {
+function rotateQuote(){
+$('motivationalQuote').textContent=
+motivationalQuotes[quoteIndex];
 
-const el = document.getElementById('motivationalQuote');
-
-if (!el) return;
-
-el.textContent = motivationalQuotes[quoteIndex];
-
-quoteIndex = (quoteIndex + 1) % motivationalQuotes.length;
-
+quoteIndex=(quoteIndex+1)%motivationalQuotes.length;
 }
 
 rotateQuote();
-
 setInterval(rotateQuote,20000);
-
-/* VARIÁVEIS DO SISTEMA */
-
-let quiz = [];
-let answers = {};
-let mode = 'end';
-let bank = 'CEBRASPE';
-let qs = [];
-let quizDisc = '';
-
-const get = k => {
-
-try {
-
-const value = JSON.parse(
-localStorage.getItem(k) || '[]'
-);
-
-return Array.isArray(value) ? value : [];
-
-} catch {
-
-return [];
-
-}
-
-};
-
-const save = (k,v) => {
-
-localStorage.setItem(k,JSON.stringify(v));
-
-};
-
-const esc = s => String(s).replace(
-/[&<>"']/g,
-c => ({
-'&':'&amp;',
-'<':'&lt;',
-'>':'&gt;',
-'"':'&quot;',
-"'":'&#39;'
-}[c])
-);
-
-function shuffle(arr) {
-
-const copy = [...arr];
-
-for(let i=copy.length-1;i>0;i--) {
-
-const j = Math.floor(Math.random()*(i+1));
-
-[copy[i],copy[j]] = [copy[j],copy[i]];
-
-}
-
-return copy;
-
-}
 
 /* NAVEGAÇÃO */
 
-function go(p) {
+function go(p){
 
-if (!document.getElementById(p)) return;
+if(!$(p))return;
 
 document.querySelectorAll('main section')
-.forEach(e => {
-
+.forEach(e=>{
 e.classList.toggle('hidden',e.id!==p);
-
 });
 
 document.querySelectorAll('.nav')
-.forEach(e => {
-
+.forEach(e=>{
 e.classList.toggle('active',e.dataset.page===p);
-
 });
 
-if(p==='biblioteca') renderLibrary();
-
-if(p==='atualizacoes') loadFeeds();
-
-if(p==='desempenho') renderStats();
+if(p==='biblioteca')renderLibrary();
+if(p==='atualizacoes')loadFeeds();
+if(p==='desempenho')renderStats();
+if(p==='erros')renderErrors();
+if(p==='simulados')updateAvailability();
 
 refresh();
-
 scrollTo(0,0);
 
 }
 
 document.querySelectorAll('.nav')
-.forEach(e => {
-
-e.onclick = () => go(e.dataset.page);
-
+.forEach(e=>{
+e.onclick=()=>go(e.dataset.page);
 });
 
-function selectBank(selectedBank) {
+function selectBank(selectedBank){
 
-go('simulados');
+if(!BANKS.includes(selectedBank))return;
 
 resetQuiz();
 
-document.getElementById('simBanca').value = selectedBank;
+$('simBanca').value=selectedBank;
+$('simPool').value='all';
+
+go('simulados');
+updateAvailability();
 
 }
 
 /* INDICADORES */
 
-function refresh() {
+function refresh(){
 
-const r = get('dj_results');
+const r=get('dj_results');
 
-document.getElementById('nTeses').textContent =
-data.length;
+const reviewed=new Set(get('dj_review'));
 
-document.getElementById('nSim').textContent =
-r.length;
+const errors=new Set(get('dj_errors'));
 
-document.getElementById('media').textContent =
-r.length
-? Math.round(
-r.reduce((a,b)=>a+b.percent,0)/r.length
+$('nTeses').textContent=data.length;
+
+$('nQuestions').textContent=questionBank.length;
+
+$('nSim').textContent=r.length;
+
+$('media').textContent=r.length
+?Math.round(
+r.reduce((a,b)=>a+Number(b.percent||0),0)/r.length
 )+'%'
 :'—';
 
-document.getElementById('availability').textContent =
-'Banco atual: '+data.length+
-' teses. Se houver menos questões do que o solicitado, serão utilizadas as disponíveis. As bancas compartilham o banco editorial inicial.';
+$('nReview').textContent=
+data.filter(x=>reviewed.has(x.id)).length;
+
+$('nErrors').textContent=
+questionBank.filter(x=>errors.has(x.id)).length;
 
 }
 
 /* BIBLIOTECA */
 
-function renderLibrary() {
+function field(label,value){
 
-const s = document.getElementById('search')
-.value.toLowerCase();
+return value
+?`<p><strong>${esc(label)}:</strong> ${esc(value)}</p>`
+:'';
 
-const d = document.getElementById('filterDisc').value;
+}
 
-const t = document.getElementById('filterTrib').value;
+function renderLibrary(){
 
-const y = document.getElementById('filterType').value;
+const s=normalize($('search').value);
+const d=$('filterDisc').value;
+const t=$('filterTrib').value;
+const y=$('filterType').value;
+const review=$('filterReview').value;
 
-const arr = data.filter(x =>
+const rev=get('dj_review');
 
-(!d || x.disc===d) &&
-(!t || x.trib===t) &&
-(!y || x.type===y) &&
-JSON.stringify(x).toLowerCase().includes(s)
+const arr=data.filter(x=>
+
+(!d||x.disc===d)&&
+(!t||x.trib===t)&&
+(!y||x.type===y)&&
+(!s||normalize([
+x.title,x.topic,x.subtopic,x.thesis,
+x.fundamento,x.example,x.trap,x.exceptions
+].join(' ')).includes(s))&&
+(!review||
+(review==='reviewed'
+?rev.includes(x.id)
+:!rev.includes(x.id)))
 
 );
 
-const rev = get('dj_review');
+$('libraryCount').textContent=
+arr.length+' tese(s) encontrada(s).';
 
-document.getElementById('library').innerHTML =
-
-arr.length
-
-? arr.map(x => `
+$('library').innerHTML=arr.length
+?arr.map(x=>`
 
 <article class="item">
 
 <span class="tag">${esc(x.trib)}</span>
-
 <span class="tag">${esc(x.disc)}</span>
-
 <span class="tag">${esc(x.type)}</span>
+
+${isPending(x)
+?'<span class="tag pending">Pendente de verificação</span>'
+:'<span class="tag fresh">Verificado</span>'}
 
 <h3>${esc(x.title)} — ${esc(x.topic)}</h3>
 
-<p>
-<strong>Tese:</strong> ${esc(x.thesis)}
-</p>
+${field('Órgão julgador',x.orgao)}
+${field('Subtema',x.subtopic)}
+${field('Tese',x.thesis)}
+${field('Fundamentação',x.fundamento)}
+${field('Exemplo prático',x.example)}
+${field('Exceções e observações',x.exceptions)}
+${field('Pegadinha de prova',x.trap)}
 
-<p>
-<strong>Exemplo:</strong> ${esc(x.example)}
-</p>
-
-<p>
-<strong>Pegadinha:</strong> ${esc(x.trap)}
+<p class="small muted">
+${Array.isArray(x.questions)?x.questions.length:0}
+questão(ões) vinculada(s).
 </p>
 
 <p class="links small">
 
-<a href="${x.trib==='STF'?STF:STJ}"
+<a href="${esc(sourceLink(x))}"
 target="_blank"
 rel="noopener noreferrer">
 
-Pesquisar no ${esc(x.trib)}
+Consultar fonte oficial
 
 </a>
 
 </p>
 
 <button class="btn ${rev.includes(x.id)?'secondary':''}"
-onclick="toggleReview('${x.id}')">
+data-review="${esc(x.id)}">
 
 ${rev.includes(x.id)?'✓ Revisado':'Marcar revisado'}
 
@@ -1621,152 +1699,160 @@ ${rev.includes(x.id)?'✓ Revisado':'Marcar revisado'}
 </article>
 
 `).join('')
+:'<div class="empty">Nenhum conteúdo encontrado.</div>';
 
-: '<p>Nenhum conteúdo encontrado.</p>';
+$('library').querySelectorAll('[data-review]')
+.forEach(btn=>{
+btn.onclick=()=>toggleReview(btn.dataset.review);
+});
 
 }
 
-function toggleReview(id) {
+function toggleReview(id){
 
-const r = get('dj_review');
+const r=get('dj_review');
 
-save(
-'dj_review',
+save('dj_review',
 r.includes(id)
-? r.filter(x=>x!==id)
-: [...r,id]
+?r.filter(x=>x!==id)
+:[...r,id]
 );
 
 renderLibrary();
+refresh();
 
 }
 
-/* SIMULADOS */
+/* BANCO DE QUESTÕES */
 
-function startQuiz() {
+function filteredQuestions(){
 
-bank = document.getElementById('simBanca').value;
+const selectedBank=$('simBanca').value;
+const disc=$('simDisc').value;
+const difficulty=$('simDifficulty').value;
+const pool=$('simPool').value;
+const errors=get('dj_errors');
 
-mode = document.getElementById('simMode').value;
+return questionBank.filter(q=>
 
-quizDisc = document.getElementById('simDisc').value;
+q.bank===selectedBank&&
+(!disc||q.disc===disc)&&
+(!difficulty||q.difficulty===difficulty)&&
+(pool!=='errors'||errors.includes(q.id))
 
-const n = Number(
-document.getElementById('simCount').value
 );
 
-const pool = data.filter(
-x => !quizDisc || x.disc===quizDisc
-);
+}
 
-if (!pool.length) {
+function updateAvailability(){
 
-alert('Não existem questões disponíveis para esta disciplina.');
+if(!libraryLoaded){
+
+$('availability').textContent=
+'Carregando banco de questões…';
+
+$('startButton').disabled=true;
 
 return;
 
 }
 
-quiz = shuffle(pool).slice(0,n);
+const pool=filteredQuestions();
+const requested=Number($('simCount').value);
 
-answers = {};
+$('availability').textContent=
+pool.length+' questão(ões) disponível(is) para os filtros selecionados. '+
+(pool.length
+?'O simulado terá '+Math.min(requested,pool.length)+' questão(ões).'
+:'Altere os filtros ou aguarde a ampliação do banco.');
 
-document.getElementById('config')
-.classList.add('hidden');
-
-document.getElementById('result')
-.classList.add('hidden');
-
-document.getElementById('quiz')
-.classList.remove('hidden');
-
-renderQuiz();
+$('startButton').disabled=!pool.length;
 
 }
 
-function options(x) {
+/* SIMULADOS */
 
-if(bank==='CEBRASPE') {
+function startQuiz(){
 
-const correct = Math.random()>.5;
+const pool=filteredQuestions();
+
+if(!pool.length){
+alert('Nenhuma questão disponível para os filtros selecionados.');
+return;
+}
+
+bank=$('simBanca').value;
+mode=$('simMode').value;
+quizDisc=$('simDisc').value;
+
+const n=Number($('simCount').value);
+
+quiz=shuffle(pool).slice(0,n);
+
+answers={};
+quizFinished=false;
+
+qs=quiz.map(q=>{
+
+/*
+Preserva a ordem das alternativas e o gabarito
+original do JSON, inclusive os comentários.
+*/
 
 return {
-
-prompt: correct ? x.correct : x.falseStatement,
-
-opts:['Certo','Errado'],
-
-right: correct ? 0 : 1
-
+prompt:q.prompt,
+opts:[...q.opts],
+right:q.right,
+comment:q.comment,
+optionComments:Array.isArray(q.optionComments)
+?q.optionComments
+:[],
+reference:q.reference||q.fundamento||q.title
 };
 
-}
+});
 
-const distractors = shuffle(wrongs).slice(0,3);
-
-const opts = shuffle([
-
-x.correct,
-
-x.falseStatement,
-
-...distractors
-
-]);
-
-return {
-
-prompt:
-'Sobre '+x.topic.toLowerCase()+
-', assinale a alternativa correta:',
-
-opts,
-
-right: opts.indexOf(x.correct)
-
-};
-
-}
-
-function renderQuiz() {
-
-qs = quiz.map(options);
+$('config').classList.add('hidden');
+$('result').classList.add('hidden');
+$('quiz').classList.remove('hidden');
 
 drawQuiz();
+scrollTo(0,0);
 
 }
 
-function drawQuiz() {
+function drawQuiz(){
 
-document.getElementById('quiz').innerHTML = `
+$('quiz').innerHTML=`
 
 <div class="panel">
 
-<h2>
-Simulado ${esc(bank)} • ${quiz.length} questões
-</h2>
+<h2>Simulado ${esc(bank)} • ${quiz.length} questões</h2>
 
 <p class="muted small">
-
-${mode==='immediate'
-?'Correção imediata'
-:'Correção ao final'}
-
-• Questões autorais de treinamento
-
+${mode==='immediate'?'Correção imediata':'Correção ao final'}
+• Questões autorais
 </p>
 
-${quiz.map((x,i)=>`
+<p id="quizProgress" class="small muted"></p>
+
+<div class="progress">
+<div id="quizProgressBar" style="width:0%"></div>
+</div>
+
+${quiz.map((q,i)=>`
 
 <div class="question">
 
 <span class="tag">Questão ${i+1}</span>
+<span class="tag">${esc(q.disc)}</span>
+<span class="tag">${esc(q.difficulty||'Não classificada')}</span>
 
-<span class="tag">${esc(x.disc)}</span>
+${isPending(q)
+?'<span class="tag pending">Pendente de verificação</span>'
+:''}
 
-<p>
-<strong>${esc(qs[i].prompt)}</strong>
-</p>
+<p><strong>${esc(qs[i].prompt)}</strong></p>
 
 ${qs[i].opts.map((o,j)=>`
 
@@ -1776,6 +1862,7 @@ ${qs[i].opts.map((o,j)=>`
 name="q${i}"
 value="${j}"
 ${answers[i]===j?'checked':''}
+${mode==='immediate'&&answers[i]!==undefined?'disabled':''}
 onchange="choose(${i},${j})">
 
 ${bank!=='CEBRASPE'
@@ -1806,7 +1893,7 @@ ${mode==='immediate'&&answers[i]!==undefined
 Finalizar e ver resultado
 </button>
 
-<button class="btn secondary" onclick="resetQuiz()">
+<button class="btn secondary" onclick="cancelQuiz()">
 Cancelar
 </button>
 
@@ -1816,24 +1903,120 @@ Cancelar
 
 `;
 
-}
-
-function choose(i,j) {
-
-answers[i] = j;
-
-if(mode==='immediate') {
-
-document.getElementById('feedback'+i).innerHTML =
-feedback(i);
+updateQuizProgress();
 
 }
 
+function updateQuizProgress(){
+
+const answered=Object.keys(answers).length;
+
+if($('quizProgress')){
+$('quizProgress').textContent=
+answered+' de '+quiz.length+' questões respondidas';
 }
 
-function feedback(i) {
+if($('quizProgressBar')){
+$('quizProgressBar').style.width=
+(quiz.length?100*answered/quiz.length:0)+'%';
+}
 
-const ok = answers[i]===qs[i].right;
+}
+
+function choose(i,j){
+
+if(quizFinished||!qs[i])return;
+
+if(j<0||j>=qs[i].opts.length)return;
+
+if(mode==='immediate'&&answers[i]!==undefined)return;
+
+answers[i]=j;
+
+if(mode==='immediate'){
+
+$('feedback'+i).innerHTML=feedback(i);
+
+document.querySelectorAll(
+'input[name="q'+i+'"]'
+).forEach(input=>{
+input.disabled=true;
+});
+
+}
+
+updateQuizProgress();
+
+}
+
+function answerLabel(q,j){
+
+if(j===undefined)return 'Não respondida';
+
+return (q.bank==='CEBRASPE'
+?''
+:String.fromCharCode(65+j)+') ')+
+q.opts[j];
+
+}
+
+function explanation(q){
+
+return `
+
+${field('Comentário',q.comment)}
+
+${field('Fundamentação',q.reference||q.fundamento)}
+
+${field('Tese jurídica',q.thesis)}
+
+${field('Pegadinha',q.trap)}
+
+${Array.isArray(q.optionComments)&&q.optionComments.length
+
+?`<h3 class="small">Análise das alternativas</h3>
+
+${q.opts.map((o,j)=>`
+
+<p class="small">
+
+<strong class="${j===q.right?'good':'bad'}">
+
+${q.bank==='CEBRASPE'
+?esc(o)
+:String.fromCharCode(65+j)+')'}
+
+</strong>
+
+${esc(q.optionComments[j]||'Sem comentário individual.')}
+
+</p>
+
+`).join('')}`
+
+:''}
+
+<p class="links small">
+
+<a href="${esc(q.source)}"
+target="_blank"
+rel="noopener noreferrer">
+
+Consultar fonte oficial
+
+</a>
+
+</p>
+
+`;
+
+}
+
+function feedback(i){
+
+const q=quiz[i];
+
+const ok=answers[i]===q.right;
 
 return `
 
@@ -1846,14 +2029,11 @@ ${ok?'Correto':'Incorreto'}
 </strong>
 
 <p>
-Gabarito: ${esc(qs[i].opts[qs[i].right])}
+<strong>Gabarito:</strong>
+${esc(answerLabel(q,q.right))}
 </p>
 
-<p>${esc(quiz[i].thesis)}</p>
-
-<p>
-<strong>Atenção:</strong> ${esc(quiz[i].trap)}
-</p>
+${explanation(q)}
 
 </div>
 
@@ -1861,54 +2041,73 @@ Gabarito: ${esc(qs[i].opts[qs[i].right])}
 
 }
 
-function finishQuiz() {
+/* FINALIZAÇÃO */
 
-if(!quiz.length) return;
+function finishQuiz(){
+
+if(!quiz.length||quizFinished)return;
 
 if(
-Object.keys(answers).length<quiz.length &&
+Object.keys(answers).length<quiz.length&&
 !confirm('Há questões sem resposta. Finalizar mesmo assim?')
-) return;
+)return;
 
-const correct = quiz.reduce(
+quizFinished=true;
 
-(a,x,i)=>a+(answers[i]===qs[i].right?1:0),
-
+const correct=quiz.reduce(
+(a,q,i)=>a+(answers[i]===q.right?1:0),
 0
-
 );
 
-const percent = Math.round(
-100*correct/quiz.length
-);
+const wrong=quiz.filter(
+(q,i)=>answers[i]!==undefined&&answers[i]!==q.right
+).length;
 
-const r = get('dj_results');
+const blank=quiz.length-Object.keys(answers).length;
 
-r.push({
+const percent=Math.round(100*correct/quiz.length);
+
+const records=get('dj_results');
+
+records.push({
 
 date:new Date().toLocaleString('pt-BR'),
-
 bank,
-
 correct,
-
+wrong,
+blank,
 total:quiz.length,
-
 percent,
-
 disc:quizDisc||'Todas'
 
 });
 
-save('dj_results',r);
+save('dj_results',records);
 
-document.getElementById('quiz')
-.classList.add('hidden');
+/* ATUALIZA CADERNO DE ERROS */
 
-document.getElementById('result')
-.classList.remove('hidden');
+const errors=new Set(get('dj_errors'));
 
-document.getElementById('result').innerHTML = `
+quiz.forEach((q,i)=>{
+
+if(answers[i]===q.right){
+
+errors.delete(q.id);
+
+}else{
+
+errors.add(q.id);
+
+}
+
+});
+
+save('dj_errors',[...errors]);
+
+$('quiz').classList.add('hidden');
+$('result').classList.remove('hidden');
+
+$('result').innerHTML=`
 
 <div class="panel">
 
@@ -1919,142 +2118,272 @@ document.getElementById('result').innerHTML = `
 <p>${correct} de ${quiz.length} questões corretas</p>
 
 <div class="progress">
-
 <div style="width:${percent}%"></div>
+</div>
+
+<div class="cards">
+
+<div class="card">
+<div class="muted">Acertos</div>
+<div class="metric good">${correct}</div>
+</div>
+
+<div class="card">
+<div class="muted">Erros</div>
+<div class="metric bad">${wrong}</div>
+</div>
+
+<div class="card">
+<div class="muted">Em branco</div>
+<div class="metric">${blank}</div>
+</div>
 
 </div>
 
 <p class="muted">
-
-${percent>=80
-?'Excelente resultado. Continue evoluindo.'
-:percent>=60
-?'Bom progresso. Revise os pontos de dificuldade.'
-:'Identifique seus erros, revise e continue treinando.'}
-
+Questões erradas ou em branco foram adicionadas
+ao caderno de erros.
 </p>
 
-<h2 style="margin-top:25px">
+<h2 style="margin-top:25px">Gabarito comentado</h2>
 
-Gabarito comentado
-
-</h2>
-
-${quiz.map((x,i)=>`
+${quiz.map((q,i)=>`
 
 <div class="item">
 
-<strong>
+<span class="tag">Questão ${i+1}</span>
+<span class="tag">${esc(q.disc)}</span>
 
-Questão ${i+1}:
+${isPending(q)
+?'<span class="tag pending">Pendente de verificação</span>'
+:''}
 
-<span class="${answers[i]===qs[i].right?'good':'bad'}">
+<p>
+
+<strong class="${answers[i]===q.right?'good':'bad'}">
 
 ${answers[i]===undefined
 ?'Não respondida'
-:answers[i]===qs[i].right
-?'Acerto'
-:'Erro'}
-
-</span>
+:answers[i]===q.right?'Acerto':'Erro'}
 
 </strong>
 
-<p>${esc(qs[i].prompt)}</p>
-
-<p>
-
-Resposta correta:
-
-<strong>${esc(qs[i].opts[qs[i].right])}</strong>
-
 </p>
 
-<p>${esc(x.thesis)}</p>
+<p>${esc(q.prompt)}</p>
 
 <p>
-
-<strong>Pegadinha:</strong> ${esc(x.trap)}
-
+<strong>Sua resposta:</strong>
+${esc(answerLabel(q,answers[i]))}
 </p>
+
+<p class="good">
+<strong>Gabarito:</strong>
+${esc(answerLabel(q,q.right))}
+</p>
+
+${explanation(q)}
 
 </div>
 
 `).join('')}
 
+<div class="toolbar">
+
 <button class="btn" onclick="resetQuiz()">
-
 Novo simulado
-
 </button>
+
+<button class="btn secondary" onclick="go('erros')">
+Caderno de erros
+</button>
+
+</div>
 
 </div>
 
 `;
 
 refresh();
-
 scrollTo(0,0);
 
 }
 
-function resetQuiz() {
+function cancelQuiz(){
 
-document.getElementById('config')
-.classList.remove('hidden');
+if(confirm('Cancelar o simulado atual?')){
+resetQuiz();
+}
 
-document.getElementById('quiz')
-.classList.add('hidden');
+}
 
-document.getElementById('result')
-.classList.add('hidden');
+function resetQuiz(){
+
+quiz=[];
+qs=[];
+answers={};
+quizFinished=false;
+
+$('config').classList.remove('hidden');
+$('quiz').classList.add('hidden');
+$('result').classList.add('hidden');
+
+$('quiz').innerHTML='';
+$('result').innerHTML='';
+
+updateAvailability();
+
+}
+
+/* CADERNO DE ERROS */
+
+function renderErrors(){
+
+const errors=get('dj_errors');
+
+const arr=questionBank.filter(q=>errors.includes(q.id));
+
+$('errorCount').textContent=arr.length;
+
+$('errorList').innerHTML=arr.length
+
+?arr.map(q=>`
+
+<article class="item">
+
+<span class="tag">${esc(q.bank)}</span>
+<span class="tag">${esc(q.disc)}</span>
+<span class="tag">${esc(q.difficulty||'')}</span>
+
+${isPending(q)
+?'<span class="tag pending">Pendente de verificação</span>'
+:''}
+
+<h3>${esc(q.title)}</h3>
+
+<p>${esc(q.prompt)}</p>
+
+<details>
+
+<summary>Ver gabarito e fundamentação</summary>
+
+<div class="answer">
+
+<p class="good">
+<strong>Gabarito:</strong>
+${esc(answerLabel(q,q.right))}
+</p>
+
+${explanation(q)}
+
+</div>
+
+</details>
+
+<div class="toolbar">
+
+<button class="btn secondary"
+data-resolved="${esc(q.id)}">
+
+Marcar como revisada
+
+</button>
+
+</div>
+
+</article>
+
+`).join('')
+
+:'<div class="empty">Nenhuma questão pendente de revisão.</div>';
+
+$('errorList').querySelectorAll('[data-resolved]')
+.forEach(btn=>{
+
+btn.onclick=()=>{
+
+save('dj_errors',
+get('dj_errors').filter(id=>id!==btn.dataset.resolved)
+);
+
+renderErrors();
+refresh();
+
+};
+
+});
+
+}
+
+function trainErrors(){
+
+const errors=get('dj_errors');
+
+const available=questionBank.filter(q=>errors.includes(q.id));
+
+if(!available.length){
+
+alert('Seu caderno de erros está vazio.');
+return;
+
+}
+
+resetQuiz();
+
+$('simPool').value='errors';
+$('simBanca').value=available[0].bank;
+$('simDisc').value='';
+$('simDifficulty').value='';
+
+go('simulados');
+
+}
+
+function clearErrors(){
+
+if(confirm('Limpar todas as questões do caderno de erros?')){
+
+localStorage.removeItem('dj_errors');
+
+renderErrors();
+refresh();
+
+}
 
 }
 
 /* DESEMPENHO */
 
-function renderStats() {
+function renderStats(){
 
-const r = get('dj_results');
+const r=get('dj_results');
+const rev=get('dj_review');
 
-const rev = get('dj_review');
+const total=r.reduce((a,b)=>a+Number(b.total||0),0);
 
-const total = r.reduce((a,b)=>a+b.total,0);
+const correct=r.reduce((a,b)=>a+Number(b.correct||0),0);
 
-const correct = r.reduce((a,b)=>a+b.correct,0);
-
-const banks = ['CEBRASPE','FGV','FUNDATEC','FCC'];
-
-document.getElementById('stats').innerHTML = `
+$('stats').innerHTML=`
 
 <div class="cards">
 
 <div class="card">
-
 <div class="muted">Simulados concluídos</div>
-
 <div class="metric">${r.length}</div>
-
 </div>
 
 <div class="card">
-
 <div class="muted">Teses revisadas</div>
-
-<div class="metric">${rev.length}/${data.length}</div>
-
+<div class="metric">
+${data.filter(x=>rev.includes(x.id)).length}/${data.length}
+</div>
 </div>
 
 <div class="card">
-
 <div class="muted">Acertos totais</div>
-
 <div class="metric">
-
 ${total?Math.round(100*correct/total)+'%':'—'}
-
 </div>
-
 </div>
 
 </div>
@@ -2063,21 +2392,21 @@ ${total?Math.round(100*correct/total)+'%':'—'}
 
 <h2>Desempenho por banca</h2>
 
-${banks.map(b=>{
+${BANKS.map(b=>{
 
-const records = r.filter(x=>x.bank===b);
+const records=r.filter(x=>x.bank===b);
 
-const t = records.reduce((a,x)=>a+x.total,0);
+const t=records.reduce((a,x)=>a+Number(x.total||0),0);
 
-const c = records.reduce((a,x)=>a+x.correct,0);
+const c=records.reduce((a,x)=>a+Number(x.correct||0),0);
 
-const pct = t?Math.round(100*c/t):0;
+const pct=t?Math.round(100*c/t):0;
 
 return `
 
 <div class="item">
 
-<strong>${b}</strong>
+<strong>${esc(b)}</strong>
 
 <p class="muted small">
 
@@ -2091,7 +2420,11 @@ ${records.length} simulados • ${c}/${t} acertos
 
 </div>
 
-<p class="small">${t?pct+'%':'Sem treinamento registrado'}</p>
+<p class="small">
+
+${t?pct+'%':'Sem treinamento registrado'}
+
+</p>
 
 </div>
 
@@ -2125,9 +2458,7 @@ ${esc(x.correct)}/${esc(x.total)} acertos
 
 `).join('')
 
-:'<p class="muted">Nenhum simulado realizado ainda.</p>'
-
-}
+:'<p class="muted">Nenhum simulado realizado ainda.</p>'}
 
 </div>
 
@@ -2137,252 +2468,150 @@ ${esc(x.correct)}/${esc(x.total)} acertos
 
 }
 
-function clearHistory() {
+function clearHistory(){
 
 if(confirm(
-'Apagar o histórico de simulados e revisões deste navegador?'
-)) {
+'Apagar o histórico de simulados, revisões e caderno de erros deste navegador?'
+)){
 
 localStorage.removeItem('dj_results');
-
 localStorage.removeItem('dj_review');
+localStorage.removeItem('dj_errors');
 
 refresh();
-
 renderStats();
 
 }
 
 }
 
-/* INICIALIZAÇÃO DAS DISCIPLINAS */
+/* RADAR STF E STJ */
 
-const discs = [
-
-...new Set(data.map(x=>x.disc))
-
-].sort();
-
-['filterDisc','simDisc'].forEach(id=>{
-
-document.getElementById(id).insertAdjacentHTML(
-
-'beforeend',
-
-discs.map(x=>`
-
-<option value="${esc(x)}">${esc(x)}</option>
-
-`).join('')
-
-);
-
-});
-
-refresh();
-
-renderLibrary();
-
-/* RADAR AUTOMÁTICO STF E STJ */
-
-let feedData = {
-
+let feedData={
 updated_at:null,
-
 items:[],
-
 errors:[],
-
 stats:{}
-
 };
 
-let feedLimit = 20;
+let feedLimit=20;
+let feedLoaded=false;
 
-let feedLoaded = false;
+function dateOf(x){
 
-function dateOf(x) {
+const raw=x.published||x.date||x.published_at||'';
 
-const raw =
-x.published ||
-x.date ||
-x.published_at ||
-'';
+if(!raw)return null;
 
-if(!raw) return null;
-
-const d = new Date(raw);
+const d=new Date(raw);
 
 return Number.isNaN(d.getTime())?null:d;
 
 }
 
-function recent(x,days) {
+function recent(x,days){
 
-const d = dateOf(x);
+const d=dateOf(x);
 
-if(!d) return false;
+if(!d)return false;
 
-const age = Date.now()-d.getTime();
+const age=Date.now()-d.getTime();
 
-return age>=0 && age<=days*86400000;
+return age>=0&&age<=days*86400000;
 
 }
 
-function sourceOf(x) {
+function sourceOf(x){
 
 return String(
-
-x.source ||
-x.tribunal ||
-'Fonte não informada'
-
+x.source||x.tribunal||'Fonte não informada'
 );
 
 }
 
-function discOf(x) {
+function discOf(x){
 
-const v =
-
-x.discipline ||
-x.disc ||
-x.subject ||
-x.category ||
-x.area ||
-'';
+const v=x.discipline||
+x.disc||
+x.subject||
+x.category||
+x.area||'';
 
 return Array.isArray(v)?v.join(', '):String(v);
 
 }
 
-function textOf(x) {
+function textOf(x){
 
-return [
-
+return normalize([
 x.title,
-
 x.source,
-
 x.summary,
-
 x.description,
-
 discOf(x)
-
-].filter(Boolean)
-.join(' ')
-.toLocaleLowerCase('pt-BR');
+].filter(Boolean).join(' '));
 
 }
 
-function dateLabel(x) {
+function dateLabel(x){
 
-const d = dateOf(x);
+const d=dateOf(x);
 
 return d
-
 ?d.toLocaleDateString('pt-BR')
-
 :String(x.published||'Data não informada');
 
 }
 
-function validLink(u) {
+function officialSource(x){
 
-try {
-
-const x = new URL(u);
-
-return x.protocol==='https:' ||
-x.protocol==='http:';
-
-} catch {
-
-return false;
-
-}
-
-}
-
-/* IDENTIFICAÇÃO DAS FONTES OFICIAIS */
-
-function officialSource(x) {
-
-const source = sourceOf(x).toUpperCase();
-
-if(/\b(STF|STJ)\b/.test(source)) return true;
-
-try {
-
-const host = new URL(x.url).hostname.toLowerCase();
-
-return host==='stf.jus.br' ||
-host.endsWith('.stf.jus.br') ||
-host==='stj.jus.br' ||
-host.endsWith('.stj.jus.br');
-
-} catch {
-
-return false;
-
-}
+return officialHost(x.url);
 
 }
 
 /* RADAR NA PÁGINA INICIAL */
 
-function updateHome() {
+function updateHome(){
 
-const items = feedData.items || [];
+const items=feedData.items||[];
 
-document.getElementById('homeTotal').textContent =
-
+$('homeTotal').textContent=
 feedLoaded?items.length:'—';
 
-document.getElementById('homeWeek').textContent =
-
+$('homeWeek').textContent=
 feedLoaded?items.filter(x=>recent(x,7)).length:'—';
 
-document.getElementById('homeErrors').textContent =
-
+$('homeErrors').textContent=
 feedLoaded?(feedData.errors||[]).length:'—';
 
-document.getElementById('homeFeedStatus').textContent =
+$('homeFeedStatus').textContent=
 
 feedLoaded
 
-?(
-feedData.updated_at
+?(feedData.updated_at
+
 ?'Última coleta: '+new Date(
 feedData.updated_at
 ).toLocaleString('pt-BR')
-:'Base carregada; horário não informado'
-)
 
-:'Aguardando base de publicações';
+:'Base carregada; horário não informado')
 
-const top = items
+:'Base de publicações indisponível.';
 
+const top=items
 .filter(x=>validLink(x.url))
-
 .slice()
-
 .sort((a,b)=>
-
 (dateOf(b)?.getTime()||0)-
 (dateOf(a)?.getTime()||0)
-
 )
-
 .slice(0,3);
 
-document.getElementById('homeRecent').innerHTML =
+$('homeRecent').innerHTML=
 
 feedLoaded
 
-?(
-top.length
+?(top.length
 
 ?top.map(x=>`
 
@@ -2391,19 +2620,11 @@ top.length
 <span class="tag">${esc(sourceOf(x))}</span>
 
 <span class="small muted">
-
 ${esc(dateLabel(x))}
-
 </span>
 
 <p>
-
-<strong>
-
-${esc(x.title||'Publicação sem título')}
-
-</strong>
-
+<strong>${esc(x.title||'Publicação sem título')}</strong>
 </p>
 
 <div class="links">
@@ -2422,9 +2643,7 @@ Consultar fonte original
 
 `).join('')
 
-:'Nenhuma publicação disponível.'
-
-)
+:'Nenhuma publicação disponível.')
 
 :'Aguardando coleta.';
 
@@ -2432,88 +2651,52 @@ Consultar fonte original
 
 /* FILTROS DO RADAR */
 
-function fillFeedFilters() {
+function fillFeedFilters(){
 
-for(const [id,values] of [
+fillSelect('feedSource',feedData.items.map(sourceOf));
 
-['feedSource',
-
-[...new Set(feedData.items.map(sourceOf))]
-
-],
-
-['feedDisc',
-
-[...new Set(feedData.items.map(discOf).filter(Boolean))]
-
-]
-
-]) {
-
-const el = document.getElementById(id);
-
-const prev = el.value;
-
-el.replaceChildren(el.options[0]);
-
-values.sort(
-
-(a,b)=>a.localeCompare(b,'pt-BR')
-
-).forEach(v=>el.add(new Option(v,v)));
-
-if(values.includes(prev)) el.value=prev;
+fillSelect('feedDisc',feedData.items.map(discOf));
 
 }
 
-}
+/* CARREGAMENTO DO RADAR */
 
-/* CARREGAMENTO DAS PUBLICAÇÕES */
+async function loadFeeds(){
 
-async function loadFeeds() {
+const el=$('feedItems');
 
-const el = document.getElementById('feedItems');
+el.textContent='Carregando publicações…';
 
-el.textContent = 'Carregando publicações…';
+try{
 
-try {
-
-const response = await fetch(
-
+const response=await fetch(
 './data/updates.json?cache='+Date.now(),
-
 {cache:'no-store'}
-
 );
 
-if(!response.ok) {
-
+if(!response.ok){
 throw Error('HTTP '+response.status);
-
 }
 
-const payload = await response.json();
+const payload=await response.json();
 
-if(!Array.isArray(payload.items)) {
-
+if(!Array.isArray(payload.items)){
 throw Error('Formato de dados inesperado');
-
 }
 
-feedData = {
+feedData={
 
 updated_at:payload.updated_at||null,
 
-items:payload.items.filter(officialSource),
+items:payload.items.filter(
+x=>x&&officialSource(x)
+),
 
 errors:Array.isArray(payload.errors)
 
 ?payload.errors.filter(x=>
-
 !String(x.source||'')
-.toLowerCase()
-.includes('dizer')
-
+.toLowerCase().includes('dizer')
 )
 
 :[],
@@ -2522,27 +2705,24 @@ stats:payload.stats||{}
 
 };
 
-feedLoaded = true;
-
-feedLimit = 20;
+feedLoaded=true;
+feedLimit=20;
 
 fillFeedFilters();
-
 renderFeeds();
-
 updateHome();
 
-} catch(e) {
+}catch(e){
 
-feedLoaded = false;
+feedLoaded=false;
 
-el.innerHTML = `
+el.innerHTML=`
 
 <div class="empty">
 
 Não foi possível carregar as atualizações.
 
-Confira se data/updates.json está publicado no GitHub Pages.
+Confira se data/updates.json está publicado.
 
 <p class="small">${esc(e.message)}</p>
 
@@ -2550,19 +2730,14 @@ Confira se data/updates.json está publicado no GitHub Pages.
 
 `;
 
-document.getElementById('feedStatus').textContent =
-
+$('feedStatus').textContent=
 'Não foi possível consultar a base publicada.';
 
-document.getElementById('feedDate').textContent = '—';
-
-document.getElementById('feedCount').textContent = '—';
-
-document.getElementById('feedWeek').textContent = '—';
-
-document.getElementById('feedResultCount').textContent = '';
-
-document.getElementById('feedMore').style.display = 'none';
+$('feedDate').textContent='—';
+$('feedCount').textContent='—';
+$('feedWeek').textContent='—';
+$('feedResultCount').textContent='';
+$('feedMore').style.display='none';
 
 updateHome();
 
@@ -2572,87 +2747,58 @@ updateHome();
 
 /* EXIBIÇÃO DO RADAR */
 
-function renderFeeds() {
+function renderFeeds(){
 
-if(!feedLoaded) return;
+if(!feedLoaded)return;
 
-const items = feedData.items;
+const items=feedData.items;
 
-const stamp = feedData.updated_at
-
+const stamp=feedData.updated_at
 ?new Date(feedData.updated_at)
-
 :null;
 
-document.getElementById('feedDate').textContent =
+$('feedDate').textContent=
 
 stamp&&!isNaN(stamp)
 
-?stamp.toLocaleString(
-
-'pt-BR',
-
-{dateStyle:'short',timeStyle:'short'}
-
-)
+?stamp.toLocaleString('pt-BR',{
+dateStyle:'short',
+timeStyle:'short'
+})
 
 :'Não informada';
 
-document.getElementById('feedCount').textContent =
+$('feedCount').textContent=items.length;
 
-items.length;
-
-document.getElementById('feedWeek').textContent =
-
+$('feedWeek').textContent=
 items.filter(x=>recent(x,7)).length;
 
-const errors = feedData.errors||[];
+const errors=feedData.errors||[];
 
-document.getElementById('feedStatus').textContent =
+$('feedStatus').textContent=
 
 errors.length
 
 ?'Coleta concluída com '+errors.length+
-
 ' fonte(s) com falha: '+
-
-[...new Set(
-
-errors.map(x=>x.source||'Fonte desconhecida')
-
-)].join(', ')+
-
+[...new Set(errors.map(
+x=>x.source||'Fonte desconhecida'
+))].join(', ')+
 '. As demais publicações permanecem disponíveis.'
 
-:'Nenhum erro de fonte registrado na última coleta do radar.';
+:'Nenhum erro de fonte registrado na última coleta.';
 
-const source =
-document.getElementById('feedSource').value;
+const source=$('feedSource').value;
+const disc=$('feedDisc').value;
+const q=normalize($('feedSearch').value.trim());
+const period=Number($('feedPeriod').value);
+const sort=$('feedSort').value;
 
-const disc =
-document.getElementById('feedDisc').value;
+const arr=items.filter(x=>
 
-const q =
-document.getElementById('feedSearch')
-.value.trim().toLocaleLowerCase('pt-BR');
-
-const period = Number(
-
-document.getElementById('feedPeriod').value
-
-);
-
-const sort =
-document.getElementById('feedSort').value;
-
-const arr = items.filter(x=>
-
-(!source||sourceOf(x)===source) &&
-
-(!disc||discOf(x)===disc) &&
-
-(!q||textOf(x).includes(q)) &&
-
+(!source||sourceOf(x)===source)&&
+(!disc||discOf(x)===disc)&&
+(!q||textOf(x).includes(q))&&
 (!period||recent(x,period))
 
 );
@@ -2662,54 +2808,23 @@ arr.sort((a,b)=>
 sort==='title'
 
 ?String(a.title||'').localeCompare(
-
 String(b.title||''),'pt-BR'
-
 )
 
 :(sort==='oldest'?1:-1)*
-
-(
-
-(dateOf(a)?.getTime()||0)-
-
-(dateOf(b)?.getTime()||0)
-
-)
+((dateOf(a)?.getTime()||0)-
+(dateOf(b)?.getTime()||0))
 
 );
 
-document.getElementById('feedResultCount').textContent =
-
+$('feedResultCount').textContent=
 arr.length+' publicação(ões) encontrada(s)';
 
-document.getElementById('feedItems').innerHTML =
+$('feedItems').innerHTML=
 
 arr.length
 
-?arr.slice(0,feedLimit).map(x=>{
-
-const url = validLink(x.url)
-
-?`
-
-<div class="feed-actions">
-
-<a href="${esc(x.url)}"
-target="_blank"
-rel="noopener noreferrer">
-
-Ler na fonte original ↗
-
-</a>
-
-</div>
-
-`
-
-:'<p class="small muted">Link indisponível</p>';
-
-return `
+?arr.slice(0,feedLimit).map(x=>`
 
 <article class="item feeditem">
 
@@ -2718,20 +2833,12 @@ return `
 <span class="tag">${esc(sourceOf(x))}</span>
 
 ${discOf(x)
-
 ?`<span class="pill">${esc(discOf(x))}</span>`
-
-:''
-
-}
+:''}
 
 ${recent(x,7)
-
 ?'<span class="tag fresh">Últimos 7 dias</span>'
-
-:''
-
-}
+:''}
 
 <span class="small muted">
 
@@ -2741,34 +2848,47 @@ ${esc(dateLabel(x))}
 
 </div>
 
-<h3>
+<h3>${esc(x.title||'Publicação sem título')}</h3>
 
-${esc(x.title||'Publicação sem título')}
+${validLink(x.url)
 
-</h3>
+?`<div class="feed-actions">
 
-${url}
+<a href="${esc(x.url)}"
+target="_blank"
+rel="noopener noreferrer">
+
+Ler na fonte original ↗
+
+</a>
+
+</div>`
+
+:'<p class="small muted">Link indisponível</p>'}
 
 <p class="tiny muted">
 
-Registro de publicação; conteúdo jurídico ainda não validado para simulados.
+Registro de publicação;
+conteúdo jurídico ainda não validado para simulados.
 
 </p>
 
 </article>
 
-`;
+`).join('')
 
-}).join('')
+:'<div class="empty">Nenhuma publicação encontrada.</div>';
 
-:'<div class="empty">Nenhuma publicação encontrada. Experimente remover algum filtro.</div>';
-
-document.getElementById('feedMore').style.display =
-
+$('feedMore').style.display=
 arr.length>feedLimit?'inline-block':'none';
 
 }
 
+/* INICIALIZAÇÃO DO SISTEMA */
+
+refresh();
+renderLibrary();
+loadLibrary();
 loadFeeds();
 
 </script>
