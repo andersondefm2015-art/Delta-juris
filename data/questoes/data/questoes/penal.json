@@ -1,0 +1,107 @@
+
+{
+  "discipline": "Direito Penal",
+  "version": "4.0.0",
+  "questions": [
+    {
+      "id": "DP-00001",
+      "disc": "Direito Penal",
+      "topic": "Teoria da pena",
+      "subtopic": "Dosimetria da pena",
+      "contentType": "sumula",
+      "court": "STJ",
+      "sumula": "Súmula 444 do STJ",
+      "bank": "CEBRASPE",
+      "careers": [
+        "Delegado PC",
+        "Delegado PF",
+        "Juiz de Direito",
+        "Juiz Federal",
+        "Promotor de Justiça",
+        "Defensor Público"
+      ],
+      "difficulty": "Difícil",
+      "prompt": "Ao realizar a dosimetria da pena de um condenado por roubo, o magistrado constatou a existência de dois inquéritos policiais em andamento contra o acusado. Embora tenha afastado a possibilidade de utilização desses registros como maus antecedentes, considerou-os suficientes para valorar negativamente a personalidade do agente e elevar a pena-base. Nessa situação, a atuação do magistrado encontra respaldo na jurisprudência do Superior Tribunal de Justiça.",
+      "opts": [
+        "Certo",
+        "Errado"
+      ],
+      "right": 1,
+      "comment": "A assertiva está errada. A Súmula 444 do STJ estabelece que é vedada a utilização de inquéritos policiais e ações penais em curso para agravar a pena-base. A alteração da circunstância judicial utilizada pelo magistrado não legitima a utilização desses registros para aumentar a pena.",
+      "optionComments": [
+        "Incorreta. A existência de inquéritos policiais em andamento não autoriza a elevação da pena-base mediante valoração negativa da personalidade.",
+        "Correta. A vedação decorre da presunção de inocência e do entendimento consolidado na Súmula 444 do STJ."
+      ],
+      "legalBasis": "Art. 59 do Código Penal e art. 5º, LVII, da Constituição Federal.",
+      "jurisprudence": "Súmula 444 do STJ: É vedada a utilização de inquéritos policiais e ações penais em curso para agravar a pena-base.",
+      "doctrine": "Princípio da presunção de inocência e individualização da pena.",
+      "reference": "Súmula 444/STJ; art. 59 do CP; art. 5º, LVII, da CF.",
+      "trap": "A banca tenta contornar a vedação da súmula mediante a substituição dos antecedentes pela personalidade do agente.",
+      "sources": [
+        {
+          "title": "Superior Tribunal de Justiça - Pesquisa de Súmulas",
+          "url": "https://scon.stj.jus.br/SCON/"
+        },
+        {
+          "title": "Código Penal",
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+        },
+        {
+          "title": "Constituição Federal",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+        }
+      ],
+      "status": "pendente_verificacao",
+      "reviewedAt": null
+    },
+    {
+      "id": "DP-00002",
+      "disc": "Direito Penal",
+      "topic": "Erro de tipo",
+      "subtopic": "Erro de tipo essencial",
+      "contentType": "legislacao",
+      "court": "",
+      "bank": "FGV",
+      "careers": [
+        "Delegado PC",
+        "Delegado PF",
+        "Juiz de Direito",
+        "Promotor de Justiça",
+        "Defensor Público",
+        "Agente PC",
+        "Escrivão PC"
+      ],
+      "difficulty": "Muito difícil",
+      "prompt": "Durante uma viagem, Ricardo retirou da esteira de bagagens uma mala pertencente a outro passageiro, acreditando sinceramente tratar-se de sua própria mala, em razão da identidade de modelo e cor. A etiqueta de identificação estava visível e poderia ter sido conferida. Considerando que Ricardo não tinha intenção de se apropriar de coisa alheia, assinale a alternativa correta.",
+      "opts": [
+        "Ricardo responderá por furto doloso, pois a possibilidade de conferir a etiqueta caracteriza dolo eventual.",
+        "Ricardo responderá por furto culposo, uma vez que o erro era evitável.",
+        "Ricardo incorreu em erro de proibição evitável, devendo sua pena ser reduzida de um sexto a um terço.",
+        "Ricardo incorreu em erro de tipo essencial evitável, que exclui o dolo, não sendo possível puni-lo por furto culposo diante da ausência de previsão legal.",
+        "Ricardo incorreu em erro acidental sobre o objeto, circunstância que não interfere na configuração do furto doloso."
+      ],
+      "right": 3,
+      "comment": "Ricardo incorreu em erro de tipo essencial, pois desconhecia a natureza alheia da coisa subtraída, elemento constitutivo do tipo penal de furto. Ainda que o erro seja considerado evitável, o art. 20 do Código Penal determina a exclusão do dolo, permitindo a punição por crime culposo apenas quando houver previsão legal. Como inexiste modalidade culposa de furto, não há responsabilização por esse delito.",
+      "optionComments": [
+        "Incorreta. A mera possibilidade de evitar o erro não demonstra que Ricardo assumiu o risco de subtrair coisa alheia.",
+        "Incorreta. O Código Penal não prevê modalidade culposa do crime de furto.",
+        "Incorreta. O erro recai sobre elemento constitutivo do tipo penal, e não sobre a consciência da ilicitude.",
+        "Correta. O erro de tipo essencial evitável exclui o dolo e permite punição culposa somente quando expressamente prevista.",
+        "Incorreta. O erro incide sobre a condição de coisa alheia, elemento essencial do crime de furto."
+      ],
+      "legalBasis": "Arts. 18, parágrafo único, 20, caput, e 155, caput, do Código Penal.",
+      "jurisprudence": "",
+      "doctrine": "Erro de tipo essencial vencível ou inescusável. Exclusão do dolo e possibilidade de responsabilização culposa quando legalmente prevista.",
+      "reference": "Art. 20, caput, do Código Penal.",
+      "trap": "Não confundir erro de tipo evitável com dolo eventual, erro de proibição ou erro acidental sobre o objeto.",
+      "sources": [
+        {
+          "title": "Código Penal - Portal do Planalto",
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+        }
+      ],
+      "status": "pendente_verificacao",
+      "reviewedAt": null
+    }
+  ]
+}
