@@ -1,107 +1,924 @@
-
-{
-  "discipline": "Direito Penal",
-  "version": "4.0.0",
-  "questions": [
-    {
-      "id": "DP-00001",
-      "disc": "Direito Penal",
-      "topic": "Teoria da pena",
-      "subtopic": "Dosimetria da pena",
-      "contentType": "sumula",
-      "court": "STJ",
-      "sumula": "Súmula 444 do STJ",
-      "bank": "CEBRASPE",
-      "careers": [
-        "Delegado PC",
-        "Delegado PF",
-        "Juiz de Direito",
-        "Juiz Federal",
-        "Promotor de Justiça",
-        "Defensor Público"
-      ],
-      "difficulty": "Difícil",
-      "prompt": "Ao realizar a dosimetria da pena de um condenado por roubo, o magistrado constatou a existência de dois inquéritos policiais em andamento contra o acusado. Embora tenha afastado a possibilidade de utilização desses registros como maus antecedentes, considerou-os suficientes para valorar negativamente a personalidade do agente e elevar a pena-base. Nessa situação, a atuação do magistrado encontra respaldo na jurisprudência do Superior Tribunal de Justiça.",
-      "opts": [
-        "Certo",
-        "Errado"
-      ],
-      "right": 1,
-      "comment": "A assertiva está errada. A Súmula 444 do STJ estabelece que é vedada a utilização de inquéritos policiais e ações penais em curso para agravar a pena-base. A alteração da circunstância judicial utilizada pelo magistrado não legitima a utilização desses registros para aumentar a pena.",
-      "optionComments": [
-        "Incorreta. A existência de inquéritos policiais em andamento não autoriza a elevação da pena-base mediante valoração negativa da personalidade.",
-        "Correta. A vedação decorre da presunção de inocência e do entendimento consolidado na Súmula 444 do STJ."
-      ],
-      "legalBasis": "Art. 59 do Código Penal e art. 5º, LVII, da Constituição Federal.",
-      "jurisprudence": "Súmula 444 do STJ: É vedada a utilização de inquéritos policiais e ações penais em curso para agravar a pena-base.",
-      "doctrine": "Princípio da presunção de inocência e individualização da pena.",
-      "reference": "Súmula 444/STJ; art. 59 do CP; art. 5º, LVII, da CF.",
-      "trap": "A banca tenta contornar a vedação da súmula mediante a substituição dos antecedentes pela personalidade do agente.",
-      "sources": [
-        {
-          "title": "Superior Tribunal de Justiça - Pesquisa de Súmulas",
-          "url": "https://scon.stj.jus.br/SCON/"
-        },
-        {
-          "title": "Código Penal",
-          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
-        },
-        {
-          "title": "Constituição Federal",
-          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
-        }
-      ],
-      "status": "pendente_verificacao",
-      "reviewedAt": null
-    },
-    {
-      "id": "DP-00002",
-      "disc": "Direito Penal",
-      "topic": "Erro de tipo",
-      "subtopic": "Erro de tipo essencial",
-      "contentType": "legislacao",
-      "court": "",
-      "bank": "FGV",
-      "careers": [
-        "Delegado PC",
-        "Delegado PF",
-        "Juiz de Direito",
-        "Promotor de Justiça",
-        "Defensor Público",
-        "Agente PC",
-        "Escrivão PC"
-      ],
-      "difficulty": "Muito difícil",
-      "prompt": "Durante uma viagem, Ricardo retirou da esteira de bagagens uma mala pertencente a outro passageiro, acreditando sinceramente tratar-se de sua própria mala, em razão da identidade de modelo e cor. A etiqueta de identificação estava visível e poderia ter sido conferida. Considerando que Ricardo não tinha intenção de se apropriar de coisa alheia, assinale a alternativa correta.",
-      "opts": [
-        "Ricardo responderá por furto doloso, pois a possibilidade de conferir a etiqueta caracteriza dolo eventual.",
-        "Ricardo responderá por furto culposo, uma vez que o erro era evitável.",
-        "Ricardo incorreu em erro de proibição evitável, devendo sua pena ser reduzida de um sexto a um terço.",
-        "Ricardo incorreu em erro de tipo essencial evitável, que exclui o dolo, não sendo possível puni-lo por furto culposo diante da ausência de previsão legal.",
-        "Ricardo incorreu em erro acidental sobre o objeto, circunstância que não interfere na configuração do furto doloso."
-      ],
-      "right": 3,
-      "comment": "Ricardo incorreu em erro de tipo essencial, pois desconhecia a natureza alheia da coisa subtraída, elemento constitutivo do tipo penal de furto. Ainda que o erro seja considerado evitável, o art. 20 do Código Penal determina a exclusão do dolo, permitindo a punição por crime culposo apenas quando houver previsão legal. Como inexiste modalidade culposa de furto, não há responsabilização por esse delito.",
-      "optionComments": [
-        "Incorreta. A mera possibilidade de evitar o erro não demonstra que Ricardo assumiu o risco de subtrair coisa alheia.",
-        "Incorreta. O Código Penal não prevê modalidade culposa do crime de furto.",
-        "Incorreta. O erro recai sobre elemento constitutivo do tipo penal, e não sobre a consciência da ilicitude.",
-        "Correta. O erro de tipo essencial evitável exclui o dolo e permite punição culposa somente quando expressamente prevista.",
-        "Incorreta. O erro incide sobre a condição de coisa alheia, elemento essencial do crime de furto."
-      ],
-      "legalBasis": "Arts. 18, parágrafo único, 20, caput, e 155, caput, do Código Penal.",
-      "jurisprudence": "",
-      "doctrine": "Erro de tipo essencial vencível ou inescusável. Exclusão do dolo e possibilidade de responsabilização culposa quando legalmente prevista.",
-      "reference": "Art. 20, caput, do Código Penal.",
-      "trap": "Não confundir erro de tipo evitável com dolo eventual, erro de proibição ou erro acidental sobre o objeto.",
-      "sources": [
-        {
-          "title": "Código Penal - Portal do Planalto",
-          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
-        }
-      ],
-      "status": "pendente_verificacao",
-      "reviewedAt": null
-    }
-  ]
-}
+[
+  {
+    "id": "DP-00001",
+    "title": "Legalidade",
+    "disc": "Direito Penal",
+    "topic": "Princípios do Direito Penal",
+    "subtopic": "Legalidade",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Juiz Federal",
+      "Promotor de Justiça",
+      "Procurador da República",
+      "Defensor Público"
+    ],
+    "difficulty": "Básico",
+    "prompt": "Na ausência de previsão legal, o juiz pode empregar analogia para criar uma qualificadora desfavorável ao acusado.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 1,
+    "comment": "A analogia in malam partem não pode criar qualificadoras ou ampliar a punição.",
+    "optionComments": [
+      "Incorreto. A analogia in malam partem não pode criar qualificadoras ou ampliar a punição.",
+      "Correto. A analogia in malam partem não pode criar qualificadoras ou ampliar a punição."
+    ],
+    "legalBasis": "CF, art. 5º, XXXIX; CP, art. 1º.",
+    "reference": "CF, art. 5º, XXXIX; CP, art. 1º.",
+    "sources": [
+      {
+        "title": "Código Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      },
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DP-00002",
+    "title": "Reserva legal",
+    "disc": "Direito Penal",
+    "topic": "Princípios do Direito Penal",
+    "subtopic": "Reserva legal",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Juiz Federal",
+      "Promotor de Justiça",
+      "Procurador da República",
+      "Defensor Público"
+    ],
+    "difficulty": "Muito difícil",
+    "prompt": "Uma lei municipal cria crime de descarte irregular de resíduos. Não há tipo penal federal aplicável ao fato. Assinale a conclusão correta.",
+    "opts": [
+      "O município pode criar crimes de interesse local.",
+      "A lei é válida se estabelecer apenas multa penal.",
+      "A criação do crime invade competência legislativa privativa da União.",
+      "O juiz pode converter a infração municipal em crime por analogia.",
+      "A competência penal é concorrente entre todos os entes."
+    ],
+    "right": 2,
+    "comment": "A competência para legislar sobre direito penal é privativa da União, ressalvada autorização por lei complementar aos estados sobre questões específicas.",
+    "optionComments": [
+      "Interesse local não autoriza legislar sobre crimes.",
+      "A natureza da pena não afasta a reserva de competência.",
+      "A competência para legislar sobre direito penal é privativa da União, ressalvada autorização por lei complementar aos estados sobre questões específicas.",
+      "Analogia não cria crimes.",
+      "Direito penal não integra a competência concorrente geral."
+    ],
+    "legalBasis": "CF, arts. 22, I e parágrafo único, e 5º, XXXIX.",
+    "reference": "CF, arts. 22, I e parágrafo único, e 5º, XXXIX.",
+    "sources": [
+      {
+        "title": "Código Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      },
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DP-00003",
+    "title": "Responsabilidade pessoal",
+    "disc": "Direito Penal",
+    "topic": "Princípios do Direito Penal",
+    "subtopic": "Responsabilidade pessoal",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Juiz Federal",
+      "Promotor de Justiça",
+      "Procurador da República",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "A obrigação de reparar o dano decorrente de crime pode alcançar sucessores do condenado, nos termos da lei, até o limite do patrimônio transferido.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 0,
+    "comment": "A Constituição distingue a pena pessoal da obrigação de reparar o dano e do perdimento de bens, que podem alcançar sucessores dentro do limite patrimonial transferido.",
+    "optionComments": [
+      "Correto. A Constituição distingue a pena pessoal da obrigação de reparar o dano e do perdimento de bens, que podem alcançar sucessores dentro do limite patrimonial transferido.",
+      "Incorreto. A Constituição distingue a pena pessoal da obrigação de reparar o dano e do perdimento de bens, que podem alcançar sucessores dentro do limite patrimonial transferido."
+    ],
+    "legalBasis": "CF, art. 5º, XLV.",
+    "reference": "CF, art. 5º, XLV.",
+    "sources": [
+      {
+        "title": "Código Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      },
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DP-00004",
+    "title": "Individualização",
+    "disc": "Direito Penal",
+    "topic": "Princípios do Direito Penal",
+    "subtopic": "Individualização",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FCC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Juiz Federal",
+      "Promotor de Justiça",
+      "Procurador da República",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "A individualização da pena é garantia constitucional. Qual medida é compatível com essa garantia?",
+    "opts": [
+      "Fixar pena sem considerar circunstâncias legalmente relevantes.",
+      "Transferir pena privativa de liberdade aos herdeiros.",
+      "Aplicar pena superior ao máximo legal por clamor social.",
+      "Fundamentar a pena-base nas circunstâncias judiciais pertinentes.",
+      "Criar agravante por analogia desfavorável."
+    ],
+    "right": 3,
+    "comment": "A fundamentação individualizada observa os critérios do art. 59 do CP.",
+    "optionComments": [
+      "A dosimetria exige consideração dos critérios legais.",
+      "A pena não passa da pessoa do condenado.",
+      "Clamor social não autoriza superar limites legais.",
+      "A fundamentação individualizada observa os critérios do art. 59 do CP.",
+      "A analogia desfavorável viola a legalidade."
+    ],
+    "legalBasis": "CF, art. 5º, XLVI; CP, arts. 59 e 68.",
+    "reference": "CF, art. 5º, XLVI; CP, arts. 59 e 68.",
+    "sources": [
+      {
+        "title": "Código Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      },
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DP-00005",
+    "title": "Intervenção mínima",
+    "disc": "Direito Penal",
+    "topic": "Princípios do Direito Penal",
+    "subtopic": "Intervenção mínima",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Juiz Federal",
+      "Promotor de Justiça",
+      "Procurador da República",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "O princípio da intervenção mínima permite ao juiz revogar, com eficácia geral, qualquer tipo penal que considere desnecessário.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 1,
+    "comment": "O princípio orienta a política criminal e a interpretação, mas não confere ao juiz poder legislativo de revogação geral de tipos penais.",
+    "optionComments": [
+      "Incorreto. O princípio orienta a política criminal e a interpretação, mas não confere ao juiz poder legislativo de revogação geral de tipos penais.",
+      "Correto. O princípio orienta a política criminal e a interpretação, mas não confere ao juiz poder legislativo de revogação geral de tipos penais."
+    ],
+    "legalBasis": "CF, arts. 2º e 5º, XXXIX.",
+    "reference": "CF, arts. 2º e 5º, XXXIX.",
+    "sources": [
+      {
+        "title": "Código Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      },
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DP-00006",
+    "title": "Abolitio criminis",
+    "disc": "Direito Penal",
+    "topic": "Lei penal no tempo e no espaço",
+    "subtopic": "Abolitio criminis",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Juiz Federal",
+      "Promotor de Justiça",
+      "Procurador da República",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Lei posterior deixa de considerar criminosa determinada conduta. Mesmo após trânsito em julgado, cessam a execução e os efeitos penais da condenação.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 0,
+    "comment": "A abolitio criminis alcança condenações definitivas e extingue os efeitos penais, sem eliminar automaticamente os efeitos civis.",
+    "optionComments": [
+      "Correto. A abolitio criminis alcança condenações definitivas e extingue os efeitos penais, sem eliminar automaticamente os efeitos civis.",
+      "Incorreto. A abolitio criminis alcança condenações definitivas e extingue os efeitos penais, sem eliminar automaticamente os efeitos civis."
+    ],
+    "legalBasis": "CP, arts. 2º, caput, e 107, III.",
+    "reference": "CP, arts. 2º, caput, e 107, III.",
+    "sources": [
+      {
+        "title": "Código Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DP-00007",
+    "title": "Lei intermediária",
+    "disc": "Direito Penal",
+    "topic": "Lei penal no tempo e no espaço",
+    "subtopic": "Lei intermediária",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Juiz Federal",
+      "Promotor de Justiça",
+      "Procurador da República",
+      "Defensor Público"
+    ],
+    "difficulty": "Muito difícil",
+    "prompt": "Ao tempo do fato, a pena era de dois a seis anos. Lei intermediária reduziu-a para um a três anos. Antes do julgamento, terceira lei elevou-a para três a oito anos. Considerando apenas essas alterações, qual regime deve incidir?",
+    "opts": [
+      "O primeiro, exclusivamente.",
+      "O intermediário, por ser mais favorável.",
+      "O terceiro, por estar vigente no julgamento.",
+      "A média das três penas.",
+      "O terceiro, por revogar o intermediário."
+    ],
+    "right": 1,
+    "comment": "A lei intermediária mais benéfica pode incidir mesmo revogada.",
+    "optionComments": [
+      "A lei posterior benéfica retroage.",
+      "A lei intermediária mais benéfica pode incidir mesmo revogada.",
+      "A lei mais gravosa não retroage.",
+      "Não existe cálculo pela média das leis.",
+      "A revogação não impede a aplicação da lei intermediária favorável."
+    ],
+    "legalBasis": "CF, art. 5º, XL; CP, art. 2º, parágrafo único.",
+    "reference": "CF, art. 5º, XL; CP, art. 2º, parágrafo único.",
+    "sources": [
+      {
+        "title": "Código Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      },
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DP-00008",
+    "title": "Lei temporária",
+    "disc": "Direito Penal",
+    "topic": "Lei penal no tempo e no espaço",
+    "subtopic": "Lei temporária",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Juiz Federal",
+      "Promotor de Justiça",
+      "Procurador da República",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Encerrada a vigência de lei penal temporária, sua aplicação aos fatos praticados durante a vigência fica automaticamente impedida.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 1,
+    "comment": "A lei temporária possui ultratividade para fatos praticados durante sua vigência.",
+    "optionComments": [
+      "Incorreto. A lei temporária possui ultratividade para fatos praticados durante sua vigência.",
+      "Correto. A lei temporária possui ultratividade para fatos praticados durante sua vigência."
+    ],
+    "legalBasis": "CP, art. 3º.",
+    "reference": "CP, art. 3º.",
+    "sources": [
+      {
+        "title": "Código Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DP-00009",
+    "title": "Tempo do crime",
+    "disc": "Direito Penal",
+    "topic": "Lei penal no tempo e no espaço",
+    "subtopic": "Tempo do crime",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FUNDATEC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Juiz Federal",
+      "Promotor de Justiça",
+      "Procurador da República",
+      "Defensor Público"
+    ],
+    "difficulty": "Muito difícil",
+    "prompt": "Um agente pratica a conduta aos 17 anos e o resultado ocorre após completar 18 anos. Considerando crime instantâneo e exclusivamente o critério temporal do CP, assinale a correta.",
+    "opts": [
+      "Aplica-se a teoria do resultado.",
+      "Aplica-se a teoria da ubiquidade.",
+      "A idade no julgamento determina a imputabilidade.",
+      "A maioridade superveniente torna o agente imputável retroativamente.",
+      "Considera-se o momento da ação ou omissão."
+    ],
+    "right": 4,
+    "comment": "O art. 4º adota a teoria da atividade; o art. 27 prevê inimputabilidade dos menores de 18 anos.",
+    "optionComments": [
+      "O CP adota a atividade quanto ao tempo.",
+      "A ubiquidade diz respeito ao lugar do crime.",
+      "A idade no julgamento não define imputabilidade ao tempo do fato.",
+      "A maioridade posterior não retroage.",
+      "O art. 4º adota a teoria da atividade; o art. 27 prevê inimputabilidade dos menores de 18 anos."
+    ],
+    "legalBasis": "CP, arts. 4º e 27.",
+    "reference": "CP, arts. 4º e 27.",
+    "sources": [
+      {
+        "title": "Código Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DP-00010",
+    "title": "Lugar do crime",
+    "disc": "Direito Penal",
+    "topic": "Lei penal no tempo e no espaço",
+    "subtopic": "Lugar do crime",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Juiz Federal",
+      "Promotor de Justiça",
+      "Procurador da República",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "Para fins de aplicação espacial da lei penal brasileira, considera-se lugar do crime tanto aquele da ação ou omissão quanto aquele em que se produziu ou deveria produzir-se o resultado.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 0,
+    "comment": "O art. 6º consagra a teoria da ubiquidade.",
+    "optionComments": [
+      "Correto. O art. 6º consagra a teoria da ubiquidade.",
+      "Incorreto. O art. 6º consagra a teoria da ubiquidade."
+    ],
+    "legalBasis": "CP, art. 6º.",
+    "reference": "CP, art. 6º.",
+    "sources": [
+      {
+        "title": "Código Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DP-00011",
+    "title": "Territorialidade",
+    "disc": "Direito Penal",
+    "topic": "Lei penal no tempo e no espaço",
+    "subtopic": "Territorialidade",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Juiz Federal",
+      "Promotor de Justiça",
+      "Procurador da República",
+      "Defensor Público"
+    ],
+    "difficulty": "Muito difícil",
+    "prompt": "Crime é cometido a bordo de aeronave brasileira de natureza pública estacionada em aeroporto estrangeiro. Segundo o CP, assinale a correta.",
+    "opts": [
+      "A aeronave é extensão do território nacional para efeitos penais.",
+      "A lei brasileira só incide se a vítima for brasileira.",
+      "A aeronave pública só é extensão territorial em alto-mar.",
+      "A lei brasileira exige sempre ingresso posterior do agente no Brasil.",
+      "A natureza pública é irrelevante para o art. 5º."
+    ],
+    "right": 0,
+    "comment": "A aeronave brasileira pública é extensão territorial onde quer que se encontre, ressalvadas regras internacionais aplicáveis.",
+    "optionComments": [
+      "A aeronave brasileira pública é extensão territorial onde quer que se encontre, ressalvadas regras internacionais aplicáveis.",
+      "A nacionalidade da vítima não é requisito dessa regra.",
+      "A limitação espacial não se aplica às aeronaves públicas.",
+      "Não se trata da hipótese condicionada do art. 7º, § 2º.",
+      "A natureza pública é expressamente relevante."
+    ],
+    "legalBasis": "CP, art. 5º, caput e § 1º.",
+    "reference": "CP, art. 5º, caput e § 1º.",
+    "sources": [
+      {
+        "title": "Código Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DP-00012",
+    "title": "Extraterritorialidade",
+    "disc": "Direito Penal",
+    "topic": "Lei penal no tempo e no espaço",
+    "subtopic": "Extraterritorialidade",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Juiz Federal",
+      "Promotor de Justiça",
+      "Procurador da República",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Nos crimes contra a vida ou a liberdade do Presidente da República praticados no estrangeiro, o art. 7º, I, do CP prevê aplicação da lei brasileira independentemente das condições do § 2º.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 0,
+    "comment": "Trata-se de hipótese de extraterritorialidade incondicionada, observadas as demais regras jurídicas aplicáveis.",
+    "optionComments": [
+      "Correto. Trata-se de hipótese de extraterritorialidade incondicionada, observadas as demais regras jurídicas aplicáveis.",
+      "Incorreto. Trata-se de hipótese de extraterritorialidade incondicionada, observadas as demais regras jurídicas aplicáveis."
+    ],
+    "legalBasis": "CP, art. 7º, I, a, e § 1º.",
+    "reference": "CP, art. 7º, I, a, e § 1º.",
+    "sources": [
+      {
+        "title": "Código Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DP-00013",
+    "title": "Extraterritorialidade condicionada",
+    "disc": "Direito Penal",
+    "topic": "Lei penal no tempo e no espaço",
+    "subtopic": "Extraterritorialidade condicionada",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FCC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Juiz Federal",
+      "Promotor de Justiça",
+      "Procurador da República",
+      "Defensor Público"
+    ],
+    "difficulty": "Muito difícil",
+    "prompt": "Brasileiro pratica no exterior crime comum abrangido pelo art. 7º, II, b, do CP. Qual requisito integra as condições legais de aplicação da lei brasileira?",
+    "opts": [
+      "Vítima necessariamente brasileira.",
+      "Requisição obrigatória do Ministro da Justiça em toda hipótese.",
+      "Entrada do agente no território nacional.",
+      "Condenação definitiva obrigatória no exterior.",
+      "Crime necessariamente contra a administração pública."
+    ],
+    "right": 2,
+    "comment": "O ingresso no território nacional é condição expressa do § 2º, a.",
+    "optionComments": [
+      "A nacionalidade da vítima não é requisito geral dessa hipótese.",
+      "A requisição ministerial é condição adicional da hipótese do § 3º, não de todo inciso II.",
+      "O ingresso no território nacional é condição expressa do § 2º, a.",
+      "A absolvição ou o cumprimento da pena no exterior impedem a incidência nas condições legais.",
+      "A hipótese abrange crimes praticados por brasileiro, respeitadas as condições."
+    ],
+    "legalBasis": "CP, art. 7º, II, b, §§ 2º e 3º.",
+    "reference": "CP, art. 7º, II, b, §§ 2º e 3º.",
+    "sources": [
+      {
+        "title": "Código Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DP-00014",
+    "title": "Pena cumprida no exterior",
+    "disc": "Direito Penal",
+    "topic": "Lei penal no tempo e no espaço",
+    "subtopic": "Pena cumprida no exterior",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Juiz Federal",
+      "Promotor de Justiça",
+      "Procurador da República",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "A pena cumprida no estrangeiro pelo mesmo crime atenua a pena imposta no Brasil quando diversas, ou nela é computada quando idênticas.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 0,
+    "comment": "O art. 8º estabelece expressamente essas duas consequências.",
+    "optionComments": [
+      "Correto. O art. 8º estabelece expressamente essas duas consequências.",
+      "Incorreto. O art. 8º estabelece expressamente essas duas consequências."
+    ],
+    "legalBasis": "CP, art. 8º.",
+    "reference": "CP, art. 8º.",
+    "sources": [
+      {
+        "title": "Código Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DP-00015",
+    "title": "Crime permanente",
+    "disc": "Direito Penal",
+    "topic": "Lei penal no tempo e no espaço",
+    "subtopic": "Crime permanente",
+    "contentType": "sumula",
+    "court": "STF",
+    "sumula": "711",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Juiz Federal",
+      "Promotor de Justiça",
+      "Procurador da República",
+      "Defensor Público"
+    ],
+    "difficulty": "Muito difícil",
+    "prompt": "Durante a permanência de um sequestro, entra em vigor lei que agrava a pena do delito. A vítima permanece privada da liberdade após a vigência da nova lei. Qual entendimento sumulado se aplica?",
+    "opts": [
+      "A lei anterior sempre prevalece.",
+      "A lei nova somente incide se o agente concordar.",
+      "A lei nova não pode incidir em crime permanente.",
+      "A lei mais grave aplica-se se vigente antes da cessação da permanência.",
+      "Aplica-se necessariamente a média das penas."
+    ],
+    "right": 3,
+    "comment": "A Súmula 711 do STF admite a lei mais grave vigente antes da cessação da permanência ou continuidade.",
+    "optionComments": [
+      "A permanência prossegue sob a nova lei.",
+      "Consentimento do agente não é requisito.",
+      "A Súmula 711 do STF prevê justamente essa incidência.",
+      "A Súmula 711 do STF admite a lei mais grave vigente antes da cessação da permanência ou continuidade.",
+      "Não existe média legal de penas."
+    ],
+    "legalBasis": "STF, Súmula 711; CP, art. 2º.",
+    "reference": "STF, Súmula 711; CP, art. 2º.",
+    "sources": [
+      {
+        "title": "Código Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      },
+      {
+        "title": "Portal de jurisprudência do STF",
+        "url": "https://jurisprudencia.stf.jus.br/"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DP-00016",
+    "title": "Nexo causal",
+    "disc": "Direito Penal",
+    "topic": "Teoria do crime",
+    "subtopic": "Nexo causal",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Juiz Federal",
+      "Promotor de Justiça",
+      "Procurador da República",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "A superveniência de causa relativamente independente exclui a imputação do resultado quando, por si só, o produziu, permanecendo imputáveis os fatos anteriores.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 0,
+    "comment": "A regra do art. 13, § 1º, limita a imputação do resultado superveniente, sem apagar os atos anteriores.",
+    "optionComments": [
+      "Correto. A regra do art. 13, § 1º, limita a imputação do resultado superveniente, sem apagar os atos anteriores.",
+      "Incorreto. A regra do art. 13, § 1º, limita a imputação do resultado superveniente, sem apagar os atos anteriores."
+    ],
+    "legalBasis": "CP, art. 13, § 1º.",
+    "reference": "CP, art. 13, § 1º.",
+    "sources": [
+      {
+        "title": "Código Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DP-00017",
+    "title": "Omissão imprópria",
+    "disc": "Direito Penal",
+    "topic": "Teoria do crime",
+    "subtopic": "Omissão imprópria",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Juiz Federal",
+      "Promotor de Justiça",
+      "Procurador da República",
+      "Defensor Público"
+    ],
+    "difficulty": "Muito difícil",
+    "prompt": "Um adulto assume expressamente a responsabilidade de proteger uma criança durante atividade aquática. Podendo agir sem risco, deixa deliberadamente de impedir seu afogamento, querendo o resultado morte. Demonstrados os demais requisitos, qual conclusão é correta?",
+    "opts": [
+      "A omissão nunca pode equivaler à ação.",
+      "A responsabilidade assumida pode fundamentar a posição de garantidor e a imputação do homicídio doloso por omissão.",
+      "Somente parentes podem ser garantidores.",
+      "A conduta é necessariamente culposa.",
+      "A posição de garantidor dispensa possibilidade concreta de agir."
+    ],
+    "right": 1,
+    "comment": "A assunção de responsabilidade é hipótese do art. 13, § 2º, b; o dolo descrito permite imputação dolosa.",
+    "optionComments": [
+      "A omissão pode ser penalmente relevante.",
+      "A assunção de responsabilidade é hipótese do art. 13, § 2º, b; o dolo descrito permite imputação dolosa.",
+      "O dever de garantia não se limita ao parentesco.",
+      "O enunciado descreve vontade do resultado.",
+      "O dever e a possibilidade de agir são exigidos."
+    ],
+    "legalBasis": "CP, arts. 13, § 2º, b, 18, I, e 121.",
+    "reference": "CP, arts. 13, § 2º, b, 18, I, e 121.",
+    "sources": [
+      {
+        "title": "Código Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DP-00018",
+    "title": "Desistência voluntária",
+    "disc": "Direito Penal",
+    "topic": "Teoria do crime",
+    "subtopic": "Desistência voluntária",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Juiz Federal",
+      "Promotor de Justiça",
+      "Procurador da República",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "O agente que voluntariamente desiste de prosseguir na execução responde somente pelos atos já praticados, se estes constituírem infração penal.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 0,
+    "comment": "A desistência voluntária afasta a responsabilização pela tentativa do crime inicialmente pretendido, preservando a responsabilidade pelos atos anteriores puníveis.",
+    "optionComments": [
+      "Correto. A desistência voluntária afasta a responsabilização pela tentativa do crime inicialmente pretendido, preservando a responsabilidade pelos atos anteriores puníveis.",
+      "Incorreto. A desistência voluntária afasta a responsabilização pela tentativa do crime inicialmente pretendido, preservando a responsabilidade pelos atos anteriores puníveis."
+    ],
+    "legalBasis": "CP, art. 15.",
+    "reference": "CP, art. 15.",
+    "sources": [
+      {
+        "title": "Código Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DP-00019",
+    "title": "Arrependimento posterior",
+    "disc": "Direito Penal",
+    "topic": "Teoria do crime",
+    "subtopic": "Arrependimento posterior",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FUNDATEC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Juiz Federal",
+      "Promotor de Justiça",
+      "Procurador da República",
+      "Defensor Público"
+    ],
+    "difficulty": "Muito difícil",
+    "prompt": "Após consumar furto sem violência ou grave ameaça, o agente restitui voluntariamente a coisa antes do recebimento da denúncia. Qual consequência prevê o CP?",
+    "opts": [
+      "Extinção automática da punibilidade.",
+      "Exclusão do dolo.",
+      "Redução da pena de um a dois terços.",
+      "Redução obrigatória de metade, exclusivamente.",
+      "Reconhecimento de crime impossível."
+    ],
+    "right": 2,
+    "comment": "Presentes os requisitos, aplica-se a redução de um a dois terços.",
+    "optionComments": [
+      "O art. 16 prevê redução, não extinção.",
+      "A restituição posterior não elimina o dolo anterior.",
+      "Presentes os requisitos, aplica-se a redução de um a dois terços.",
+      "A fração legal é variável.",
+      "O crime foi consumado."
+    ],
+    "legalBasis": "CP, art. 16.",
+    "reference": "CP, art. 16.",
+    "sources": [
+      {
+        "title": "Código Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DP-00020",
+    "title": "Crime impossível",
+    "disc": "Direito Penal",
+    "topic": "Teoria do crime",
+    "subtopic": "Crime impossível",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Juiz Federal",
+      "Promotor de Justiça",
+      "Procurador da República",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "A mera dificuldade de consumação decorrente de ineficácia relativa do meio empregado basta para caracterizar crime impossível.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 1,
+    "comment": "O art. 17 exige ineficácia absoluta do meio ou absoluta impropriedade do objeto. A ineficácia relativa não basta.",
+    "optionComments": [
+      "Incorreto. O art. 17 exige ineficácia absoluta do meio ou absoluta impropriedade do objeto. A ineficácia relativa não basta.",
+      "Correto. O art. 17 exige ineficácia absoluta do meio ou absoluta impropriedade do objeto. A ineficácia relativa não basta."
+    ],
+    "legalBasis": "CP, art. 17.",
+    "reference": "CP, art. 17.",
+    "sources": [
+      {
+        "title": "Código Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  }
+]
