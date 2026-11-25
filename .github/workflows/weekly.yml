@@ -10,7 +10,9 @@ on:
   workflow_dispatch:
    schedule:
     - cron: '17 9,21 * * *'
-
+concurrency:
+  group: delta-juris-coleta
+  cancel-in-progress: false
 permissions:
   contents: write
 
@@ -36,5 +38,6 @@ jobs:
           git add data/updates.json
           if ! git diff --cached --quiet; then
             git commit -m "Atualizacao semanal"
-            git push
+            git pull --rebase origin main
+            git push origin main
           fi
