@@ -1,515 +1,801 @@
 
 /* =====================================================
    DELTA JURIS 4.0
-   MOTOR DE QUESTÕES AUTORAIS
-   Carreiras Policiais e Jurídicas
+   MOTOR DE QUESTOES AUTORAIS
+   TACTICAL EDITION
+   CARREIRAS POLICIAIS E JURIDICAS
    ===================================================== */
 
 (function () {
 
-"use strict";
+    "use strict";
 
-/* CONFIGURAÇÕES */
+    /* PROTECAO CONTRA DUPLICACAO */
 
-const BASE = "./data/questoes/";
-let manifesto = null;
+    if (window.DeltaQuestoes) return;
 
-async function carregarManifesto() {
+    /* CONFIGURACOES */
 
-    const resposta = await fetch(
-        BASE + "manifest.json",
-        { cache: "no-store" }
-    );
+    const BASE = "./data/questoes/";
 
-    if (!resposta.ok) {
+    const DISCIPLINAS = {
 
-        throw new Error(
-            "Erro ao carregar manifest.json"
-        );
-
-    }
-
-    const dados = await resposta.json();
-
-    if (!Array.isArray(dados.disciplines)) {
-
-        throw new Error(
-            "Manifesto inválido"
-        );
-
-    }
-
-    manifesto = dados;
-
-    return manifesto;
-
-}
-
-const DISCIPLINAS = {
-
-    "penal.json": "Direito Penal",
-    "processo-penal.json": "Direito Processual Penal",
-    "constitucional.json": "Direito Constitucional",
-    "administrativo.json": "Direito Administrativo",
-    "civil.json": "Direito Civil",
-    "processo-civil.json": "Direito Processual Civil",
-    "legislacao-especial.json": "Legislação Penal Especial",
-    "criminologia.json": "Criminologia",
-    "direitos-humanos.json": "Direitos Humanos",
-    "ambiental.json": "Direito Ambiental",
-    "medicina-legal.json": "Medicina Legal"
-
-};
-
-const BANCAS = [
-    "CEBRASPE",
-    "FGV",
-    "FUNDATEC",
-    "FCC"
-];
-
-const NIVEIS = [
-    "Básico",
-    "Intermediário",
-    "Difícil",
-    "Muito difícil",
-    "Especialista"
-];
-
-const CARREIRAS = [
-    "Juiz de Direito",
-    "Juiz Federal",
-    "Promotor de Justiça",
-    "Procurador da República",
-    "Defensor Público",
-    "Delegado PC",
-    "Delegado PF",
-    "Policial Rodoviário Federal",
-    "Agente PC",
-    "Escrivão PC",
-    "Investigador PC",
-    "Agente PF",
-    "Escrivão PF"
-];
-
-/* ESTADO DO SISTEMA */
-
-let banco = [];
-let erros = [];
-let carregado = false;
-let carregando = null;
-
-/* PROTEÇÃO DE TEXTO */
-
-function esc(value) {
-
-    return String(value ?? "").replace(
-        /[&<>"']/g,
-        c => ({
-            "&": "&amp;",
-            "<": "&lt;",
-            ">": "&gt;",
-            '"': "&quot;",
-            "'": "&#39;"
-        }[c])
-    );
-
-}
-
-/* NORMALIZAÇÃO DE PESQUISA */
-
-function normalizar(value) {
-
-    return String(value ?? "")
-        .normalize("NFD")
-        .replace(/[\u0300-\u036f]/g, "")
-        .toLowerCase()
-        .trim();
-
-}
-
-/* EMBARALHAMENTO */
-
-function embaralhar(lista) {
-
-    const copia = [...lista];
-
-    for (let i = copia.length - 1; i > 0; i--) {
-
-        const j = Math.floor(
-            Math.random() * (i + 1)
-        );
-
-        [copia[i], copia[j]] =
-        [copia[j], copia[i]];
-
-    }
-
-    return copia;
-
-}
-
-/* LINKS SEGUROS */
-
-function linkValido(url) {
-
-    try {
-
-        const u = new URL(url);
-
-        return u.protocol === "https:";
-
-    } catch {
-
-        return false;
-
-    }
-
-}
-
-/* LEITURA DOS ARQUIVOS JSON */
-
-async function lerJSON(arquivo) {
-
-    const resposta = await fetch(
-
-        BASE + arquivo + "?v=" + Date.now(),
-
-        { cache: "no-store" }
-
-    );
-
-    if (!resposta.ok) {
-
-        throw new Error(
-            "HTTP " + resposta.status
-        );
-
-    }
-
-    return await resposta.json();
-
-}
-
-/* PADRONIZAÇÃO DAS QUESTÕES */
-
-function prepararQuestao(q, disciplina) {
-
-    const carreiras =
-        q.careers || q.carreiras || [];
-
-    const fontes =
-        q.sources || q.fontes || [];
-
-    return {
-
-        id: String(q.id || "").trim(),
-
-        disc: q.disc || disciplina,
-
-        topic: q.topic || q.assunto || "",
-
-        subtopic: q.subtopic || "",
-
-contentType: q.contentType || "misto",
-
-court: String(
-    q.court || ""
-).toUpperCase(),
-
-sumula: q.sumula || "",
-
-tema: q.tema || "",
-
-informativo: q.informativo || "",
-
-precedent: q.precedent || "",
-
-bank: String(
-    q.bank || ""
-).toUpperCase(),
-
-        careers: Array.isArray(carreiras)
-            ? carreiras
-            : [carreiras],
-
-        difficulty:
-            q.difficulty || "Difícil",
-
-        prompt: q.prompt || "",
-
-        opts: Array.isArray(q.opts)
-            ? q.opts.map(String)
-            : [],
-
-        right: q.right,
-
-        comment: q.comment || "",
-
-        optionComments:
-            Array.isArray(q.optionComments)
-                ? q.optionComments
-                : [],
-
-        legalBasis:
-            q.legalBasis ||
-            q.fundamento || "",
-
-        jurisprudence:
-            q.jurisprudence ||
-            q.jurisprudencia || "",
-
-        doctrine:
-            q.doctrine ||
-            q.doutrina || "",
-
-        reference:
-            q.reference || "",
-
-        trap:
-            q.trap || "",
-
-        sources:
-            Array.isArray(fontes)
-                ? fontes
-                : [fontes],
-
-        status:
-            q.status ||
-            "pendente_verificacao",
-
-        reviewedAt:
-            q.reviewedAt || null
+        "penal.json": "Direito Penal",
+        "processo-penal.json": "Direito Processual Penal",
+        "constitucional.json": "Direito Constitucional",
+        "administrativo.json": "Direito Administrativo",
+        "civil.json": "Direito Civil",
+        "processo-civil.json": "Direito Processual Civil",
+        "legislacao-especial.json": "Legislação Penal Especial",
+        "criminologia.json": "Criminologia",
+        "direitos-humanos.json": "Direitos Humanos",
+        "ambiental.json": "Direito Ambiental",
+        "medicina-legal.json": "Medicina Legal"
 
     };
 
-}
+    const BANCAS = [
 
-/* VALIDAÇÃO ESTRUTURAL */
+        "CEBRASPE",
+        "FGV",
+        "FUNDATEC",
+        "FCC"
 
-function validarQuestao(q) {
+    ];
 
-    const falhas = [];
+    const NIVEIS = [
 
-    if (!q.id) {
-        falhas.push("ID ausente");
+        "Básico",
+        "Intermediário",
+        "Difícil",
+        "Muito difícil",
+        "Especialista"
+
+    ];
+
+    const CARREIRAS = [
+
+        "Juiz de Direito",
+        "Juiz Federal",
+        "Promotor de Justiça",
+        "Procurador da República",
+        "Defensor Público",
+        "Delegado PC",
+        "Delegado PF",
+        "Policial Rodoviário Federal",
+        "Agente PC",
+        "Escrivão PC",
+        "Investigador PC",
+        "Agente PF",
+        "Escrivão PF"
+
+    ];
+
+    const TIPOS = [
+
+        "legislacao",
+        "jurisprudencia",
+        "sumula",
+        "sumula_vinculante",
+        "repercussao_geral",
+        "repetitivo",
+        "informativo",
+        "doutrina",
+        "misto"
+
+    ];
+
+    const STATUS = [
+
+        "pendente_verificacao",
+        "validada",
+        "desatualizada",
+        "arquivada"
+
+    ];
+
+    /* ESTADO DO SISTEMA */
+
+    let manifesto = null;
+    let banco = [];
+    let erros = [];
+    let carregado = false;
+    let carregando = null;
+
+    /* FUNCOES AUXILIARES */
+
+    function texto(value) {
+
+        return String(value ?? "").trim();
+
     }
 
-    if (!q.disc) {
-        falhas.push("Disciplina ausente");
+    function esc(value) {
+
+        return String(value ?? "").replace(
+            /[&<>"']/g,
+            c => ({
+                "&": "&amp;",
+                "<": "&lt;",
+                ">": "&gt;",
+                '"': "&quot;",
+                "'": "&#39;"
+            }[c])
+        );
+
     }
 
-    if (!q.topic) {
-        falhas.push("Assunto ausente");
+    function normalizar(value) {
+
+        return texto(value)
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "")
+            .toLowerCase();
+
     }
 
-    if (!BANCAS.includes(q.bank)) {
-        falhas.push("Banca inválida");
+    function ativo(value) {
+
+        return Boolean(
+            value &&
+            normalizar(value) !== "all" &&
+            normalizar(value) !== "todos" &&
+            normalizar(value) !== "todas"
+        );
+
     }
 
-    if (!NIVEIS.includes(q.difficulty)) {
-        falhas.push("Dificuldade inválida");
+    function lista(value) {
+
+        if (Array.isArray(value)) {
+
+            return value;
+
+        }
+
+        return value ? [value] : [];
+
     }
 
-    if (!q.careers.length) {
-        falhas.push("Carreira ausente");
+    function listaTexto(value) {
+
+        return [...new Set(
+            lista(value)
+                .map(texto)
+                .filter(Boolean)
+        )];
+
     }
 
-    if (!q.prompt.trim()) {
-        falhas.push("Enunciado ausente");
+    /* EMBARALHAMENTO */
+
+    function embaralhar(lista) {
+
+        const copia = [...lista];
+
+        for (let i = copia.length - 1; i > 0; i--) {
+
+            const j = Math.floor(
+                Math.random() * (i + 1)
+            );
+
+            [copia[i], copia[j]] =
+                [copia[j], copia[i]];
+
+        }
+
+        return copia;
+
     }
 
-    const quantidade =
-        q.bank === "CEBRASPE" ? 2 : 5;
+    /* LINKS E FONTES */
 
-    if (q.opts.length !== quantidade) {
-        falhas.push("Quantidade de alternativas inválida");
+    function linkValido(url) {
+
+        try {
+
+            const u = new URL(url);
+
+            return (
+                u.protocol === "https:" &&
+                !u.username &&
+                !u.password
+            );
+
+        } catch {
+
+            return false;
+
+        }
+
     }
 
-    if (q.opts.some(x => !x.trim())) {
-        falhas.push("Alternativa vazia");
+    function fonteOficial(url) {
+
+        if (!linkValido(url)) return false;
+
+        try {
+
+            const host =
+                new URL(url).hostname.toLowerCase();
+
+            const dominios = [
+
+                "gov.br",
+                "jus.br",
+                "leg.br",
+                "mp.br",
+                "def.br"
+
+            ];
+
+            return dominios.some(d =>
+
+                host === d ||
+                host.endsWith("." + d)
+
+            );
+
+        } catch {
+
+            return false;
+
+        }
+
     }
 
-    if (
-        new Set(
-            q.opts.map(normalizar)
-        ).size !== q.opts.length
-    ) {
-        falhas.push("Alternativas duplicadas");
+    /* LEITURA DOS ARQUIVOS */
+
+    async function lerJSON(arquivo) {
+
+        if (
+            !/^[a-z0-9_-]+\.json$/i.test(arquivo)
+        ) {
+
+            throw new Error(
+                "Nome de arquivo inválido"
+            );
+
+        }
+
+        const resposta = await fetch(
+
+            BASE + arquivo + "?v=" + Date.now(),
+
+            { cache: "no-store" }
+
+        );
+
+        if (!resposta.ok) {
+
+            throw new Error(
+                "HTTP " + resposta.status
+            );
+
+        }
+
+        return await resposta.json();
+
     }
 
-    if (
-        q.bank === "CEBRASPE" &&
-        (
-            normalizar(q.opts[0]) !== "certo" ||
-            normalizar(q.opts[1]) !== "errado"
-        )
-    ) {
-        falhas.push("Formato Certo/Errado inválido");
-    }
+    /* MANIFESTO */
 
-    if (
-        !Number.isInteger(q.right) ||
-        q.right < 0 ||
-        q.right >= q.opts.length
-    ) {
-        falhas.push("Gabarito inválido");
-    }
+    async function carregarManifesto() {
 
-    if (!q.comment.trim()) {
-        falhas.push("Comentário ausente");
-    }
+        const dados = await lerJSON(
+            "manifest.json"
+        );
 
-    if (
-    !q.legalBasis &&
-    !q.jurisprudence &&
-    !q.reference &&
-    !q.sumula &&
-    !q.tema &&
-    !q.precedent &&
-    !q.informativo
-) {
-    falhas.push("Fundamentação jurídica ausente");
-}
+        if (
+            !dados ||
+            !Array.isArray(dados.disciplines) ||
+            !Array.isArray(dados.contentTypes)
+        ) {
 
-if (
-    manifesto &&
-    !manifesto.contentTypes.some(
-        tipo => tipo.id === q.contentType
-    )
-) {
-    falhas.push("Tipo de conteúdo inválido");
-}
+            throw new Error(
+                "Manifesto inválido"
+            );
 
-if (
-    q.court &&
-    !["STF", "STJ"].includes(q.court)
-) {
-    falhas.push("Tribunal inválido");
-}
+        }
 
-if (
-    q.status === "validada" &&
-    !q.reviewedAt
-) {
-    falhas.push("Data de revisão jurídica ausente");
-}
+        const arquivos = new Set();
 
-    if (
-        q.optionComments.length !==
-        q.opts.length
-    ) {
-        falhas.push("Comentários das alternativas incompletos");
-    }
+        for (const d of dados.disciplines) {
 
-    if (
-        q.optionComments.some(
-            x => !String(x || "").trim()
-        )
-    ) {
-        falhas.push("Comentário de alternativa vazio");
-    }
+            if (
+                !d ||
+                !texto(d.name) ||
+                !/^[a-z0-9_-]+\.json$/i.test(
+                    texto(d.file)
+                ) ||
+                d.file === "manifest.json" ||
+                arquivos.has(d.file)
+            ) {
 
-    if (
-        !q.sources.some(f =>
-            linkValido(
-                typeof f === "string"
-                    ? f
-                    : f?.url
+                throw new Error(
+                    "Disciplina inválida ou duplicada no manifesto"
+                );
+
+            }
+
+            arquivos.add(d.file);
+
+        }
+
+        if (
+            dados.contentTypes.some(
+                tipo => !tipo || !texto(tipo.id)
             )
-        )
-    ) {
-        falhas.push("Fonte jurídica ausente");
+        ) {
+
+            throw new Error(
+                "Tipos de conteúdo inválidos"
+            );
+
+        }
+
+        manifesto = dados;
+
+        return manifesto;
+
     }
 
-    return falhas;
+    /* PADRONIZACAO DAS QUESTOES */
 
-}
+    function prepararQuestao(q, disciplina) {
 
-/* CARREGAMENTO DO BANCO */
+        return {
 
-async function executarCarregamento() {
+            id: texto(q.id),
 
-    carregado = false;
-    banco = [];
-    erros = [];
+            title: texto(
+                q.title || q.topic || q.assunto
+            ),
 
-    await carregarManifesto();
+            disc: texto(
+                q.disc || disciplina
+            ),
 
-    const arquivosAtivos = manifesto.disciplines
-        .filter(d => d.enabled)
-        .map(d => [d.file, d.name]);
+            topic: texto(
+                q.topic || q.assunto
+            ),
 
-    const ids = new Set();
+            subtopic: texto(q.subtopic),
 
-    const resultados = await Promise.allSettled(
+            contentType: texto(
+                q.contentType || "misto"
+            ),
 
-        arquivosAtivos.map(
-            async ([arquivo, disciplina]) => ({
+            court: texto(
+                q.court
+            ).toUpperCase(),
 
-                arquivo,
+            sumula: texto(q.sumula),
 
-                disciplina,
+            tema: texto(q.tema),
 
-                dados: await lerJSON(arquivo)
+            informativo: texto(q.informativo),
 
-            })
+            precedent: texto(q.precedent),
 
-        )
+            bank: texto(
+                q.bank
+            ).toUpperCase(),
 
-    );
+            careers: listaTexto(
+                q.careers || q.carreiras
+            ),
 
-    resultados.forEach((resultado, indice) => {
+            difficulty: texto(
+                q.difficulty
+            ),
 
-        const arquivo =
-    arquivosAtivos[indice][0];
+            prompt: texto(q.prompt),
 
-        if (resultado.status === "rejected") {
+            opts: Array.isArray(q.opts)
 
-            erros.push({
+                ? q.opts.map(texto)
 
-                arquivo,
+                : [],
 
-                erro: String(resultado.reason)
+            right: q.right,
 
-            });
+            comment: texto(q.comment),
 
-            return;
+            optionComments:
+                Array.isArray(q.optionComments)
+
+                    ? q.optionComments.map(texto)
+
+                    : [],
+
+            legalBasis: texto(
+                q.legalBasis || q.fundamento
+            ),
+
+            jurisprudence: texto(
+                q.jurisprudence ||
+                q.jurisprudencia
+            ),
+
+            doctrine: texto(
+                q.doctrine || q.doutrina
+            ),
+
+            reference: texto(q.reference),
+
+            exceptions: texto(
+                q.exceptions || q.excecoes
+            ),
+
+            example: texto(
+                q.example || q.exemplo
+            ),
+
+            trap: texto(q.trap),
+
+            sources: lista(
+                q.sources || q.fontes
+            ).map(f => {
+
+                if (typeof f === "string") {
+
+                    return {
+
+                        title: "Consultar fonte jurídica",
+
+                        url: texto(f)
+
+                    };
+
+                }
+
+                return {
+
+                    title: texto(
+                        f?.title ||
+                        "Consultar fonte jurídica"
+                    ),
+
+                    url: texto(f?.url)
+
+                };
+
+            }).filter(f => linkValido(f.url)),
+
+            status: texto(
+                q.status || "pendente_verificacao"
+            ),
+
+            reviewedAt: q.reviewedAt
+
+                ? texto(q.reviewedAt)
+
+                : null
+
+        };
+
+    }
+
+    /* VALIDACAO ESTRUTURAL */
+
+    function validarQuestao(q, disciplina) {
+
+        const falhas = [];
+
+        if (!q.id) {
+
+            falhas.push("ID ausente");
 
         }
 
-        const { dados, disciplina } =
-            resultado.value;
+        if (!q.disc) {
 
-        const lista = Array.isArray(dados)
-
-            ? dados
-
-            : dados?.questions;
-
-        if (!Array.isArray(lista)) {
-
-            erros.push({
-
-                arquivo,
-
-                erro: "Formato JSON inválido"
-
-            });
-
-            return;
+            falhas.push("Disciplina ausente");
 
         }
 
-        lista.forEach(item => {
+        if (
+            disciplina &&
+            q.disc !== disciplina
+        ) {
 
-            if (!item || typeof item !== "object") {
+            falhas.push(
+                "Disciplina incompatível com o arquivo"
+            );
+
+        }
+
+        if (!q.topic) {
+
+            falhas.push("Assunto ausente");
+
+        }
+
+        if (!BANCAS.includes(q.bank)) {
+
+            falhas.push("Banca inválida");
+
+        }
+
+        if (!NIVEIS.includes(q.difficulty)) {
+
+            falhas.push("Dificuldade inválida");
+
+        }
+
+        if (
+            !q.careers.length ||
+            q.careers.some(
+                c => !CARREIRAS.includes(c)
+            )
+        ) {
+
+            falhas.push(
+                "Classificação de carreira inválida"
+            );
+
+        }
+
+        if (!STATUS.includes(q.status)) {
+
+            falhas.push("Status inválido");
+
+        }
+
+        if (!q.prompt) {
+
+            falhas.push("Enunciado ausente");
+
+        }
+
+        const quantidade =
+
+            q.bank === "CEBRASPE" ? 2 : 5;
+
+        if (q.opts.length !== quantidade) {
+
+            falhas.push(
+                "Quantidade de alternativas inválida"
+            );
+
+        }
+
+        if (q.opts.some(x => !x)) {
+
+            falhas.push("Alternativa vazia");
+
+        }
+
+        if (
+
+            new Set(
+                q.opts.map(normalizar)
+            ).size !== q.opts.length
+
+        ) {
+
+            falhas.push(
+                "Alternativas duplicadas"
+            );
+
+        }
+
+        if (
+
+            q.bank === "CEBRASPE" &&
+
+            (
+
+                normalizar(q.opts[0]) !== "certo" ||
+
+                normalizar(q.opts[1]) !== "errado"
+
+            )
+
+        ) {
+
+            falhas.push(
+                "Formato Certo/Errado inválido"
+            );
+
+        }
+
+        if (
+
+            !Number.isInteger(q.right) ||
+
+            q.right < 0 ||
+
+            q.right >= q.opts.length
+
+        ) {
+
+            falhas.push("Gabarito inválido");
+
+        }
+
+        if (!q.comment) {
+
+            falhas.push("Comentário ausente");
+
+        }
+
+        if (
+
+            !q.legalBasis &&
+            !q.jurisprudence &&
+            !q.reference &&
+            !q.sumula &&
+            !q.tema &&
+            !q.precedent &&
+            !q.informativo &&
+            !q.doctrine
+
+        ) {
+
+            falhas.push(
+                "Fundamentação jurídica ausente"
+            );
+
+        }
+
+        const tiposPermitidos = manifesto
+
+            ? manifesto.contentTypes.map(
+                t => t.id
+            )
+
+            : TIPOS;
+
+        if (
+            !tiposPermitidos.includes(
+                q.contentType
+            )
+        ) {
+
+            falhas.push(
+                "Tipo de conteúdo inválido"
+            );
+
+        }
+
+        if (
+
+            q.court &&
+
+            !["STF", "STJ"].includes(q.court)
+
+        ) {
+
+            falhas.push("Tribunal inválido");
+
+        }
+
+        if (
+
+            q.optionComments.length !==
+            q.opts.length
+
+        ) {
+
+            falhas.push(
+                "Comentários das alternativas incompletos"
+            );
+
+        }
+
+        if (
+            q.optionComments.some(x => !x)
+        ) {
+
+            falhas.push(
+                "Comentário de alternativa vazio"
+            );
+
+        }
+
+        if (
+
+            !q.sources.some(
+                f => fonteOficial(f.url)
+            )
+
+        ) {
+
+            falhas.push(
+                "Fonte jurídica oficial ausente"
+            );
+
+        }
+
+        if (q.status === "validada") {
+
+            if (
+                !q.reviewedAt ||
+                !Number.isFinite(
+                    Date.parse(q.reviewedAt)
+                )
+            ) {
+
+                falhas.push(
+                    "Data de revisão jurídica inválida"
+                );
+
+            }
+
+        }
+
+        return falhas;
+
+    }
+
+    /* CARREGAMENTO DO BANCO */
+
+    async function executarCarregamento() {
+
+        carregado = false;
+        banco = [];
+        erros = [];
+
+        try {
+
+            await carregarManifesto();
+
+        } catch (error) {
+
+            erros.push({
+
+                arquivo: "manifest.json",
+
+                erro: texto(error.message)
+
+            });
+
+            throw error;
+
+        }
+
+        const arquivosAtivos = manifesto.disciplines
+
+            .filter(d => d.enabled === true)
+
+            .map(d => [d.file, d.name]);
+
+        const registros = [];
+
+        const resultados = await Promise.allSettled(
+
+            arquivosAtivos.map(
+
+                async ([arquivo, disciplina]) => ({
+
+                    arquivo,
+
+                    disciplina,
+
+                    dados: await lerJSON(arquivo)
+
+                })
+
+            )
+
+        );
+
+        resultados.forEach((resultado, indice) => {
+
+            const arquivo =
+                arquivosAtivos[indice][0];
+
+            if (
+                resultado.status === "rejected"
+            ) {
 
                 erros.push({
 
                     arquivo,
 
-                    erro: "Registro inválido"
+                    erro: String(resultado.reason)
 
                 });
 
@@ -517,552 +803,1090 @@ async function executarCarregamento() {
 
             }
 
-            try {
+            const { dados, disciplina } =
+                resultado.value;
 
-                const q = prepararQuestao(
-                    item,
-                    disciplina
-                );
+            const questoes = Array.isArray(dados)
 
-                const falhas = validarQuestao(q);
+                ? dados
 
-                if (falhas.length) {
+                : dados?.questions;
 
-                    erros.push({
-
-                        arquivo,
-
-                        id: q.id,
-
-                        erro: falhas.join("; ")
-
-                    });
-
-                    return;
-
-                }
-
-                if (ids.has(q.id)) {
-
-                    erros.push({
-
-                        arquivo,
-
-                        id: q.id,
-
-                        erro: "ID duplicado"
-
-                    });
-
-                    return;
-
-                }
-
-                ids.add(q.id);
-
-                banco.push(q);
-
-            } catch (e) {
+            if (!Array.isArray(questoes)) {
 
                 erros.push({
 
                     arquivo,
 
-                    erro: String(e.message)
+                    erro: "Formato JSON inválido"
 
                 });
 
+                return;
+
             }
+
+            questoes.forEach(item => {
+
+                if (
+                    !item ||
+                    typeof item !== "object" ||
+                    Array.isArray(item)
+                ) {
+
+                    erros.push({
+
+                        arquivo,
+
+                        erro: "Registro inválido"
+
+                    });
+
+                    return;
+
+                }
+
+                try {
+
+                    const q = prepararQuestao(
+
+                        item,
+
+                        disciplina
+
+                    );
+
+                    const falhas = validarQuestao(
+
+                        q,
+
+                        disciplina
+
+                    );
+
+                    registros.push({
+
+                        arquivo,
+
+                        q,
+
+                        falhas
+
+                    });
+
+                } catch (error) {
+
+                    erros.push({
+
+                        arquivo,
+
+                        erro: texto(error.message)
+
+                    });
+
+                }
+
+            });
 
         });
 
-    });
+        /* IDENTIFICACAO DE IDS DUPLICADOS */
 
-    carregado = true;
+        const contagem = new Map();
 
-    console.info(
+        registros.forEach(({ q }) => {
 
-        "Delta Juris: " +
-        banco.length +
-        " questões carregadas."
+            if (!q.id) return;
 
-    );
+            contagem.set(
 
-    if (erros.length) {
+                q.id,
 
-        console.warn(
-            "Delta Juris — Avisos:",
-            erros
+                (contagem.get(q.id) || 0) + 1
+
+            );
+
+        });
+
+        registros.forEach((registro) => {
+
+            const { arquivo, q, falhas } =
+                registro;
+
+            if (
+                q.id &&
+                contagem.get(q.id) > 1
+            ) {
+
+                falhas.push("ID duplicado");
+
+            }
+
+            if (falhas.length) {
+
+                erros.push({
+
+                    arquivo,
+
+                    id: q.id,
+
+                    erro: falhas.join("; ")
+
+                });
+
+                return;
+
+            }
+
+            banco.push(q);
+
+        });
+
+        carregado = true;
+
+        console.info(
+
+            "Delta Juris 4.0:",
+
+            banco.length,
+
+            "questões carregadas."
+
+        );
+
+        if (erros.length) {
+
+            console.warn(
+
+                "Delta Juris — Avisos:",
+
+                erros
+
+            );
+
+        }
+
+        return resumo();
+
+    }
+
+    async function carregarBanco(forcar = false) {
+
+        if (carregando) {
+
+            return carregando;
+
+        }
+
+        if (carregado && !forcar) {
+
+            return resumo();
+
+        }
+
+        carregando = executarCarregamento();
+
+        try {
+
+            return await carregando;
+
+        } finally {
+
+            carregando = null;
+
+        }
+
+    }
+
+    /* RESUMO DO BANCO */
+
+    function resumo() {
+
+        const validadas = banco.filter(
+
+            q => q.status === "validada"
+
+        );
+
+        const porDisciplina = {};
+
+        const porBanca = {};
+
+        const porDificuldade = {};
+
+        const porConteudo = {};
+
+        validadas.forEach(q => {
+
+            porDisciplina[q.disc] =
+
+                (porDisciplina[q.disc] || 0) + 1;
+
+            porBanca[q.bank] =
+
+                (porBanca[q.bank] || 0) + 1;
+
+            porDificuldade[q.difficulty] =
+
+                (porDificuldade[q.difficulty] || 0) + 1;
+
+            porConteudo[q.contentType] =
+
+                (porConteudo[q.contentType] || 0) + 1;
+
+        });
+
+        return {
+
+            carregado,
+
+            total: banco.length,
+
+            validadas: validadas.length,
+
+            pendentes: banco.filter(
+
+                q => q.status ===
+                    "pendente_verificacao"
+
+            ).length,
+
+            desatualizadas: banco.filter(
+
+                q => q.status ===
+                    "desatualizada"
+
+            ).length,
+
+            arquivadas: banco.filter(
+
+                q => q.status ===
+                    "arquivada"
+
+            ).length,
+
+            erros: erros.map(e => ({ ...e })),
+
+            porDisciplina,
+
+            porBanca,
+
+            porDificuldade,
+
+            porConteudo,
+
+            disciplinas: manifesto
+
+                ? manifesto.disciplines
+                    .filter(d => d.enabled === true)
+                    .map(d => d.name)
+
+                : Object.values(DISCIPLINAS),
+
+            bancas: [...BANCAS],
+
+            niveis: [...NIVEIS],
+
+            carreiras: [...CARREIRAS]
+
+        };
+
+    }
+
+    /* FILTROS DE QUESTOES */
+
+    function filtrar(filtros = {}) {
+
+        if (!carregado) return [];
+
+        const pesquisa = normalizar(
+
+            filtros.pesquisa ||
+            filtros.search ||
+            ""
+
+        );
+
+        const ids = Array.isArray(filtros.ids)
+
+            ? new Set(filtros.ids.map(String))
+
+            : null;
+
+        const resultado = banco.filter(q => {
+
+            /* SOMENTE QUESTOES VALIDADAS */
+
+            if (
+                q.status !== "validada"
+            ) {
+
+                return false;
+
+            }
+
+            if (ids && !ids.has(q.id)) {
+
+                return false;
+
+            }
+
+            if (
+
+                ativo(filtros.disc) &&
+
+                q.disc !== filtros.disc
+
+            ) {
+
+                return false;
+
+            }
+
+            if (
+
+                ativo(filtros.bank) &&
+
+                q.bank !== filtros.bank
+
+            ) {
+
+                return false;
+
+            }
+
+            if (
+
+                ativo(filtros.difficulty) &&
+
+                q.difficulty !== filtros.difficulty
+
+            ) {
+
+                return false;
+
+            }
+
+            if (
+
+                ativo(filtros.career) &&
+
+                !q.careers.includes(filtros.career)
+
+            ) {
+
+                return false;
+
+            }
+
+            if (
+
+                ativo(filtros.topic) &&
+
+                q.topic !== filtros.topic
+
+            ) {
+
+                return false;
+
+            }
+
+            if (
+
+                ativo(filtros.contentType) &&
+
+                q.contentType !== filtros.contentType
+
+            ) {
+
+                return false;
+
+            }
+
+            if (
+
+                ativo(filtros.court) &&
+
+                q.court !== filtros.court
+
+            ) {
+
+                return false;
+
+            }
+
+            if (
+
+                ativo(filtros.sumula) &&
+
+                !normalizar(q.sumula).includes(
+
+                    normalizar(filtros.sumula)
+
+                )
+
+            ) {
+
+                return false;
+
+            }
+
+            if (
+
+                ativo(filtros.tema) &&
+
+                !normalizar(q.tema).includes(
+
+                    normalizar(filtros.tema)
+
+                )
+
+            ) {
+
+                return false;
+
+            }
+
+            if (pesquisa) {
+
+                const conteudo = normalizar([
+
+                    q.id,
+                    q.title,
+                    q.disc,
+                    q.topic,
+                    q.subtopic,
+                    q.prompt,
+                    q.reference,
+                    q.contentType,
+                    q.court,
+                    q.sumula,
+                    q.tema,
+                    q.informativo,
+                    q.precedent,
+                    q.legalBasis,
+                    q.jurisprudence,
+                    q.doctrine,
+                    q.comment,
+                    q.exceptions,
+                    q.example,
+                    q.trap
+
+                ].join(" "));
+
+                const termos = pesquisa
+
+                    .split(/\s+/)
+
+                    .filter(Boolean);
+
+                if (
+
+                    !termos.every(
+
+                        termo => conteudo.includes(termo)
+
+                    )
+
+                ) {
+
+                    return false;
+
+                }
+
+            }
+
+            return true;
+
+        });
+
+        return resultado.map(q => ({
+
+            ...q,
+
+            careers: [...q.careers],
+
+            opts: [...q.opts],
+
+            optionComments: [...q.optionComments],
+
+            sources: q.sources.map(f => ({ ...f }))
+
+        }));
+
+    }
+
+    /* CONSULTA INDIVIDUAL */
+
+    function buscarQuestao(id) {
+
+        return filtrar({
+
+            ids: [String(id)]
+
+        })[0] || null;
+
+    }
+
+    /* MONTAGEM DOS SIMULADOS */
+
+    function criarSimulado(filtros = {}) {
+
+        const quantidade = Math.min(
+
+            100,
+
+            Math.max(
+
+                1,
+
+                Math.floor(
+                    Number(filtros.count) || 10
+                )
+
+            )
+
+        );
+
+        const disponiveis = filtrar(filtros);
+
+        const ordenadas = filtros.shuffle === false
+
+            ? disponiveis
+
+            : embaralhar(disponiveis);
+
+        return ordenadas.slice(
+
+            0,
+
+            quantidade
+
         );
 
     }
 
-    return resumo();
+    /* GABARITO */
 
-}
+    function gabarito(q) {
 
-async function carregarBanco(forcar = false) {
+        if (q.bank === "CEBRASPE") {
 
-    if (carregando) return carregando;
+            return q.opts[q.right];
 
-    if (carregado && !forcar) {
-        return resumo();
-    }
+        }
 
-    carregando = executarCarregamento();
+        return String.fromCharCode(
 
-    try {
+            65 + q.right
 
-        return await carregando;
-
-    } finally {
-
-        carregando = null;
+        );
 
     }
 
-}
+    /* CALCULO DE DESEMPENHO */
 
-/* RESUMO DO BANCO */
+    function corrigir(
 
-function resumo() {
+        questoes,
 
-    const validadas = banco.filter(
-        q => q.status === "validada"
-    );
+        respostas,
 
-    return {
+        config = {}
 
-        carregado,
+    ) {
 
-        total: banco.length,
+        let acertos = 0;
+        let erros = 0;
+        let brancos = 0;
+        let penalidades = 0;
 
-        validadas: validadas.length,
+        const porDisciplina = {};
 
-        pendentes: banco.filter(
-            q => q.status === "pendente_verificacao"
-        ).length,
+        const porBanca = {};
 
-        erros: [...erros],
+        const detalhes = [];
 
-        disciplinas: Object.values(DISCIPLINAS),
+        function registrar(grupo, chave, estado) {
 
-        bancas: [...BANCAS],
+            if (!grupo[chave]) {
 
-        niveis: [...NIVEIS],
+                grupo[chave] = {
 
-        carreiras: [...CARREIRAS]
+                    total: 0,
 
-    };
+                    acertos: 0,
 
-}
+                    erros: 0,
 
+                    brancos: 0
 
-/* FILTROS DE QUESTÕES */
+                };
 
-function filtrar(filtros = {}) {
-
-    const pesquisa = normalizar(
-        filtros.pesquisa || ""
-    );
-
-    const ativo = valor =>
-        Boolean(valor && valor !== "all");
-
-    return banco.filter(q => {
-
-        if (q.status !== "validada") {
-            return false;
-        }
-
-        if (
-            ativo(filtros.contentType) &&
-            q.contentType !== filtros.contentType
-        ) {
-            return false;
-        }
-
-        if (
-            ativo(filtros.court) &&
-            q.court !== filtros.court
-        ) {
-            return false;
-        }
-
-        if (
-            ativo(filtros.disc) &&
-            q.disc !== filtros.disc
-        ) {
-            return false;
-        }
-
-        if (
-            ativo(filtros.bank) &&
-            q.bank !== filtros.bank
-        ) {
-            return false;
-        }
-
-        if (
-            ativo(filtros.difficulty) &&
-            q.difficulty !== filtros.difficulty
-        ) {
-            return false;
-        }
-
-        if (
-            ativo(filtros.career) &&
-            !q.careers.includes(filtros.career)
-        ) {
-            return false;
-        }
-
-        if (
-            ativo(filtros.topic) &&
-            q.topic !== filtros.topic
-        ) {
-            return false;
-        }
-
-        if (pesquisa) {
-
-            const texto = normalizar([
-
-                q.disc,
-                q.topic,
-                q.subtopic,
-                q.prompt,
-                q.reference,
-                q.contentType,
-                q.court,
-                q.sumula,
-                q.tema,
-                q.informativo,
-                q.precedent,
-                q.legalBasis,
-                q.jurisprudence,
-                q.doctrine,
-                q.comment
-
-            ].join(" "));
-
-            if (!texto.includes(pesquisa)) {
-                return false;
             }
 
+            grupo[chave].total++;
+
+            grupo[chave][estado]++;
+
         }
 
-        return true;
+        questoes.forEach((q, i) => {
 
-    });
+            const resposta = respostas[i];
 
-}
+            let estado;
 
+            if (
 
-/* MONTAGEM DO SIMULADO */
+                resposta === undefined ||
 
-function criarSimulado(filtros = {}) {
+                resposta === null ||
 
-    const quantidade = Math.min(
+                !Number.isInteger(resposta) ||
 
-        100,
+                resposta < 0 ||
 
-        Math.max(
-            1,
-            Math.floor(
-                Number(filtros.count) || 10
+                resposta >= q.opts.length
+
+            ) {
+
+                brancos++;
+
+                estado = "brancos";
+
+            } else if (
+
+                resposta === q.right
+
+            ) {
+
+                acertos++;
+
+                estado = "acertos";
+
+            } else {
+
+                erros++;
+
+                estado = "erros";
+
+                if (
+
+                    config.penalty === true &&
+
+                    q.bank === "CEBRASPE"
+
+                ) {
+
+                    penalidades++;
+
+                }
+
+            }
+
+            registrar(
+
+                porDisciplina,
+
+                q.disc,
+
+                estado
+
+            );
+
+            registrar(
+
+                porBanca,
+
+                q.bank,
+
+                estado
+
+            );
+
+            detalhes.push({
+
+                id: q.id,
+
+                disciplina: q.disc,
+
+                banca: q.bank,
+
+                resposta: resposta ?? null,
+
+                gabarito: q.right,
+
+                estado
+
+            });
+
+        });
+
+        const total = questoes.length;
+
+        const percentual = total
+
+            ? Math.round(
+
+                acertos / total * 100
+
             )
-        )
 
-    );
+            : 0;
 
-    const disponiveis = filtrar(filtros);
+        return {
 
-    return embaralhar(disponiveis)
-        .slice(0, quantidade);
+            total,
 
-}
+            acertos,
 
-/* GABARITO */
+            erros,
 
-function gabarito(q) {
+            brancos,
 
-    if (q.bank === "CEBRASPE") {
+            percentual,
 
-        return q.opts[q.right];
+            penalidades,
+
+            pontuacao: acertos - penalidades,
+
+            porDisciplina,
+
+            porBanca,
+
+            detalhes
+
+        };
 
     }
 
-    return String.fromCharCode(
-        65 + q.right
-    );
+    /* FONTES JURIDICAS */
 
-}
+    function renderFontes(q) {
 
-/* FONTES JURÍDICAS */
+        const links = q.sources.map(f => {
 
-function renderFontes(q) {
+            if (!linkValido(f.url)) {
 
-    const links = q.sources.map(f => {
+                return "";
 
-        const url =
-            typeof f === "string"
-                ? f
-                : f?.url;
+            }
 
-        const titulo =
-            typeof f === "string"
-                ? "Consultar fonte jurídica"
-                : f?.title || "Consultar fonte jurídica";
+            return `
 
-        if (!linkValido(url)) return "";
+                <p class="links small">
+
+                    <a href="${esc(f.url)}"
+                       target="_blank"
+                       rel="noopener noreferrer">
+
+                        ${esc(f.title)} ↗
+
+                    </a>
+
+                </p>
+
+            `;
+
+        }).join("");
+
+        return links
+
+            ? `<h4>Fontes jurídicas</h4>${links}`
+
+            : "";
+
+    }
+
+    /* BLOCO DE FUNDAMENTACAO */
+
+    function bloco(titulo, conteudo) {
+
+        if (!conteudo) return "";
 
         return `
 
-            <p class="links small">
+            <h4>${esc(titulo)}</h4>
 
-                <a href="${esc(url)}"
-                   target="_blank"
-                   rel="noopener noreferrer">
-
-                    ${esc(titulo)} ↗
-
-                </a>
-
-            </p>
+            <p>${esc(conteudo)}</p>
 
         `;
 
-    }).join("");
+    }
 
-    return links
+    /* ABA COMENTARIO */
 
-        ? `<h4>Fontes jurídicas</h4>${links}`
-
-        : "";
-
-}
-
-/* ABA COMENTÁRIO */
-
-function renderComentario(q) {
-
-    return `
-
-        <div class="dj-resolution">
-
-            <h3>Gabarito: ${esc(gabarito(q))}</h3>
-
-            <h4>Gabarito comentado</h4>
-
-            <p>${esc(q.comment)}</p>
-
-            ${q.legalBasis ? `
-
-                <h4>Fundamentação legal</h4>
-
-                <p>${esc(q.legalBasis)}</p>
-
-            ` : ""}
-
-            ${q.court ? `
-
-    <h4>Tribunal</h4>
-
-    <p>${esc(q.court)}</p>
-
-` : ""}
-
-${q.jurisprudence ? `
-
-    <h4>Jurisprudência</h4>
-
-    <p>${esc(q.jurisprudence)}</p>
-
-` : ""}
-
-${q.sumula ? `
-
-    <h4>Súmula / Súmula vinculante</h4>
-
-    <p>${esc(q.sumula)}</p>
-
-` : ""}
-
-${q.tema ? `
-
-    <h4>Tema jurisprudencial</h4>
-
-    <p>${esc(q.tema)}</p>
-
-` : ""}
-
-${q.informativo ? `
-
-    <h4>Informativo de jurisprudência</h4>
-
-    <p>${esc(q.informativo)}</p>
-
-` : ""}
-
-${q.precedent ? `
-
-    <h4>Precedente judicial</h4>
-
-    <p>${esc(q.precedent)}</p>
-
-` : ""}
-
-            ${q.doctrine ? `
-
-                <h4>Fundamentação doutrinária</h4>
-
-                <p>${esc(q.doctrine)}</p>
-
-            ` : ""}
-
-            ${q.reference ? `
-
-                <h4>Referência jurídica</h4>
-
-                <p>${esc(q.reference)}</p>
-
-            ` : ""}
-
-            ${q.trap ? `
-
-                <div class="dj-trap">
-
-                    <strong>
-                        Atenção à pegadinha
-                    </strong>
-
-                    <p>${esc(q.trap)}</p>
-
-                </div>
-
-            ` : ""}
-
-            ${renderFontes(q)}
-
-            ${q.reviewedAt ? `
-
-                <p class="small muted">
-
-                    Revisão jurídica:
-
-                    ${esc(q.reviewedAt)}
-
-                </p>
-
-            ` : ""}
-
-        </div>
-
-    `;
-
-}
-
-/* ABA ALTERNATIVAS */
-
-function renderAlternativas(q) {
-
-    return q.opts.map((opcao, i) => {
-
-        const correta = i === q.right;
-
-        const letra = q.bank === "CEBRASPE"
-
-            ? opcao
-
-            : String.fromCharCode(65 + i);
+    function renderComentario(q) {
 
         return `
 
-            <div class="dj-option-analysis
-                ${correta
-                    ? "dj-option-correct"
-                    : "dj-option-wrong"}">
+            <div class="dj-resolution">
 
-                <strong class="${correta
-                    ? "good"
-                    : "bad"}">
+                <h3>
 
-                    ${correta ? "✓" : "✕"}
+                    Gabarito: ${esc(gabarito(q))}
 
-                    ${esc(letra)} —
+                </h3>
 
-                    ${correta
-                        ? "Correta"
-                        : "Incorreta"}
+                ${bloco(
 
-                </strong>
+                    "Gabarito comentado",
 
-                ${q.bank !== "CEBRASPE" ? `
+                    q.comment
 
-                    <p>${esc(opcao)}</p>
+                )}
+
+                ${bloco(
+
+                    "Fundamentação legal",
+
+                    q.legalBasis
+
+                )}
+
+                ${bloco(
+
+                    "Tribunal",
+
+                    q.court
+
+                )}
+
+                ${bloco(
+
+                    "Jurisprudência",
+
+                    q.jurisprudence
+
+                )}
+
+                ${bloco(
+
+                    "Súmula / Súmula vinculante",
+
+                    q.sumula
+
+                )}
+
+                ${bloco(
+
+                    "Tema jurisprudencial",
+
+                    q.tema
+
+                )}
+
+                ${bloco(
+
+                    "Informativo de jurisprudência",
+
+                    q.informativo
+
+                )}
+
+                ${bloco(
+
+                    "Precedente judicial",
+
+                    q.precedent
+
+                )}
+
+                ${bloco(
+
+                    "Fundamentação doutrinária",
+
+                    q.doctrine
+
+                )}
+
+                ${bloco(
+
+                    "Exceções e ressalvas",
+
+                    q.exceptions
+
+                )}
+
+                ${bloco(
+
+                    "Exemplo prático",
+
+                    q.example
+
+                )}
+
+                ${bloco(
+
+                    "Referência jurídica",
+
+                    q.reference
+
+                )}
+
+                ${q.trap ? `
+
+                    <div class="dj-trap">
+
+                        <strong>
+
+                            Atenção à pegadinha
+
+                        </strong>
+
+                        <p>${esc(q.trap)}</p>
+
+                    </div>
 
                 ` : ""}
 
-                <p>
+                ${renderFontes(q)}
 
-                    ${esc(q.optionComments[i])}
+                ${q.reviewedAt ? `
 
-                </p>
+                    <p class="small muted">
+
+                        Revisão jurídica:
+
+                        ${esc(q.reviewedAt)}
+
+                    </p>
+
+                ` : ""}
 
             </div>
 
         `;
 
-    }).join("");
+    }
 
-}
+    /* ABA ALTERNATIVAS */
 
-/* PAINEL DE RESOLUÇÃO */
+    function renderAlternativas(q) {
 
-function montarResolucao(
-    elemento,
-    questao,
-    resposta,
-    liberado = false
-) {
+        return q.opts.map((opcao, i) => {
 
-    const container =
+            const correta = i === q.right;
 
-        typeof elemento === "string"
+            const letra = q.bank === "CEBRASPE"
 
-            ? document.getElementById(elemento)
+                ? opcao
 
-            : elemento;
+                : String.fromCharCode(65 + i);
 
-    if (!container) return;
+            return `
 
-    container.replaceChildren();
+                <div class="dj-option-analysis
+                    ${correta
 
-    if (!liberado) {
+                        ? "dj-option-correct"
 
-        container.innerHTML = `
+                        : "dj-option-wrong"
 
-            <p class="small muted">
+                    }">
 
-                A resolução será disponibilizada
+                    <strong class="${correta
 
-                após a correção da questão.
+                        ? "good"
 
-            </p>
+                        : "bad"
 
-        `;
+                    }">
 
-        return;
+                        ${correta ? "✓" : "✕"}
+
+                        ${esc(letra)} —
+
+                        ${correta
+
+                            ? "Correta"
+
+                            : "Incorreta"
+
+                        }
+
+                    </strong>
+
+                    ${q.bank !== "CEBRASPE" ? `
+
+                        <p>${esc(opcao)}</p>
+
+                    ` : ""}
+
+                    <p>
+
+                        ${esc(q.optionComments[i])}
+
+                    </p>
+
+                </div>
+
+            `;
+
+        }).join("");
 
     }
 
-    const correta =
-        resposta === questao.right;
+    /* PAINEL DE RESOLUCAO */
 
-    const status =
-        resposta === undefined ||
-        resposta === null
+    function montarResolucao(
+
+        elemento,
+
+        questao,
+
+        resposta,
+
+        liberado = false
+
+    ) {
+
+        const container =
+
+            typeof elemento === "string"
+
+                ? document.getElementById(elemento)
+
+                : elemento;
+
+        if (!container || !questao) return;
+
+        container.replaceChildren();
+
+        if (!liberado) {
+
+            container.innerHTML = `
+
+                <p class="small muted">
+
+                    A resolução será disponibilizada
+
+                    após a correção da questão.
+
+                </p>
+
+            `;
+
+            return;
+
+        }
+
+        const emBranco =
+
+            !Number.isInteger(resposta) ||
+
+            resposta < 0 ||
+
+            resposta >= questao.opts.length;
+
+        const correta =
+
+            !emBranco &&
+
+            resposta === questao.right;
+
+        const status = emBranco
 
             ? "Não respondida"
 
@@ -1072,444 +1896,223 @@ function montarResolucao(
 
                 : "Resposta incorreta";
 
-    container.innerHTML = `
+        container.innerHTML = `
 
-        <div class="dj-answer-box">
+            <div class="dj-answer-box">
 
-            <div class="dj-answer-status">
+                <div class="dj-answer-status">
 
-                <strong class="${correta
-                    ? "good"
-                    : "bad"}">
+                    <strong class="${emBranco
 
-                    ${esc(status)}
+                        ? "muted"
 
-                </strong>
+                        : correta
 
-                <span>
+                            ? "good"
 
-                    Gabarito:
+                            : "bad"
 
-                    ${esc(gabarito(questao))}
+                    }">
 
-                </span>
+                        ${esc(status)}
+
+                    </strong>
+
+                    <span>
+
+                        Gabarito:
+
+                        ${esc(gabarito(questao))}
+
+                    </span>
+
+                </div>
+
+                <div class="dj-answer-tabs">
+
+                    <button
+
+                        type="button"
+
+                        data-tab="comment"
+
+                        aria-expanded="false">
+
+                        Comentário
+
+                    </button>
+
+                    <button
+
+                        type="button"
+
+                        data-tab="options"
+
+                        aria-expanded="false">
+
+                        Alternativas
+
+                    </button>
+
+                </div>
+
+                <div class="dj-answer-content"
+                     hidden>
+
+                </div>
 
             </div>
 
-            <div class="dj-answer-tabs">
+        `;
 
-                <button
-                    type="button"
-                    data-tab="comment"
-                    aria-expanded="false">
+        const conteudo = container.querySelector(
 
-                    Comentário
+            ".dj-answer-content"
 
-                </button>
+        );
 
-                <button
-                    type="button"
-                    data-tab="options"
-                    aria-expanded="false">
+        const botoes = container.querySelectorAll(
 
-                    Alternativas
+            "[data-tab]"
 
-                </button>
+        );
 
-            </div>
+        let abaAtual = null;
 
-            <div class="dj-answer-content"
-                 hidden>
-            </div>
+        botoes.forEach(botao => {
 
-        </div>
+            botao.addEventListener("click", () => {
 
-    `;
+                const aba = botao.dataset.tab;
 
-    const conteudo = container.querySelector(
-        ".dj-answer-content"
-    );
+                if (abaAtual === aba) {
 
-    const botoes = container.querySelectorAll(
-        "[data-tab]"
-    );
+                    abaAtual = null;
 
-    let abaAtual = null;
+                    conteudo.hidden = true;
 
-    botoes.forEach(botao => {
+                    conteudo.replaceChildren();
 
-        botao.addEventListener("click", () => {
+                    botoes.forEach(b => {
 
-            const aba = botao.dataset.tab;
+                        b.classList.remove("active");
 
-            if (abaAtual === aba) {
+                        b.setAttribute(
 
-                abaAtual = null;
+                            "aria-expanded",
 
-                conteudo.hidden = true;
+                            "false"
+
+                        );
+
+                    });
+
+                    return;
+
+                }
+
+                abaAtual = aba;
 
                 botoes.forEach(b => {
 
-                    b.classList.remove("active");
+                    const ativa =
+
+                        b.dataset.tab === aba;
+
+                    b.classList.toggle(
+
+                        "active",
+
+                        ativa
+
+                    );
 
                     b.setAttribute(
+
                         "aria-expanded",
-                        "false"
+
+                        String(ativa)
+
                     );
 
                 });
 
-                return;
+                conteudo.innerHTML =
 
-            }
+                    aba === "comment"
 
-            abaAtual = aba;
+                        ? renderComentario(questao)
 
-            botoes.forEach(b => {
+                        : renderAlternativas(questao);
 
-                const ativa = b.dataset.tab === aba;
-
-                b.classList.toggle(
-                    "active",
-                    ativa
-                );
-
-                b.setAttribute(
-                    "aria-expanded",
-                    String(ativa)
-                );
+                conteudo.hidden = false;
 
             });
 
-            conteudo.innerHTML =
-
-                aba === "comment"
-
-                    ? renderComentario(questao)
-
-                    : renderAlternativas(questao);
-
-            conteudo.hidden = false;
-
         });
 
+    }
+
+    /* API DO DELTA JURIS */
+
+    window.DeltaQuestoes = Object.freeze({
+
+        versao: "4.0.0",
+
+        carregarBanco,
+
+        carregarManifesto,
+
+        getManifesto: () => manifesto
+
+            ? JSON.parse(
+                JSON.stringify(manifesto)
+            )
+
+            : null,
+
+        resumo,
+
+        filtrar,
+
+        buscarQuestao,
+
+        criarSimulado,
+
+        corrigir,
+
+        gabarito,
+
+        montarResolucao,
+
+        renderComentario,
+
+        renderAlternativas,
+
+        disciplinas: Object.freeze(
+
+            Object.values(DISCIPLINAS)
+
+        ),
+
+        bancas: Object.freeze([...BANCAS]),
+
+        niveis: Object.freeze([...NIVEIS]),
+
+        carreiras: Object.freeze([...CARREIRAS]),
+
+        tipos: Object.freeze([...TIPOS]),
+
+        tribunais: Object.freeze(["STF", "STJ"])
+
     });
 
-}
+    console.info(
 
-/* CÁLCULO DE DESEMPENHO */
+        "Delta Juris 4.0 — Motor de questões disponível."
 
-function corrigir(questoes, respostas, config = {}) {
-
-    let acertos = 0;
-    let erros = 0;
-    let brancos = 0;
-
-    questoes.forEach((q, i) => {
-
-        const resposta = respostas[i];
-
-        if (
-            resposta === undefined ||
-            resposta === null
-        ) {
-
-            brancos++;
-
-        } else if (resposta === q.right) {
-
-            acertos++;
-
-        } else {
-
-            erros++;
-
-        }
-
-    });
-
-    const total = questoes.length;
-
-    const percentual = total
-
-        ? Math.round(
-            acertos / total * 100
-        )
-
-        : 0;
-
-    const penalidade = config.penalty === true
-
-        ? erros
-
-        : 0;
-
-    return {
-
-        total,
-
-        acertos,
-
-        erros,
-
-        brancos,
-
-        percentual,
-
-        pontuacao: acertos - penalidade
-
-    };
-
-}
-
-/* IDENTIDADE VISUAL TÁTICA */
-
-function instalarEstilos() {
-
-    if (
-        document.getElementById(
-            "dj-questoes-style"
-        )
-    ) return;
-
-    const style = document.createElement("style");
-
-    style.id = "dj-questoes-style";
-
-    style.textContent = `
-
-        .dj-answer-box {
-
-            margin-top: 16px;
-
-            border: 1px solid #354653;
-
-            border-radius: 12px;
-
-            background: #101e29;
-
-            overflow: hidden;
-
-        }
-
-        .dj-answer-status {
-
-            display: flex;
-
-            justify-content: space-between;
-
-            flex-wrap: wrap;
-
-            gap: 10px;
-
-            padding: 16px;
-
-            font-size: 14px;
-
-        }
-
-        .dj-answer-tabs {
-
-            display: grid;
-
-            grid-template-columns: 1fr 1fr;
-
-            border-top: 1px solid #354653;
-
-        }
-
-        .dj-answer-tabs button {
-
-            background: #14232e;
-
-            color: #d4dce4;
-
-            border: 0;
-
-            border-bottom: 3px solid transparent;
-
-            padding: 14px 8px;
-
-            font-size: 14px;
-
-            font-weight: 750;
-
-            cursor: pointer;
-
-        }
-
-        .dj-answer-tabs button.active {
-
-            color: #f4db9b;
-
-            border-bottom-color: #d5ad59;
-
-            background: #252c30;
-
-        }
-
-        .dj-answer-content {
-
-            padding: 18px;
-
-            line-height: 1.7;
-
-            overflow-wrap: anywhere;
-
-        }
-
-        .dj-answer-content[hidden] {
-
-            display: none !important;
-
-        }
-
-        .dj-resolution h3 {
-
-            color: #79e0ce;
-
-            margin: 0 0 18px;
-
-        }
-
-        .dj-resolution h4 {
-
-            color: #e2c17d;
-
-            margin: 18px 0 8px;
-
-        }
-
-        .dj-resolution p {
-
-            white-space: pre-line;
-
-            margin: 8px 0;
-
-        }
-
-        .dj-trap {
-
-            padding: 14px;
-
-            margin: 18px 0;
-
-            border-left: 3px solid #d5ad59;
-
-            background: #30291d;
-
-            border-radius: 7px;
-
-        }
-
-        .dj-trap strong {
-
-            color: #f4db9b;
-
-        }
-
-        .dj-option-analysis {
-
-            padding: 14px;
-
-            margin-bottom: 12px;
-
-            border: 1px solid #354653;
-
-            border-radius: 9px;
-
-        }
-
-        .dj-option-analysis p {
-
-            margin: 9px 0 0;
-
-            white-space: pre-line;
-
-        }
-
-        .dj-option-correct {
-
-            border-left: 3px solid #79e0ce;
-
-            background: #122c2c;
-
-        }
-
-        .dj-option-wrong {
-
-            border-left: 3px solid #c66b6b;
-
-            background: #251e25;
-
-        }
-
-        @media(max-width: 600px) {
-
-            .dj-answer-content {
-
-                padding: 13px;
-
-            }
-
-            .dj-answer-tabs button {
-
-                font-size: 13px;
-
-            }
-
-        }
-
-    `;
-
-    document.head.appendChild(style);
-
-}
-
-/* API DO DELTA JURIS */
-
-window.DeltaQuestoes = Object.freeze({
-
-    carregarBanco,
-
-    carregarManifesto,
-
-    getManifesto: () => manifesto,
-
-    resumo,
-
-    filtrar,
-
-    criarSimulado,
-
-    corrigir,
-
-    gabarito,
-
-    montarResolucao,
-
-    renderComentario,
-
-    renderAlternativas,
-
-    disciplinas: Object.freeze(
-        Object.values(DISCIPLINAS)
-    ),
-
-    bancas: Object.freeze([...BANCAS]),
-
-    niveis: Object.freeze([...NIVEIS]),
-
-    carreiras: Object.freeze([...CARREIRAS])
-
-});
-
-/* INICIALIZAÇÃO VISUAL */
-
-instalarEstilos();
-
-console.info(
-    "Delta Juris 4.0 — Motor de questões disponível."
-);
+    );
 
 })();
+
+/* FIM — DELTA JURIS 4.0 */
