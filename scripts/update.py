@@ -209,7 +209,7 @@ def main() -> None:
     indexed = {x['url']: x for x in previous}
     errors, statuses = [], []
     current_count = 0
-        for source, urls in FEEDS.items():
+    for source, urls in FEEDS.items():
         source_errors = []
         source_success = False
 
