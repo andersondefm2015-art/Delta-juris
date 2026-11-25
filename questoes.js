@@ -211,9 +211,23 @@ function prepararQuestao(q, disciplina) {
 
         subtopic: q.subtopic || "",
 
-        bank: String(
-            q.bank || ""
-        ).toUpperCase(),
+contentType: q.contentType || "misto",
+
+court: String(
+    q.court || ""
+).toUpperCase(),
+
+sumula: q.sumula || "",
+
+tema: q.tema || "",
+
+informativo: q.informativo || "",
+
+precedent: q.precedent || "",
+
+bank: String(
+    q.bank || ""
+).toUpperCase(),
 
         careers: Array.isArray(carreiras)
             ? carreiras
@@ -389,15 +403,21 @@ function validarQuestao(q) {
 
 async function executarCarregamento() {
 
+    carregado = false;
     banco = [];
     erros = [];
+
+    await carregarManifesto();
+
+    const arquivosAtivos = manifesto.disciplines
+        .filter(d => d.enabled)
+        .map(d => [d.file, d.name]);
 
     const ids = new Set();
 
     const resultados = await Promise.allSettled(
 
-        Object.entries(DISCIPLINAS).map(
-
+        arquivosAtivos.map(
             async ([arquivo, disciplina]) => ({
 
                 arquivo,
@@ -415,7 +435,7 @@ async function executarCarregamento() {
     resultados.forEach((resultado, indice) => {
 
         const arquivo =
-            Object.keys(DISCIPLINAS)[indice];
+    arquivosAtivos[indice][0];
 
         if (resultado.status === "rejected") {
 
