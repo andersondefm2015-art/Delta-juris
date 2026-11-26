@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-25T19:16:20.909411+00:00",
+  "updated_at": "2026-11-26T03:34:38.873490+00:00",
   "items": [
     {
       "id": "dd347d1321bccc701e42",
@@ -1469,8 +1469,8 @@
     {
       "source": "STJ",
       "url": "https://scon.stj.jus.br/SCON/PesquisaProntaFeed",
-      "status": "ok",
-      "count": 21
+      "status": "error",
+      "count": 0
     },
     {
       "source": "STF",
@@ -1479,10 +1479,16 @@
       "count": 3
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "source": "STJ",
+      "url": "https://scon.stj.jus.br/SCON/PesquisaProntaFeed",
+      "message": "HTTP Error 403: Forbidden"
+    }
+  ],
   "stats": {
-    "fetched": 144,
+    "fetched": 123,
     "stored": 145,
-    "failed_sources": 0
+    "failed_sources": 1
   }
 }
