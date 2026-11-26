@@ -1836,7 +1836,7 @@
       "Procurador da República",
       "Defensor Público"
     ],
-    "difficulty": "Difícil",
+    "difficulty": "Intermediário",
     "prompt": "A adoção da teoria monista pelo Código Penal não impede a individualização da responsabilidade dos concorrentes conforme suas respectivas culpabilidades.",
     "opts": [
       "Certo",
@@ -1857,8 +1857,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00042",
@@ -1878,7 +1878,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Muito difícil",
+    "difficulty": "Intermediário",
     "prompt": "Em investigação de crime patrimonial, ficou demonstrado que determinado participante prestou contribuição dolosa de reduzida relevância causal, sem executar o núcleo do tipo penal. Reconhecida judicialmente a participação de menor importância, qual consequência encontra previsão legal?",
     "opts": [
       "Isenção obrigatória de pena.",
@@ -1905,8 +1905,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00043",
@@ -1925,7 +1925,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Especialista",
+    "difficulty": "Difícil",
     "prompt": "Dois agentes ajustam a prática de crime menos grave. Durante a execução, um deles pratica crime mais grave, não desejado nem aceito pelo outro, embora o resultado mais grave fosse previsível para este. Qual consequência decorre do art. 29, § 2º, do Código Penal?",
     "opts": [
       "Ambos respondem necessariamente pelo crime mais grave.",
@@ -1952,8 +1952,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00044",
@@ -1973,7 +1973,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Muito difícil",
+    "difficulty": "Intermediário",
     "prompt": "As condições de caráter pessoal, quando constituírem elementares do crime e forem conhecidas pelo concorrente, poderão comunicar-se a ele para fins de responsabilização penal.",
     "opts": [
       "Certo",
@@ -1994,8 +1994,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00045",
@@ -2015,7 +2015,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Especialista",
+    "difficulty": "Difícil",
     "prompt": "Um particular auxilia conscientemente servidor público na apropriação de valores dos quais este possui a posse em razão do cargo. O particular conhece a condição funcional do servidor e atua em unidade de desígnios. Qual conclusão é correta?",
     "opts": [
       "O particular responde necessariamente por furto.",
@@ -2042,8 +2042,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00046",
@@ -2062,7 +2062,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Difícil",
+    "difficulty": "Intermediário",
     "prompt": "O ajuste, a determinação, a instigação e o auxílio são sempre puníveis, ainda que o crime pretendido não chegue a ser tentado e inexista disposição expressa em contrário.",
     "opts": [
       "Certo",
@@ -2083,8 +2083,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00047",
@@ -2103,7 +2103,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Especialista",
+    "difficulty": "Difícil",
     "prompt": "Dois agentes, desconhecendo reciprocamente suas intenções e atuações, praticam condutas independentes dirigidas à morte da mesma vítima. A perícia identifica qual conduta produziu o resultado, sendo a outra executória e idônea. Qual classificação é adequada?",
     "opts": [
       "Coautoria necessária.",
@@ -2113,7 +2113,7 @@
       "Autoria colateral, com responsabilização individual pelo crime consumado e pela tentativa."
     ],
     "right": 4,
-    "comment": "Na autoria colateral, inexiste vínculo subjetivo entre os agentes. Identificada a conduta causalmente responsável pela morte, seu autor responde pelo crime consumado e o outro pela tentativa, presentes os respectivos requisitos.",
+    "comment": "Na autoria colateral, inexiste vínculo subjetivo entre os agentes. Identificada a conduta causalmente responsável pela morte, seu autor responde pelo crime consumado e o outro pela tentativa, presentes os respectivos requisitos. A conclusão pressupõe que a segunda conduta não tenha contribuído causalmente para a morte.",
     "optionComments": [
       "Não existe atuação subjetivamente conjunta.",
       "Não houve instigação recíproca.",
@@ -2130,8 +2130,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00048",
@@ -2151,7 +2151,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Intermediário",
+    "difficulty": "Básico",
     "prompt": "No sistema trifásico de aplicação da pena, inicialmente são consideradas as circunstâncias judiciais, posteriormente as agravantes e atenuantes e, por último, as causas de aumento e diminuição.",
     "opts": [
       "Certo",
@@ -2172,8 +2172,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00049",
@@ -2193,7 +2193,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Muito difícil",
+    "difficulty": "Intermediário",
     "prompt": "Ao fixar a pena-base, o magistrado utiliza exclusivamente três inquéritos policiais em andamento para valorar negativamente os antecedentes do acusado. À luz da Súmula 444 do STJ, assinale a alternativa correta.",
     "opts": [
       "A fundamentação é inadequada, pois inquéritos e ações penais em curso não podem agravar a pena-base.",
@@ -2244,7 +2244,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Difícil",
+    "difficulty": "Intermediário",
     "prompt": "Segundo o enunciado da Súmula 231 do STJ, a incidência de circunstância atenuante não pode conduzir à redução da pena abaixo do mínimo legal.",
     "opts": [
       "Certo",
@@ -2290,7 +2290,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Muito difícil",
+    "difficulty": "Intermediário",
     "prompt": "Um acusado pratica novo crime em março. Em junho, transita em julgado condenação referente a crime cometido no ano anterior. Considerando exclusivamente essa condenação, qual conclusão é correta quanto ao crime praticado em março?",
     "opts": [
       "A reincidência é automática.",
@@ -2317,8 +2317,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00052",
@@ -2337,7 +2337,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Muito difícil",
+    "difficulty": "Intermediário",
     "prompt": "Para efeito de reincidência, não prevalece a condenação anterior se entre o cumprimento ou a extinção da pena e a infração posterior tiver decorrido período superior a cinco anos, computado o período de prova da suspensão ou do livramento condicional, se não houver revogação.",
     "opts": [
       "Certo",
@@ -2358,8 +2358,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00053",
@@ -2379,7 +2379,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Muito difícil",
+    "difficulty": "Intermediário",
     "prompt": "O acusado possui uma única condenação anterior apta a caracterizar reincidência. O magistrado utiliza essa mesma condenação para elevar a pena-base por maus antecedentes e novamente para agravar a pena na segunda fase. Segundo a Súmula 241 do STJ, qual conclusão é correta?",
     "opts": [
       "A dupla valoração é obrigatória.",
@@ -2430,7 +2430,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Muito difícil",
+    "difficulty": "Intermediário",
     "prompt": "Fixada a pena-base no mínimo legal, o magistrado estabelece regime prisional mais gravoso do que o cabível em razão da sanção imposta, fundamentando-se exclusivamente na gravidade abstrata do delito. Segundo a Súmula 440 do STJ, essa decisão é:",
     "opts": [
       "Obrigatória nos crimes dolosos.",
@@ -2481,7 +2481,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Difícil",
+    "difficulty": "Intermediário",
     "prompt": "Configurado o concurso material de crimes, aplicam-se cumulativamente as penas privativas de liberdade em que haja incorrido o agente, executando-se primeiramente a pena de reclusão quando houver aplicação cumulativa de reclusão e detenção.",
     "opts": [
       "Certo",
@@ -2502,8 +2502,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00056",
@@ -2523,7 +2523,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Muito difícil",
+    "difficulty": "Difícil",
     "prompt": "Mediante uma única conduta culposa, o agente pratica dois crimes, cujas penas individualmente fixadas são de dois e quatro anos. Reconhecido o concurso formal próprio, qual sistema deverá ser utilizado?",
     "opts": [
       "Aplicação da pena mais grave, aumentada de um sexto até metade, observado o limite do cúmulo material.",
@@ -2550,8 +2550,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00057",
@@ -2570,7 +2570,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Especialista",
+    "difficulty": "Intermediário",
     "prompt": "Mediante uma única ação dolosa, o agente pratica dois crimes resultantes de desígnios autônomos, pretendendo independentemente cada resultado. Qual regra de aplicação da pena deverá incidir?",
     "opts": [
       "Exasperação obrigatória de um sexto.",
@@ -2597,8 +2597,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00058",
@@ -2618,7 +2618,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Muito difícil",
+    "difficulty": "Intermediário",
     "prompt": "Na continuidade delitiva comum, reconhecidos os requisitos legais, aplica-se a pena de um só dos crimes, se idênticas, ou a mais grave, se diversas, aumentada de um sexto a dois terços.",
     "opts": [
       "Certo",
@@ -2639,8 +2639,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00059",
@@ -2660,17 +2660,17 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Especialista",
+    "difficulty": "Difícil",
     "prompt": "Reconhecida continuidade delitiva entre crimes dolosos cometidos contra vítimas diferentes, mediante violência ou grave ameaça à pessoa, qual possibilidade é prevista no parágrafo único do art. 71?",
     "opts": [
       "Redução obrigatória da pena pela metade.",
       "Aumento limitado necessariamente a um sexto.",
-      "Aumento da pena de um dos crimes, se idênticas, ou da mais grave, se diversas, até o triplo, observados os critérios e limites legais.",
+      "Elevação da pena de um dos crimes, se idênticas, ou da mais grave, se diversas, até atingir o triplo, observados os critérios e limites legais.",
       "Aplicação exclusiva da pena menos grave.",
       "Impossibilidade absoluta de reconhecimento da continuidade."
     ],
     "right": 2,
-    "comment": "A continuidade delitiva específica permite aumento até o triplo, considerando culpabilidade, antecedentes, conduta social, personalidade, motivos e circunstâncias, observados os limites legais.",
+    "comment": "A continuidade delitiva específica permite aumento até o triplo, considerando culpabilidade, antecedentes, conduta social, personalidade, motivos e circunstâncias, observados os limites legais. O triplo é o limite da pena resultante, não um acréscimo de três vezes à pena original.",
     "optionComments": [
       "O dispositivo prevê aumento, não redução.",
       "O limite especial pode alcançar o triplo.",
@@ -2687,8 +2687,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00060",
@@ -2707,7 +2707,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Muito difícil",
+    "difficulty": "Intermediário",
     "prompt": "Considerando especificamente o concurso material de dois crimes, ambos sancionados com pena privativa de liberdade e multa, qual tratamento deve ser conferido às penas de multa?",
     "opts": [
       "Aplicação exclusiva da multa de menor valor.",
@@ -2734,8 +2734,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00061",
