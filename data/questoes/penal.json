@@ -938,7 +938,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Muito difícil",
+    "difficulty": "Intermediário",
     "prompt": "Durante investigação de homicídio no trânsito, apurou-se que o motorista previu a possibilidade de causar a morte de terceiros. Considerando exclusivamente esse elemento, assinale a conclusão juridicamente adequada.",
     "opts": [
       "Está necessariamente configurado o dolo eventual.",
@@ -965,8 +965,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00022",
@@ -987,7 +987,7 @@
       "Procurador da República",
       "Defensor Público"
     ],
-    "difficulty": "Difícil",
+    "difficulty": "Básico",
     "prompt": "Demonstrada a violação do dever objetivo de cuidado e a produção de resultado típico, o agente poderá responder por crime culposo ainda que inexista previsão legal expressa dessa modalidade.",
     "opts": [
       "Certo",
@@ -1008,8 +1008,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00023",
@@ -1028,7 +1028,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Muito difícil",
+    "difficulty": "Intermediário",
     "prompt": "Carlos, pretendendo exclusivamente lesionar Pedro, agride-o fisicamente. A vítima morre em decorrência da agressão. A investigação demonstra que Carlos não quis a morte nem assumiu o risco de produzi-la, mas agiu culposamente quanto ao resultado agravador. Qual a classificação adequada?",
     "opts": [
       "Homicídio doloso.",
@@ -1055,8 +1055,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00024",
@@ -1075,7 +1075,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Difícil",
+    "difficulty": "Intermediário",
     "prompt": "Pelo resultado que agrava especialmente a pena, o agente somente responde se o houver causado ao menos culposamente, sendo insuficiente a mera relação causal.",
     "opts": [
       "Certo",
@@ -1096,8 +1096,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00025",
@@ -1116,7 +1116,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Difícil",
+    "difficulty": "Intermediário",
     "prompt": "Um profissional habilitado realiza procedimento técnico para o qual não possui a necessária aptidão específica. Em razão dessa deficiência técnica, produz resultado lesivo previsível e evitável. Qual modalidade de culpa está diretamente evidenciada?",
     "opts": [
       "Dolo direto.",
@@ -1143,8 +1143,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00026",
@@ -1163,7 +1163,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Intermediário",
+    "difficulty": "Básico",
     "prompt": "Segundo a concepção analítica tripartida, a culpabilidade integra o conceito de crime juntamente com a tipicidade e a ilicitude.",
     "opts": [
       "Certo",
@@ -1184,8 +1184,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00027",
@@ -1204,8 +1204,8 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Muito difícil",
-    "prompt": "Durante uma inundação, João arromba a porta de imóvel alheio para salvar uma criança de perigo atual de morte. Não provocou voluntariamente o perigo, não havia outro meio de salvamento e era irrazoável exigir o sacrifício da vida da criança. Qual instituto incide?",
+    "difficulty": "Intermediário",
+    "prompt": "Durante uma inundação, João arromba a porta de imóvel alheio para salvar uma criança de perigo atual de morte. Sem dever legal de enfrentar o perigo, não provocou voluntariamente o perigo, não havia outro meio de salvamento e era irrazoável exigir o sacrifício da vida da criança. Qual instituto incide?",
     "opts": [
       "Legítima defesa.",
       "Estado de necessidade.",
@@ -1214,7 +1214,7 @@
       "Arrependimento eficaz."
     ],
     "right": 1,
-    "comment": "O estado de necessidade permite o sacrifício de bem jurídico para salvar direito próprio ou alheio de perigo atual, presentes os requisitos legais.",
+    "comment": "O estado de necessidade permite o sacrifício de bem jurídico para salvar direito próprio ou alheio de perigo atual, presentes os requisitos legais. A restrição do § 1º do art. 24 deve ser observada.",
     "optionComments": [
       "Não existe agressão humana injusta descrita.",
       "Correta. Estão presentes os requisitos do art. 24.",
@@ -1231,8 +1231,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00028",
@@ -1251,7 +1251,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Muito difícil",
+    "difficulty": "Intermediário",
     "prompt": "Após repelir moderadamente uma agressão injusta, Roberto percebe que o agressor está completamente dominado e não oferece mais perigo. Mesmo assim, continua deliberadamente a agredi-lo para puni-lo. Assinale a alternativa correta.",
     "opts": [
       "Toda a conduta permanece protegida pela legítima defesa.",
@@ -1278,8 +1278,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00029",
@@ -1298,7 +1298,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Difícil",
+    "difficulty": "Básico",
     "prompt": "A estrita obediência a ordem manifestamente ilegal de superior hierárquico exclui automaticamente a culpabilidade do subordinado.",
     "opts": [
       "Certo",
@@ -1319,8 +1319,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00030",
@@ -1339,7 +1339,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Muito difícil",
+    "difficulty": "Intermediário",
     "prompt": "Em razão de embriaguez completa proveniente de caso fortuito, o agente estava inteiramente incapaz de entender o caráter ilícito do fato no momento da conduta. Considerando comprovados os requisitos legais, qual consequência decorre do Código Penal?",
     "opts": [
       "Isenção de pena.",
@@ -1366,8 +1366,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00031",
@@ -1386,7 +1386,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Muito difícil",
+    "difficulty": "Intermediário",
     "prompt": "Em aeroporto, após troca involuntária de etiquetas de bagagem, André retira mala alheia absolutamente idêntica à sua, acreditando tratar-se de bem próprio. As circunstâncias demonstram que o equívoco era inevitável. Assinale a conclusão correta.",
     "opts": [
       "Erro de proibição direto.",
@@ -1396,7 +1396,7 @@
       "Arrependimento posterior."
     ],
     "right": 2,
-    "comment": "O erro recai sobre a elementar coisa alheia do furto. Sendo inevitável, exclui dolo e culpa.",
+    "comment": "O erro recai sobre a elementar coisa alheia do furto. Sendo inevitável, exclui dolo e culpa. O furto não possui modalidade culposa.",
     "optionComments": [
       "O agente desconhece circunstância fática, não a proibição jurídica.",
       "Não existe dolo de subtrair coisa alheia.",
@@ -1413,8 +1413,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00032",
@@ -1433,7 +1433,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Difícil",
+    "difficulty": "Intermediário",
     "prompt": "O erro evitável sobre elemento constitutivo do tipo legal de crime exclui o dolo, mas admite punição por crime culposo quando houver previsão legal.",
     "opts": [
       "Certo",
@@ -1454,8 +1454,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00033",
@@ -1474,7 +1474,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Muito difícil",
+    "difficulty": "Difícil",
     "prompt": "Pretendendo matar seu próprio pai, o agente confunde visualmente um terceiro com ele e mata essa pessoa. Considerando exclusivamente o erro sobre a identidade da vítima, qual regra deve ser observada?",
     "opts": [
       "O erro exclui necessariamente o dolo.",
@@ -1501,8 +1501,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00034",
@@ -1521,7 +1521,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Muito difícil",
+    "difficulty": "Difícil",
     "prompt": "Com intenção de matar determinada pessoa, o agente inicia a execução, mas, por erro no emprego do meio executório, atinge fatalmente terceiro, sem atingir a vítima pretendida. Qual instituto disciplina especificamente a situação?",
     "opts": [
       "Erro de proibição indireto.",
@@ -1548,8 +1548,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00035",
@@ -1568,7 +1568,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Muito difícil",
+    "difficulty": "Difícil",
     "prompt": "Fora dos casos de erro na execução previstos no art. 73, quando, por acidente ou erro na execução do crime, sobrevém resultado diverso do pretendido, o agente responde por culpa se o fato for previsto como crime culposo, observados os demais requisitos dessa modalidade.",
     "opts": [
       "Certo",
@@ -1589,8 +1589,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00036",
@@ -1609,7 +1609,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Difícil",
+    "difficulty": "Intermediário",
     "prompt": "O erro inevitável sobre a ilicitude do fato exclui a culpabilidade, sem necessariamente afastar o dolo ou a tipicidade da conduta.",
     "opts": [
       "Certo",
@@ -1630,8 +1630,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00037",
@@ -1650,7 +1650,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Difícil",
+    "difficulty": "Intermediário",
     "prompt": "O agente conhece integralmente as circunstâncias fáticas de sua conduta, mas acredita equivocadamente que ela é permitida. Verifica-se que, nas circunstâncias, era possível alcançar a consciência da ilicitude. Qual consequência está prevista no Código Penal?",
     "opts": [
       "Exclusão automática do dolo.",
@@ -1660,7 +1660,7 @@
       "Aumento de pena de um a dois terços."
     ],
     "right": 3,
-    "comment": "O erro de proibição evitável não exclui a culpabilidade. O art. 21 prevê diminuição da pena de um sexto a um terço.",
+    "comment": "O erro de proibição evitável não exclui a culpabilidade. O art. 21 prevê diminuição da pena de um sexto a um terço. A questão cobra o texto legal; a natureza obrigatória da redução quando reconhecido o erro evitável é defendida na doutrina.",
     "optionComments": [
       "O erro não incide sobre elementar do tipo.",
       "A isenção corresponde ao erro inevitável.",
@@ -1677,15 +1677,15 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00038",
     "title": "Descriminante putativa por erro de fato",
     "disc": "Direito Penal",
-    "topic": "Erro de proibição",
-    "subtopic": "Erro de tipo permissivo",
+    "topic": "Erro de tipo",
+    "subtopic": "Descriminantes putativas — erro de tipo permissivo",
     "contentType": "misto",
     "court": "",
     "sumula": "",
@@ -1697,7 +1697,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Especialista",
+    "difficulty": "Difícil",
     "prompt": "Em circunstâncias excepcionais, um agente supõe justificadamente estar diante de agressão injusta e iminente, reagindo de maneira que seria moderada caso a agressão realmente existisse. Posteriormente, constata-se que a agressão era inexistente e que o erro sobre a situação de fato era plenamente justificado. Segundo a teoria limitada da culpabilidade, assinale a alternativa correta.",
     "opts": [
       "Trata-se necessariamente de erro de proibição direto.",
@@ -1724,8 +1724,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00039",
@@ -1744,7 +1744,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Especialista",
+    "difficulty": "Difícil",
     "prompt": "Um indivíduo conhece perfeitamente os fatos ocorridos, inclusive a inexistência de agressão atual ou iminente, mas acredita equivocadamente que a legítima defesa autoriza agredir posteriormente aquele que o ofendeu. Segundo a teoria limitada da culpabilidade, qual instituto corresponde ao erro descrito?",
     "opts": [
       "Erro de tipo essencial.",
@@ -1771,15 +1771,15 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00040",
     "title": "Descriminante putativa e culpa imprópria",
     "disc": "Direito Penal",
-    "topic": "Erro de proibição",
-    "subtopic": "Culpa imprópria",
+    "topic": "Erro de tipo",
+    "subtopic": "Descriminantes putativas — culpa imprópria",
     "contentType": "misto",
     "court": "",
     "sumula": "",
@@ -1814,8 +1814,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00041",
