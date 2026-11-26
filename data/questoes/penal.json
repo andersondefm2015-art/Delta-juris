@@ -2753,7 +2753,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Difícil",
+    "difficulty": "Intermediário",
     "prompt": "O homicídio praticado sob o domínio de violenta emoção, logo em seguida a injusta provocação da vítima, admite redução da pena de um sexto a um terço.",
     "opts": [
       "Certo",
@@ -2774,8 +2774,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00062",
@@ -2844,7 +2844,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Difícil",
+    "difficulty": "Intermediário",
     "prompt": "A Lei nº 14.994/2024 conferiu autonomia típica ao feminicídio, que passou a possuir previsão no art. 121-A do Código Penal.",
     "opts": [
       "Certo",
@@ -2869,15 +2869,15 @@
         "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14994.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00064",
-    "title": "Lesão corporal seguida de morte",
+    "title": "Lesão corporal gravíssima",
     "disc": "Direito Penal",
     "topic": "Crimes contra a pessoa",
-    "subtopic": "Crime preterdoloso",
+    "subtopic": "Perda ou inutilização de membro, sentido ou função",
     "contentType": "legislacao",
     "court": "",
     "bank": "FGV",
@@ -2888,35 +2888,35 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Muito difícil",
-    "prompt": "Durante uma discussão, um agente agride intencionalmente a vítima com o propósito exclusivo de lesioná-la. A vítima morre em consequência da agressão. Comprovado que o agente não quis nem assumiu o risco da morte, mas agiu culposamente quanto ao resultado agravador, qual delito está configurado?",
+    "difficulty": "Intermediário",
+    "prompt": "Após agressão dolosa, a vítima sofre perda definitiva de uma das mãos. Comprovada a imputação subjetiva do resultado agravador e ausente dolo de matar, qual classificação é adequada?",
     "opts": [
-      "Homicídio doloso.",
-      "Lesão corporal seguida de morte.",
-      "Homicídio qualificado.",
-      "Lesão corporal simples em concurso necessário com homicídio culposo.",
-      "Crime impossível."
+      "Lesão corporal leve.",
+      "Lesão corporal gravíssima.",
+      "Homicídio tentado necessariamente.",
+      "Lesão corporal grave por incapacidade temporária exclusivamente.",
+      "Lesão corporal seguida de morte."
     ],
     "right": 1,
-    "comment": "A lesão corporal seguida de morte caracteriza crime preterdoloso, com dolo na conduta antecedente e culpa no resultado agravador.",
+    "comment": "A perda ou inutilização de membro, sentido ou função configura lesão corporal gravíssima, nos termos do art. 129, § 2º, III. O resultado agravador exige ao menos culpa, conforme o art. 19.",
     "optionComments": [
-      "Não houve dolo direto ou eventual quanto à morte.",
-      "Correta. Incide o art. 129, § 3º.",
-      "Não estão presentes os pressupostos do homicídio doloso.",
-      "Existe tipo penal específico para a hipótese.",
-      "O resultado efetivamente ocorreu."
+      "A perda de membro supera a modalidade leve.",
+      "Correta: art. 129, § 2º, III.",
+      "Não há dolo de matar.",
+      "A perda definitiva constitui hipótese específica do § 2º.",
+      "Não houve morte."
     ],
-    "legalBasis": "CP, arts. 19 e 129, § 3º.",
-    "reference": "Código Penal, art. 129.",
-    "trap": "Dolo eventual quanto à morte afasta a classificação preterdolosa.",
+    "legalBasis": "CP, arts. 19 e 129, § 2º, III.",
+    "reference": "CP, arts. 19 e 129, § 2º, III.",
+    "trap": "Distinguir perda ou inutilização de membro da debilidade permanente prevista no § 1º, III.",
     "sources": [
       {
         "title": "Código Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00065",
@@ -2934,7 +2934,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Difícil",
+    "difficulty": "Intermediário",
     "prompt": "Em decorrência de agressão dolosa, a vítima permanece incapacitada para suas ocupações habituais durante quarenta dias, recuperando-se integralmente depois desse período. Ausentes outros resultados agravadores, qual classificação é adequada?",
     "opts": [
       "Lesão corporal necessariamente leve.",
@@ -2961,8 +2961,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00066",
@@ -2980,7 +2980,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Difícil",
+    "difficulty": "Intermediário",
     "prompt": "A morte da pessoa ofendida impede, em qualquer hipótese, a configuração do crime de calúnia.",
     "opts": [
       "Certo",
@@ -3001,8 +3001,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00067",
@@ -3020,7 +3020,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Muito difícil",
+    "difficulty": "Intermediário",
     "prompt": "Um indivíduo, com intenção de atingir a reputação de seu desafeto, divulga perante terceiros fato determinado e ofensivo à reputação deste, sem atribuir-lhe a prática de crime. Presentes os demais elementos típicos, qual infração está configurada?",
     "opts": [
       "Calúnia.",
@@ -3047,8 +3047,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00068",
@@ -3066,7 +3066,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Muito difícil",
+    "difficulty": "Intermediário",
     "prompt": "O querelado que, antes da sentença, se retrata cabalmente da calúnia ou da difamação fica isento de pena, não sendo essa regra automaticamente extensível ao crime de injúria.",
     "opts": [
       "Certo",
@@ -3087,8 +3087,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00069",
@@ -3107,7 +3107,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Especialista",
+    "difficulty": "Difícil",
     "prompt": "Agente primário subtrai bem de pequeno valor mediante rompimento de obstáculo. Reconhecida a qualificadora objetiva, a defesa requer a incidência do privilégio do art. 155, § 2º. Segundo a Súmula 511 do STJ, assinale a alternativa correta.",
     "opts": [
       "O privilégio é sempre incompatível com o furto qualificado.",
@@ -3136,10 +3136,14 @@
       {
         "title": "Jurisprudência do STJ",
         "url": "https://scon.stj.jus.br/SCON/"
+      },
+      {
+        "title": "Súmula 511 — STJ",
+        "url": "https://scon.stj.jus.br/SCON/sumstj/toc.jsp?livre=%27511%27.num."
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00070",
@@ -3158,7 +3162,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Difícil",
+    "difficulty": "Intermediário",
     "prompt": "A existência de sistema de vigilância eletrônica em estabelecimento comercial, por si só, torna impossível a configuração do crime de furto.",
     "opts": [
       "Certo",
@@ -3181,10 +3185,14 @@
       {
         "title": "Jurisprudência do STJ",
         "url": "https://scon.stj.jus.br/SCON/"
+      },
+      {
+        "title": "Súmula 567 — STJ",
+        "url": "https://scon.stj.jus.br/SCON/sumstj/toc.jsp?livre=%27567%27.num."
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00071",
@@ -3202,7 +3210,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Especialista",
+    "difficulty": "Difícil",
     "prompt": "Demonstrado que o agente retirou coisa alheia móvel exclusivamente para utilização momentânea, sem intenção de assenhoramento definitivo, devolvendo-a espontânea, pronta e integralmente ao local de origem, qual construção jurídica pode afastar a tipicidade do furto?",
     "opts": [
       "Arrependimento eficaz.",
@@ -3229,8 +3237,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00072",
@@ -3249,7 +3257,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Muito difícil",
+    "difficulty": "Difícil",
     "prompt": "Mediante grave ameaça, um agente subtrai o telefone da vítima. Logo após a inversão da posse, é perseguido e preso, sendo o objeto recuperado. Segundo a Súmula 582 do STJ, qual classificação é adequada?",
     "opts": [
       "Roubo consumado, independentemente de posse mansa e pacífica.",
@@ -3278,10 +3286,14 @@
       {
         "title": "Jurisprudência do STJ",
         "url": "https://scon.stj.jus.br/SCON/"
+      },
+      {
+        "title": "Súmula 582 — STJ",
+        "url": "https://scon.stj.jus.br/SCON/sumstj/toc.jsp?O=JT&livre=%27582%27.num."
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00073",
@@ -3299,7 +3311,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Muito difícil",
+    "difficulty": "Intermediário",
     "prompt": "Configura roubo impróprio a conduta de empregar violência contra pessoa ou grave ameaça, logo depois da subtração, com a finalidade de assegurar a impunidade do crime ou a detenção da coisa para si ou para terceiro.",
     "opts": [
       "Certo",
@@ -3320,8 +3332,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00074",
@@ -3340,7 +3352,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Especialista",
+    "difficulty": "Difícil",
     "prompt": "Durante a execução de um roubo, a violência empregada pelo agente produz a morte da vítima. A subtração patrimonial não chega a ocorrer por circunstâncias alheias à vontade do agente. Reconhecido o nexo entre a violência e o propósito patrimonial, qual entendimento consta da Súmula 610 do STF?",
     "opts": [
       "Homicídio culposo exclusivamente.",
@@ -3369,10 +3381,14 @@
       {
         "title": "Jurisprudência do STF",
         "url": "https://jurisprudencia.stf.jus.br/"
+      },
+      {
+        "title": "Súmula 610 — STF",
+        "url": "https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=2562"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00075",
@@ -3391,7 +3407,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Difícil",
+    "difficulty": "Intermediário",
     "prompt": "Segundo a Súmula 603 do STF, a competência para o processo e julgamento do latrocínio é do juiz singular, e não do Tribunal do Júri.",
     "opts": [
       "Certo",
@@ -3414,10 +3430,14 @@
       {
         "title": "Jurisprudência do STF",
         "url": "https://jurisprudencia.stf.jus.br/"
+      },
+      {
+        "title": "Súmula 603 — STF",
+        "url": "https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=2683"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00076",
@@ -3436,7 +3456,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Muito difícil",
+    "difficulty": "Difícil",
     "prompt": "Mediante grave ameaça, o agente constrange a vítima a realizar determinada conduta com finalidade de obter vantagem econômica indevida. A vítima atende à exigência, mas a vantagem econômica não chega a ser recebida pelo criminoso. Segundo a Súmula 96 do STJ, assinale a alternativa correta.",
     "opts": [
       "A extorsão exige efetivo enriquecimento do agente.",
@@ -3465,10 +3485,14 @@
       {
         "title": "Jurisprudência do STJ",
         "url": "https://scon.stj.jus.br/SCON/"
+      },
+      {
+        "title": "Súmula 96 — STJ",
+        "url": "https://www.stj.jus.br/file_source/STJ/Midias/arquivos/SumulasSTJ.pdf"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00077",
@@ -3486,7 +3510,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Especialista",
+    "difficulty": "Difícil",
     "prompt": "Um criminoso constrange a vítima, mediante grave ameaça, a realizar transferência bancária cuja efetivação depende indispensavelmente da atuação pessoal desta. Considerando a indispensabilidade da colaboração da vítima e a finalidade econômica indevida, qual classificação é adequada?",
     "opts": [
       "Furto simples.",
@@ -3513,8 +3537,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00078",
@@ -3532,7 +3556,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Especialista",
+    "difficulty": "Difícil",
     "prompt": "Um indivíduo utiliza identidade profissional falsa para convencer a vítima a entregar-lhe voluntariamente determinado equipamento. A vítima, induzida em erro, realiza a entrega, produzindo vantagem ilícita e prejuízo patrimonial. Qual delito está configurado, presentes os demais requisitos?",
     "opts": [
       "Roubo próprio.",
@@ -3559,8 +3583,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00079",
@@ -3578,7 +3602,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Muito difícil",
+    "difficulty": "Intermediário",
     "prompt": "A punibilidade da receptação depende necessariamente da identificação e da condenação definitiva do autor do crime do qual proveio a coisa receptada.",
     "opts": [
       "Certo",
@@ -3599,8 +3623,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00080",
@@ -3618,7 +3642,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Muito difícil",
+    "difficulty": "Intermediário",
     "prompt": "Reconhecida a prática de receptação culposa por agente primário, qual possibilidade está expressamente prevista no art. 180, § 5º, do Código Penal?",
     "opts": [
       "O juiz pode, consideradas as circunstâncias, deixar de aplicar a pena.",
@@ -3645,8 +3669,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00081",
