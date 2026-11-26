@@ -1,0 +1,179 @@
+
+name: Delta Juris - Auditoria Tecnica
+
+on:
+  workflow_dispatch:
+
+  push:
+    branches:
+      - main
+    paths:
+      - 'data/questoes/**'
+      - 'scripts/auditar.py'
+      - '.github/workflows/auditoria.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: delta-juris-auditoria
+  cancel-in-progress: false
+
+jobs:
+  auditoria:
+    name: Auditoria do banco de questoes
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Baixar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Executar auditoria tecnica
+        id: auditoria
+        continue-on-error: true
+        run: python scripts/auditar.py
+
+      - name: Gerar resumo da auditoria
+        if: always()
+        shell: python
+        run: |
+          import json
+          import os
+          from pathlib import Path
+
+          arquivo = Path("data/auditoria/relatorio.json")
+
+          linhas = [
+              "# DELTA JURIS 4.0",
+              "## Central de Auditoria Tecnica",
+              ""
+          ]
+
+          if arquivo.exists():
+              dados = json.loads(
+                  arquivo.read_text(encoding="utf-8")
+              )
+
+              resumo = dados["resumo"]
+
+              linhas.extend([
+                  "| Indicador | Resultado |",
+                  "|---|---:|"
+              ])
+
+              for chave, valor in resumo.items():
+                  nome = chave.replace("_", " ").capitalize()
+                  linhas.append(f"| {nome} | {valor} |")
+
+              linhas.extend([
+                  "",
+                  "## Distribuicao por banca",
+                  "",
+                  "| Banca | Questoes |",
+                  "|---|---:|"
+              ])
+
+              for banca, total in dados["distribuicao"]["bancas"].items():
+                  linhas.append(f"| {banca} | {total} |")
+
+              linhas.extend([
+                  "",
+                  "## Distribuicao por dificuldade",
+                  "",
+                  "| Dificuldade | Questoes |",
+                  "|---|---:|"
+              ])
+
+              for nivel, total in dados["distribuicao"]["dificuldades"].items():
+                  linhas.append(f"| {nivel} | {total} |")
+
+              linhas.extend([
+                  "",
+                  "## Distribuicao por conteudo",
+                  "",
+                  "| Conteudo | Questoes |",
+                  "|---|---:|"
+              ])
+
+              for tipo, total in dados["distribuicao"]["conteudos"].items():
+                  linhas.append(f"| {tipo} | {total} |")
+
+              linhas.extend([
+                  "",
+                  "## Erros identificados",
+                  ""
+              ])
+
+              for item in dados["erros"][:100]:
+                  linhas.append(
+                      f"- {item['arquivo']} / "
+                      f"{item['questao']}: "
+                      f"{item['mensagem']}"
+                  )
+
+              if not dados["erros"]:
+                  linhas.append("Nenhum erro tecnico encontrado.")
+
+              linhas.extend([
+                  "",
+                  "## Avisos identificados",
+                  ""
+              ])
+
+              for item in dados["avisos"][:100]:
+                  linhas.append(
+                      f"- {item['arquivo']} / "
+                      f"{item['questao']}: "
+                      f"{item['mensagem']}"
+                  )
+
+              if not dados["avisos"]:
+                  linhas.append("Nenhum aviso encontrado.")
+
+              linhas.extend([
+                  "",
+                  "## Resultado",
+                  "",
+                  dados["resultado"],
+                  "",
+                  dados["observacao"]
+              ])
+
+          else:
+              linhas.append(
+                  "ERRO: o relatorio de auditoria nao foi gerado."
+              )
+
+          with open(
+              os.environ["GITHUB_STEP_SUMMARY"],
+              "a",
+              encoding="utf-8"
+          ) as saida:
+              saida.write("\n".join(linhas) + "\n")
+
+      - name: Disponibilizar relatorio completo
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: delta-juris-relatorio-auditoria
+          path: data/auditoria/relatorio.json
+          retention-days: 30
+          if-no-files-found: error
+
+      - name: Verificar resultado final
+        if: always()
+        env:
+          RESULTADO: ${{ steps.auditoria.outcome }}
+        run: |
+          if [ "$RESULTADO" != "success" ]; then
+            echo "Auditoria encontrou erros ou falhou."
+            exit 1
+          fi
+
+          echo "Auditoria tecnica concluida."
