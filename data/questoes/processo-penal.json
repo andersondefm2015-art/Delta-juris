@@ -242,20 +242,24 @@
     "right": 0,
     "comment": "Poder requerer não significa poder impor toda diligência. Observe também diligências legalmente obrigatórias.",
     "optionComments": [
-      "Gabarito. Poder requerer não significa poder impor toda diligência. Observe também diligências legalmente obrigatórias.",
-      "Não é o gabarito. Poder requerer não significa poder impor toda diligência. Observe também diligências legalmente obrigatórias."
+      "Correta: Poder requerer não significa poder impor toda diligência. Observe também diligências legalmente obrigatórias.",
+      "Incorreta: Poder requerer não significa poder impor toda diligência. Observe também diligências legalmente obrigatórias."
     ],
     "legalBasis": "CPP, art. 14",
     "reference": "CPP, art. 14",
-    "trap": "Poder requerer não significa poder impor toda diligência. Observe também diligências legalmente obrigatórias.",
+    "trap": "Confundir faculdade de requerer diligência com direito irrestrito à sua realização.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      },
+      {
+        "title": "CPP — texto compilado no Senado Federal",
+        "url": "https://legis.senado.leg.br/norma/528776/publicacao/34620736"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00007",
@@ -732,23 +736,27 @@
     "right": 2,
     "comment": "O juiz controla a legalidade das condições e devolve a proposta para reformulação, não substitui unilateralmente o acordo.",
     "optionComments": [
-      "A homologação não é julgamento condenatório.",
-      "O juiz não substitui as partes na negociação.",
-      "É a providência do § 5º.",
-      "A concordância deve ser livre.",
-      "Não há extinção automática nesse momento."
+      "A identificação de cláusula abusiva não autoriza condenação.",
+      "O juiz não negocia unilateralmente as condições.",
+      "A devolução permite nova proposta consensual, conforme § 5º.",
+      "A voluntariedade deve ser preservada.",
+      "A extinção depende do cumprimento integral, não da constatação de abuso."
     ],
     "legalBasis": "CPP, art. 28-A, §§ 4º e 5º",
     "reference": "CPP, art. 28-A, §§ 4º e 5º",
-    "trap": "O juiz controla a legalidade das condições e devolve a proposta para reformulação, não substitui unilateralmente o acordo.",
+    "trap": "Confundir controle judicial de legalidade com poder de negociar ou impor condições unilateralmente.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      },
+      {
+        "title": "CPP — texto compilado no Senado Federal",
+        "url": "https://legis.senado.leg.br/norma/528776/publicacao/34620736"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00018",
@@ -779,23 +787,27 @@
     "right": 3,
     "comment": "A recusa pode ser submetida ao órgão superior do MP a pedido do investigado; não cabe ao juiz formular a proposta em substituição.",
     "optionComments": [
-      "Não é o mecanismo previsto no § 14.",
-      "O juiz não formula unilateralmente a proposta.",
-      "A recusa não fundamenta prisão por si só.",
-      "É a revisão interna prevista em lei.",
-      "Não há arquivamento automático."
+      "A lei prevê revisão ministerial, não apelação obrigatória.",
+      "A proposta compete ao MP.",
+      "A recusa não constitui fundamento autônomo para prisão.",
+      "O § 14 prevê remessa ao órgão superior a requerimento do investigado.",
+      "A recusa não implica arquivamento."
     ],
     "legalBasis": "CPP, art. 28-A, § 14",
     "reference": "CPP, art. 28-A, § 14",
-    "trap": "A recusa pode ser submetida ao órgão superior do MP a pedido do investigado; não cabe ao juiz formular a proposta em substituição.",
+    "trap": "Confundir revisão interna ministerial com recurso judicial ou proposta de ofício pelo juiz.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      },
+      {
+        "title": "CPP — texto compilado no Senado Federal",
+        "url": "https://legis.senado.leg.br/norma/528776/publicacao/34620736"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00019",
@@ -826,23 +838,27 @@
     "right": 4,
     "comment": "O cumprimento integral enseja extinção da punibilidade, não condenação criminal.",
     "optionComments": [
-      "Não há condenação geradora de reincidência.",
-      "O acordo não é sentença condenatória.",
-      "O cumprimento integral encerra a persecução nos termos legais.",
-      "Não há pena a agravar.",
-      "É a consequência expressa do § 13."
+      "O acordo cumprido não constitui condenação geradora de reincidência.",
+      "Não há sentença condenatória decorrente do cumprimento.",
+      "O cumprimento encerra a persecução pela extinção da punibilidade.",
+      "Não há pena a agravar por esse cumprimento.",
+      "O § 13 determina a declaração de extinção da punibilidade."
     ],
     "legalBasis": "CPP, art. 28-A, § 13",
     "reference": "CPP, art. 28-A, § 13",
-    "trap": "O cumprimento integral enseja extinção da punibilidade, não condenação criminal.",
+    "trap": "Confundir cumprimento do ANPP com condenação ou reincidência.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      },
+      {
+        "title": "CPP — texto compilado no Senado Federal",
+        "url": "https://legis.senado.leg.br/norma/528776/publicacao/34620736"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00020",
@@ -873,23 +889,27 @@
     "right": 4,
     "comment": "A vedação legal incide em favor do agressor em violência doméstica ou familiar, independentemente de a pena mínima ser inferior a quatro anos.",
     "optionComments": [
-      "Não há obrigatoriedade nessa hipótese.",
-      "A vedação não depende de condenação.",
-      "A concordância da vítima não afasta a vedação expressa.",
-      "O requisito quantitativo não supera a vedação.",
-      "É a regra do § 2º, IV."
+      "Há vedação expressa à proposta nessa hipótese.",
+      "A vedação opera antes da condenação.",
+      "A concordância da vítima não elimina a vedação legal.",
+      "O requisito quantitativo não afasta o § 2º.",
+      "O inciso IV exclui o benefício em favor do agressor."
     ],
     "legalBasis": "CPP, art. 28-A, § 2º, IV",
     "reference": "CPP, art. 28-A, § 2º, IV",
-    "trap": "A vedação legal incide em favor do agressor em violência doméstica ou familiar, independentemente de a pena mínima ser inferior a quatro anos.",
+    "trap": "Tratar a pena mínima inferior a quatro anos como requisito suficiente, ignorando as vedações legais.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      },
+      {
+        "title": "CPP — texto compilado no Senado Federal",
+        "url": "https://legis.senado.leg.br/norma/528776/publicacao/34620736"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00021",
@@ -920,23 +940,27 @@
     "right": 0,
     "comment": "A regra geral é o lugar da consumação.",
     "optionComments": [
-      "Correta. A regra geral é o lugar da consumação.",
-      "Incorreta. Não há regra geral de concentração na capital.",
-      "Incorreta. Não é a regra geral.",
-      "Incorreta. A prisão não fixa por si a competência.",
-      "Incorreta. A descoberta não determina o foro."
+      "O furto consumou-se na comarca A.",
+      "A capital não é critério geral de competência territorial.",
+      "O domicílio da vítima não é a regra territorial geral para furto.",
+      "O lugar da prisão não substitui o da consumação.",
+      "A descoberta posterior não desloca, por si, a competência."
     ],
     "legalBasis": "CPP, art. 70",
     "reference": "CPP, art. 70",
-    "trap": "Não confunda lugar da infração com critérios de competência distintos.",
+    "trap": "Confundir local da descoberta do furto com o da consumação.",
     "sources": [
       {
         "title": "CPP, art. 70 — fonte oficial para conferência",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      },
+      {
+        "title": "CPP — texto compilado no Senado Federal",
+        "url": "https://legis.senado.leg.br/norma/528776/publicacao/34620736"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00022",
@@ -964,20 +988,24 @@
     "right": 0,
     "comment": "O último ato executório é o critério legal para a tentativa.",
     "optionComments": [
-      "Correta. O último ato executório é o critério legal para a tentativa.",
-      "Incorreta. Confunde tentativa com consumação."
+      "Correta: O último ato executório é o critério legal para a tentativa.",
+      "Incorreta: O último ato executório é o critério legal para a tentativa."
     ],
     "legalBasis": "CPP, art. 70",
     "reference": "CPP, art. 70",
-    "trap": "Não confunda tentativa com critérios de competência distintos.",
+    "trap": "Confundir o último ato de execução com o primeiro ato ou o resultado pretendido.",
     "sources": [
       {
         "title": "CPP, art. 70 — fonte oficial para conferência",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      },
+      {
+        "title": "CPP — texto compilado no Senado Federal",
+        "url": "https://legis.senado.leg.br/norma/528776/publicacao/34620736"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00023",
@@ -1008,23 +1036,27 @@
     "right": 3,
     "comment": "A permanência em duas jurisdições atrai a prevenção.",
     "optionComments": [
-      "Incorreta. Irrelevante para a hipótese.",
-      "Incorreta. Não é o critério do art. 71.",
-      "Incorreta. O oferecimento não é o critério legal.",
-      "Correta. A permanência em duas jurisdições atrai a prevenção.",
-      "Incorreta. A prevenção prevalece."
+      "O nascimento do réu não é critério aplicável.",
+      "O domicílio da vítima não resolve essa hipótese.",
+      "O local do oferecimento da denúncia não é o critério legal.",
+      "O art. 71 estabelece a prevenção para crime permanente em mais de uma jurisdição.",
+      "Não há previsão de sorteio obrigatório para essa hipótese."
     ],
     "legalBasis": "CPP, art. 71",
     "reference": "CPP, art. 71",
-    "trap": "Não confunda crime permanente com critérios de competência distintos.",
+    "trap": "Ignorar a natureza permanente do sequestro e a pluralidade de jurisdições.",
     "sources": [
       {
         "title": "CPP, art. 71 — fonte oficial para conferência",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      },
+      {
+        "title": "CPP — texto compilado no Senado Federal",
+        "url": "https://legis.senado.leg.br/norma/528776/publicacao/34620736"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00024",
@@ -1052,20 +1084,24 @@
     "right": 0,
     "comment": "O domicílio funciona como critério subsidiário.",
     "optionComments": [
-      "Correta. O domicílio funciona como critério subsidiário.",
-      "Incorreta. Desconsidera a regra subsidiária."
+      "Correta: O domicílio funciona como critério subsidiário.",
+      "Incorreta: O domicílio funciona como critério subsidiário."
     ],
     "legalBasis": "CPP, art. 72",
     "reference": "CPP, art. 72",
-    "trap": "Não confunda domicílio subsidiário com critérios de competência distintos.",
+    "trap": "Aplicar o domicílio do réu como regra principal, mesmo quando conhecido o local do delito.",
     "sources": [
       {
         "title": "CPP, art. 72 — fonte oficial para conferência",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      },
+      {
+        "title": "CPP — texto compilado no Senado Federal",
+        "url": "https://legis.senado.leg.br/norma/528776/publicacao/34620736"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00025",
