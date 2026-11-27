@@ -1,0 +1,894 @@
+[
+  {
+    "id": "DPP-00001",
+    "title": "Lei processual no tempo",
+    "disc": "Direito Processual Penal",
+    "topic": "Princípios processuais",
+    "subtopic": "Lei processual no tempo",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "Uma alteração exclusivamente processual incide sobre os atos futuros de processo em curso, preservada a validade dos atos anteriores.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 0,
+    "comment": "Correto. A aplicação imediata não invalida atos regularmente praticados sob a lei anterior.",
+    "optionComments": [
+      "Correto. A aplicação imediata não invalida atos regularmente praticados sob a lei anterior.",
+      "Incorreto. A aplicação imediata não invalida atos regularmente praticados sob a lei anterior."
+    ],
+    "legalBasis": "CPP, art. 2º",
+    "reference": "CPP, art. 2º",
+    "trap": "Observe os requisitos e limites específicos do dispositivo indicado.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00002",
+    "title": "Sistema acusatório",
+    "disc": "Direito Processual Penal",
+    "topic": "Princípios processuais",
+    "subtopic": "Sistema acusatório",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "O juiz pode substituir a atuação probatória da acusação na investigação criminal.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 1,
+    "comment": "Correto. A estrutura acusatória veda essa substituição e a iniciativa judicial na investigação.",
+    "optionComments": [
+      "Incorreto. A estrutura acusatória veda essa substituição e a iniciativa judicial na investigação.",
+      "Correto. A estrutura acusatória veda essa substituição e a iniciativa judicial na investigação."
+    ],
+    "legalBasis": "CPP, art. 3º-A",
+    "reference": "CPP, art. 3º-A",
+    "trap": "Observe os requisitos e limites específicos do dispositivo indicado.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00003",
+    "title": "Instauração do inquérito",
+    "disc": "Direito Processual Penal",
+    "topic": "Inquérito policial e ação penal",
+    "subtopic": "Instauração do inquérito",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Em crime de ação pública incondicionada, a autoridade policial recebe notícia anônima e realiza verificações preliminares que confirmam indícios do delito. Qual providência é admissível?",
+    "opts": [
+      "Arquivar definitivamente a notícia",
+      "Instaurar inquérito de ofício",
+      "Exigir queixa-crime",
+      "Exigir autorização do suspeito",
+      "Oferecer denúncia"
+    ],
+    "right": 1,
+    "comment": "A instauração de ofício é cabível diante de indícios.",
+    "optionComments": [
+      "A polícia não determina arquivamento.",
+      "A instauração de ofício é cabível diante de indícios.",
+      "Não se trata de ação privada.",
+      "Não depende do suspeito.",
+      "A denúncia compete ao MP."
+    ],
+    "legalBasis": "CPP, arts. 5º, I, e 17",
+    "reference": "CPP, arts. 5º, I, e 17",
+    "trap": "Observe os requisitos e limites específicos do dispositivo indicado.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00004",
+    "title": "Representação",
+    "disc": "Direito Processual Penal",
+    "topic": "Inquérito policial e ação penal",
+    "subtopic": "Representação",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "Em crime de ação pública condicionada, a autoridade policial pode instaurar inquérito sem representação, apenas porque considera grave o fato.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 1,
+    "comment": "Correto. A representação é condição para iniciar o inquérito nessa hipótese.",
+    "optionComments": [
+      "Incorreto. A representação é condição para iniciar o inquérito nessa hipótese.",
+      "Correto. A representação é condição para iniciar o inquérito nessa hipótese."
+    ],
+    "legalBasis": "CPP, art. 5º, § 4º",
+    "reference": "CPP, art. 5º, § 4º",
+    "trap": "Observe os requisitos e limites específicos do dispositivo indicado.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00005",
+    "title": "Ação privada",
+    "disc": "Direito Processual Penal",
+    "topic": "Inquérito policial e ação penal",
+    "subtopic": "Ação privada",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FCC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Em crime de ação exclusivamente privada, quem pode requerer a instauração do inquérito?",
+    "opts": [
+      "Qualquer cidadão necessariamente",
+      "Somente o juiz",
+      "Quem tenha qualidade para intentar a ação",
+      "Somente o MP",
+      "Somente o investigado"
+    ],
+    "right": 2,
+    "comment": "É a regra legal.",
+    "optionComments": [
+      "A regra exige legitimidade específica.",
+      "Não há exclusividade judicial.",
+      "É a regra legal.",
+      "O MP não é titular da ação exclusivamente privada.",
+      "O investigado não possui essa legitimidade por si só."
+    ],
+    "legalBasis": "CPP, art. 5º, § 5º",
+    "reference": "CPP, art. 5º, § 5º",
+    "trap": "Observe os requisitos e limites específicos do dispositivo indicado.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00006",
+    "title": "Diligências",
+    "disc": "Direito Processual Penal",
+    "topic": "Inquérito policial e ação penal",
+    "subtopic": "Diligências",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "O ofendido e o indiciado podem requerer diligências no inquérito, cuja realização fica, em regra, a juízo da autoridade policial.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 0,
+    "comment": "Correto. O requerimento não torna automaticamente obrigatória toda diligência solicitada.",
+    "optionComments": [
+      "Correto. O requerimento não torna automaticamente obrigatória toda diligência solicitada.",
+      "Incorreto. O requerimento não torna automaticamente obrigatória toda diligência solicitada."
+    ],
+    "legalBasis": "CPP, art. 14",
+    "reference": "CPP, art. 14",
+    "trap": "Observe os requisitos e limites específicos do dispositivo indicado.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00007",
+    "title": "Reprodução simulada",
+    "disc": "Direito Processual Penal",
+    "topic": "Inquérito policial e ação penal",
+    "subtopic": "Reprodução simulada",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FUNDATEC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "A autoridade policial pretende realizar reprodução simulada dos fatos. Qual limite é expressamente previsto no CPP?",
+    "opts": [
+      "Autorização obrigatória do MP",
+      "Confissão prévia",
+      "Concordância de todos os vizinhos",
+      "Não contrariar a moralidade ou a ordem pública",
+      "Trânsito em julgado"
+    ],
+    "right": 3,
+    "comment": "É o limite expresso no dispositivo.",
+    "optionComments": [
+      "Não é requisito geral do art. 7º.",
+      "Confissão não é pressuposto.",
+      "Não há tal requisito.",
+      "É o limite expresso no dispositivo.",
+      "A diligência é investigativa."
+    ],
+    "legalBasis": "CPP, art. 7º",
+    "reference": "CPP, art. 7º",
+    "trap": "Observe os requisitos e limites específicos do dispositivo indicado.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00008",
+    "title": "Arquivamento",
+    "disc": "Direito Processual Penal",
+    "topic": "Inquérito policial e ação penal",
+    "subtopic": "Arquivamento",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "O delegado pode determinar o arquivamento definitivo do inquérito quando entender inexistente o crime.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 1,
+    "comment": "Correto. A autoridade policial não pode mandar arquivar autos de inquérito.",
+    "optionComments": [
+      "Incorreto. A autoridade policial não pode mandar arquivar autos de inquérito.",
+      "Correto. A autoridade policial não pode mandar arquivar autos de inquérito."
+    ],
+    "legalBasis": "CPP, art. 17",
+    "reference": "CPP, art. 17",
+    "trap": "Observe os requisitos e limites específicos do dispositivo indicado.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00009",
+    "title": "Novas pesquisas",
+    "disc": "Direito Processual Penal",
+    "topic": "Inquérito policial e ação penal",
+    "subtopic": "Novas pesquisas",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Após arquivamento por insuficiência de elementos probatórios, surgem notícias de novas provas. Qual providência é compatível com o CPP?",
+    "opts": [
+      "Condenar imediatamente",
+      "Ignorar obrigatoriamente as notícias",
+      "Realizar novas pesquisas",
+      "Reabrir qualquer arquivamento independentemente do fundamento",
+      "Oferecer denúncia pela autoridade policial"
+    ],
+    "right": 2,
+    "comment": "O art. 18 admite novas pesquisas nessa hipótese.",
+    "optionComments": [
+      "Não cabe condenação policial.",
+      "Novas notícias podem justificar pesquisa.",
+      "O art. 18 admite novas pesquisas nessa hipótese.",
+      "O fundamento do arquivamento importa.",
+      "A polícia não oferece denúncia."
+    ],
+    "legalBasis": "CPP, art. 18",
+    "reference": "CPP, art. 18",
+    "trap": "Observe os requisitos e limites específicos do dispositivo indicado.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00010",
+    "title": "Dispensabilidade",
+    "disc": "Direito Processual Penal",
+    "topic": "Inquérito policial e ação penal",
+    "subtopic": "Dispensabilidade",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "O Ministério Público deve necessariamente requisitar inquérito mesmo quando a representação já contém elementos suficientes para oferecer denúncia.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 1,
+    "comment": "Correto. O CPP permite dispensar o inquérito quando a representação fornece elementos suficientes.",
+    "optionComments": [
+      "Incorreto. O CPP permite dispensar o inquérito quando a representação fornece elementos suficientes.",
+      "Correto. O CPP permite dispensar o inquérito quando a representação fornece elementos suficientes."
+    ],
+    "legalBasis": "CPP, art. 39, § 5º",
+    "reference": "CPP, art. 39, § 5º",
+    "trap": "Observe os requisitos e limites específicos do dispositivo indicado.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00011",
+    "title": "Prazo da denúncia",
+    "disc": "Direito Processual Penal",
+    "topic": "Inquérito policial e ação penal",
+    "subtopic": "Prazo da denúncia",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "Recebidos pelo MP os autos de inquérito de investigado solto, sem incidência de lei especial, qual o prazo legal ordinário para oferecer denúncia?",
+    "opts": [
+      "5 dias",
+      "10 dias",
+      "15 dias",
+      "30 dias",
+      "60 dias"
+    ],
+    "right": 2,
+    "comment": "É o prazo legal para réu solto.",
+    "optionComments": [
+      "É o prazo ordinário para réu preso.",
+      "Não é o prazo do art. 46 para solto.",
+      "É o prazo legal para réu solto.",
+      "Não corresponde à regra do CPP.",
+      "Não corresponde à regra do CPP."
+    ],
+    "legalBasis": "CPP, art. 46",
+    "reference": "CPP, art. 46",
+    "trap": "Observe os requisitos e limites específicos do dispositivo indicado.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00012",
+    "title": "Irretratabilidade",
+    "disc": "Direito Processual Penal",
+    "topic": "Inquérito policial e ação penal",
+    "subtopic": "Irretratabilidade",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FCC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Em ação pública condicionada regida pela regra geral do CPP, a vítima representa e depois pretende retratar-se. Qual marco impede a retratação?",
+    "opts": [
+      "Instauração do inquérito",
+      "Oferecimento da denúncia",
+      "Recebimento da denúncia",
+      "Sentença",
+      "Trânsito em julgado"
+    ],
+    "right": 1,
+    "comment": "O oferecimento torna a representação irretratável.",
+    "optionComments": [
+      "A instauração não é o marco geral.",
+      "O oferecimento torna a representação irretratável.",
+      "O recebimento não é o marco da regra geral.",
+      "O impedimento ocorre antes.",
+      "O impedimento ocorre antes."
+    ],
+    "legalBasis": "CPP, art. 25",
+    "reference": "CPP, art. 25",
+    "trap": "Observe os requisitos e limites específicos do dispositivo indicado.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00013",
+    "title": "Decadência",
+    "disc": "Direito Processual Penal",
+    "topic": "Inquérito policial e ação penal",
+    "subtopic": "Decadência",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "Na regra geral do CPP, o prazo decadencial para queixa ou representação é de seis meses a partir do conhecimento da autoria.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 0,
+    "comment": "Correto. O art. 38 estabelece essa regra, ressalvadas disposições especiais e a disciplina própria da ação subsidiária.",
+    "optionComments": [
+      "Correto. O art. 38 estabelece essa regra, ressalvadas disposições especiais e a disciplina própria da ação subsidiária.",
+      "Incorreto. O art. 38 estabelece essa regra, ressalvadas disposições especiais e a disciplina própria da ação subsidiária."
+    ],
+    "legalBasis": "CPP, art. 38",
+    "reference": "CPP, art. 38",
+    "trap": "Observe os requisitos e limites específicos do dispositivo indicado.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00014",
+    "title": "Ação subsidiária",
+    "disc": "Direito Processual Penal",
+    "topic": "Inquérito policial e ação penal",
+    "subtopic": "Ação subsidiária",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "O MP permanece inerte após o término do prazo legal para oferecer denúncia. Admitida a ação privada subsidiária, qual poder conserva o MP?",
+    "opts": [
+      "Nenhum",
+      "Apenas assistir ao julgamento",
+      "Proibir a queixa sem fundamentação",
+      "Aditar a queixa e retomar a ação como parte principal em caso de negligência do querelante",
+      "Transferir definitivamente a titularidade da ação pública"
+    ],
+    "right": 3,
+    "comment": "São poderes previstos no art. 29.",
+    "optionComments": [
+      "O MP conserva poderes legais.",
+      "Sua atuação não se limita à assistência.",
+      "Não há veto arbitrário.",
+      "São poderes previstos no art. 29.",
+      "A natureza pública permanece."
+    ],
+    "legalBasis": "CPP, art. 29",
+    "reference": "CPP, art. 29",
+    "trap": "Observe os requisitos e limites específicos do dispositivo indicado.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00015",
+    "title": "Indisponibilidade",
+    "disc": "Direito Processual Penal",
+    "topic": "Inquérito policial e ação penal",
+    "subtopic": "Indisponibilidade",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FUNDATEC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Após oferecer denúncia, o MP conclui que a prova produzida não sustenta condenação. Qual conduta é compatível com a indisponibilidade da ação pública?",
+    "opts": [
+      "Desistir formalmente da ação",
+      "Arquivar unilateralmente o processo",
+      "Pedir absolvição",
+      "Transferir a ação ao delegado",
+      "Revogar a denúncia por ato administrativo"
+    ],
+    "right": 2,
+    "comment": "Pedir absolvição não equivale a desistir.",
+    "optionComments": [
+      "O MP não pode desistir da ação.",
+      "Não pode arquivar unilateralmente processo judicial.",
+      "Pedir absolvição não equivale a desistir.",
+      "O delegado não é titular da ação.",
+      "Não cabe revogação administrativa da denúncia."
+    ],
+    "legalBasis": "CPP, arts. 42 e 385",
+    "reference": "CPP, arts. 42 e 385",
+    "trap": "Observe os requisitos e limites específicos do dispositivo indicado.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00016",
+    "title": "ANPP: pena mínima",
+    "disc": "Direito Processual Penal",
+    "topic": "ANPP",
+    "subtopic": "ANPP: pena mínima",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Para aferir a pena mínima inferior a quatro anos exigida para o ANPP, consideram-se as causas de aumento e diminuição aplicáveis ao caso concreto.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 0,
+    "comment": "Correto. O § 1º determina a consideração dessas causas na aferição da pena mínima.",
+    "optionComments": [
+      "Correto. O § 1º determina a consideração dessas causas na aferição da pena mínima.",
+      "Incorreto. O § 1º determina a consideração dessas causas na aferição da pena mínima."
+    ],
+    "legalBasis": "CPP, art. 28-A, § 1º",
+    "reference": "CPP, art. 28-A, § 1º",
+    "trap": "Observe os requisitos e limites específicos do dispositivo indicado.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00017",
+    "title": "ANPP: homologação",
+    "disc": "Direito Processual Penal",
+    "topic": "ANPP",
+    "subtopic": "ANPP: homologação",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Na audiência de homologação do ANPP, o juiz identifica condição abusiva. Qual providência prevê o CPP?",
+    "opts": [
+      "Condenar imediatamente",
+      "Reformular unilateralmente o acordo",
+      "Devolver os autos ao MP para reformulação da proposta com concordância do investigado e defensor",
+      "Obrigar o investigado a aceitar",
+      "Extinguir automaticamente a punibilidade"
+    ],
+    "right": 2,
+    "comment": "É a providência do § 5º.",
+    "optionComments": [
+      "A homologação não é julgamento condenatório.",
+      "O juiz não substitui as partes na negociação.",
+      "É a providência do § 5º.",
+      "A concordância deve ser livre.",
+      "Não há extinção automática nesse momento."
+    ],
+    "legalBasis": "CPP, art. 28-A, §§ 4º e 5º",
+    "reference": "CPP, art. 28-A, §§ 4º e 5º",
+    "trap": "Observe os requisitos e limites específicos do dispositivo indicado.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00018",
+    "title": "ANPP: recusa",
+    "disc": "Direito Processual Penal",
+    "topic": "ANPP",
+    "subtopic": "ANPP: recusa",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FCC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Diante de recusa do MP em propor ANPP, qual mecanismo está expressamente previsto no CPP?",
+    "opts": [
+      "Recurso de apelação obrigatório",
+      "Proposta unilateral do juiz",
+      "Mandado de prisão",
+      "Requerimento de remessa dos autos a órgão superior do MP",
+      "Arquivamento automático"
+    ],
+    "right": 3,
+    "comment": "É a revisão interna prevista em lei.",
+    "optionComments": [
+      "Não é o mecanismo previsto no § 14.",
+      "O juiz não formula unilateralmente a proposta.",
+      "A recusa não fundamenta prisão por si só.",
+      "É a revisão interna prevista em lei.",
+      "Não há arquivamento automático."
+    ],
+    "legalBasis": "CPP, art. 28-A, § 14",
+    "reference": "CPP, art. 28-A, § 14",
+    "trap": "Observe os requisitos e limites específicos do dispositivo indicado.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00019",
+    "title": "ANPP: cumprimento",
+    "disc": "Direito Processual Penal",
+    "topic": "ANPP",
+    "subtopic": "ANPP: cumprimento",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FUNDATEC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "Cumpridas integralmente as condições do ANPP, qual consequência deverá ser declarada pelo juízo competente?",
+    "opts": [
+      "Reincidência",
+      "Condenação definitiva",
+      "Suspensão indefinida do processo",
+      "Agravamento da pena",
+      "Extinção da punibilidade"
+    ],
+    "right": 4,
+    "comment": "É a consequência expressa do § 13.",
+    "optionComments": [
+      "Não há condenação geradora de reincidência.",
+      "O acordo não é sentença condenatória.",
+      "O cumprimento integral encerra a persecução nos termos legais.",
+      "Não há pena a agravar.",
+      "É a consequência expressa do § 13."
+    ],
+    "legalBasis": "CPP, art. 28-A, § 13",
+    "reference": "CPP, art. 28-A, § 13",
+    "trap": "Observe os requisitos e limites específicos do dispositivo indicado.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00020",
+    "title": "ANPP: violência doméstica",
+    "disc": "Direito Processual Penal",
+    "topic": "ANPP",
+    "subtopic": "ANPP: violência doméstica",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Investigado por crime praticado no âmbito de violência doméstica ou familiar pretende celebrar ANPP em seu favor. Qual é a regra expressa do CPP?",
+    "opts": [
+      "O acordo é obrigatório",
+      "A vedação só existe após condenação",
+      "A vítima pode afastar qualquer vedação legal",
+      "A pena mínima inferior a quatro anos basta",
+      "O ANPP não se aplica nessa hipótese em favor do agressor"
+    ],
+    "right": 4,
+    "comment": "É a regra do § 2º, IV.",
+    "optionComments": [
+      "Não há obrigatoriedade nessa hipótese.",
+      "A vedação não depende de condenação.",
+      "A concordância da vítima não afasta a vedação expressa.",
+      "O requisito quantitativo não supera a vedação.",
+      "É a regra do § 2º, IV."
+    ],
+    "legalBasis": "CPP, art. 28-A, § 2º, IV",
+    "reference": "CPP, art. 28-A, § 2º, IV",
+    "trap": "Observe os requisitos e limites específicos do dispositivo indicado.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  }
+]
