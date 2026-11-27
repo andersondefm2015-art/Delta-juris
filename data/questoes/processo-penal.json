@@ -1,4 +1,4 @@
-[
+
   {
     "id": "DPP-00001",
     "title": "Lei processual no tempo",
@@ -3555,6 +3555,898 @@
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00081",
+    "title": "Procedimento ordinário",
+    "disc": "Direito Processual Penal",
+    "topic": "Procedimentos e nulidades",
+    "subtopic": "Procedimento ordinário",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "O procedimento comum ordinário é aplicável, em regra, quando a pena máxima cominada é igual ou superior a quatro anos.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 0,
+    "comment": "O limite inclui exatamente quatro anos; o rito especial prevalece quando previsto.",
+    "optionComments": [
+      "Correto. O limite inclui exatamente quatro anos; o rito especial prevalece quando previsto.",
+      "Incorreto. O limite inclui exatamente quatro anos; o rito especial prevalece quando previsto."
+    ],
+    "legalBasis": "CPP, art. 394, § 1º, I",
+    "reference": "CPP, art. 394, § 1º, I",
+    "trap": "O limite inclui exatamente quatro anos; o rito especial prevalece quando previsto.",
+    "sources": [
+      {
+        "title": "CPP — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00082",
+    "title": "Procedimento sumário",
+    "disc": "Direito Processual Penal",
+    "topic": "Procedimentos e nulidades",
+    "subtopic": "Procedimento sumário",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "O procedimento comum sumário é obrigatório para todo crime com pena máxima inferior a quatro anos, inclusive infrações de menor potencial ofensivo.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 1,
+    "comment": "O rito sumaríssimo é reservado às infrações de menor potencial ofensivo, observadas as regras especiais.",
+    "optionComments": [
+      "Incorreto. O rito sumaríssimo é reservado às infrações de menor potencial ofensivo, observadas as regras especiais.",
+      "Correto. O rito sumaríssimo é reservado às infrações de menor potencial ofensivo, observadas as regras especiais."
+    ],
+    "legalBasis": "CPP, art. 394, § 1º, II",
+    "reference": "CPP, art. 394, § 1º, II",
+    "trap": "O rito sumaríssimo é reservado às infrações de menor potencial ofensivo, observadas as regras especiais.",
+    "sources": [
+      {
+        "title": "CPP — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00083",
+    "title": "Rejeição da denúncia",
+    "disc": "Direito Processual Penal",
+    "topic": "Procedimentos e nulidades",
+    "subtopic": "Rejeição da denúncia",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "A ausência de justa causa autoriza a rejeição da denúncia.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 0,
+    "comment": "A justa causa é requisito para instaurar validamente a ação penal; não se confunde com certeza de condenação.",
+    "optionComments": [
+      "Correto. A justa causa é requisito para instaurar validamente a ação penal; não se confunde com certeza de condenação.",
+      "Incorreto. A justa causa é requisito para instaurar validamente a ação penal; não se confunde com certeza de condenação."
+    ],
+    "legalBasis": "CPP, art. 395",
+    "reference": "CPP, art. 395",
+    "trap": "A justa causa é requisito para instaurar validamente a ação penal; não se confunde com certeza de condenação.",
+    "sources": [
+      {
+        "title": "CPP — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00084",
+    "title": "Resposta à acusação",
+    "disc": "Direito Processual Penal",
+    "topic": "Procedimentos e nulidades",
+    "subtopic": "Resposta à acusação",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "No procedimento comum ordinário, o prazo para resposta escrita à acusação é de cinco dias.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 1,
+    "comment": "O prazo legal é de dez dias após a citação.",
+    "optionComments": [
+      "Incorreto. O prazo legal é de dez dias após a citação.",
+      "Correto. O prazo legal é de dez dias após a citação."
+    ],
+    "legalBasis": "CPP, art. 396",
+    "reference": "CPP, art. 396",
+    "trap": "O prazo legal é de dez dias após a citação.",
+    "sources": [
+      {
+        "title": "CPP — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00085",
+    "title": "Absolvição sumária",
+    "disc": "Direito Processual Penal",
+    "topic": "Procedimentos e nulidades",
+    "subtopic": "Absolvição sumária",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "A existência manifesta de causa excludente da ilicitude pode fundamentar absolvição sumária no procedimento comum.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 0,
+    "comment": "A hipótese está no inciso I; não exige aguardar a instrução quando manifesta.",
+    "optionComments": [
+      "Correto. A hipótese está no inciso I; não exige aguardar a instrução quando manifesta.",
+      "Incorreto. A hipótese está no inciso I; não exige aguardar a instrução quando manifesta."
+    ],
+    "legalBasis": "CPP, art. 397",
+    "reference": "CPP, art. 397",
+    "trap": "A hipótese está no inciso I; não exige aguardar a instrução quando manifesta.",
+    "sources": [
+      {
+        "title": "CPP — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00086",
+    "title": "Emendatio libelli",
+    "disc": "Direito Processual Penal",
+    "topic": "Procedimentos e nulidades",
+    "subtopic": "Emendatio libelli",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Sem alterar a descrição fática da denúncia, o juiz pode atribuir definição jurídica diversa, ainda que resulte pena mais grave.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 0,
+    "comment": "A alteração da classificação jurídica não equivale à introdução de fato novo; devem ser observadas as consequências processuais previstas nos parágrafos.",
+    "optionComments": [
+      "Correto. A alteração da classificação jurídica não equivale à introdução de fato novo; devem ser observadas as consequências processuais previstas nos parágrafos.",
+      "Incorreto. A alteração da classificação jurídica não equivale à introdução de fato novo; devem ser observadas as consequências processuais previstas nos parágrafos."
+    ],
+    "legalBasis": "CPP, art. 383",
+    "reference": "CPP, art. 383",
+    "trap": "A alteração da classificação jurídica não equivale à introdução de fato novo; devem ser observadas as consequências processuais previstas nos parágrafos.",
+    "sources": [
+      {
+        "title": "CPP — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00087",
+    "title": "Mutatio libelli",
+    "disc": "Direito Processual Penal",
+    "topic": "Procedimentos e nulidades",
+    "subtopic": "Mutatio libelli",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Encerrada a instrução, constatado elemento da infração não contido na acusação, o juiz pode condenar diretamente pelo novo fato sem aditamento.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 1,
+    "comment": "Na ação pública, o Ministério Público deve aditar a acusação, com oportunidade de defesa.",
+    "optionComments": [
+      "Incorreto. Na ação pública, o Ministério Público deve aditar a acusação, com oportunidade de defesa.",
+      "Correto. Na ação pública, o Ministério Público deve aditar a acusação, com oportunidade de defesa."
+    ],
+    "legalBasis": "CPP, art. 384",
+    "reference": "CPP, art. 384",
+    "trap": "Na ação pública, o Ministério Público deve aditar a acusação, com oportunidade de defesa.",
+    "sources": [
+      {
+        "title": "CPP — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00088",
+    "title": "Nulidade e prejuízo",
+    "disc": "Direito Processual Penal",
+    "topic": "Procedimentos e nulidades",
+    "subtopic": "Nulidade e prejuízo",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "A mera irregularidade formal implica necessariamente anulação do processo, independentemente de prejuízo.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 1,
+    "comment": "O art. 563 consagra a exigência de prejuízo para declaração de nulidade, sem dispensar a análise das garantias processuais.",
+    "optionComments": [
+      "Incorreto. O art. 563 consagra a exigência de prejuízo para declaração de nulidade, sem dispensar a análise das garantias processuais.",
+      "Correto. O art. 563 consagra a exigência de prejuízo para declaração de nulidade, sem dispensar a análise das garantias processuais."
+    ],
+    "legalBasis": "CPP, art. 563",
+    "reference": "CPP, art. 563",
+    "trap": "O art. 563 consagra a exigência de prejuízo para declaração de nulidade, sem dispensar a análise das garantias processuais.",
+    "sources": [
+      {
+        "title": "CPP — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00089",
+    "title": "Pronúncia",
+    "disc": "Direito Processual Penal",
+    "topic": "Tribunal do Júri e recursos",
+    "subtopic": "Pronúncia",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Ao encerrar a primeira fase do júri, o juiz está convencido da materialidade e encontra indícios suficientes de autoria. Qual decisão corresponde a esse quadro?",
+    "opts": [
+      "Pronunciar o acusado.",
+      "Impronunciar por ausência de certeza da autoria.",
+      "Condenar imediatamente.",
+      "Absolver sumariamente por dúvida.",
+      "Arquivar o inquérito."
+    ],
+    "right": 0,
+    "comment": "A pronúncia exige materialidade e indícios suficientes de autoria ou participação; não constitui condenação.",
+    "optionComments": [
+      "A pronúncia exige materialidade e indícios suficientes de autoria ou participação; não constitui condenação.",
+      "A certeza de autoria não é o requisito legal da pronúncia.",
+      "O julgamento do mérito compete ao conselho de sentença.",
+      "A dúvida descrita não demonstra hipótese do art. 415.",
+      "Já existe ação penal em curso."
+    ],
+    "legalBasis": "CPP, art. 413",
+    "reference": "CPP, art. 413",
+    "trap": "A pronúncia exige materialidade e indícios suficientes de autoria ou participação; não constitui condenação.",
+    "sources": [
+      {
+        "title": "CPP — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00090",
+    "title": "Impronúncia",
+    "disc": "Direito Processual Penal",
+    "topic": "Tribunal do Júri e recursos",
+    "subtopic": "Impronúncia",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Na primeira fase do júri, não há indícios suficientes de autoria. Não se verifica hipótese de absolvição sumária. Qual solução?",
+    "opts": [
+      "Absolvição definitiva obrigatória.",
+      "Impronúncia, admitida nova acusação com prova nova enquanto não extinta a punibilidade.",
+      "Pronúncia automática.",
+      "Condenação por presunção.",
+      "Nova denúncia sem prova nova."
+    ],
+    "right": 1,
+    "comment": "A impronúncia não impede nova acusação nas condições do parágrafo único.",
+    "optionComments": [
+      "A insuficiência de indícios conduz à impronúncia no caso.",
+      "A impronúncia não impede nova acusação nas condições do parágrafo único.",
+      "Falta requisito do art. 413.",
+      "Não cabe condenação por presunção.",
+      "A lei exige prova nova."
+    ],
+    "legalBasis": "CPP, art. 414",
+    "reference": "CPP, art. 414",
+    "trap": "A impronúncia não impede nova acusação nas condições do parágrafo único.",
+    "sources": [
+      {
+        "title": "CPP — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00091",
+    "title": "Desclassificação",
+    "disc": "Direito Processual Penal",
+    "topic": "Tribunal do Júri e recursos",
+    "subtopic": "Desclassificação",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Na primeira fase do júri, o juiz se convence de que o fato constitui crime não doloso contra a vida, fora de sua competência. O que deve fazer?",
+    "opts": [
+      "Condenar pelo novo crime necessariamente.",
+      "Pronunciar pelo crime original.",
+      "Remeter os autos ao juiz competente.",
+      "Extinguir a punibilidade.",
+      "Remeter ao Ministério Público para arquivamento obrigatório."
+    ],
+    "right": 2,
+    "comment": "A desclassificação prevista no art. 419 conduz à remessa ao juízo competente.",
+    "optionComments": [
+      "O juiz não é competente na hipótese.",
+      "A convicção de desclassificação afasta essa solução.",
+      "A desclassificação prevista no art. 419 conduz à remessa ao juízo competente.",
+      "Desclassificação não extingue punibilidade.",
+      "Não há arquivamento obrigatório."
+    ],
+    "legalBasis": "CPP, art. 419",
+    "reference": "CPP, art. 419",
+    "trap": "A desclassificação prevista no art. 419 conduz à remessa ao juízo competente.",
+    "sources": [
+      {
+        "title": "CPP — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00092",
+    "title": "Desaforamento",
+    "disc": "Direito Processual Penal",
+    "topic": "Tribunal do Júri e recursos",
+    "subtopic": "Desaforamento",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Há elementos concretos de dúvida sobre a imparcialidade do júri local. Qual providência pode ser adotada pelo tribunal?",
+    "opts": [
+      "Transferir a competência ao delegado.",
+      "Suprimir o julgamento pelo júri.",
+      "Absolver automaticamente.",
+      "Desaforar o julgamento para outra comarca da mesma região, observados os requisitos legais.",
+      "Remeter obrigatoriamente a outro Estado."
+    ],
+    "right": 3,
+    "comment": "A dúvida sobre imparcialidade é fundamento legal do desaforamento.",
+    "optionComments": [
+      "Delegado não julga ação penal.",
+      "O desaforamento preserva o júri.",
+      "Não resolve o mérito.",
+      "A dúvida sobre imparcialidade é fundamento legal do desaforamento.",
+      "A lei prevê comarca da mesma região."
+    ],
+    "legalBasis": "CPP, art. 427",
+    "reference": "CPP, art. 427",
+    "trap": "A dúvida sobre imparcialidade é fundamento legal do desaforamento.",
+    "sources": [
+      {
+        "title": "CPP — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00093",
+    "title": "Conselho de sentença",
+    "disc": "Direito Processual Penal",
+    "topic": "Tribunal do Júri e recursos",
+    "subtopic": "Conselho de sentença",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Quantos jurados integram o conselho de sentença em um julgamento pelo Tribunal do Júri?",
+    "opts": [
+      "Cinco.",
+      "Oito.",
+      "Doze.",
+      "Vinte e cinco.",
+      "Sete."
+    ],
+    "right": 4,
+    "comment": "O conselho é composto por sete jurados sorteados dentre os convocados.",
+    "optionComments": [
+      "Não é o número legal.",
+      "Não é o número legal.",
+      "Não é o número legal brasileiro.",
+      "É o número de jurados que compõem o tribunal juntamente com o juiz presidente, não o conselho.",
+      "O conselho é composto por sete jurados sorteados dentre os convocados."
+    ],
+    "legalBasis": "CPP, art. 447",
+    "reference": "CPP, art. 447",
+    "trap": "O conselho é composto por sete jurados sorteados dentre os convocados.",
+    "sources": [
+      {
+        "title": "CPP — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00094",
+    "title": "Recusa de jurados",
+    "disc": "Direito Processual Penal",
+    "topic": "Tribunal do Júri e recursos",
+    "subtopic": "Recusa de jurados",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Durante a formação do conselho de sentença, quantas recusas imotivadas podem ser feitas por cada parte, na hipótese de um acusado?",
+    "opts": [
+      "Três.",
+      "Uma.",
+      "Duas.",
+      "Cinco.",
+      "Ilimitadas."
+    ],
+    "right": 0,
+    "comment": "Defesa e Ministério Público podem recusar até três jurados cada, sem motivação.",
+    "optionComments": [
+      "Defesa e Ministério Público podem recusar até três jurados cada, sem motivação.",
+      "O limite é três.",
+      "O limite é três.",
+      "Excede o limite.",
+      "Há limite legal."
+    ],
+    "legalBasis": "CPP, art. 468",
+    "reference": "CPP, art. 468",
+    "trap": "Defesa e Ministério Público podem recusar até três jurados cada, sem motivação.",
+    "sources": [
+      {
+        "title": "CPP — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00095",
+    "title": "Recurso contra pronúncia",
+    "disc": "Direito Processual Penal",
+    "topic": "Tribunal do Júri e recursos",
+    "subtopic": "Recurso contra pronúncia",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FCC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "A defesa pretende impugnar decisão de pronúncia. Qual recurso é previsto no CPP?",
+    "opts": [
+      "Apelação.",
+      "Recurso em sentido estrito.",
+      "Agravo de instrumento.",
+      "Revisão criminal.",
+      "Embargos infringentes diretamente."
+    ],
+    "right": 1,
+    "comment": "A pronúncia é hipótese expressa de recurso em sentido estrito.",
+    "optionComments": [
+      "A apelação é prevista para impronúncia e absolvição sumária.",
+      "A pronúncia é hipótese expressa de recurso em sentido estrito.",
+      "Não é o recurso previsto.",
+      "Não há condenação transitada em julgado.",
+      "Não há acórdão não unânime pressuposto."
+    ],
+    "legalBasis": "CPP, art. 581, IV",
+    "reference": "CPP, art. 581, IV",
+    "trap": "A pronúncia é hipótese expressa de recurso em sentido estrito.",
+    "sources": [
+      {
+        "title": "CPP — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00096",
+    "title": "Apelação contra impronúncia",
+    "disc": "Direito Processual Penal",
+    "topic": "Tribunal do Júri e recursos",
+    "subtopic": "Apelação contra impronúncia",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FCC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Qual recurso cabe contra a sentença de impronúncia?",
+    "opts": [
+      "Recurso em sentido estrito.",
+      "Agravo interno.",
+      "Apelação.",
+      "Revisão criminal.",
+      "Recurso ordinário constitucional."
+    ],
+    "right": 2,
+    "comment": "O art. 416 prevê apelação contra impronúncia e absolvição sumária no júri.",
+    "optionComments": [
+      "É cabível contra pronúncia, não impronúncia.",
+      "Não se trata de decisão monocrática de tribunal.",
+      "O art. 416 prevê apelação contra impronúncia e absolvição sumária no júri.",
+      "Não é hipótese de revisão.",
+      "Não é o recurso legalmente previsto."
+    ],
+    "legalBasis": "CPP, art. 416",
+    "reference": "CPP, art. 416",
+    "trap": "O art. 416 prevê apelação contra impronúncia e absolvição sumária no júri.",
+    "sources": [
+      {
+        "title": "CPP — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00097",
+    "title": "Prazo de apelação",
+    "disc": "Direito Processual Penal",
+    "topic": "Tribunal do Júri e recursos",
+    "subtopic": "Prazo de apelação",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FCC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Em processo comum regido pelo CPP, qual o prazo legal de interposição da apelação contra sentença condenatória de juiz singular?",
+    "opts": [
+      "Oito dias.",
+      "Dez dias.",
+      "Quinze dias.",
+      "Cinco dias.",
+      "Dois dias."
+    ],
+    "right": 3,
+    "comment": "O prazo de interposição não se confunde com o prazo de razões recursais.",
+    "optionComments": [
+      "É o prazo ordinário de razões, art. 600.",
+      "Não é o prazo geral de interposição.",
+      "Não se aplica o prazo geral do CPC.",
+      "O prazo de interposição não se confunde com o prazo de razões recursais.",
+      "Não é o prazo de apelação."
+    ],
+    "legalBasis": "CPP, art. 593",
+    "reference": "CPP, art. 593",
+    "trap": "O prazo de interposição não se confunde com o prazo de razões recursais.",
+    "sources": [
+      {
+        "title": "CPP — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00098",
+    "title": "Reformatio in pejus",
+    "disc": "Direito Processual Penal",
+    "topic": "Tribunal do Júri e recursos",
+    "subtopic": "Reformatio in pejus",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FUNDATEC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Apenas a defesa apela de sentença condenatória. Qual limite deve o tribunal observar?",
+    "opts": [
+      "Aumentar livremente a pena.",
+      "Aumentar a pena se o MP pedir em contrarrazões.",
+      "Anular obrigatoriamente toda sentença.",
+      "Deixar de conhecer qualquer recurso defensivo.",
+      "Não agravar a pena imposta."
+    ],
+    "right": 4,
+    "comment": "O art. 617 veda agravamento da pena quando somente o réu apela.",
+    "optionComments": [
+      "Contraria a vedação legal.",
+      "Contrarrazões não substituem recurso acusatório.",
+      "Não decorre da apelação exclusiva.",
+      "A exclusividade não impede conhecimento.",
+      "O art. 617 veda agravamento da pena quando somente o réu apela."
+    ],
+    "legalBasis": "CPP, art. 617",
+    "reference": "CPP, art. 617",
+    "trap": "O art. 617 veda agravamento da pena quando somente o réu apela.",
+    "sources": [
+      {
+        "title": "CPP — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00099",
+    "title": "Revisão criminal",
+    "disc": "Direito Processual Penal",
+    "topic": "Tribunal do Júri e recursos",
+    "subtopic": "Revisão criminal",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FUNDATEC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Após o cumprimento integral da pena, surge prova nova de inocência. Quanto ao momento de requerer revisão criminal?",
+    "opts": [
+      "Pode ser requerida mesmo após a extinção da pena.",
+      "Somente durante execução.",
+      "Até cinco dias do trânsito.",
+      "Somente antes do trânsito.",
+      "Somente pelo Ministério Público."
+    ],
+    "right": 0,
+    "comment": "A revisão pode ser requerida a qualquer tempo, antes ou após a extinção da pena.",
+    "optionComments": [
+      "A revisão pode ser requerida a qualquer tempo, antes ou após a extinção da pena.",
+      "A lei permite depois da extinção.",
+      "Não existe esse prazo.",
+      "A revisão pressupõe processo findo.",
+      "O art. 623 prevê legitimidade do réu e outros legitimados."
+    ],
+    "legalBasis": "CPP, art. 622",
+    "reference": "CPP, art. 622",
+    "trap": "A revisão pode ser requerida a qualquer tempo, antes ou após a extinção da pena.",
+    "sources": [
+      {
+        "title": "CPP — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00100",
+    "title": "Embargos de declaração",
+    "disc": "Direito Processual Penal",
+    "topic": "Tribunal do Júri e recursos",
+    "subtopic": "Embargos de declaração",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FUNDATEC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Um acórdão criminal apresenta contradição interna. Qual o prazo legal geral para embargos declaratórios no CPP?",
+    "opts": [
+      "Cinco dias.",
+      "Dois dias.",
+      "Oito dias.",
+      "Dez dias.",
+      "Quinze dias."
+    ],
+    "right": 1,
+    "comment": "O art. 619 prevê dois dias para embargos contra acórdão com ambiguidade, obscuridade, contradição ou omissão.",
+    "optionComments": [
+      "Não é o prazo geral do CPP para esse recurso.",
+      "O art. 619 prevê dois dias para embargos contra acórdão com ambiguidade, obscuridade, contradição ou omissão.",
+      "Não é o prazo legal.",
+      "Não é o prazo legal.",
+      "Não é o prazo legal."
+    ],
+    "legalBasis": "CPP, art. 619",
+    "reference": "CPP, art. 619",
+    "trap": "O art. 619 prevê dois dias para embargos contra acórdão com ambiguidade, obscuridade, contradição ou omissão.",
+    "sources": [
+      {
+        "title": "CPP — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
