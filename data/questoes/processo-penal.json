@@ -1869,22 +1869,22 @@
       "Errado"
     ],
     "right": 1,
-    "comment": "Elementos informativos não podem fundamentar exclusivamente a decisão; ressalvam-se provas cautelares, não repetíveis e antecipadas.",
+    "comment": "O art. 155 distingue informações investigativas de provas submetidas ao contraditório. Depoimentos repetíveis apenas no inquérito não bastam isoladamente para condenar.",
     "optionComments": [
-      "Incorreto. Elementos informativos não podem fundamentar exclusivamente a decisão; ressalvam-se provas cautelares, não repetíveis e antecipadas.",
-      "Correto. Elementos informativos não podem fundamentar exclusivamente a decisão; ressalvam-se provas cautelares, não repetíveis e antecipadas."
+      "Incorreto. O art. 155 distingue informações investigativas de provas submetidas ao contraditório. Depoimentos repetíveis apenas no inquérito não bastam isoladamente para condenar.",
+      "Correto. O art. 155 distingue informações investigativas de provas submetidas ao contraditório. Depoimentos repetíveis apenas no inquérito não bastam isoladamente para condenar."
     ],
     "legalBasis": "CPP, art. 155",
     "reference": "CPP, art. 155",
-    "trap": "Atenção aos requisitos, ressalvas e limites da regra legal: Elementos informativos não podem fundamentar exclusivamente a decisão; ressalvam-se provas cautelares, não repetíveis e antecipadas.",
+    "trap": "A palavra exclusivamente é decisiva; elementos do inquérito podem corroborar provas judiciais.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00042",
@@ -1910,22 +1910,22 @@
       "Errado"
     ],
     "right": 0,
-    "comment": "A ausência de nexo causal e a fonte independente são exceções legais à contaminação por derivação.",
+    "comment": "A contaminação por derivação pressupõe vínculo causal. O art. 157, § 1º também admite a exceção da fonte independente.",
     "optionComments": [
-      "Correto. A ausência de nexo causal e a fonte independente são exceções legais à contaminação por derivação.",
-      "Incorreto. A ausência de nexo causal e a fonte independente são exceções legais à contaminação por derivação."
+      "Correto. A contaminação por derivação pressupõe vínculo causal. O art. 157, § 1º também admite a exceção da fonte independente.",
+      "Incorreto. A contaminação por derivação pressupõe vínculo causal. O art. 157, § 1º também admite a exceção da fonte independente."
     ],
     "legalBasis": "CPP, art. 157, § 1º",
     "reference": "CPP, art. 157, § 1º",
-    "trap": "Atenção aos requisitos, ressalvas e limites da regra legal: A ausência de nexo causal e a fonte independente são exceções legais à contaminação por derivação.",
+    "trap": "Não confunda origem ilícita inicial com contaminação automática de toda a investigação.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00043",
@@ -1951,22 +1951,22 @@
       "Errado"
     ],
     "right": 1,
-    "comment": "O exame direto ou indireto é indispensável quando há vestígios; a confissão não o supre.",
+    "comment": "Nos delitos com vestígios, exige-se exame direto ou indireto; a confissão não o substitui.",
     "optionComments": [
-      "Incorreto. O exame direto ou indireto é indispensável quando há vestígios; a confissão não o supre.",
-      "Correto. O exame direto ou indireto é indispensável quando há vestígios; a confissão não o supre."
+      "Incorreto. Nos delitos com vestígios, exige-se exame direto ou indireto; a confissão não o substitui.",
+      "Correto. Nos delitos com vestígios, exige-se exame direto ou indireto; a confissão não o substitui."
     ],
     "legalBasis": "CPP, art. 158",
     "reference": "CPP, art. 158",
-    "trap": "Atenção aos requisitos, ressalvas e limites da regra legal: O exame direto ou indireto é indispensável quando há vestígios; a confissão não o supre.",
+    "trap": "Confissão não equivale a prova pericial da materialidade.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00044",
@@ -1992,22 +1992,22 @@
       "Errado"
     ],
     "right": 0,
-    "comment": "O art. 167 admite suprimento testemunhal quando o exame não é possível pelo desaparecimento dos vestígios.",
+    "comment": "Se os vestígios desapareceram e o exame tornou-se impossível, admite-se suprimento testemunhal.",
     "optionComments": [
-      "Correto. O art. 167 admite suprimento testemunhal quando o exame não é possível pelo desaparecimento dos vestígios.",
-      "Incorreto. O art. 167 admite suprimento testemunhal quando o exame não é possível pelo desaparecimento dos vestígios."
+      "Correto. Se os vestígios desapareceram e o exame tornou-se impossível, admite-se suprimento testemunhal.",
+      "Incorreto. Se os vestígios desapareceram e o exame tornou-se impossível, admite-se suprimento testemunhal."
     ],
     "legalBasis": "CPP, art. 167",
     "reference": "CPP, art. 167",
-    "trap": "Atenção aos requisitos, ressalvas e limites da regra legal: O art. 167 admite suprimento testemunhal quando o exame não é possível pelo desaparecimento dos vestígios.",
+    "trap": "A exceção pressupõe desaparecimento dos vestígios, não simples conveniência.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00045",
@@ -2033,22 +2033,22 @@
       "Errado"
     ],
     "right": 1,
-    "comment": "Começa com a preservação do local de crime ou com procedimentos policiais ou periciais nos quais seja detectada a existência de vestígio.",
+    "comment": "A custódia começa na preservação do local ou na detecção do vestígio em procedimento policial ou pericial.",
     "optionComments": [
-      "Incorreto. Começa com a preservação do local de crime ou com procedimentos policiais ou periciais nos quais seja detectada a existência de vestígio.",
-      "Correto. Começa com a preservação do local de crime ou com procedimentos policiais ou periciais nos quais seja detectada a existência de vestígio."
+      "Incorreto. A custódia começa na preservação do local ou na detecção do vestígio em procedimento policial ou pericial.",
+      "Correto. A custódia começa na preservação do local ou na detecção do vestígio em procedimento policial ou pericial."
     ],
     "legalBasis": "CPP, art. 158-A",
     "reference": "CPP, art. 158-A",
-    "trap": "Atenção aos requisitos, ressalvas e limites da regra legal: Começa com a preservação do local de crime ou com procedimentos policiais ou periciais nos quais seja detectada a existência de vestígio.",
+    "trap": "O recebimento no laboratório é etapa posterior, não o marco inicial.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00046",
@@ -2074,22 +2074,22 @@
       "Errado"
     ],
     "right": 0,
-    "comment": "A preferência legal não equivale a exclusividade absoluta.",
+    "comment": "A coleta é preferencialmente atribuída ao perito oficial, conforme art. 158-C.",
     "optionComments": [
-      "Correto. A preferência legal não equivale a exclusividade absoluta.",
-      "Incorreto. A preferência legal não equivale a exclusividade absoluta."
+      "Correto. A coleta é preferencialmente atribuída ao perito oficial, conforme art. 158-C.",
+      "Incorreto. A coleta é preferencialmente atribuída ao perito oficial, conforme art. 158-C."
     ],
     "legalBasis": "CPP, art. 158-C",
     "reference": "CPP, art. 158-C",
-    "trap": "Atenção aos requisitos, ressalvas e limites da regra legal: A preferência legal não equivale a exclusividade absoluta.",
+    "trap": "Preferência não significa exclusividade absoluta.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00047",
@@ -2156,22 +2156,22 @@
       "Errado"
     ],
     "right": 0,
-    "comment": "A confissão admite divisão e retratação, sem prejuízo da apreciação conjunta das provas.",
+    "comment": "A confissão pode ser fracionada e retirada, cabendo avaliação conjunta com as demais provas.",
     "optionComments": [
-      "Correto. A confissão admite divisão e retratação, sem prejuízo da apreciação conjunta das provas.",
-      "Incorreto. A confissão admite divisão e retratação, sem prejuízo da apreciação conjunta das provas."
+      "Correto. A confissão pode ser fracionada e retirada, cabendo avaliação conjunta com as demais provas.",
+      "Incorreto. A confissão pode ser fracionada e retirada, cabendo avaliação conjunta com as demais provas."
     ],
     "legalBasis": "CPP, art. 200",
     "reference": "CPP, art. 200",
-    "trap": "Atenção aos requisitos, ressalvas e limites da regra legal: A confissão admite divisão e retratação, sem prejuízo da apreciação conjunta das provas.",
+    "trap": "Retratação não implica exclusão automática da declaração anterior.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00049",
@@ -2200,25 +2200,25 @@
       "A defesa não pode questionar a origem da prova."
     ],
     "right": 1,
-    "comment": "Correto. A fonte independente constitui exceção legal à inadmissibilidade por derivação.",
+    "comment": "A via autônoma sem vínculo causal pode afastar a contaminação, observados os requisitos do art. 157.",
     "optionComments": [
-      "Incorreto. A contaminação exige análise do nexo causal.",
-      "Correto. A fonte independente constitui exceção legal à inadmissibilidade por derivação.",
-      "Incorreto. Autorização posterior não sana automaticamente a ilicitude.",
-      "Incorreto. A gravidade não elimina a vedação constitucional.",
-      "Incorreto. A defesa pode impugnar a admissibilidade."
+      "Incorreta: a derivação exige nexo causal.",
+      "Correta: a autonomia da fonte afasta a contaminação nas condições legais.",
+      "Incorreta: decisão posterior não sana automaticamente a origem ilícita.",
+      "Incorreta: gravidade não elimina a vedação probatória.",
+      "Incorreta: a defesa pode impugnar a admissibilidade."
     ],
     "legalBasis": "CPP, art. 157, §§ 1º e 2º",
     "reference": "CPP, art. 157, §§ 1º e 2º",
-    "trap": "Atenção aos requisitos, ressalvas e limites da regra legal: Correto. A fonte independente constitui exceção legal à inadmissibilidade por derivação.",
+    "trap": "Autorização posterior não torna automaticamente lícita a prova originária.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00050",
@@ -2247,25 +2247,25 @@
       "Por um único bacharel em Direito."
     ],
     "right": 2,
-    "comment": "Correto. É a regra do § 1º do art. 159.",
+    "comment": "Na ausência de perito oficial, dois profissionais idôneos com nível superior e habilitação técnica pertinente realizam o exame; devem prestar compromisso.",
     "optionComments": [
-      "Incorreto. A lei exige qualificação específica.",
-      "Incorreto. Testemunha não substitui o regime pericial.",
-      "Correto. É a regra do § 1º do art. 159.",
-      "Incorreto. O juiz não substitui os peritos.",
-      "Incorreto. A regra exige duas pessoas e habilitação relacionada ao exame."
+      "Incorreta: exige-se formação superior e habilitação técnica.",
+      "Incorreta: indicação pela vítima não supre os requisitos.",
+      "Correta: corresponde ao art. 159, § 1º.",
+      "Incorreta: juiz não substitui peritos.",
+      "Incorreta: exige-se dupla de peritos não oficiais habilitados."
     ],
     "legalBasis": "CPP, art. 159",
     "reference": "CPP, art. 159",
-    "trap": "Atenção aos requisitos, ressalvas e limites da regra legal: Correto. É a regra do § 1º do art. 159.",
+    "trap": "A exigência de dois peritos refere-se à falta de perito oficial.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00051",
@@ -2294,25 +2294,25 @@
       "Substituir o recipiente sem identificação."
     ],
     "right": 3,
-    "comment": "Correto. A documentação permite rastrear a integridade do vestígio.",
+    "comment": "O rompimento exige registro do responsável, matrícula, data, local, finalidade e identificação do novo lacre. O lacre antigo deve permanecer no novo recipiente.",
     "optionComments": [
-      "Incorreto. A abertura deve ser registrada.",
-      "Incorreto. O acesso é restrito.",
-      "Incorreto. A lei admite abertura autorizada.",
-      "Correto. A documentação permite rastrear a integridade do vestígio.",
-      "Incorreto. A rastreabilidade deve ser mantida."
+      "Incorreta: o lacre rompido deve ser preservado.",
+      "Incorreta: abertura restrita a pessoas legitimadas.",
+      "Incorreta: a abertura pericial é permitida.",
+      "Correta: o registro permite rastrear a intervenção.",
+      "Incorreta: identificação é indispensável."
     ],
     "legalBasis": "CPP, art. 158-D",
     "reference": "CPP, art. 158-D",
-    "trap": "Atenção aos requisitos, ressalvas e limites da regra legal: Correto. A documentação permite rastrear a integridade do vestígio.",
+    "trap": "A abertura é restrita ao perito responsável pela análise ou pessoa autorizada mediante motivação.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00052",
