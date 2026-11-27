@@ -288,7 +288,7 @@
       "Trânsito em julgado"
     ],
     "right": 3,
-    "comment": "A reprodução simulada está sujeita aos limites da moralidade e da ordem pública, sem prejuízo dos direitos fundamentais.",
+    "comment": "A reprodução simulada é faculdade investigativa limitada pela moralidade e ordem pública; não pressupõe confissão nem autorização geral do MP.",
     "optionComments": [
       "Não é requisito geral do art. 7º.",
       "Confissão não é pressuposto.",
@@ -298,15 +298,15 @@
     ],
     "legalBasis": "CPP, art. 7º",
     "reference": "CPP, art. 7º",
-    "trap": "A reprodução simulada está sujeita aos limites da moralidade e da ordem pública, sem prejuízo dos direitos fundamentais.",
+    "trap": "A reprodução simulada é faculdade investigativa limitada pela moralidade e ordem pública; não pressupõe confissão nem autorização geral do MP.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27T00:00:00-03:00"
   },
   {
     "id": "DPP-00008",
@@ -332,22 +332,22 @@
       "Errado"
     ],
     "right": 1,
-    "comment": "O delegado pode concluir pela ausência de elementos, mas não determinar o arquivamento dos autos.",
+    "comment": "Relatar o resultado do inquérito não equivale a arquivá-lo: a autoridade policial não dispõe desse poder.",
     "optionComments": [
       "Não é o gabarito. O delegado pode concluir pela ausência de elementos, mas não determinar o arquivamento dos autos.",
       "Gabarito. O delegado pode concluir pela ausência de elementos, mas não determinar o arquivamento dos autos."
     ],
     "legalBasis": "CPP, art. 17",
     "reference": "CPP, art. 17",
-    "trap": "O delegado pode concluir pela ausência de elementos, mas não determinar o arquivamento dos autos.",
+    "trap": "Relatar o resultado do inquérito não equivale a arquivá-lo: a autoridade policial não dispõe desse poder.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27T00:00:00-03:00"
   },
   {
     "id": "DPP-00009",
@@ -376,7 +376,7 @@
       "Oferecer denúncia pela autoridade policial"
     ],
     "right": 2,
-    "comment": "Novas pesquisas diante de notícia de novas provas não se confundem com oferecimento de denúncia sem novas provas. O fundamento do arquivamento importa.",
+    "comment": "A descoberta de elementos novos permite novas diligências após arquivamento por insuficiência probatória; não se estende automaticamente a outros fundamentos.",
     "optionComments": [
       "Não cabe condenação policial.",
       "Novas notícias podem justificar pesquisa.",
@@ -386,15 +386,15 @@
     ],
     "legalBasis": "CPP, art. 18",
     "reference": "CPP, art. 18",
-    "trap": "Novas pesquisas diante de notícia de novas provas não se confundem com oferecimento de denúncia sem novas provas. O fundamento do arquivamento importa.",
+    "trap": "A descoberta de elementos novos permite novas diligências após arquivamento por insuficiência probatória; não se estende automaticamente a outros fundamentos.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27T00:00:00-03:00"
   },
   {
     "id": "DPP-00010",
@@ -420,22 +420,22 @@
       "Errado"
     ],
     "right": 1,
-    "comment": "O inquérito é dispensável quando os elementos já disponíveis permitem a denúncia.",
+    "comment": "A representação suficientemente instruída permite dispensar o inquérito; este não é condição necessária da denúncia.",
     "optionComments": [
       "Não é o gabarito. O inquérito é dispensável quando os elementos já disponíveis permitem a denúncia.",
       "Gabarito. O inquérito é dispensável quando os elementos já disponíveis permitem a denúncia."
     ],
     "legalBasis": "CPP, art. 39, § 5º",
     "reference": "CPP, art. 39, § 5º",
-    "trap": "O inquérito é dispensável quando os elementos já disponíveis permitem a denúncia.",
+    "trap": "A representação suficientemente instruída permite dispensar o inquérito; este não é condição necessária da denúncia.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27T00:00:00-03:00"
   },
   {
     "id": "DPP-00011",
@@ -555,22 +555,22 @@
       "Errado"
     ],
     "right": 0,
-    "comment": "O marco geral é o conhecimento da autoria, não a data do crime. Na ação subsidiária, conta-se do esgotamento do prazo ministerial.",
+    "comment": "O marco geral é o conhecimento da autoria, não a data do crime. Na subsidiária, conta-se do esgotamento do prazo para denúncia.",
     "optionComments": [
       "Gabarito. O marco geral é o conhecimento da autoria, não a data do crime. Na ação subsidiária, conta-se do esgotamento do prazo ministerial.",
       "Não é o gabarito. O marco geral é o conhecimento da autoria, não a data do crime. Na ação subsidiária, conta-se do esgotamento do prazo ministerial."
     ],
     "legalBasis": "CPP, art. 38",
     "reference": "CPP, art. 38",
-    "trap": "O marco geral é o conhecimento da autoria, não a data do crime. Na ação subsidiária, conta-se do esgotamento do prazo ministerial.",
+    "trap": "O marco geral é o conhecimento da autoria, não a data do crime. Na subsidiária, conta-se do esgotamento do prazo para denúncia.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27T00:00:00-03:00"
   },
   {
     "id": "DPP-00014",
@@ -599,7 +599,7 @@
       "Transferir definitivamente a titularidade da ação pública"
     ],
     "right": 3,
-    "comment": "A inércia ministerial autoriza a ação subsidiária, mas o MP mantém poderes de intervenção e retomada em caso de negligência.",
+    "comment": "A inércia do MP permite a iniciativa subsidiária, mas não elimina sua titularidade pública; pode aditar, repudiar e oferecer denúncia substitutiva ou retomar a ação em caso de negligência.",
     "optionComments": [
       "O MP conserva poderes legais.",
       "Sua atuação não se limita à assistência.",
@@ -609,15 +609,15 @@
     ],
     "legalBasis": "CPP, art. 29",
     "reference": "CPP, art. 29",
-    "trap": "A inércia ministerial autoriza a ação subsidiária, mas o MP mantém poderes de intervenção e retomada em caso de negligência.",
+    "trap": "A inércia do MP permite a iniciativa subsidiária, mas não elimina sua titularidade pública; pode aditar, repudiar e oferecer denúncia substitutiva ou retomar a ação em caso de negligência.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27T00:00:00-03:00"
   },
   {
     "id": "DPP-00015",
@@ -646,7 +646,7 @@
       "Revogar a denúncia por ato administrativo"
     ],
     "right": 2,
-    "comment": "A indisponibilidade impede desistir da ação, não impede formular pedido de absolvição diante de prova insuficiente.",
+    "comment": "Indisponibilidade impede desistência, mas não impede pedido de absolvição fundamentado.",
     "optionComments": [
       "O MP não pode desistir da ação.",
       "Não pode arquivar unilateralmente processo judicial.",
@@ -656,15 +656,15 @@
     ],
     "legalBasis": "CPP, arts. 42 e 385",
     "reference": "CPP, arts. 42 e 385",
-    "trap": "A indisponibilidade impede desistir da ação, não impede formular pedido de absolvição diante de prova insuficiente.",
+    "trap": "Indisponibilidade impede desistência, mas não impede pedido de absolvição fundamentado.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27T00:00:00-03:00"
   },
   {
     "id": "DPP-00016",
@@ -1511,22 +1511,22 @@
       "Errado"
     ],
     "right": 1,
-    "comment": "O art. 109, IV, exclui expressamente as contravenções da competência ali prevista.",
+    "comment": "O art. 109, IV, exclui contravenções da competência criminal federal comum, mesmo quando exista interesse da União.",
     "optionComments": [
       "Incorreta. Ignora a exceção constitucional.",
       "Correta. O art. 109, IV, exclui expressamente as contravenções da competência ali prevista."
     ],
     "legalBasis": "CF, art. 109, IV",
     "reference": "CF, art. 109, IV",
-    "trap": "Não confunda contravenções com critérios de competência distintos.",
+    "trap": "O art. 109, IV, exclui contravenções da competência criminal federal comum, mesmo quando exista interesse da União.",
     "sources": [
       {
-        "title": "CF, art. 109, IV — fonte oficial para conferência",
+        "title": "Constituição Federal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27T00:00:00-03:00"
   },
   {
     "id": "DPP-00034",
@@ -1555,7 +1555,7 @@
       "STF originariamente"
     ],
     "right": 1,
-    "comment": "A lesão direta a bens, serviços ou interesses de autarquia federal atrai a competência federal.",
+    "comment": "Autarquia federal não se confunde com sociedade de economia mista; o interesse patrimonial direto atrai a Justiça Federal, ressalvadas competências especiais.",
     "optionComments": [
       "Incorreta. Desconsidera o interesse federal direto.",
       "Correta. A lesão direta a bens, serviços ou interesses de autarquia federal atrai a competência federal.",
@@ -1565,15 +1565,15 @@
     ],
     "legalBasis": "CF, art. 109, IV",
     "reference": "CF, art. 109, IV",
-    "trap": "Não confunda autarquia federal com critérios de competência distintos.",
+    "trap": "Autarquia federal não se confunde com sociedade de economia mista; o interesse patrimonial direto atrai a Justiça Federal, ressalvadas competências especiais.",
     "sources": [
       {
-        "title": "CF, art. 109, IV — fonte oficial para conferência",
+        "title": "Constituição Federal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27T00:00:00-03:00"
   },
   {
     "id": "DPP-00035",
@@ -1602,7 +1602,7 @@
       "STJ originariamente"
     ],
     "right": 2,
-    "comment": "A Súmula 42 do STJ atribui à Justiça Estadual os crimes em detrimento de sociedade de economia mista.",
+    "comment": "Sociedade de economia mista não se confunde com empresa pública federal; a Súmula 42 atribui a competência comum estadual.",
     "optionComments": [
       "Incorreta. Não há hipótese militar.",
       "Incorreta. A natureza da sociedade não basta.",
@@ -1612,15 +1612,15 @@
     ],
     "legalBasis": "STJ, Súmula 42",
     "reference": "STJ, Súmula 42",
-    "trap": "Não confunda sociedade de economia mista com critérios de competência distintos.",
+    "trap": "Sociedade de economia mista não se confunde com empresa pública federal; a Súmula 42 atribui a competência comum estadual.",
     "sources": [
       {
-        "title": "STJ, Súmula 42 — fonte oficial para conferência",
+        "title": "STJ — Súmula 42",
         "url": "https://scon.stj.jus.br/SCON/sumstj/"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27T00:00:00-03:00"
   },
   {
     "id": "DPP-00036",
@@ -1646,22 +1646,22 @@
       "Errado"
     ],
     "right": 0,
-    "comment": "A Súmula 122 estabelece a reunião na Justiça Federal, ressalvadas competências constitucionais especiais.",
+    "comment": "A conexão entre crimes federais e estaduais permite julgamento conjunto federal, conforme Súmula 122, ressalvadas competências constitucionais especiais.",
     "optionComments": [
       "Correta. A Súmula 122 estabelece a reunião na Justiça Federal, ressalvadas competências constitucionais especiais.",
       "Incorreta. Ignora a orientação sumulada."
     ],
     "legalBasis": "STJ, Súmula 122",
     "reference": "STJ, Súmula 122",
-    "trap": "Não confunda conexão federal e estadual com critérios de competência distintos.",
+    "trap": "A conexão entre crimes federais e estaduais permite julgamento conjunto federal, conforme Súmula 122, ressalvadas competências constitucionais especiais.",
     "sources": [
       {
-        "title": "STJ, Súmula 122 — fonte oficial para conferência",
+        "title": "STJ — Súmula 122",
         "url": "https://scon.stj.jus.br/SCON/sumstj/"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27T00:00:00-03:00"
   },
   {
     "id": "DPP-00037",
@@ -1738,22 +1738,22 @@
       "Errado"
     ],
     "right": 0,
-    "comment": "A SV 45 resolve o conflito em favor do júri quando o foro é exclusivamente estadual.",
+    "comment": "O foro previsto exclusivamente na constituição estadual não afasta a competência constitucional do Júri.",
     "optionComments": [
       "Correta. A SV 45 resolve o conflito em favor do júri quando o foro é exclusivamente estadual.",
       "Incorreta. Confunde foro estadual com prerrogativa prevista na Constituição Federal."
     ],
     "legalBasis": "STF, Súmula Vinculante 45",
     "reference": "STF, Súmula Vinculante 45",
-    "trap": "Não confunda foro constitucional estadual com critérios de competência distintos.",
+    "trap": "O foro previsto exclusivamente na constituição estadual não afasta a competência constitucional do Júri.",
     "sources": [
       {
-        "title": "STF, Súmula Vinculante 45 — fonte oficial para conferência",
-        "url": "https://portal.stf.jus.br/jurisprudencia/"
+        "title": "STF — Súmula Vinculante 45",
+        "url": "https://stf.jus.br/jurisprudencia"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27T00:00:00-03:00"
   },
   {
     "id": "DPP-00039",
@@ -1782,7 +1782,7 @@
       "Somente após sentença"
     ],
     "right": 1,
-    "comment": "O art. 108 prevê oposição verbal ou escrita no prazo de defesa; a matéria relativa está sujeita à preclusão.",
+    "comment": "A exceção de incompetência deve ser oposta no prazo da defesa; não se deve confundir incompetência relativa com absoluta.",
     "optionComments": [
       "Incorreta. Não corresponde ao momento legal.",
       "Correta. O art. 108 prevê oposição verbal ou escrita no prazo de defesa; a matéria relativa está sujeita à preclusão.",
@@ -1792,15 +1792,15 @@
     ],
     "legalBasis": "CPP, arts. 108 e 109",
     "reference": "CPP, arts. 108 e 109",
-    "trap": "Não confunda incompetência territorial com critérios de competência distintos.",
+    "trap": "A exceção de incompetência deve ser oposta no prazo da defesa; não se deve confundir incompetência relativa com absoluta.",
     "sources": [
       {
         "title": "CPP, arts. 108 e 109 — fonte oficial para conferência",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27T00:00:00-03:00"
   },
   {
     "id": "DPP-00040",
@@ -2123,22 +2123,22 @@
       "Errado"
     ],
     "right": 1,
-    "comment": "O silêncio não importa confissão e não pode ser interpretado em prejuízo da defesa.",
+    "comment": "O exercício do direito ao silêncio não constitui confissão nem pode prejudicar a defesa.",
     "optionComments": [
       "Incorreto. O silêncio não importa confissão e não pode ser interpretado em prejuízo da defesa.",
       "Correto. O silêncio não importa confissão e não pode ser interpretado em prejuízo da defesa."
     ],
     "legalBasis": "CPP, art. 186, parágrafo único",
     "reference": "CPP, art. 186, parágrafo único",
-    "trap": "Atenção aos requisitos, ressalvas e limites da regra legal: O silêncio não importa confissão e não pode ser interpretado em prejuízo da defesa.",
+    "trap": "O exercício do direito ao silêncio não constitui confissão nem pode prejudicar a defesa.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27T00:00:00-03:00"
   },
   {
     "id": "DPP-00048",
@@ -2451,7 +2451,7 @@
       "Realizar reconhecimento exclusivamente em juízo."
     ],
     "right": 1,
-    "comment": "Correto. São providências dos incisos I e II.",
+    "comment": "A descrição prévia e a colocação junto de semelhantes integram o rito legal. A expressão se possível não autoriza ignorar arbitrariamente as garantias do reconhecimento.",
     "optionComments": [
       "Incorreto. O dispositivo não estabelece essa regra.",
       "Correto. São providências dos incisos I e II.",
@@ -2461,15 +2461,15 @@
     ],
     "legalBasis": "CPP, art. 226",
     "reference": "CPP, art. 226",
-    "trap": "Atenção aos requisitos, ressalvas e limites da regra legal: Correto. São providências dos incisos I e II.",
+    "trap": "A descrição prévia e a colocação junto de semelhantes integram o rito legal. A expressão se possível não autoriza ignorar arbitrariamente as garantias do reconhecimento.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27T00:00:00-03:00"
   },
   {
     "id": "DPP-00055",
@@ -2936,22 +2936,22 @@
       "Errado"
     ],
     "right": 1,
-    "comment": "A comunicação é imediata; a remessa do auto tem prazo próprio de até 24 horas.",
+    "comment": "Comunicação imediata da prisão e envio do auto em 24 horas são obrigações distintas.",
     "optionComments": [
       "Incorreto. A comunicação é imediata; a remessa do auto tem prazo próprio de até 24 horas.",
       "Correto. A comunicação é imediata; a remessa do auto tem prazo próprio de até 24 horas."
     ],
     "legalBasis": "CPP, art. 306",
     "reference": "CPP, art. 306",
-    "trap": "Comunicação e encaminhamento do auto são atos distintos.",
+    "trap": "Comunicação imediata da prisão e envio do auto em 24 horas são obrigações distintas.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27T00:00:00-03:00"
   },
   {
     "id": "DPP-00065",
@@ -3568,7 +3568,7 @@
       "Decretar temporária de ofício."
     ],
     "right": 3,
-    "comment": "Sem requisitos da preventiva, aplica-se a liberdade provisória conforme art. 321, com cautelares adequadas se necessárias.",
+    "comment": "Ausentes pressupostos da preventiva, a liberdade provisória é devida, com cautelares adequadas quando necessárias.",
     "optionComments": [
       "Conveniência administrativa não basta.",
       "É vedada antecipação de pena.",
@@ -3578,15 +3578,15 @@
     ],
     "legalBasis": "CPP, art. 321",
     "reference": "CPP, art. 321",
-    "trap": "Legalidade do flagrante não implica manutenção automática da custódia.",
+    "trap": "Ausentes pressupostos da preventiva, a liberdade provisória é devida, com cautelares adequadas quando necessárias.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27T00:00:00-03:00"
   },
   {
     "id": "DPP-00078",
@@ -4182,7 +4182,7 @@
       "Remeter ao Ministério Público para arquivamento obrigatório."
     ],
     "right": 2,
-    "comment": "A desclassificação prevista no art. 419 conduz à remessa ao juízo competente.",
+    "comment": "A desclassificação da primeira fase, quando o novo delito escapa à competência do juiz, implica remessa ao juízo competente.",
     "optionComments": [
       "O juiz não é competente na hipótese.",
       "A convicção de desclassificação afasta essa solução.",
@@ -4192,15 +4192,15 @@
     ],
     "legalBasis": "CPP, art. 419",
     "reference": "CPP, art. 419",
-    "trap": "A desclassificação prevista no art. 419 conduz à remessa ao juízo competente.",
+    "trap": "A desclassificação da primeira fase, quando o novo delito escapa à competência do juiz, implica remessa ao juízo competente.",
     "sources": [
       {
         "title": "CPP — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27T00:00:00-03:00"
   },
   {
     "id": "DPP-00092",
@@ -4370,7 +4370,7 @@
       "Embargos infringentes diretamente."
     ],
     "right": 1,
-    "comment": "A pronúncia é hipótese expressa de recurso em sentido estrito.",
+    "comment": "A pronúncia é impugnável por recurso em sentido estrito, diferentemente da impronúncia.",
     "optionComments": [
       "A apelação é prevista para impronúncia e absolvição sumária.",
       "A pronúncia é hipótese expressa de recurso em sentido estrito.",
@@ -4380,15 +4380,15 @@
     ],
     "legalBasis": "CPP, art. 581, IV",
     "reference": "CPP, art. 581, IV",
-    "trap": "A pronúncia é hipótese expressa de recurso em sentido estrito.",
+    "trap": "A pronúncia é impugnável por recurso em sentido estrito, diferentemente da impronúncia.",
     "sources": [
       {
         "title": "CPP — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27T00:00:00-03:00"
   },
   {
     "id": "DPP-00096",
@@ -4417,7 +4417,7 @@
       "Recurso ordinário constitucional."
     ],
     "right": 2,
-    "comment": "O art. 416 prevê apelação contra impronúncia e absolvição sumária no júri.",
+    "comment": "Contra impronúncia e absolvição sumária no rito do júri cabe apelação, conforme art. 416.",
     "optionComments": [
       "É cabível contra pronúncia, não impronúncia.",
       "Não se trata de decisão monocrática de tribunal.",
@@ -4427,15 +4427,15 @@
     ],
     "legalBasis": "CPP, art. 416",
     "reference": "CPP, art. 416",
-    "trap": "O art. 416 prevê apelação contra impronúncia e absolvição sumária no júri.",
+    "trap": "Contra impronúncia e absolvição sumária no rito do júri cabe apelação, conforme art. 416.",
     "sources": [
       {
         "title": "CPP — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27T00:00:00-03:00"
   },
   {
     "id": "DPP-00097",
