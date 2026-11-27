@@ -890,5 +890,897 @@
     ],
     "status": "pendente_verificacao",
     "reviewedAt": null
+  },
+  {
+    "id": "DC-00021",
+    "title": "Inviolabilidade domiciliar",
+    "disc": "Direito Constitucional",
+    "topic": "Direitos e garantias fundamentais",
+    "subtopic": "Inviolabilidade domiciliar",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Durante a noite, a mera existência de mandado judicial de busca autoriza ingresso domiciliar sem consentimento, ainda que ausentes flagrante, desastre ou necessidade de socorro.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 1,
+    "comment": "Correto: à noite, a ordem judicial isolada não basta.",
+    "optionComments": [
+      "Errado: a ordem judicial é hipótese constitucional de ingresso durante o dia.",
+      "Correto: à noite, a ordem judicial isolada não basta."
+    ],
+    "legalBasis": "CF, art. 5º, XI",
+    "reference": "CF, art. 5º, XI",
+    "trap": "Distinguir mandado de flagrante.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00022",
+    "title": "Reunião",
+    "disc": "Direito Constitucional",
+    "topic": "Direitos e garantias fundamentais",
+    "subtopic": "Reunião",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Uma reunião pacífica, sem armas, em local aberto ao público, exige autorização prévia da autoridade competente.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 1,
+    "comment": "Correto: a Constituição exige prévio aviso e respeito à reunião anteriormente convocada.",
+    "optionComments": [
+      "Errado: autorização não é requisito.",
+      "Correto: a Constituição exige prévio aviso e respeito à reunião anteriormente convocada."
+    ],
+    "legalBasis": "CF, art. 5º, XVI",
+    "reference": "CF, art. 5º, XVI",
+    "trap": "Aviso não equivale a autorização.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00023",
+    "title": "Associação",
+    "disc": "Direito Constitucional",
+    "topic": "Direitos e garantias fundamentais",
+    "subtopic": "Associação",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "A suspensão compulsória das atividades de associação exige decisão judicial, mas não necessariamente trânsito em julgado.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 0,
+    "comment": "Correto: o trânsito em julgado é exigido para dissolução compulsória.",
+    "optionComments": [
+      "Correto: o trânsito em julgado é exigido para dissolução compulsória.",
+      "Errado: confunde suspensão com dissolução."
+    ],
+    "legalBasis": "CF, art. 5º, XIX",
+    "reference": "CF, art. 5º, XIX",
+    "trap": "Suspensão e dissolução têm requisitos distintos.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00024",
+    "title": "Propriedade",
+    "disc": "Direito Constitucional",
+    "topic": "Direitos e garantias fundamentais",
+    "subtopic": "Propriedade",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Em situação de iminente perigo público, o uso de propriedade particular pela autoridade competente gera direito a indenização ulterior se houver dano.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 0,
+    "comment": "Correto: a requisição administrativa segue essa regra.",
+    "optionComments": [
+      "Correto: a requisição administrativa segue essa regra.",
+      "Errado: a indenização não é necessariamente prévia nem incondicionada."
+    ],
+    "legalBasis": "CF, art. 5º, XXV",
+    "reference": "CF, art. 5º, XXV",
+    "trap": "Não confundir requisição e desapropriação.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00025",
+    "title": "Prova ilícita",
+    "disc": "Direito Constitucional",
+    "topic": "Direitos e garantias fundamentais",
+    "subtopic": "Prova ilícita",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "A Constituição admite expressamente provas obtidas por meios ilícitos quando o crime investigado for hediondo.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 1,
+    "comment": "Correto: a gravidade do crime não cria a exceção descrita.",
+    "optionComments": [
+      "Errado: não existe essa ressalva constitucional.",
+      "Correto: a gravidade do crime não cria a exceção descrita."
+    ],
+    "legalBasis": "CF, art. 5º, LVI",
+    "reference": "CF, art. 5º, LVI",
+    "trap": "Gravidade não é autorização constitucional.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00026",
+    "title": "Prisão civil",
+    "disc": "Direito Constitucional",
+    "topic": "Direitos e garantias fundamentais",
+    "subtopic": "Prisão civil",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "O texto constitucional prevê expressamente a possibilidade de prisão civil por inadimplemento voluntário e inescusável de obrigação alimentícia.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 0,
+    "comment": "Correto: a hipótese consta do texto constitucional.",
+    "optionComments": [
+      "Correto: a hipótese consta do texto constitucional.",
+      "Errado: a vedação de prisão civil por dívida não é absoluta."
+    ],
+    "legalBasis": "CF, art. 5º, LXVII",
+    "reference": "CF, art. 5º, LXVII",
+    "trap": "A questão trata da obrigação alimentar, não do depositário infiel.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00027",
+    "title": "Assistência jurídica",
+    "disc": "Direito Constitucional",
+    "topic": "Direitos e garantias fundamentais",
+    "subtopic": "Assistência jurídica",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "A assistência jurídica integral e gratuita é assegurada pelo Estado aos que comprovarem insuficiência de recursos.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 0,
+    "comment": "Correto: a garantia abrange assistência jurídica integral.",
+    "optionComments": [
+      "Correto: a garantia abrange assistência jurídica integral.",
+      "Errado: não se limita à defesa criminal."
+    ],
+    "legalBasis": "CF, art. 5º, LXXIV",
+    "reference": "CF, art. 5º, LXXIV",
+    "trap": "Assistência jurídica é mais ampla que gratuidade processual.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00028",
+    "title": "Dados pessoais",
+    "disc": "Direito Constitucional",
+    "topic": "Direitos e garantias fundamentais",
+    "subtopic": "Dados pessoais",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "A proteção constitucional dos dados pessoais exclui expressamente os dados tratados em meios digitais.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 1,
+    "comment": "Correto: o inciso LXXIX contempla expressamente meios digitais.",
+    "optionComments": [
+      "Errado: os meios digitais estão incluídos.",
+      "Correto: o inciso LXXIX contempla expressamente meios digitais."
+    ],
+    "legalBasis": "CF, art. 5º, LXXIX",
+    "reference": "CF, art. 5º, LXXIX",
+    "trap": "A proteção não se restringe a registros físicos.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00029",
+    "title": "Habeas corpus",
+    "disc": "Direito Constitucional",
+    "topic": "Direitos e garantias fundamentais",
+    "subtopic": "Habeas corpus",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Um investigado sofre ameaça concreta de prisão ilegal. Qual instrumento constitucional é especificamente destinado à tutela da liberdade de locomoção?",
+    "opts": [
+      "Habeas data",
+      "Mandado de injunção",
+      "Habeas corpus",
+      "Ação popular",
+      "Direito de certidão"
+    ],
+    "right": 2,
+    "comment": "O HC protege a locomoção contra ilegalidade ou abuso de poder, inclusive ameaça.",
+    "optionComments": [
+      "Tutela dados pessoais.",
+      "Combate omissão normativa impeditiva.",
+      "O HC protege a locomoção contra ilegalidade ou abuso de poder, inclusive ameaça.",
+      "Tutela bens jurídicos coletivos especificados na Constituição.",
+      "Não é ação destinada à liberdade de locomoção."
+    ],
+    "legalBasis": "CF, art. 5º, LXVIII",
+    "reference": "CF, art. 5º, LXVIII",
+    "trap": "HC também pode ser preventivo.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00030",
+    "title": "Habeas data",
+    "disc": "Direito Constitucional",
+    "topic": "Direitos e garantias fundamentais",
+    "subtopic": "Habeas data",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Uma pessoa pretende retificar informação sobre si em cadastro governamental. Considerando apenas o objeto constitucional do remédio, qual é o instrumento específico?",
+    "opts": [
+      "Mandado de injunção",
+      "Habeas data",
+      "Habeas corpus",
+      "Ação popular",
+      "Ação direta de inconstitucionalidade"
+    ],
+    "right": 1,
+    "comment": "O HD permite retificação de dados pessoais em registros governamentais ou de caráter público.",
+    "optionComments": [
+      "Pressupõe omissão normativa.",
+      "O HD permite retificação de dados pessoais em registros governamentais ou de caráter público.",
+      "Protege locomoção.",
+      "Impugna atos lesivos a bens coletivos previstos na CF.",
+      "Controle abstrato não é instrumento de retificação individual."
+    ],
+    "legalBasis": "CF, art. 5º, LXXII",
+    "reference": "CF, art. 5º, LXXII",
+    "trap": "O objeto é dado do próprio impetrante; requisitos processuais são questão distinta.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00031",
+    "title": "Mandado de segurança",
+    "disc": "Direito Constitucional",
+    "topic": "Direitos e garantias fundamentais",
+    "subtopic": "Mandado de segurança",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Uma autoridade pública viola direito líquido e certo documentalmente demonstrável, não tutelado por HC ou HD. Qual garantia é especificamente prevista para esse caso?",
+    "opts": [
+      "Ação popular",
+      "Habeas corpus",
+      "Habeas data",
+      "Mandado de segurança",
+      "Mandado de injunção"
+    ],
+    "right": 3,
+    "comment": "O MS protege direito líquido e certo contra ilegalidade ou abuso de poder nas condições descritas.",
+    "optionComments": [
+      "Não é remédio geral para direito individual.",
+      "Exige ameaça ou lesão à locomoção.",
+      "Tem objeto ligado a dados pessoais.",
+      "O MS protege direito líquido e certo contra ilegalidade ou abuso de poder nas condições descritas.",
+      "Exige omissão normativa impeditiva."
+    ],
+    "legalBasis": "CF, art. 5º, LXIX",
+    "reference": "CF, art. 5º, LXIX",
+    "trap": "O MS é residual em relação ao HC e HD.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00032",
+    "title": "Mandado de segurança coletivo",
+    "disc": "Direito Constitucional",
+    "topic": "Direitos e garantias fundamentais",
+    "subtopic": "Mandado de segurança coletivo",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Qual entidade possui legitimidade constitucional expressa para impetrar mandado de segurança coletivo, independentemente do requisito de um ano previsto para associações?",
+    "opts": [
+      "Partido político com representação no Congresso Nacional",
+      "Qualquer eleitor",
+      "Empresa privada em nome de consumidores",
+      "Grupo informal de moradores",
+      "Partido sem representação parlamentar no Congresso"
+    ],
+    "right": 0,
+    "comment": "A representação no Congresso satisfaz o requisito constitucional específico.",
+    "optionComments": [
+      "A representação no Congresso satisfaz o requisito constitucional específico.",
+      "Cidadania é requisito da ação popular, não dessa hipótese.",
+      "Não consta do rol constitucional indicado.",
+      "Não corresponde a entidade legitimada.",
+      "Falta representação no Congresso."
+    ],
+    "legalBasis": "CF, art. 5º, LXX",
+    "reference": "CF, art. 5º, LXX",
+    "trap": "Não estender automaticamente o requisito temporal das associações aos partidos.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00033",
+    "title": "Mandado de injunção",
+    "disc": "Direito Constitucional",
+    "topic": "Direitos e garantias fundamentais",
+    "subtopic": "Mandado de injunção",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "A ausência de norma regulamentadora torna inviável o exercício de prerrogativa inerente à cidadania. Qual remédio constitucional foi concebido para essa situação?",
+    "opts": [
+      "Habeas data",
+      "Ação popular",
+      "Mandado de injunção",
+      "Habeas corpus",
+      "Direito de petição"
+    ],
+    "right": 2,
+    "comment": "O MI enfrenta a inviabilidade do exercício de direitos e prerrogativas por falta de regulamentação.",
+    "optionComments": [
+      "Não combate omissão normativa.",
+      "Tem objeto diverso.",
+      "O MI enfrenta a inviabilidade do exercício de direitos e prerrogativas por falta de regulamentação.",
+      "Tutela liberdade de locomoção.",
+      "Não substitui o remédio jurisdicional específico."
+    ],
+    "legalBasis": "CF, art. 5º, LXXI",
+    "reference": "CF, art. 5º, LXXI",
+    "trap": "Não basta mera insatisfação com norma existente.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00034",
+    "title": "Ação popular",
+    "disc": "Direito Constitucional",
+    "topic": "Direitos e garantias fundamentais",
+    "subtopic": "Ação popular",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Um cidadão pretende anular ato lesivo à moralidade administrativa. Qual alternativa descreve corretamente a garantia constitucional?",
+    "opts": [
+      "Somente o Ministério Público pode ajuizar.",
+      "O autor sempre paga custas.",
+      "A ação só protege patrimônio econômico.",
+      "A legitimidade é de qualquer pessoa jurídica.",
+      "O cidadão pode ajuizar ação popular, com isenção de custas e sucumbência salvo comprovada má-fé."
+    ],
+    "right": 4,
+    "comment": "A alternativa reúne legitimidade, objeto e regime de despesas previstos na CF.",
+    "optionComments": [
+      "A CF atribui legitimidade ao cidadão.",
+      "Há isenção constitucional ressalvada má-fé.",
+      "Moralidade administrativa também é protegida.",
+      "A legitimidade constitucional é do cidadão.",
+      "A alternativa reúne legitimidade, objeto e regime de despesas previstos na CF."
+    ],
+    "legalBasis": "CF, art. 5º, LXXIII",
+    "reference": "CF, art. 5º, LXXIII",
+    "trap": "Lesão à moralidade não exige necessariamente dano econômico.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00035",
+    "title": "Direito de petição",
+    "disc": "Direito Constitucional",
+    "topic": "Direitos e garantias fundamentais",
+    "subtopic": "Direito de petição",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FCC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Sobre o direito de petição aos Poderes Públicos, assinale a alternativa correta.",
+    "opts": [
+      "Depende de taxa.",
+      "É exclusivo de advogados.",
+      "É assegurado independentemente de taxas para defesa de direitos ou contra ilegalidade ou abuso de poder.",
+      "É exclusivo de servidores públicos.",
+      "Exige ação judicial prévia."
+    ],
+    "right": 2,
+    "comment": "Corresponde à garantia constitucional.",
+    "optionComments": [
+      "A CF dispensa taxas.",
+      "Não há exclusividade constitucional de advogado.",
+      "Corresponde à garantia constitucional.",
+      "Não há restrição a servidores.",
+      "Não depende de ação judicial prévia."
+    ],
+    "legalBasis": "CF, art. 5º, XXXIV, a",
+    "reference": "CF, art. 5º, XXXIV, a",
+    "trap": "Petição não se confunde com ação judicial.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00036",
+    "title": "Extradição",
+    "disc": "Direito Constitucional",
+    "topic": "Direitos e garantias fundamentais",
+    "subtopic": "Extradição",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FCC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Segundo a Constituição, o brasileiro naturalizado pode ser extraditado em qual hipótese?",
+    "opts": [
+      "Qualquer crime posterior à naturalização.",
+      "Crime comum anterior à naturalização ou comprovado envolvimento em tráfico ilícito de entorpecentes e drogas afins, na forma da lei.",
+      "Crime de opinião exclusivamente.",
+      "Qualquer infração administrativa.",
+      "Nunca, em nenhuma hipótese."
+    ],
+    "right": 1,
+    "comment": "São as exceções constitucionais aplicáveis ao naturalizado.",
+    "optionComments": [
+      "Crime comum posterior não satisfaz essa hipótese.",
+      "São as exceções constitucionais aplicáveis ao naturalizado.",
+      "Crime de opinião não autoriza extradição de estrangeiro.",
+      "Infração administrativa não é hipótese indicada.",
+      "A vedação não é absoluta para naturalizados."
+    ],
+    "legalBasis": "CF, art. 5º, LI e LII",
+    "reference": "CF, art. 5º, LI e LII",
+    "trap": "Distinguir brasileiro nato e naturalizado.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00037",
+    "title": "Penas proibidas",
+    "disc": "Direito Constitucional",
+    "topic": "Direitos e garantias fundamentais",
+    "subtopic": "Penas proibidas",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FCC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Qual pena é vedada pela Constituição sem a ressalva de guerra declarada prevista para a pena de morte?",
+    "opts": [
+      "Multa",
+      "Perda de bens",
+      "Suspensão de direitos",
+      "Banimento",
+      "Privação de liberdade"
+    ],
+    "right": 3,
+    "comment": "Banimento integra o rol de penas proibidas.",
+    "optionComments": [
+      "É modalidade admitida.",
+      "É modalidade admitida.",
+      "É modalidade admitida.",
+      "Banimento integra o rol de penas proibidas.",
+      "É modalidade admitida."
+    ],
+    "legalBasis": "CF, art. 5º, XLVI e XLVII",
+    "reference": "CF, art. 5º, XLVI e XLVII",
+    "trap": "A exceção de guerra declarada refere-se à pena de morte.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00038",
+    "title": "Identificação criminal",
+    "disc": "Direito Constitucional",
+    "topic": "Direitos e garantias fundamentais",
+    "subtopic": "Identificação criminal",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FUNDATEC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Uma pessoa civilmente identificada é investigada. Segundo o texto constitucional, a identificação criminal:",
+    "opts": [
+      "É sempre obrigatória.",
+      "É sempre proibida.",
+      "Depende exclusivamente da vontade da vítima.",
+      "É obrigatória para toda contravenção.",
+      "Não será realizada, salvo nas hipóteses previstas em lei."
+    ],
+    "right": 4,
+    "comment": "A identificação civil afasta a criminal como regra, ressalvadas hipóteses legais.",
+    "optionComments": [
+      "A regra constitucional é a dispensa.",
+      "Há exceções legais.",
+      "A vítima não define a exceção constitucional.",
+      "Não existe essa regra constitucional.",
+      "A identificação civil afasta a criminal como regra, ressalvadas hipóteses legais."
+    ],
+    "legalBasis": "CF, art. 5º, LVIII",
+    "reference": "CF, art. 5º, LVIII",
+    "trap": "Não transformar regra em proibição absoluta.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00039",
+    "title": "Contraditório",
+    "disc": "Direito Constitucional",
+    "topic": "Direitos e garantias fundamentais",
+    "subtopic": "Contraditório",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FUNDATEC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "A Constituição assegura contraditório e ampla defesa expressamente:",
+    "opts": [
+      "A litigantes em processo judicial ou administrativo e aos acusados em geral.",
+      "Somente ao réu preso.",
+      "Somente no processo penal.",
+      "Apenas após sentença.",
+      "Somente em processo judicial."
+    ],
+    "right": 0,
+    "comment": "A garantia possui esse alcance constitucional.",
+    "optionComments": [
+      "A garantia possui esse alcance constitucional.",
+      "Não depende de prisão.",
+      "Também abrange processos administrativos.",
+      "Não se limita à fase posterior à sentença.",
+      "A CF inclui expressamente processo administrativo."
+    ],
+    "legalBasis": "CF, art. 5º, LV",
+    "reference": "CF, art. 5º, LV",
+    "trap": "Não restringir a garantia ao processo penal.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00040",
+    "title": "Gratuidade constitucional",
+    "disc": "Direito Constitucional",
+    "topic": "Direitos e garantias fundamentais",
+    "subtopic": "Gratuidade constitucional",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FUNDATEC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Quais ações são expressamente gratuitas por determinação do art. 5º, LXXVII?",
+    "opts": [
+      "Mandado de segurança e ação popular em qualquer situação",
+      "Habeas corpus e habeas data",
+      "Mandado de injunção e mandado de segurança",
+      "Todas as ações judiciais",
+      "Apenas habeas corpus"
+    ],
+    "right": 1,
+    "comment": "Ambas são expressamente gratuitas.",
+    "optionComments": [
+      "A ação popular tem disciplina própria; MS não consta desse inciso.",
+      "Ambas são expressamente gratuitas.",
+      "Não são as ações enumeradas no inciso.",
+      "Não existe gratuidade universal.",
+      "O habeas data também está incluído."
+    ],
+    "legalBasis": "CF, art. 5º, LXXVII",
+    "reference": "CF, art. 5º, LXXVII",
+    "trap": "Distinguir gratuidade expressa e assistência jurídica.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
   }
 ]
