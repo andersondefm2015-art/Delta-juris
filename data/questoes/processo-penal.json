@@ -3757,22 +3757,22 @@
       "Errado"
     ],
     "right": 0,
-    "comment": "O limite inclui exatamente quatro anos; o rito especial prevalece quando previsto.",
+    "comment": "Quatro anos exatos já conduzem ao rito ordinário, ressalvada previsão especial.",
     "optionComments": [
-      "Correto. O limite inclui exatamente quatro anos; o rito especial prevalece quando previsto.",
-      "Incorreto. O limite inclui exatamente quatro anos; o rito especial prevalece quando previsto."
+      "Correta. Quatro anos exatos já conduzem ao rito ordinário, ressalvada previsão especial.",
+      "Incorreta. Pena máxima, não mínima. Quatro anos exatos já conduzem ao rito ordinário, ressalvada previsão especial."
     ],
     "legalBasis": "CPP, art. 394, § 1º, I",
     "reference": "CPP, art. 394, § 1º, I",
-    "trap": "O limite inclui exatamente quatro anos; o rito especial prevalece quando previsto.",
+    "trap": "Pena máxima, não mínima.",
     "sources": [
       {
         "title": "CPP — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00082",
@@ -3798,22 +3798,22 @@
       "Errado"
     ],
     "right": 1,
-    "comment": "O rito sumaríssimo é reservado às infrações de menor potencial ofensivo, observadas as regras especiais.",
+    "comment": "O rito sumaríssimo é reservado às infrações de menor potencial ofensivo nos termos da lei.",
     "optionComments": [
-      "Incorreto. O rito sumaríssimo é reservado às infrações de menor potencial ofensivo, observadas as regras especiais.",
-      "Correto. O rito sumaríssimo é reservado às infrações de menor potencial ofensivo, observadas as regras especiais."
+      "Incorreta. Não aplicar automaticamente o sumário a toda pena inferior a quatro anos. O rito sumaríssimo é reservado às infrações de menor potencial ofensivo nos termos da lei.",
+      "Correta. O rito sumaríssimo é reservado às infrações de menor potencial ofensivo nos termos da lei."
     ],
     "legalBasis": "CPP, art. 394, § 1º, II",
     "reference": "CPP, art. 394, § 1º, II",
-    "trap": "O rito sumaríssimo é reservado às infrações de menor potencial ofensivo, observadas as regras especiais.",
+    "trap": "Não aplicar automaticamente o sumário a toda pena inferior a quatro anos.",
     "sources": [
       {
         "title": "CPP — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00083",
@@ -3839,22 +3839,22 @@
       "Errado"
     ],
     "right": 0,
-    "comment": "A justa causa é requisito para instaurar validamente a ação penal; não se confunde com certeza de condenação.",
+    "comment": "A falta de suporte mínimo para a acusação constitui hipótese de rejeição inicial.",
     "optionComments": [
-      "Correto. A justa causa é requisito para instaurar validamente a ação penal; não se confunde com certeza de condenação.",
-      "Incorreto. A justa causa é requisito para instaurar validamente a ação penal; não se confunde com certeza de condenação."
+      "Correta. A falta de suporte mínimo para a acusação constitui hipótese de rejeição inicial.",
+      "Incorreta. Distinguir rejeição da acusação de absolvição após resposta. A falta de suporte mínimo para a acusação constitui hipótese de rejeição inicial."
     ],
     "legalBasis": "CPP, art. 395",
     "reference": "CPP, art. 395",
-    "trap": "A justa causa é requisito para instaurar validamente a ação penal; não se confunde com certeza de condenação.",
+    "trap": "Distinguir rejeição da acusação de absolvição após resposta.",
     "sources": [
       {
         "title": "CPP — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00084",
@@ -3880,22 +3880,22 @@
       "Errado"
     ],
     "right": 1,
-    "comment": "O prazo legal é de dez dias após a citação.",
+    "comment": "O prazo é de dez dias; na citação editalícia, observe o marco do parágrafo único.",
     "optionComments": [
-      "Incorreto. O prazo legal é de dez dias após a citação.",
-      "Correto. O prazo legal é de dez dias após a citação."
+      "Incorreta. Cinco dias não é o prazo de resposta. O prazo é de dez dias; na citação editalícia, observe o marco do parágrafo único.",
+      "Correta. O prazo é de dez dias; na citação editalícia, observe o marco do parágrafo único."
     ],
     "legalBasis": "CPP, art. 396",
     "reference": "CPP, art. 396",
-    "trap": "O prazo legal é de dez dias após a citação.",
+    "trap": "Cinco dias não é o prazo de resposta.",
     "sources": [
       {
         "title": "CPP — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00085",
@@ -3921,22 +3921,22 @@
       "Errado"
     ],
     "right": 0,
-    "comment": "A hipótese está no inciso I; não exige aguardar a instrução quando manifesta.",
+    "comment": "A excludente de ilicitude manifesta enseja absolvição sumária após a resposta.",
     "optionComments": [
-      "Correto. A hipótese está no inciso I; não exige aguardar a instrução quando manifesta.",
-      "Incorreto. A hipótese está no inciso I; não exige aguardar a instrução quando manifesta."
+      "Correta. A excludente de ilicitude manifesta enseja absolvição sumária após a resposta.",
+      "Incorreta. A mera alegação de legítima defesa não basta. A excludente de ilicitude manifesta enseja absolvição sumária após a resposta."
     ],
     "legalBasis": "CPP, art. 397",
     "reference": "CPP, art. 397",
-    "trap": "A hipótese está no inciso I; não exige aguardar a instrução quando manifesta.",
+    "trap": "A mera alegação de legítima defesa não basta.",
     "sources": [
       {
         "title": "CPP — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00086",
@@ -3962,22 +3962,22 @@
       "Errado"
     ],
     "right": 0,
-    "comment": "A alteração da classificação jurídica não equivale à introdução de fato novo; devem ser observadas as consequências processuais previstas nos parágrafos.",
+    "comment": "Na emendatio libelli mantém-se o fato imputado e muda-se sua classificação; eventual competência diversa exige remessa.",
     "optionComments": [
-      "Correto. A alteração da classificação jurídica não equivale à introdução de fato novo; devem ser observadas as consequências processuais previstas nos parágrafos.",
-      "Incorreto. A alteração da classificação jurídica não equivale à introdução de fato novo; devem ser observadas as consequências processuais previstas nos parágrafos."
+      "Correta. Na emendatio libelli mantém-se o fato imputado e muda-se sua classificação; eventual competência diversa exige remessa.",
+      "Incorreta. Não confundir nova classificação com novo elemento fático. Na emendatio libelli mantém-se o fato imputado e muda-se sua classificação; eventual competência diversa exige remessa."
     ],
     "legalBasis": "CPP, art. 383",
     "reference": "CPP, art. 383",
-    "trap": "A alteração da classificação jurídica não equivale à introdução de fato novo; devem ser observadas as consequências processuais previstas nos parágrafos.",
+    "trap": "Não confundir nova classificação com novo elemento fático.",
     "sources": [
       {
         "title": "CPP — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00087",
@@ -4003,22 +4003,22 @@
       "Errado"
     ],
     "right": 1,
-    "comment": "Na ação pública, o Ministério Público deve aditar a acusação, com oportunidade de defesa.",
+    "comment": "Na mutatio libelli, em ação pública, cabe aditamento pelo MP em cinco dias, seguido de oportunidade de defesa.",
     "optionComments": [
-      "Incorreto. Na ação pública, o Ministério Público deve aditar a acusação, com oportunidade de defesa.",
-      "Correto. Na ação pública, o Ministério Público deve aditar a acusação, com oportunidade de defesa."
+      "Incorreta. Não confundir com emendatio libelli. Na mutatio libelli, em ação pública, cabe aditamento pelo MP em cinco dias, seguido de oportunidade de defesa.",
+      "Correta. Na mutatio libelli, em ação pública, cabe aditamento pelo MP em cinco dias, seguido de oportunidade de defesa."
     ],
     "legalBasis": "CPP, art. 384",
     "reference": "CPP, art. 384",
-    "trap": "Na ação pública, o Ministério Público deve aditar a acusação, com oportunidade de defesa.",
+    "trap": "Não confundir com emendatio libelli.",
     "sources": [
       {
         "title": "CPP — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00088",
@@ -4044,22 +4044,22 @@
       "Errado"
     ],
     "right": 1,
-    "comment": "O art. 563 consagra a exigência de prejuízo para declaração de nulidade, sem dispensar a análise das garantias processuais.",
+    "comment": "O princípio do prejuízo afasta a anulação automática por simples irregularidade.",
     "optionComments": [
-      "Incorreto. O art. 563 consagra a exigência de prejuízo para declaração de nulidade, sem dispensar a análise das garantias processuais.",
-      "Correto. O art. 563 consagra a exigência de prejuízo para declaração de nulidade, sem dispensar a análise das garantias processuais."
+      "Incorreta. Não presumir que qualquer falha formal invalida o processo. O princípio do prejuízo afasta a anulação automática por simples irregularidade.",
+      "Correta. O princípio do prejuízo afasta a anulação automática por simples irregularidade."
     ],
     "legalBasis": "CPP, art. 563",
     "reference": "CPP, art. 563",
-    "trap": "O art. 563 consagra a exigência de prejuízo para declaração de nulidade, sem dispensar a análise das garantias processuais.",
+    "trap": "Não presumir que qualquer falha formal invalida o processo.",
     "sources": [
       {
         "title": "CPP — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00089",
@@ -4088,25 +4088,25 @@
       "Arquivar o inquérito."
     ],
     "right": 0,
-    "comment": "A pronúncia exige materialidade e indícios suficientes de autoria ou participação; não constitui condenação.",
+    "comment": "A pronúncia é juízo de admissibilidade, não condenação; exige fundamentação e suporte probatório suficiente.",
     "optionComments": [
-      "A pronúncia exige materialidade e indícios suficientes de autoria ou participação; não constitui condenação.",
-      "A certeza de autoria não é o requisito legal da pronúncia.",
-      "O julgamento do mérito compete ao conselho de sentença.",
-      "A dúvida descrita não demonstra hipótese do art. 415.",
-      "Já existe ação penal em curso."
+      "Correta. A pronúncia é juízo de admissibilidade, não condenação; exige fundamentação e suporte probatório suficiente.",
+      "Incorreta. Dúvida isolada não substitui indícios suficientes. A pronúncia é juízo de admissibilidade, não condenação; exige fundamentação e suporte probatório suficiente.",
+      "Incorreta. Dúvida isolada não substitui indícios suficientes. A pronúncia é juízo de admissibilidade, não condenação; exige fundamentação e suporte probatório suficiente.",
+      "Incorreta. Dúvida isolada não substitui indícios suficientes. A pronúncia é juízo de admissibilidade, não condenação; exige fundamentação e suporte probatório suficiente.",
+      "Incorreta. Dúvida isolada não substitui indícios suficientes. A pronúncia é juízo de admissibilidade, não condenação; exige fundamentação e suporte probatório suficiente."
     ],
     "legalBasis": "CPP, art. 413",
     "reference": "CPP, art. 413",
-    "trap": "A pronúncia exige materialidade e indícios suficientes de autoria ou participação; não constitui condenação.",
+    "trap": "Dúvida isolada não substitui indícios suficientes.",
     "sources": [
       {
         "title": "CPP — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00090",
@@ -4135,25 +4135,25 @@
       "Nova denúncia sem prova nova."
     ],
     "right": 1,
-    "comment": "A impronúncia não impede nova acusação nas condições do parágrafo único.",
+    "comment": "A impronúncia não impede nova acusação fundada em prova nova antes da extinção da punibilidade.",
     "optionComments": [
-      "A insuficiência de indícios conduz à impronúncia no caso.",
-      "A impronúncia não impede nova acusação nas condições do parágrafo único.",
-      "Falta requisito do art. 413.",
-      "Não cabe condenação por presunção.",
-      "A lei exige prova nova."
+      "Incorreta. Não confundir insuficiência de indícios com prova positiva de inocência. A impronúncia não impede nova acusação fundada em prova nova antes da extinção da punibilidade.",
+      "Correta. A impronúncia não impede nova acusação fundada em prova nova antes da extinção da punibilidade.",
+      "Incorreta. Não confundir insuficiência de indícios com prova positiva de inocência. A impronúncia não impede nova acusação fundada em prova nova antes da extinção da punibilidade.",
+      "Incorreta. Não confundir insuficiência de indícios com prova positiva de inocência. A impronúncia não impede nova acusação fundada em prova nova antes da extinção da punibilidade.",
+      "Incorreta. Não confundir insuficiência de indícios com prova positiva de inocência. A impronúncia não impede nova acusação fundada em prova nova antes da extinção da punibilidade."
     ],
     "legalBasis": "CPP, art. 414",
     "reference": "CPP, art. 414",
-    "trap": "A impronúncia não impede nova acusação nas condições do parágrafo único.",
+    "trap": "Não confundir insuficiência de indícios com prova positiva de inocência.",
     "sources": [
       {
         "title": "CPP — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00091",
@@ -4229,25 +4229,25 @@
       "Remeter obrigatoriamente a outro Estado."
     ],
     "right": 3,
-    "comment": "A dúvida sobre imparcialidade é fundamento legal do desaforamento.",
+    "comment": "O tribunal pode deslocar o julgamento para comarca próxima da mesma região sem o motivo do desaforamento.",
     "optionComments": [
-      "Delegado não julga ação penal.",
-      "O desaforamento preserva o júri.",
-      "Não resolve o mérito.",
-      "A dúvida sobre imparcialidade é fundamento legal do desaforamento.",
-      "A lei prevê comarca da mesma região."
+      "Incorreta. A medida preserva o júri; não transfere o julgamento ao delegado. O tribunal pode deslocar o julgamento para comarca próxima da mesma região sem o motivo do desaforamento.",
+      "Incorreta. A medida preserva o júri; não transfere o julgamento ao delegado. O tribunal pode deslocar o julgamento para comarca próxima da mesma região sem o motivo do desaforamento.",
+      "Incorreta. A medida preserva o júri; não transfere o julgamento ao delegado. O tribunal pode deslocar o julgamento para comarca próxima da mesma região sem o motivo do desaforamento.",
+      "Correta. O tribunal pode deslocar o julgamento para comarca próxima da mesma região sem o motivo do desaforamento.",
+      "Incorreta. A medida preserva o júri; não transfere o julgamento ao delegado. O tribunal pode deslocar o julgamento para comarca próxima da mesma região sem o motivo do desaforamento."
     ],
     "legalBasis": "CPP, art. 427",
     "reference": "CPP, art. 427",
-    "trap": "A dúvida sobre imparcialidade é fundamento legal do desaforamento.",
+    "trap": "A medida preserva o júri; não transfere o julgamento ao delegado.",
     "sources": [
       {
         "title": "CPP — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00093",
@@ -4276,25 +4276,25 @@
       "Sete."
     ],
     "right": 4,
-    "comment": "O conselho é composto por sete jurados sorteados dentre os convocados.",
+    "comment": "O conselho é formado por sete jurados sorteados, nos termos também do art. 467.",
     "optionComments": [
-      "Não é o número legal.",
-      "Não é o número legal.",
-      "Não é o número legal brasileiro.",
-      "É o número de jurados que compõem o tribunal juntamente com o juiz presidente, não o conselho.",
-      "O conselho é composto por sete jurados sorteados dentre os convocados."
+      "Incorreta. Distinguir conselho de sentença do conjunto de jurados convocados. O conselho é formado por sete jurados sorteados, nos termos também do art. 467.",
+      "Incorreta. Distinguir conselho de sentença do conjunto de jurados convocados. O conselho é formado por sete jurados sorteados, nos termos também do art. 467.",
+      "Incorreta. Distinguir conselho de sentença do conjunto de jurados convocados. O conselho é formado por sete jurados sorteados, nos termos também do art. 467.",
+      "Incorreta. Distinguir conselho de sentença do conjunto de jurados convocados. O conselho é formado por sete jurados sorteados, nos termos também do art. 467.",
+      "Correta. O conselho é formado por sete jurados sorteados, nos termos também do art. 467."
     ],
     "legalBasis": "CPP, art. 447",
     "reference": "CPP, art. 447",
-    "trap": "O conselho é composto por sete jurados sorteados dentre os convocados.",
+    "trap": "Distinguir conselho de sentença do conjunto de jurados convocados.",
     "sources": [
       {
         "title": "CPP — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00094",
@@ -4323,25 +4323,25 @@
       "Ilimitadas."
     ],
     "right": 0,
-    "comment": "Defesa e Ministério Público podem recusar até três jurados cada, sem motivação.",
+    "comment": "Defesa e MP, nessa ordem, podem recusar até três jurados cada sem justificativa.",
     "optionComments": [
-      "Defesa e Ministério Público podem recusar até três jurados cada, sem motivação.",
-      "O limite é três.",
-      "O limite é três.",
-      "Excede o limite.",
-      "Há limite legal."
+      "Correta. Defesa e MP, nessa ordem, podem recusar até três jurados cada sem justificativa.",
+      "Incorreta. Três por parte, não três no total. Defesa e MP, nessa ordem, podem recusar até três jurados cada sem justificativa.",
+      "Incorreta. Três por parte, não três no total. Defesa e MP, nessa ordem, podem recusar até três jurados cada sem justificativa.",
+      "Incorreta. Três por parte, não três no total. Defesa e MP, nessa ordem, podem recusar até três jurados cada sem justificativa.",
+      "Incorreta. Três por parte, não três no total. Defesa e MP, nessa ordem, podem recusar até três jurados cada sem justificativa."
     ],
     "legalBasis": "CPP, art. 468",
     "reference": "CPP, art. 468",
-    "trap": "Defesa e Ministério Público podem recusar até três jurados cada, sem motivação.",
+    "trap": "Três por parte, não três no total.",
     "sources": [
       {
         "title": "CPP — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00095",
@@ -4464,25 +4464,25 @@
       "Dois dias."
     ],
     "right": 3,
-    "comment": "O prazo de interposição não se confunde com o prazo de razões recursais.",
+    "comment": "A interposição da apelação comum tem prazo de cinco dias.",
     "optionComments": [
-      "É o prazo ordinário de razões, art. 600.",
-      "Não é o prazo geral de interposição.",
-      "Não se aplica o prazo geral do CPC.",
-      "O prazo de interposição não se confunde com o prazo de razões recursais.",
-      "Não é o prazo de apelação."
+      "Incorreta. Não confundir interposição com razões recursais. A interposição da apelação comum tem prazo de cinco dias.",
+      "Incorreta. Não confundir interposição com razões recursais. A interposição da apelação comum tem prazo de cinco dias.",
+      "Incorreta. Não confundir interposição com razões recursais. A interposição da apelação comum tem prazo de cinco dias.",
+      "Correta. A interposição da apelação comum tem prazo de cinco dias.",
+      "Incorreta. Não confundir interposição com razões recursais. A interposição da apelação comum tem prazo de cinco dias."
     ],
     "legalBasis": "CPP, art. 593",
     "reference": "CPP, art. 593",
-    "trap": "O prazo de interposição não se confunde com o prazo de razões recursais.",
+    "trap": "Não confundir interposição com razões recursais.",
     "sources": [
       {
         "title": "CPP — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00098",
@@ -4511,25 +4511,25 @@
       "Não agravar a pena imposta."
     ],
     "right": 4,
-    "comment": "O art. 617 veda agravamento da pena quando somente o réu apela.",
+    "comment": "A apelação exclusiva da defesa não autoriza agravamento da pena.",
     "optionComments": [
-      "Contraria a vedação legal.",
-      "Contrarrazões não substituem recurso acusatório.",
-      "Não decorre da apelação exclusiva.",
-      "A exclusividade não impede conhecimento.",
-      "O art. 617 veda agravamento da pena quando somente o réu apela."
+      "Incorreta. Contrarrazões não equivalem a recurso acusatório. A apelação exclusiva da defesa não autoriza agravamento da pena.",
+      "Incorreta. Contrarrazões não equivalem a recurso acusatório. A apelação exclusiva da defesa não autoriza agravamento da pena.",
+      "Incorreta. Contrarrazões não equivalem a recurso acusatório. A apelação exclusiva da defesa não autoriza agravamento da pena.",
+      "Incorreta. Contrarrazões não equivalem a recurso acusatório. A apelação exclusiva da defesa não autoriza agravamento da pena.",
+      "Correta. A apelação exclusiva da defesa não autoriza agravamento da pena."
     ],
     "legalBasis": "CPP, art. 617",
     "reference": "CPP, art. 617",
-    "trap": "O art. 617 veda agravamento da pena quando somente o réu apela.",
+    "trap": "Contrarrazões não equivalem a recurso acusatório.",
     "sources": [
       {
         "title": "CPP — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00099",
@@ -4558,25 +4558,25 @@
       "Somente pelo Ministério Público."
     ],
     "right": 0,
-    "comment": "A revisão pode ser requerida a qualquer tempo, antes ou após a extinção da pena.",
+    "comment": "A revisão criminal pode ser requerida mesmo depois de extinta a pena; repetição exige prova nova.",
     "optionComments": [
-      "A revisão pode ser requerida a qualquer tempo, antes ou após a extinção da pena.",
-      "A lei permite depois da extinção.",
-      "Não existe esse prazo.",
-      "A revisão pressupõe processo findo.",
-      "O art. 623 prevê legitimidade do réu e outros legitimados."
+      "Correta. A revisão criminal pode ser requerida mesmo depois de extinta a pena; repetição exige prova nova.",
+      "Incorreta. Não confundir ação revisional com recurso sujeito a prazo curto. A revisão criminal pode ser requerida mesmo depois de extinta a pena; repetição exige prova nova.",
+      "Incorreta. Não confundir ação revisional com recurso sujeito a prazo curto. A revisão criminal pode ser requerida mesmo depois de extinta a pena; repetição exige prova nova.",
+      "Incorreta. Não confundir ação revisional com recurso sujeito a prazo curto. A revisão criminal pode ser requerida mesmo depois de extinta a pena; repetição exige prova nova.",
+      "Incorreta. Não confundir ação revisional com recurso sujeito a prazo curto. A revisão criminal pode ser requerida mesmo depois de extinta a pena; repetição exige prova nova."
     ],
     "legalBasis": "CPP, art. 622",
     "reference": "CPP, art. 622",
-    "trap": "A revisão pode ser requerida a qualquer tempo, antes ou após a extinção da pena.",
+    "trap": "Não confundir ação revisional com recurso sujeito a prazo curto.",
     "sources": [
       {
         "title": "CPP — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00100",
@@ -4605,24 +4605,24 @@
       "Quinze dias."
     ],
     "right": 1,
-    "comment": "O art. 619 prevê dois dias para embargos contra acórdão com ambiguidade, obscuridade, contradição ou omissão.",
+    "comment": "O prazo geral do CPP para embargos de declaração contra acórdão é de dois dias.",
     "optionComments": [
-      "Não é o prazo geral do CPP para esse recurso.",
-      "O art. 619 prevê dois dias para embargos contra acórdão com ambiguidade, obscuridade, contradição ou omissão.",
-      "Não é o prazo legal.",
-      "Não é o prazo legal.",
-      "Não é o prazo legal."
+      "Incorreta. Não transportar automaticamente o prazo do processo civil. O prazo geral do CPP para embargos de declaração contra acórdão é de dois dias.",
+      "Correta. O prazo geral do CPP para embargos de declaração contra acórdão é de dois dias.",
+      "Incorreta. Não transportar automaticamente o prazo do processo civil. O prazo geral do CPP para embargos de declaração contra acórdão é de dois dias.",
+      "Incorreta. Não transportar automaticamente o prazo do processo civil. O prazo geral do CPP para embargos de declaração contra acórdão é de dois dias.",
+      "Incorreta. Não transportar automaticamente o prazo do processo civil. O prazo geral do CPP para embargos de declaração contra acórdão é de dois dias."
     ],
     "legalBasis": "CPP, art. 619",
     "reference": "CPP, art. 619",
-    "trap": "O art. 619 prevê dois dias para embargos contra acórdão com ambiguidade, obscuridade, contradição ou omissão.",
+    "trap": "Não transportar automaticamente o prazo do processo civil.",
     "sources": [
       {
         "title": "CPP — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   }
 ]
