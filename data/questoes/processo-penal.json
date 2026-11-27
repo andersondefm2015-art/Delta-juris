@@ -1776,5 +1776,897 @@
     ],
     "status": "pendente_verificacao",
     "reviewedAt": null
+  },
+  {
+    "id": "DPP-00041",
+    "title": "Elementos informativos",
+    "disc": "Direito Processual Penal",
+    "topic": "Provas",
+    "subtopic": "Elementos informativos",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "O juiz pode condenar exclusivamente com base em depoimentos colhidos no inquérito, ainda que sejam provas repetíveis não produzidas em juízo.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 1,
+    "comment": "Elementos informativos não podem fundamentar exclusivamente a decisão; ressalvam-se provas cautelares, não repetíveis e antecipadas.",
+    "optionComments": [
+      "Incorreto. Elementos informativos não podem fundamentar exclusivamente a decisão; ressalvam-se provas cautelares, não repetíveis e antecipadas.",
+      "Correto. Elementos informativos não podem fundamentar exclusivamente a decisão; ressalvam-se provas cautelares, não repetíveis e antecipadas."
+    ],
+    "legalBasis": "CPP, art. 155",
+    "reference": "CPP, art. 155",
+    "trap": "Atenção aos requisitos, ressalvas e limites da regra legal: Elementos informativos não podem fundamentar exclusivamente a decisão; ressalvam-se provas cautelares, não repetíveis e antecipadas.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00042",
+    "title": "Prova ilícita derivada",
+    "disc": "Direito Processual Penal",
+    "topic": "Provas",
+    "subtopic": "Prova ilícita derivada",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "A ausência de nexo causal entre a prova ilícita e a derivada afasta a inadmissibilidade por derivação.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 0,
+    "comment": "A ausência de nexo causal e a fonte independente são exceções legais à contaminação por derivação.",
+    "optionComments": [
+      "Correto. A ausência de nexo causal e a fonte independente são exceções legais à contaminação por derivação.",
+      "Incorreto. A ausência de nexo causal e a fonte independente são exceções legais à contaminação por derivação."
+    ],
+    "legalBasis": "CPP, art. 157, § 1º",
+    "reference": "CPP, art. 157, § 1º",
+    "trap": "Atenção aos requisitos, ressalvas e limites da regra legal: A ausência de nexo causal e a fonte independente são exceções legais à contaminação por derivação.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00043",
+    "title": "Corpo de delito",
+    "disc": "Direito Processual Penal",
+    "topic": "Provas",
+    "subtopic": "Corpo de delito",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Em infração que deixa vestígios, a confissão do acusado substitui automaticamente o exame de corpo de delito.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 1,
+    "comment": "O exame direto ou indireto é indispensável quando há vestígios; a confissão não o supre.",
+    "optionComments": [
+      "Incorreto. O exame direto ou indireto é indispensável quando há vestígios; a confissão não o supre.",
+      "Correto. O exame direto ou indireto é indispensável quando há vestígios; a confissão não o supre."
+    ],
+    "legalBasis": "CPP, art. 158",
+    "reference": "CPP, art. 158",
+    "trap": "Atenção aos requisitos, ressalvas e limites da regra legal: O exame direto ou indireto é indispensável quando há vestígios; a confissão não o supre.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00044",
+    "title": "Desaparecimento de vestígios",
+    "disc": "Direito Processual Penal",
+    "topic": "Provas",
+    "subtopic": "Desaparecimento de vestígios",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Desaparecidos os vestígios, a prova testemunhal poderá suprir a falta do exame de corpo de delito.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 0,
+    "comment": "O art. 167 admite suprimento testemunhal quando o exame não é possível pelo desaparecimento dos vestígios.",
+    "optionComments": [
+      "Correto. O art. 167 admite suprimento testemunhal quando o exame não é possível pelo desaparecimento dos vestígios.",
+      "Incorreto. O art. 167 admite suprimento testemunhal quando o exame não é possível pelo desaparecimento dos vestígios."
+    ],
+    "legalBasis": "CPP, art. 167",
+    "reference": "CPP, art. 167",
+    "trap": "Atenção aos requisitos, ressalvas e limites da regra legal: O art. 167 admite suprimento testemunhal quando o exame não é possível pelo desaparecimento dos vestígios.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00045",
+    "title": "Cadeia de custódia",
+    "disc": "Direito Processual Penal",
+    "topic": "Provas",
+    "subtopic": "Cadeia de custódia",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "A cadeia de custódia começa somente quando o vestígio chega ao laboratório pericial.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 1,
+    "comment": "Começa com a preservação do local de crime ou com procedimentos policiais ou periciais nos quais seja detectada a existência de vestígio.",
+    "optionComments": [
+      "Incorreto. Começa com a preservação do local de crime ou com procedimentos policiais ou periciais nos quais seja detectada a existência de vestígio.",
+      "Correto. Começa com a preservação do local de crime ou com procedimentos policiais ou periciais nos quais seja detectada a existência de vestígio."
+    ],
+    "legalBasis": "CPP, art. 158-A",
+    "reference": "CPP, art. 158-A",
+    "trap": "Atenção aos requisitos, ressalvas e limites da regra legal: Começa com a preservação do local de crime ou com procedimentos policiais ou periciais nos quais seja detectada a existência de vestígio.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00046",
+    "title": "Coleta de vestígios",
+    "disc": "Direito Processual Penal",
+    "topic": "Provas",
+    "subtopic": "Coleta de vestígios",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "A coleta dos vestígios deve ser realizada preferencialmente por perito oficial.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 0,
+    "comment": "A preferência legal não equivale a exclusividade absoluta.",
+    "optionComments": [
+      "Correto. A preferência legal não equivale a exclusividade absoluta.",
+      "Incorreto. A preferência legal não equivale a exclusividade absoluta."
+    ],
+    "legalBasis": "CPP, art. 158-C",
+    "reference": "CPP, art. 158-C",
+    "trap": "Atenção aos requisitos, ressalvas e limites da regra legal: A preferência legal não equivale a exclusividade absoluta.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00047",
+    "title": "Silêncio do acusado",
+    "disc": "Direito Processual Penal",
+    "topic": "Provas",
+    "subtopic": "Silêncio do acusado",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "O silêncio do acusado pode ser interpretado em prejuízo da defesa.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 1,
+    "comment": "O silêncio não importa confissão e não pode ser interpretado em prejuízo da defesa.",
+    "optionComments": [
+      "Incorreto. O silêncio não importa confissão e não pode ser interpretado em prejuízo da defesa.",
+      "Correto. O silêncio não importa confissão e não pode ser interpretado em prejuízo da defesa."
+    ],
+    "legalBasis": "CPP, art. 186, parágrafo único",
+    "reference": "CPP, art. 186, parágrafo único",
+    "trap": "Atenção aos requisitos, ressalvas e limites da regra legal: O silêncio não importa confissão e não pode ser interpretado em prejuízo da defesa.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00048",
+    "title": "Confissão",
+    "disc": "Direito Processual Penal",
+    "topic": "Provas",
+    "subtopic": "Confissão",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "A confissão é divisível e retratável.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 0,
+    "comment": "A confissão admite divisão e retratação, sem prejuízo da apreciação conjunta das provas.",
+    "optionComments": [
+      "Correto. A confissão admite divisão e retratação, sem prejuízo da apreciação conjunta das provas.",
+      "Incorreto. A confissão admite divisão e retratação, sem prejuízo da apreciação conjunta das provas."
+    ],
+    "legalBasis": "CPP, art. 200",
+    "reference": "CPP, art. 200",
+    "trap": "Atenção aos requisitos, ressalvas e limites da regra legal: A confissão admite divisão e retratação, sem prejuízo da apreciação conjunta das provas.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00049",
+    "title": "Fonte independente",
+    "disc": "Direito Processual Penal",
+    "topic": "Provas",
+    "subtopic": "Fonte independente",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Após uma diligência ilícita, a polícia obtém documento por uma via autônoma, sem vínculo causal com a primeira diligência. Qual regra deve orientar a análise?",
+    "opts": [
+      "A origem ilícita contamina necessariamente toda a investigação.",
+      "A prova autônoma pode ser admitida se demonstrada a fonte independente.",
+      "A autorização judicial posterior sana qualquer ilicitude anterior.",
+      "A gravidade do crime torna toda prova admissível.",
+      "A defesa não pode questionar a origem da prova."
+    ],
+    "right": 1,
+    "comment": "Correto. A fonte independente constitui exceção legal à inadmissibilidade por derivação.",
+    "optionComments": [
+      "Incorreto. A contaminação exige análise do nexo causal.",
+      "Correto. A fonte independente constitui exceção legal à inadmissibilidade por derivação.",
+      "Incorreto. Autorização posterior não sana automaticamente a ilicitude.",
+      "Incorreto. A gravidade não elimina a vedação constitucional.",
+      "Incorreto. A defesa pode impugnar a admissibilidade."
+    ],
+    "legalBasis": "CPP, art. 157, §§ 1º e 2º",
+    "reference": "CPP, art. 157, §§ 1º e 2º",
+    "trap": "Atenção aos requisitos, ressalvas e limites da regra legal: Correto. A fonte independente constitui exceção legal à inadmissibilidade por derivação.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00050",
+    "title": "Perícia oficial",
+    "disc": "Direito Processual Penal",
+    "topic": "Provas",
+    "subtopic": "Perícia oficial",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Em local sem perito oficial, como deve ser realizado o exame pericial, segundo a regra geral do CPP?",
+    "opts": [
+      "Por um policial sem exigência de formação.",
+      "Por uma testemunha indicada pela vítima.",
+      "Por duas pessoas idôneas com diploma superior, preferencialmente na área específica, habilitadas tecnicamente.",
+      "Exclusivamente pelo juiz.",
+      "Por um único bacharel em Direito."
+    ],
+    "right": 2,
+    "comment": "Correto. É a regra do § 1º do art. 159.",
+    "optionComments": [
+      "Incorreto. A lei exige qualificação específica.",
+      "Incorreto. Testemunha não substitui o regime pericial.",
+      "Correto. É a regra do § 1º do art. 159.",
+      "Incorreto. O juiz não substitui os peritos.",
+      "Incorreto. A regra exige duas pessoas e habilitação relacionada ao exame."
+    ],
+    "legalBasis": "CPP, art. 159",
+    "reference": "CPP, art. 159",
+    "trap": "Atenção aos requisitos, ressalvas e limites da regra legal: Correto. É a regra do § 1º do art. 159.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00051",
+    "title": "Lacres",
+    "disc": "Direito Processual Penal",
+    "topic": "Provas",
+    "subtopic": "Lacres",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Durante perícia, é necessário abrir recipiente lacrado que contém vestígio. Qual procedimento atende ao CPP?",
+    "opts": [
+      "Descartar o lacre sem registro.",
+      "Permitir abertura por qualquer visitante.",
+      "Proibir toda abertura, mesmo pericial.",
+      "Registrar cada rompimento, responsável, data, local, finalidade e novo lacre.",
+      "Substituir o recipiente sem identificação."
+    ],
+    "right": 3,
+    "comment": "Correto. A documentação permite rastrear a integridade do vestígio.",
+    "optionComments": [
+      "Incorreto. A abertura deve ser registrada.",
+      "Incorreto. O acesso é restrito.",
+      "Incorreto. A lei admite abertura autorizada.",
+      "Correto. A documentação permite rastrear a integridade do vestígio.",
+      "Incorreto. A rastreabilidade deve ser mantida."
+    ],
+    "legalBasis": "CPP, art. 158-D",
+    "reference": "CPP, art. 158-D",
+    "trap": "Atenção aos requisitos, ressalvas e limites da regra legal: Correto. A documentação permite rastrear a integridade do vestígio.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00052",
+    "title": "Testemunha e parentesco",
+    "disc": "Direito Processual Penal",
+    "topic": "Provas",
+    "subtopic": "Testemunha e parentesco",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "O irmão do acusado é chamado a depor. Qual é a regra do CPP?",
+    "opts": [
+      "Pode recusar-se, salvo quando não for possível obter ou integrar a prova por outro modo.",
+      "É sempre proibido de depor.",
+      "É obrigado a depor em qualquer hipótese.",
+      "Só pode depor mediante autorização do MP.",
+      "Seu parentesco extingue a ação penal."
+    ],
+    "right": 0,
+    "comment": "Correto. É a ressalva expressa do art. 206.",
+    "optionComments": [
+      "Correto. É a ressalva expressa do art. 206.",
+      "Incorreto. Não há proibição absoluta.",
+      "Incorreto. Há faculdade legal de recusa.",
+      "Incorreto. A lei não exige essa autorização.",
+      "Incorreto. Parentesco não extingue a ação."
+    ],
+    "legalBasis": "CPP, art. 206",
+    "reference": "CPP, art. 206",
+    "trap": "Atenção aos requisitos, ressalvas e limites da regra legal: Correto. É a ressalva expressa do art. 206.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00053",
+    "title": "Sigilo profissional",
+    "disc": "Direito Processual Penal",
+    "topic": "Provas",
+    "subtopic": "Sigilo profissional",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Um profissional é chamado a revelar fato protegido por dever de segredo. Qual regra se aplica?",
+    "opts": [
+      "O segredo desaparece com a intimação.",
+      "O juiz pode sempre obrigá-lo a revelar.",
+      "O segredo protege apenas servidores públicos.",
+      "A acusação pode dispensar unilateralmente o segredo.",
+      "É proibido depor, salvo se desobrigado pela parte interessada e quiser testemunhar."
+    ],
+    "right": 4,
+    "comment": "Correto. O art. 207 exige ambas as condições.",
+    "optionComments": [
+      "Incorreto. A intimação não elimina o dever.",
+      "Incorreto. A regra legal é de proibição.",
+      "Incorreto. Abrange função, ministério, ofício ou profissão.",
+      "Incorreto. A desobrigação cabe à parte interessada.",
+      "Correto. O art. 207 exige ambas as condições."
+    ],
+    "legalBasis": "CPP, art. 207",
+    "reference": "CPP, art. 207",
+    "trap": "Atenção aos requisitos, ressalvas e limites da regra legal: Correto. O art. 207 exige ambas as condições.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00054",
+    "title": "Reconhecimento de pessoas",
+    "disc": "Direito Processual Penal",
+    "topic": "Provas",
+    "subtopic": "Reconhecimento de pessoas",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Considerando exclusivamente o procedimento legal de reconhecimento pessoal, qual providência está prevista no CPP?",
+    "opts": [
+      "Exibir apenas fotografia do suspeito como regra legal.",
+      "Solicitar descrição prévia e, se possível, colocar o reconhecido ao lado de pessoas semelhantes.",
+      "Dispensar qualquer auto.",
+      "Exigir confissão prévia.",
+      "Realizar reconhecimento exclusivamente em juízo."
+    ],
+    "right": 1,
+    "comment": "Correto. São providências dos incisos I e II.",
+    "optionComments": [
+      "Incorreto. O dispositivo não estabelece essa regra.",
+      "Correto. São providências dos incisos I e II.",
+      "Incorreto. O inciso IV prevê auto pormenorizado.",
+      "Incorreto. Confissão não é requisito.",
+      "Incorreto. Pode ocorrer também na investigação."
+    ],
+    "legalBasis": "CPP, art. 226",
+    "reference": "CPP, art. 226",
+    "trap": "Atenção aos requisitos, ressalvas e limites da regra legal: Correto. São providências dos incisos I e II.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00055",
+    "title": "Busca domiciliar",
+    "disc": "Direito Processual Penal",
+    "topic": "Provas",
+    "subtopic": "Busca domiciliar",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FCC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Ao expedir mandado de busca domiciliar, qual conteúdo é exigido pelo CPP?",
+    "opts": [
+      "Autorização genérica para qualquer imóvel da cidade.",
+      "Somente o nome do delegado.",
+      "Indicação do local, motivo e fins da diligência, além das formalidades legais.",
+      "Apenas a capitulação penal.",
+      "Dispensa de assinatura judicial."
+    ],
+    "right": 2,
+    "comment": "Correto. O art. 243 disciplina esses requisitos.",
+    "optionComments": [
+      "Incorreto. O local deve ser individualizado tanto quanto possível.",
+      "Incorreto. Isso não satisfaz os requisitos.",
+      "Correto. O art. 243 disciplina esses requisitos.",
+      "Incorreto. A finalidade e o local também importam.",
+      "Incorreto. A assinatura integra as formalidades."
+    ],
+    "legalBasis": "CPP, art. 243",
+    "reference": "CPP, art. 243",
+    "trap": "Atenção aos requisitos, ressalvas e limites da regra legal: Correto. O art. 243 disciplina esses requisitos.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00056",
+    "title": "Busca pessoal",
+    "disc": "Direito Processual Penal",
+    "topic": "Provas",
+    "subtopic": "Busca pessoal",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FCC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Durante diligência, surgem elementos concretos de que uma pessoa porta objeto que constitui corpo de delito. Qual regra legal se aplica à busca pessoal?",
+    "opts": [
+      "Sempre depende de mandado judicial.",
+      "É autorizada por mera curiosidade.",
+      "Depende de confissão.",
+      "Pode dispensar mandado diante de fundada suspeita de posse de objeto que constitua corpo de delito.",
+      "Só é possível após sentença."
+    ],
+    "right": 3,
+    "comment": "Correto. É hipótese expressa do art. 244.",
+    "optionComments": [
+      "Incorreto. O art. 244 prevê hipóteses de dispensa.",
+      "Incorreto. Exige fundamento legal.",
+      "Incorreto. Confissão não é requisito.",
+      "Correto. É hipótese expressa do art. 244.",
+      "Incorreto. Pode ocorrer na investigação."
+    ],
+    "legalBasis": "CPP, art. 244",
+    "reference": "CPP, art. 244",
+    "trap": "Atenção aos requisitos, ressalvas e limites da regra legal: Correto. É hipótese expressa do art. 244.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00057",
+    "title": "Interceptação e subsidiariedade",
+    "disc": "Direito Processual Penal",
+    "topic": "Provas",
+    "subtopic": "Interceptação e subsidiariedade",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FCC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "A autoridade pretende interceptar comunicações telefônicas, embora a prova possa ser produzida por outros meios disponíveis. Qual solução corresponde à lei?",
+    "opts": [
+      "A interceptação não será admitida nessa situação.",
+      "A interceptação é obrigatória.",
+      "Basta autorização do delegado.",
+      "Basta a concordância do MP.",
+      "A medida independe de necessidade."
+    ],
+    "right": 0,
+    "comment": "Correto. O inciso II exige subsidiariedade.",
+    "optionComments": [
+      "Correto. O inciso II exige subsidiariedade.",
+      "Incorreto. A lei estabelece vedação.",
+      "Incorreto. Exige ordem judicial.",
+      "Incorreto. Não substitui ordem judicial.",
+      "Incorreto. A necessidade é requisito."
+    ],
+    "legalBasis": "Lei 9.296/1996, art. 2º",
+    "reference": "Lei 9.296/1996, art. 2º",
+    "trap": "Atenção aos requisitos, ressalvas e limites da regra legal: Correto. O inciso II exige subsidiariedade.",
+    "sources": [
+      {
+        "title": "Lei de Interceptação Telefônica — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l9296.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00058",
+    "title": "Interceptação e pena",
+    "disc": "Direito Processual Penal",
+    "topic": "Provas",
+    "subtopic": "Interceptação e pena",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FUNDATEC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Investigação versa exclusivamente sobre infração punida, no máximo, com detenção. Qual a regra legal da interceptação telefônica?",
+    "opts": [
+      "Admite-se sempre.",
+      "Admite-se por decisão policial.",
+      "Admite-se se houver repercussão social.",
+      "Admite-se por consentimento do MP.",
+      "Não será admitida nessa hipótese."
+    ],
+    "right": 4,
+    "comment": "Correto. O inciso III estabelece a restrição.",
+    "optionComments": [
+      "Incorreto. Há vedação expressa.",
+      "Incorreto. A ordem judicial é necessária, mas não supera a vedação.",
+      "Incorreto. Repercussão não altera o requisito legal.",
+      "Incorreto. Consentimento não supera a vedação.",
+      "Correto. O inciso III estabelece a restrição."
+    ],
+    "legalBasis": "Lei 9.296/1996, art. 2º, III",
+    "reference": "Lei 9.296/1996, art. 2º, III",
+    "trap": "Atenção aos requisitos, ressalvas e limites da regra legal: Correto. O inciso III estabelece a restrição.",
+    "sources": [
+      {
+        "title": "Lei de Interceptação Telefônica — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l9296.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00059",
+    "title": "Prazo da interceptação",
+    "disc": "Direito Processual Penal",
+    "topic": "Provas",
+    "subtopic": "Prazo da interceptação",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FUNDATEC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Considerando a literalidade da lei, qual é o prazo inicial máximo da interceptação telefônica?",
+    "opts": [
+      "Cinco dias.",
+      "Quinze dias, renovável por igual tempo comprovada a indispensabilidade.",
+      "Trinta dias improrrogáveis.",
+      "Sessenta dias automaticamente.",
+      "Prazo indeterminado."
+    ],
+    "right": 1,
+    "comment": "Correto. É a previsão expressa do art. 5º; a questão não trata do número de renovações.",
+    "optionComments": [
+      "Incorreto. Não é o prazo legal.",
+      "Correto. É a previsão expressa do art. 5º; a questão não trata do número de renovações.",
+      "Incorreto. Não corresponde ao dispositivo.",
+      "Incorreto. Não há renovação automática.",
+      "Incorreto. A decisão deve delimitar a medida."
+    ],
+    "legalBasis": "Lei 9.296/1996, art. 5º",
+    "reference": "Lei 9.296/1996, art. 5º",
+    "trap": "Atenção aos requisitos, ressalvas e limites da regra legal: Correto. É a previsão expressa do art. 5º; a questão não trata do número de renovações.",
+    "sources": [
+      {
+        "title": "Lei de Interceptação Telefônica — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l9296.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00060",
+    "title": "Indícios",
+    "disc": "Direito Processual Penal",
+    "topic": "Provas",
+    "subtopic": "Indícios",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FUNDATEC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "Em investigação, uma circunstância conhecida e provada permite inferir outra circunstância relacionada ao fato. Como o CPP denomina essa primeira circunstância?",
+    "opts": [
+      "Confissão ficta.",
+      "Prova tarifada.",
+      "Indício.",
+      "Coisa julgada.",
+      "Presunção absoluta de culpa."
+    ],
+    "right": 2,
+    "comment": "Correto. É o conceito legal do art. 239.",
+    "optionComments": [
+      "Incorreto. Não decorre de declaração do acusado.",
+      "Incorreto. Não é sistema de valoração.",
+      "Correto. É o conceito legal do art. 239.",
+      "Incorreto. Não se trata de decisão definitiva.",
+      "Incorreto. Indício não implica culpa automática."
+    ],
+    "legalBasis": "CPP, art. 239",
+    "reference": "CPP, art. 239",
+    "trap": "Atenção aos requisitos, ressalvas e limites da regra legal: Correto. É o conceito legal do art. 239.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
   }
 ]
