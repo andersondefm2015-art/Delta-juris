@@ -1,4 +1,4 @@
-
+[
   {
     "id": "DPP-00001",
     "title": "Lei processual no tempo",
@@ -23,22 +23,22 @@
       "Errado"
     ],
     "right": 0,
-    "comment": "Correto. A aplicação imediata não invalida atos regularmente praticados sob a lei anterior.",
+    "comment": "A lei exclusivamente processual tem aplicação imediata, sem desfazer atos válidos. Normas de conteúdo penal material exigem análise distinta.",
     "optionComments": [
-      "Correto. A aplicação imediata não invalida atos regularmente praticados sob a lei anterior.",
-      "Incorreto. A aplicação imediata não invalida atos regularmente praticados sob a lei anterior."
+      "Gabarito. A lei exclusivamente processual tem aplicação imediata, sem desfazer atos válidos. Normas de conteúdo penal material exigem análise distinta.",
+      "Não é o gabarito. A lei exclusivamente processual tem aplicação imediata, sem desfazer atos válidos. Normas de conteúdo penal material exigem análise distinta."
     ],
     "legalBasis": "CPP, art. 2º",
     "reference": "CPP, art. 2º",
-    "trap": "Observe os requisitos e limites específicos do dispositivo indicado.",
+    "trap": "A lei exclusivamente processual tem aplicação imediata, sem desfazer atos válidos. Normas de conteúdo penal material exigem análise distinta.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00002",
@@ -64,22 +64,22 @@
       "Errado"
     ],
     "right": 1,
-    "comment": "Correto. A estrutura acusatória veda essa substituição e a iniciativa judicial na investigação.",
+    "comment": "O juiz controla a legalidade e não substitui a acusação na produção probatória. Controle judicial não equivale a atividade investigativa.",
     "optionComments": [
-      "Incorreto. A estrutura acusatória veda essa substituição e a iniciativa judicial na investigação.",
-      "Correto. A estrutura acusatória veda essa substituição e a iniciativa judicial na investigação."
+      "Não é o gabarito. O juiz controla a legalidade e não substitui a acusação na produção probatória. Controle judicial não equivale a atividade investigativa.",
+      "Gabarito. O juiz controla a legalidade e não substitui a acusação na produção probatória. Controle judicial não equivale a atividade investigativa."
     ],
     "legalBasis": "CPP, art. 3º-A",
     "reference": "CPP, art. 3º-A",
-    "trap": "Observe os requisitos e limites específicos do dispositivo indicado.",
+    "trap": "O juiz controla a legalidade e não substitui a acusação na produção probatória. Controle judicial não equivale a atividade investigativa.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00003",
@@ -108,7 +108,7 @@
       "Oferecer denúncia"
     ],
     "right": 1,
-    "comment": "A instauração de ofício é cabível diante de indícios.",
+    "comment": "A notícia anônima não basta isoladamente; no caso, verificações preliminares forneceram indícios. O art. 5º, § 3º, exige verificar a procedência das informações.",
     "optionComments": [
       "A polícia não determina arquivamento.",
       "A instauração de ofício é cabível diante de indícios.",
@@ -118,15 +118,15 @@
     ],
     "legalBasis": "CPP, arts. 5º, I, e 17",
     "reference": "CPP, arts. 5º, I, e 17",
-    "trap": "Observe os requisitos e limites específicos do dispositivo indicado.",
+    "trap": "A notícia anônima não basta isoladamente; no caso, verificações preliminares forneceram indícios. O art. 5º, § 3º, exige verificar a procedência das informações.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00004",
@@ -152,22 +152,22 @@
       "Errado"
     ],
     "right": 1,
-    "comment": "Correto. A representação é condição para iniciar o inquérito nessa hipótese.",
+    "comment": "A gravidade do fato não supre a representação exigida para instaurar inquérito de ação condicionada.",
     "optionComments": [
-      "Incorreto. A representação é condição para iniciar o inquérito nessa hipótese.",
-      "Correto. A representação é condição para iniciar o inquérito nessa hipótese."
+      "Não é o gabarito. A gravidade do fato não supre a representação exigida para instaurar inquérito de ação condicionada.",
+      "Gabarito. A gravidade do fato não supre a representação exigida para instaurar inquérito de ação condicionada."
     ],
     "legalBasis": "CPP, art. 5º, § 4º",
     "reference": "CPP, art. 5º, § 4º",
-    "trap": "Observe os requisitos e limites específicos do dispositivo indicado.",
+    "trap": "A gravidade do fato não supre a representação exigida para instaurar inquérito de ação condicionada.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00005",
@@ -196,7 +196,7 @@
       "Somente o investigado"
     ],
     "right": 2,
-    "comment": "É a regra legal.",
+    "comment": "A legitimidade para requerer o inquérito acompanha a legitimidade para ajuizar a ação privada.",
     "optionComments": [
       "A regra exige legitimidade específica.",
       "Não há exclusividade judicial.",
@@ -206,15 +206,15 @@
     ],
     "legalBasis": "CPP, art. 5º, § 5º",
     "reference": "CPP, art. 5º, § 5º",
-    "trap": "Observe os requisitos e limites específicos do dispositivo indicado.",
+    "trap": "A legitimidade para requerer o inquérito acompanha a legitimidade para ajuizar a ação privada.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00006",
@@ -240,14 +240,14 @@
       "Errado"
     ],
     "right": 0,
-    "comment": "Correto. O requerimento não torna automaticamente obrigatória toda diligência solicitada.",
+    "comment": "Poder requerer não significa poder impor toda diligência. Observe também diligências legalmente obrigatórias.",
     "optionComments": [
-      "Correto. O requerimento não torna automaticamente obrigatória toda diligência solicitada.",
-      "Incorreto. O requerimento não torna automaticamente obrigatória toda diligência solicitada."
+      "Gabarito. Poder requerer não significa poder impor toda diligência. Observe também diligências legalmente obrigatórias.",
+      "Não é o gabarito. Poder requerer não significa poder impor toda diligência. Observe também diligências legalmente obrigatórias."
     ],
     "legalBasis": "CPP, art. 14",
     "reference": "CPP, art. 14",
-    "trap": "Observe os requisitos e limites específicos do dispositivo indicado.",
+    "trap": "Poder requerer não significa poder impor toda diligência. Observe também diligências legalmente obrigatórias.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
@@ -284,7 +284,7 @@
       "Trânsito em julgado"
     ],
     "right": 3,
-    "comment": "É o limite expresso no dispositivo.",
+    "comment": "A reprodução simulada está sujeita aos limites da moralidade e da ordem pública, sem prejuízo dos direitos fundamentais.",
     "optionComments": [
       "Não é requisito geral do art. 7º.",
       "Confissão não é pressuposto.",
@@ -294,7 +294,7 @@
     ],
     "legalBasis": "CPP, art. 7º",
     "reference": "CPP, art. 7º",
-    "trap": "Observe os requisitos e limites específicos do dispositivo indicado.",
+    "trap": "A reprodução simulada está sujeita aos limites da moralidade e da ordem pública, sem prejuízo dos direitos fundamentais.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
@@ -328,14 +328,14 @@
       "Errado"
     ],
     "right": 1,
-    "comment": "Correto. A autoridade policial não pode mandar arquivar autos de inquérito.",
+    "comment": "O delegado pode concluir pela ausência de elementos, mas não determinar o arquivamento dos autos.",
     "optionComments": [
-      "Incorreto. A autoridade policial não pode mandar arquivar autos de inquérito.",
-      "Correto. A autoridade policial não pode mandar arquivar autos de inquérito."
+      "Não é o gabarito. O delegado pode concluir pela ausência de elementos, mas não determinar o arquivamento dos autos.",
+      "Gabarito. O delegado pode concluir pela ausência de elementos, mas não determinar o arquivamento dos autos."
     ],
     "legalBasis": "CPP, art. 17",
     "reference": "CPP, art. 17",
-    "trap": "Observe os requisitos e limites específicos do dispositivo indicado.",
+    "trap": "O delegado pode concluir pela ausência de elementos, mas não determinar o arquivamento dos autos.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
@@ -372,7 +372,7 @@
       "Oferecer denúncia pela autoridade policial"
     ],
     "right": 2,
-    "comment": "O art. 18 admite novas pesquisas nessa hipótese.",
+    "comment": "Novas pesquisas diante de notícia de novas provas não se confundem com oferecimento de denúncia sem novas provas. O fundamento do arquivamento importa.",
     "optionComments": [
       "Não cabe condenação policial.",
       "Novas notícias podem justificar pesquisa.",
@@ -382,7 +382,7 @@
     ],
     "legalBasis": "CPP, art. 18",
     "reference": "CPP, art. 18",
-    "trap": "Observe os requisitos e limites específicos do dispositivo indicado.",
+    "trap": "Novas pesquisas diante de notícia de novas provas não se confundem com oferecimento de denúncia sem novas provas. O fundamento do arquivamento importa.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
@@ -416,14 +416,14 @@
       "Errado"
     ],
     "right": 1,
-    "comment": "Correto. O CPP permite dispensar o inquérito quando a representação fornece elementos suficientes.",
+    "comment": "O inquérito é dispensável quando os elementos já disponíveis permitem a denúncia.",
     "optionComments": [
-      "Incorreto. O CPP permite dispensar o inquérito quando a representação fornece elementos suficientes.",
-      "Correto. O CPP permite dispensar o inquérito quando a representação fornece elementos suficientes."
+      "Não é o gabarito. O inquérito é dispensável quando os elementos já disponíveis permitem a denúncia.",
+      "Gabarito. O inquérito é dispensável quando os elementos já disponíveis permitem a denúncia."
     ],
     "legalBasis": "CPP, art. 39, § 5º",
     "reference": "CPP, art. 39, § 5º",
-    "trap": "Observe os requisitos e limites específicos do dispositivo indicado.",
+    "trap": "O inquérito é dispensável quando os elementos já disponíveis permitem a denúncia.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
@@ -460,7 +460,7 @@
       "60 dias"
     ],
     "right": 2,
-    "comment": "É o prazo legal para réu solto.",
+    "comment": "O prazo ordinário é de 15 dias para investigado solto e de 5 dias para preso, a partir do recebimento dos autos pelo MP. Leis especiais podem prever prazos diversos.",
     "optionComments": [
       "É o prazo ordinário para réu preso.",
       "Não é o prazo do art. 46 para solto.",
@@ -470,15 +470,15 @@
     ],
     "legalBasis": "CPP, art. 46",
     "reference": "CPP, art. 46",
-    "trap": "Observe os requisitos e limites específicos do dispositivo indicado.",
+    "trap": "O prazo ordinário é de 15 dias para investigado solto e de 5 dias para preso, a partir do recebimento dos autos pelo MP. Leis especiais podem prever prazos diversos.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00012",
@@ -507,7 +507,7 @@
       "Trânsito em julgado"
     ],
     "right": 1,
-    "comment": "O oferecimento torna a representação irretratável.",
+    "comment": "O marco geral é o oferecimento, não o recebimento da denúncia. Regimes especiais podem estabelecer disciplina distinta.",
     "optionComments": [
       "A instauração não é o marco geral.",
       "O oferecimento torna a representação irretratável.",
@@ -517,15 +517,15 @@
     ],
     "legalBasis": "CPP, art. 25",
     "reference": "CPP, art. 25",
-    "trap": "Observe os requisitos e limites específicos do dispositivo indicado.",
+    "trap": "O marco geral é o oferecimento, não o recebimento da denúncia. Regimes especiais podem estabelecer disciplina distinta.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00013",
@@ -551,14 +551,14 @@
       "Errado"
     ],
     "right": 0,
-    "comment": "Correto. O art. 38 estabelece essa regra, ressalvadas disposições especiais e a disciplina própria da ação subsidiária.",
+    "comment": "O marco geral é o conhecimento da autoria, não a data do crime. Na ação subsidiária, conta-se do esgotamento do prazo ministerial.",
     "optionComments": [
-      "Correto. O art. 38 estabelece essa regra, ressalvadas disposições especiais e a disciplina própria da ação subsidiária.",
-      "Incorreto. O art. 38 estabelece essa regra, ressalvadas disposições especiais e a disciplina própria da ação subsidiária."
+      "Gabarito. O marco geral é o conhecimento da autoria, não a data do crime. Na ação subsidiária, conta-se do esgotamento do prazo ministerial.",
+      "Não é o gabarito. O marco geral é o conhecimento da autoria, não a data do crime. Na ação subsidiária, conta-se do esgotamento do prazo ministerial."
     ],
     "legalBasis": "CPP, art. 38",
     "reference": "CPP, art. 38",
-    "trap": "Observe os requisitos e limites específicos do dispositivo indicado.",
+    "trap": "O marco geral é o conhecimento da autoria, não a data do crime. Na ação subsidiária, conta-se do esgotamento do prazo ministerial.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
@@ -595,7 +595,7 @@
       "Transferir definitivamente a titularidade da ação pública"
     ],
     "right": 3,
-    "comment": "São poderes previstos no art. 29.",
+    "comment": "A inércia ministerial autoriza a ação subsidiária, mas o MP mantém poderes de intervenção e retomada em caso de negligência.",
     "optionComments": [
       "O MP conserva poderes legais.",
       "Sua atuação não se limita à assistência.",
@@ -605,7 +605,7 @@
     ],
     "legalBasis": "CPP, art. 29",
     "reference": "CPP, art. 29",
-    "trap": "Observe os requisitos e limites específicos do dispositivo indicado.",
+    "trap": "A inércia ministerial autoriza a ação subsidiária, mas o MP mantém poderes de intervenção e retomada em caso de negligência.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
@@ -642,7 +642,7 @@
       "Revogar a denúncia por ato administrativo"
     ],
     "right": 2,
-    "comment": "Pedir absolvição não equivale a desistir.",
+    "comment": "A indisponibilidade impede desistir da ação, não impede formular pedido de absolvição diante de prova insuficiente.",
     "optionComments": [
       "O MP não pode desistir da ação.",
       "Não pode arquivar unilateralmente processo judicial.",
@@ -652,7 +652,7 @@
     ],
     "legalBasis": "CPP, arts. 42 e 385",
     "reference": "CPP, arts. 42 e 385",
-    "trap": "Observe os requisitos e limites específicos do dispositivo indicado.",
+    "trap": "A indisponibilidade impede desistir da ação, não impede formular pedido de absolvição diante de prova insuficiente.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
@@ -686,22 +686,22 @@
       "Errado"
     ],
     "right": 0,
-    "comment": "Correto. O § 1º determina a consideração dessas causas na aferição da pena mínima.",
+    "comment": "A pena mínima deve ser aferida com as causas de aumento e diminuição aplicáveis, não apenas pela pena abstrata do tipo básico.",
     "optionComments": [
-      "Correto. O § 1º determina a consideração dessas causas na aferição da pena mínima.",
-      "Incorreto. O § 1º determina a consideração dessas causas na aferição da pena mínima."
+      "Gabarito. A pena mínima deve ser aferida com as causas de aumento e diminuição aplicáveis, não apenas pela pena abstrata do tipo básico.",
+      "Não é o gabarito. A pena mínima deve ser aferida com as causas de aumento e diminuição aplicáveis, não apenas pela pena abstrata do tipo básico."
     ],
     "legalBasis": "CPP, art. 28-A, § 1º",
     "reference": "CPP, art. 28-A, § 1º",
-    "trap": "Observe os requisitos e limites específicos do dispositivo indicado.",
+    "trap": "A pena mínima deve ser aferida com as causas de aumento e diminuição aplicáveis, não apenas pela pena abstrata do tipo básico.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00017",
@@ -730,7 +730,7 @@
       "Extinguir automaticamente a punibilidade"
     ],
     "right": 2,
-    "comment": "É a providência do § 5º.",
+    "comment": "O juiz controla a legalidade das condições e devolve a proposta para reformulação, não substitui unilateralmente o acordo.",
     "optionComments": [
       "A homologação não é julgamento condenatório.",
       "O juiz não substitui as partes na negociação.",
@@ -740,7 +740,7 @@
     ],
     "legalBasis": "CPP, art. 28-A, §§ 4º e 5º",
     "reference": "CPP, art. 28-A, §§ 4º e 5º",
-    "trap": "Observe os requisitos e limites específicos do dispositivo indicado.",
+    "trap": "O juiz controla a legalidade das condições e devolve a proposta para reformulação, não substitui unilateralmente o acordo.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
@@ -777,7 +777,7 @@
       "Arquivamento automático"
     ],
     "right": 3,
-    "comment": "É a revisão interna prevista em lei.",
+    "comment": "A recusa pode ser submetida ao órgão superior do MP a pedido do investigado; não cabe ao juiz formular a proposta em substituição.",
     "optionComments": [
       "Não é o mecanismo previsto no § 14.",
       "O juiz não formula unilateralmente a proposta.",
@@ -787,7 +787,7 @@
     ],
     "legalBasis": "CPP, art. 28-A, § 14",
     "reference": "CPP, art. 28-A, § 14",
-    "trap": "Observe os requisitos e limites específicos do dispositivo indicado.",
+    "trap": "A recusa pode ser submetida ao órgão superior do MP a pedido do investigado; não cabe ao juiz formular a proposta em substituição.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
@@ -824,7 +824,7 @@
       "Extinção da punibilidade"
     ],
     "right": 4,
-    "comment": "É a consequência expressa do § 13.",
+    "comment": "O cumprimento integral enseja extinção da punibilidade, não condenação criminal.",
     "optionComments": [
       "Não há condenação geradora de reincidência.",
       "O acordo não é sentença condenatória.",
@@ -834,7 +834,7 @@
     ],
     "legalBasis": "CPP, art. 28-A, § 13",
     "reference": "CPP, art. 28-A, § 13",
-    "trap": "Observe os requisitos e limites específicos do dispositivo indicado.",
+    "trap": "O cumprimento integral enseja extinção da punibilidade, não condenação criminal.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
@@ -871,7 +871,7 @@
       "O ANPP não se aplica nessa hipótese em favor do agressor"
     ],
     "right": 4,
-    "comment": "É a regra do § 2º, IV.",
+    "comment": "A vedação legal incide em favor do agressor em violência doméstica ou familiar, independentemente de a pena mínima ser inferior a quatro anos.",
     "optionComments": [
       "Não há obrigatoriedade nessa hipótese.",
       "A vedação não depende de condenação.",
@@ -881,7 +881,7 @@
     ],
     "legalBasis": "CPP, art. 28-A, § 2º, IV",
     "reference": "CPP, art. 28-A, § 2º, IV",
-    "trap": "Observe os requisitos e limites específicos do dispositivo indicado.",
+    "trap": "A vedação legal incide em favor do agressor em violência doméstica ou familiar, independentemente de a pena mínima ser inferior a quatro anos.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
