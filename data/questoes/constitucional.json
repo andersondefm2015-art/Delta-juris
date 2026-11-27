@@ -2674,5 +2674,897 @@
     ],
     "status": "pendente_verificacao",
     "reviewedAt": null
+  },
+  {
+    "id": "DC-00061",
+    "title": "Autonomia federativa",
+    "disc": "Direito Constitucional",
+    "topic": "Organização do Estado e dos Poderes",
+    "subtopic": "Autonomia federativa",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "Os Municípios integram a organização político-administrativa brasileira e possuem autonomia.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 0,
+    "comment": "Autonomia não se confunde com soberania, atributo da República Federativa do Brasil.",
+    "optionComments": [
+      "Correto. Autonomia não se confunde com soberania, atributo da República Federativa do Brasil.",
+      "Incorreto. Autonomia não se confunde com soberania, atributo da República Federativa do Brasil."
+    ],
+    "legalBasis": "CF, art. 18",
+    "reference": "CF, art. 18",
+    "trap": "Autonomia não se confunde com soberania, atributo da República Federativa do Brasil.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00062",
+    "title": "Competência privativa",
+    "disc": "Direito Constitucional",
+    "topic": "Organização do Estado e dos Poderes",
+    "subtopic": "Competência privativa",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "Lei ordinária federal pode autorizar os Estados a legislar sobre questões específicas de direito penal.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 1,
+    "comment": "A autorização exige lei complementar federal.",
+    "optionComments": [
+      "Incorreto. A autorização exige lei complementar federal.",
+      "Correto. A autorização exige lei complementar federal."
+    ],
+    "legalBasis": "CF, art. 22, I e parágrafo único",
+    "reference": "CF, art. 22, I e parágrafo único",
+    "trap": "A autorização exige lei complementar federal.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00063",
+    "title": "Competência comum",
+    "disc": "Direito Constitucional",
+    "topic": "Organização do Estado e dos Poderes",
+    "subtopic": "Competência comum",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "A proteção do meio ambiente é competência administrativa comum dos entes federativos.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 0,
+    "comment": "O art. 23 trata de atribuições materiais comuns, não de competência legislativa privativa.",
+    "optionComments": [
+      "Correto. O art. 23 trata de atribuições materiais comuns, não de competência legislativa privativa.",
+      "Incorreto. O art. 23 trata de atribuições materiais comuns, não de competência legislativa privativa."
+    ],
+    "legalBasis": "CF, art. 23, VI",
+    "reference": "CF, art. 23, VI",
+    "trap": "O art. 23 trata de atribuições materiais comuns, não de competência legislativa privativa.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00064",
+    "title": "Competência concorrente",
+    "disc": "Direito Constitucional",
+    "topic": "Organização do Estado e dos Poderes",
+    "subtopic": "Competência concorrente",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "A superveniência de norma geral federal revoga integralmente a lei estadual anterior sobre matéria concorrente.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 1,
+    "comment": "A norma federal suspende a eficácia estadual apenas naquilo que for contrário.",
+    "optionComments": [
+      "Incorreto. A norma federal suspende a eficácia estadual apenas naquilo que for contrário.",
+      "Correto. A norma federal suspende a eficácia estadual apenas naquilo que for contrário."
+    ],
+    "legalBasis": "CF, art. 24, §§ 1º a 4º",
+    "reference": "CF, art. 24, §§ 1º a 4º",
+    "trap": "A norma federal suspende a eficácia estadual apenas naquilo que for contrário.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00065",
+    "title": "Competência residual",
+    "disc": "Direito Constitucional",
+    "topic": "Organização do Estado e dos Poderes",
+    "subtopic": "Competência residual",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "São reservadas aos Estados as competências que a Constituição não lhes veda.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 0,
+    "comment": "Trata-se da competência residual estadual.",
+    "optionComments": [
+      "Correto. Trata-se da competência residual estadual.",
+      "Incorreto. Trata-se da competência residual estadual."
+    ],
+    "legalBasis": "CF, art. 25, § 1º",
+    "reference": "CF, art. 25, § 1º",
+    "trap": "Trata-se da competência residual estadual.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00066",
+    "title": "Interesse local",
+    "disc": "Direito Constitucional",
+    "topic": "Organização do Estado e dos Poderes",
+    "subtopic": "Interesse local",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "O Município não pode suplementar legislação federal ou estadual, mesmo quando houver interesse local.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 1,
+    "comment": "O Município pode suplementar a legislação federal e estadual no que couber.",
+    "optionComments": [
+      "Incorreto. O Município pode suplementar a legislação federal e estadual no que couber.",
+      "Correto. O Município pode suplementar a legislação federal e estadual no que couber."
+    ],
+    "legalBasis": "CF, art. 30, I e II",
+    "reference": "CF, art. 30, I e II",
+    "trap": "O Município pode suplementar a legislação federal e estadual no que couber.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00067",
+    "title": "Distrito Federal",
+    "disc": "Direito Constitucional",
+    "topic": "Organização do Estado e dos Poderes",
+    "subtopic": "Distrito Federal",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "O Distrito Federal acumula competências legislativas reservadas aos Estados e Municípios e não pode ser dividido em Municípios.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 0,
+    "comment": "O art. 32 estabelece ambas as regras.",
+    "optionComments": [
+      "Correto. O art. 32 estabelece ambas as regras.",
+      "Incorreto. O art. 32 estabelece ambas as regras."
+    ],
+    "legalBasis": "CF, art. 32, caput e § 1º",
+    "reference": "CF, art. 32, caput e § 1º",
+    "trap": "O art. 32 estabelece ambas as regras.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00068",
+    "title": "CPI",
+    "disc": "Direito Constitucional",
+    "topic": "Organização do Estado e dos Poderes",
+    "subtopic": "CPI",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "A criação de CPI federal exige necessariamente aprovação da maioria absoluta da respectiva Casa.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 1,
+    "comment": "Exige requerimento de um terço dos membros, fato determinado e prazo certo.",
+    "optionComments": [
+      "Incorreto. Exige requerimento de um terço dos membros, fato determinado e prazo certo.",
+      "Correto. Exige requerimento de um terço dos membros, fato determinado e prazo certo."
+    ],
+    "legalBasis": "CF, art. 58, § 3º",
+    "reference": "CF, art. 58, § 3º",
+    "trap": "Exige requerimento de um terço dos membros, fato determinado e prazo certo.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00069",
+    "title": "Normas gerais",
+    "disc": "Direito Constitucional",
+    "topic": "Organização do Estado e dos Poderes",
+    "subtopic": "Normas gerais",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "Um Estado editou lei sobre proteção ambiental na ausência de norma geral federal. Posteriormente, a União editou norma geral incompatível em parte. Qual a consequência?",
+    "opts": [
+      "A lei estadual é integralmente revogada.",
+      "A eficácia estadual fica suspensa na parte incompatível.",
+      "A lei federal é inválida por invadir competência estadual.",
+      "A lei estadual prevalece por anterioridade.",
+      "O Município deve resolver o conflito por decreto."
+    ],
+    "right": 1,
+    "comment": "A eficácia da lei estadual fica suspensa na parte incompatível.",
+    "optionComments": [
+      "Não há revogação integral.",
+      "É a regra do § 4º.",
+      "A União possui competência para normas gerais.",
+      "A anterioridade não impede a suspensão.",
+      "Não cabe ao Município solucionar assim o conflito."
+    ],
+    "legalBasis": "CF, art. 24, §§ 1º a 4º",
+    "reference": "CF, art. 24, §§ 1º a 4º",
+    "trap": "A eficácia da lei estadual fica suspensa na parte incompatível.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00070",
+    "title": "Imunidade parlamentar",
+    "disc": "Direito Constitucional",
+    "topic": "Organização do Estado e dos Poderes",
+    "subtopic": "Imunidade parlamentar",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "Deputado federal diplomado é surpreendido em flagrante de crime inafiançável. Qual regra constitucional incide?",
+    "opts": [
+      "A prisão é absolutamente proibida.",
+      "O Senado decide sempre, independentemente da Casa.",
+      "Os autos vão à Câmara em 24 horas, para decisão da maioria de seus membros.",
+      "A prisão depende de autorização prévia do Presidente da República.",
+      "A Câmara decide por maioria de dois terços."
+    ],
+    "right": 2,
+    "comment": "Os autos são remetidos em 24 horas à Casa respectiva, que decide sobre a prisão pela maioria de seus membros.",
+    "optionComments": [
+      "Há exceção para flagrante de crime inafiançável.",
+      "Decide a Casa respectiva.",
+      "Correto, conforme § 2º.",
+      "Não há essa exigência.",
+      "O quórum é maioria dos membros."
+    ],
+    "legalBasis": "CF, art. 53, § 2º",
+    "reference": "CF, art. 53, § 2º",
+    "trap": "Os autos são remetidos em 24 horas à Casa respectiva, que decide sobre a prisão pela maioria de seus membros.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00071",
+    "title": "Medida provisória",
+    "disc": "Direito Constitucional",
+    "topic": "Organização do Estado e dos Poderes",
+    "subtopic": "Medida provisória",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "O Presidente pretende editar medida provisória criando novo tipo penal. Qual a solução?",
+    "opts": [
+      "É possível se houver urgência.",
+      "É possível com autorização do Senado.",
+      "É possível se a pena for apenas multa.",
+      "É constitucionalmente vedada.",
+      "É possível se aprovada em 30 dias."
+    ],
+    "right": 3,
+    "comment": "É vedada medida provisória sobre direito penal.",
+    "optionComments": [
+      "A urgência não supera a vedação.",
+      "Não existe essa exceção.",
+      "A vedação alcança direito penal.",
+      "Correto, art. 62, § 1º, I, b.",
+      "A aprovação não elimina a vedação material."
+    ],
+    "legalBasis": "CF, art. 62, § 1º, I, b",
+    "reference": "CF, art. 62, § 1º, I, b",
+    "trap": "É vedada medida provisória sobre direito penal.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00072",
+    "title": "Veto presidencial",
+    "disc": "Direito Constitucional",
+    "topic": "Organização do Estado e dos Poderes",
+    "subtopic": "Veto presidencial",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "O Presidente considera projeto de lei contrário ao interesse público. Qual providência é constitucionalmente prevista?",
+    "opts": [
+      "Vetar em 15 dias úteis.",
+      "Vetar exclusivamente por inconstitucionalidade.",
+      "Vetar em 30 dias corridos.",
+      "Anular definitivamente o projeto por decreto.",
+      "Remeter obrigatoriamente o projeto ao STF."
+    ],
+    "right": 0,
+    "comment": "Pode vetá-lo em 15 dias úteis; o Congresso pode rejeitar o veto pela maioria absoluta de deputados e senadores.",
+    "optionComments": [
+      "Correto, inclusive por interesse público.",
+      "Também cabe veto político.",
+      "O prazo é 15 dias úteis.",
+      "O veto pode ser rejeitado.",
+      "Não há remessa obrigatória."
+    ],
+    "legalBasis": "CF, art. 66, §§ 1º e 4º",
+    "reference": "CF, art. 66, §§ 1º e 4º",
+    "trap": "Pode vetá-lo em 15 dias úteis; o Congresso pode rejeitar o veto pela maioria absoluta de deputados e senadores.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00073",
+    "title": "Competência do Senado",
+    "disc": "Direito Constitucional",
+    "topic": "Organização do Estado e dos Poderes",
+    "subtopic": "Competência do Senado",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "Quem processa e julga o Presidente da República nos crimes de responsabilidade?",
+    "opts": [
+      "STJ.",
+      "Câmara dos Deputados.",
+      "TCU.",
+      "STF.",
+      "Senado Federal."
+    ],
+    "right": 4,
+    "comment": "Compete privativamente ao Senado Federal, observada a autorização constitucional da Câmara.",
+    "optionComments": [
+      "Não é sua competência.",
+      "A Câmara autoriza a instauração.",
+      "O TCU exerce controle externo auxiliar.",
+      "Julga o Presidente nas infrações penais comuns.",
+      "Correto, art. 52, I."
+    ],
+    "legalBasis": "CF, art. 52, I",
+    "reference": "CF, art. 52, I",
+    "trap": "Compete privativamente ao Senado Federal, observada a autorização constitucional da Câmara.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00074",
+    "title": "Sucessão presidencial",
+    "disc": "Direito Constitucional",
+    "topic": "Organização do Estado e dos Poderes",
+    "subtopic": "Sucessão presidencial",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "Impedidos o Presidente e o Vice-Presidente, quem é chamado primeiro ao exercício da Presidência?",
+    "opts": [
+      "Presidente do STF.",
+      "Presidente da Câmara dos Deputados.",
+      "Presidente do Senado.",
+      "Procurador-Geral da República.",
+      "Presidente do STJ."
+    ],
+    "right": 1,
+    "comment": "O Presidente da Câmara dos Deputados precede os presidentes do Senado e do STF.",
+    "optionComments": [
+      "É o terceiro na ordem do art. 80.",
+      "Correto.",
+      "É o segundo na ordem.",
+      "Não integra a ordem.",
+      "Não integra a ordem."
+    ],
+    "legalBasis": "CF, art. 80",
+    "reference": "CF, art. 80",
+    "trap": "O Presidente da Câmara dos Deputados precede os presidentes do Senado e do STF.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00075",
+    "title": "Controle externo",
+    "disc": "Direito Constitucional",
+    "topic": "Organização do Estado e dos Poderes",
+    "subtopic": "Controle externo",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FCC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "Qual atribuição compete ao TCU em relação às contas anuais do Presidente da República?",
+    "opts": [
+      "Julgar definitivamente as contas presidenciais.",
+      "Dispensar a prestação de contas.",
+      "Emitir parecer prévio em 60 dias do recebimento.",
+      "Aprovar o orçamento por resolução própria.",
+      "Substituir o Congresso no julgamento político."
+    ],
+    "right": 2,
+    "comment": "O TCU aprecia as contas presidenciais mediante parecer prévio, não as julga definitivamente.",
+    "optionComments": [
+      "O julgamento compete ao Congresso.",
+      "Não há essa competência.",
+      "Correto, art. 71, I.",
+      "Não é atribuição do TCU.",
+      "O TCU não substitui o Congresso."
+    ],
+    "legalBasis": "CF, art. 71, I e II",
+    "reference": "CF, art. 71, I e II",
+    "trap": "O TCU aprecia as contas presidenciais mediante parecer prévio, não as julga definitivamente.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00076",
+    "title": "Garantias da magistratura",
+    "disc": "Direito Constitucional",
+    "topic": "Organização do Estado e dos Poderes",
+    "subtopic": "Garantias da magistratura",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FCC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "Em primeiro grau, quando se adquire a vitaliciedade?",
+    "opts": [
+      "Na posse.",
+      "Após três anos.",
+      "Após cinco anos.",
+      "Após dois anos de exercício.",
+      "Após aprovação em novo concurso."
+    ],
+    "right": 3,
+    "comment": "Após dois anos de exercício; nesse período a perda do cargo depende de deliberação do tribunal a que o juiz está vinculado.",
+    "optionComments": [
+      "Não em primeiro grau.",
+      "O prazo é de dois anos.",
+      "Não é o prazo constitucional.",
+      "Correto.",
+      "Não se exige novo concurso."
+    ],
+    "legalBasis": "CF, art. 95, I",
+    "reference": "CF, art. 95, I",
+    "trap": "Após dois anos de exercício; nesse período a perda do cargo depende de deliberação do tribunal a que o juiz está vinculado.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00077",
+    "title": "CNJ",
+    "disc": "Direito Constitucional",
+    "topic": "Organização do Estado e dos Poderes",
+    "subtopic": "CNJ",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FCC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "Qual função corresponde ao Conselho Nacional de Justiça?",
+    "opts": [
+      "Controle administrativo e financeiro do Judiciário.",
+      "Revisão de mérito de qualquer sentença.",
+      "Julgamento de ADI.",
+      "Julgamento de recursos especiais.",
+      "Elaboração de leis penais."
+    ],
+    "right": 0,
+    "comment": "Controle administrativo e financeiro do Judiciário e fiscalização dos deveres funcionais dos juízes.",
+    "optionComments": [
+      "Correto.",
+      "O CNJ não é instância recursal jurisdicional.",
+      "Compete ao STF.",
+      "Compete ao STJ.",
+      "Não é função do CNJ."
+    ],
+    "legalBasis": "CF, art. 103-B, § 4º",
+    "reference": "CF, art. 103-B, § 4º",
+    "trap": "Controle administrativo e financeiro do Judiciário e fiscalização dos deveres funcionais dos juízes.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00078",
+    "title": "Justiça Federal",
+    "disc": "Direito Constitucional",
+    "topic": "Organização do Estado e dos Poderes",
+    "subtopic": "Justiça Federal",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FUNDATEC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "Em regra, qual crime está expressamente excluído da competência federal prevista no art. 109, IV?",
+    "opts": [
+      "Crime contra bens da União.",
+      "Crime contra serviços de autarquia federal.",
+      "Crime contra interesse de empresa pública federal.",
+      "Crime contra serviço da União.",
+      "Contravenção penal."
+    ],
+    "right": 4,
+    "comment": "O dispositivo exclui contravenções, ressalvando ainda as competências militar e eleitoral.",
+    "optionComments": [
+      "Em regra, está abrangido.",
+      "Em regra, está abrangido.",
+      "Em regra, está abrangido.",
+      "Em regra, está abrangido.",
+      "Correto, expressamente excluída."
+    ],
+    "legalBasis": "CF, art. 109, IV",
+    "reference": "CF, art. 109, IV",
+    "trap": "O dispositivo exclui contravenções, ressalvando ainda as competências militar e eleitoral.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00079",
+    "title": "Competência do STJ",
+    "disc": "Direito Constitucional",
+    "topic": "Organização do Estado e dos Poderes",
+    "subtopic": "Competência do STJ",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FUNDATEC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "A quem compete julgar originariamente governador de Estado por crime comum, observadas as regras de foro aplicáveis?",
+    "opts": [
+      "STF.",
+      "STJ.",
+      "Senado Federal.",
+      "TCU.",
+      "Justiça Eleitoral em qualquer hipótese."
+    ],
+    "right": 1,
+    "comment": "A competência constitucional é do STJ.",
+    "optionComments": [
+      "Não é a regra do art. 105.",
+      "Correto.",
+      "Não julga esse crime comum.",
+      "Não exerce jurisdição penal.",
+      "Não é a regra para crime comum."
+    ],
+    "legalBasis": "CF, art. 105, I, a",
+    "reference": "CF, art. 105, I, a",
+    "trap": "A competência constitucional é do STJ.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00080",
+    "title": "Competência do STF",
+    "disc": "Direito Constitucional",
+    "topic": "Organização do Estado e dos Poderes",
+    "subtopic": "Competência do STF",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FUNDATEC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "Qual tribunal julga originariamente mandado de segurança contra ato do próprio STF?",
+    "opts": [
+      "STJ.",
+      "TRF.",
+      "STF.",
+      "CNJ.",
+      "Senado Federal."
+    ],
+    "right": 2,
+    "comment": "O STF possui competência originária para esse mandado de segurança.",
+    "optionComments": [
+      "Não é competente nessa hipótese.",
+      "Não é competente nessa hipótese.",
+      "Correto.",
+      "Não exerce essa jurisdição.",
+      "Não exerce essa jurisdição."
+    ],
+    "legalBasis": "CF, art. 102, I, d",
+    "reference": "CF, art. 102, I, d",
+    "trap": "O STF possui competência originária para esse mandado de segurança.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
   }
 ]
