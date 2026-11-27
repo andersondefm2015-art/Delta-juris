@@ -2222,10 +2222,14 @@
       {
         "title": "Jurisprudência do STJ",
         "url": "https://scon.stj.jus.br/SCON/"
+      },
+      {
+        "title": "STJ — Súmula 444",
+        "url": "https://scon.stj.jus.br/SCON/sumstj/toc.jsp?livre=%40num%3D444"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26T21:15:00-03:00"
   },
   {
     "id": "DP-00050",
@@ -2251,7 +2255,7 @@
       "Errado"
     ],
     "right": 0,
-    "comment": "Esse é o conteúdo do enunciado da Súmula 231. A questão delimita expressamente o entendimento sumulado, cuja situação atual deve ser conferida na revisão editorial.",
+    "comment": "A atenuante genérica não reduz a pena abaixo do mínimo legal na segunda fase da dosimetria. O STJ reafirmou a aplicação da Súmula 231 em acórdão publicado em 01/09/2026, em consonância com o Tema 158 do STF.",
     "optionComments": [
       "Correto. Corresponde ao conteúdo do enunciado.",
       "Incorreto. A afirmação reproduz o entendimento sumulado."
@@ -2267,10 +2271,18 @@
       {
         "title": "Jurisprudência do STJ",
         "url": "https://scon.stj.jus.br/SCON/"
+      },
+      {
+        "title": "STJ — Súmula 231",
+        "url": "https://scon.stj.jus.br/SCON/sumstj/toc.jsp?livre=%40num%3D231"
+      },
+      {
+        "title": "STJ — acórdão publicado em 01/09/2026",
+        "url": "https://scon.stj.jus.br/SCON/GetInteiroTeorDoAcordao?dt_publicacao=01%2F09%2F2026&num_registro=202503514218"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26T21:15:00-03:00"
   },
   {
     "id": "DP-00051",
@@ -2408,10 +2420,14 @@
       {
         "title": "Jurisprudência do STJ",
         "url": "https://scon.stj.jus.br/SCON/"
+      },
+      {
+        "title": "STJ — Súmula 241",
+        "url": "https://scon.stj.jus.br/SCON/sumstj/toc.jsp?livre=%40num%3D241"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26T21:15:00-03:00"
   },
   {
     "id": "DP-00054",
@@ -2459,10 +2475,14 @@
       {
         "title": "Jurisprudência do STJ",
         "url": "https://scon.stj.jus.br/SCON/"
+      },
+      {
+        "title": "STJ — Súmula 440",
+        "url": "https://scon.stj.jus.br/SCON/sumstj/toc.jsp?livre=%40num%3D440"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26T21:15:00-03:00"
   },
   {
     "id": "DP-00055",
@@ -2812,7 +2832,7 @@
       "O privilégio não exclui o dolo."
     ],
     "legalBasis": "CP, art. 121, §§ 1º e 2º, III.",
-    "jurisprudence": "Entendimento jurisprudencial sobre a compatibilidade entre privilégio subjetivo e qualificadora objetiva.",
+    "jurisprudence": "STJ, AgRg no AREsp 3.170.446/SC, publicação em 27/04/2026; AgRg no AREsp 3.159.556/MG, publicação em 18/08/2026: compatibilidade entre privilégio subjetivo e qualificadora objetiva.",
     "reference": "Homicídio privilegiado-qualificado.",
     "trap": "Qualificadoras subjetivas, como motivo torpe, são incompatíveis com o privilégio subjetivo.",
     "sources": [
@@ -2823,10 +2843,14 @@
       {
         "title": "Pesquisa jurisprudencial do STJ",
         "url": "https://scon.stj.jus.br/SCON/"
+      },
+      {
+        "title": "STJ — AgRg no AREsp 3170446/SC",
+        "url": "https://scon.stj.jus.br/SCON/GetInteiroTeorDoAcordao?dt_publicacao=27%2F04%2F2026&num_registro=202600391188"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26T21:15:00-03:00"
   },
   {
     "id": "DP-00063",
@@ -3981,10 +4005,14 @@
       {
         "title": "Jurisprudência do STJ",
         "url": "https://scon.stj.jus.br/SCON/"
+      },
+      {
+        "title": "STJ — Súmula 599",
+        "url": "https://scon.stj.jus.br/SCON/sumstj/toc.jsp?livre=%40num%3D599"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26T21:15:00-03:00"
   },
   {
     "id": "DP-00088",
@@ -4073,10 +4101,14 @@
       {
         "title": "Jurisprudência do STJ",
         "url": "https://scon.stj.jus.br/SCON/"
+      },
+      {
+        "title": "STJ — Súmula 522",
+        "url": "https://scon.stj.jus.br/SCON/sumstj/toc.jsp?livre=%40num%3D522"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26T21:15:00-03:00"
   },
   {
     "id": "DP-00090",
@@ -4213,10 +4245,14 @@
       {
         "title": "Jurisprudência do STJ",
         "url": "https://scon.stj.jus.br/SCON/"
+      },
+      {
+        "title": "STJ — Súmula 593",
+        "url": "https://scon.stj.jus.br/SCON/sumstj/toc.jsp?livre=%40num%3D593"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26T21:15:00-03:00"
   },
   {
     "id": "DP-00093",
@@ -4404,10 +4440,14 @@
       {
         "title": "Jurisprudência do STJ",
         "url": "https://scon.stj.jus.br/SCON/"
+      },
+      {
+        "title": "STJ — Súmula 17",
+        "url": "https://scon.stj.jus.br/SCON/sumstj/toc.jsp?livre=%40num%3D17"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26T21:15:00-03:00"
   },
   {
     "id": "DP-00097",
@@ -4588,9 +4628,13 @@
       {
         "title": "Jurisprudência do STJ",
         "url": "https://scon.stj.jus.br/SCON/"
+      },
+      {
+        "title": "STJ — Súmula 18",
+        "url": "https://scon.stj.jus.br/SCON/sumstj/toc.jsp?livre=%40num%3D18"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26T21:15:00-03:00"
   }
 ]
