@@ -2668,5 +2668,897 @@
     ],
     "status": "pendente_verificacao",
     "reviewedAt": null
+  },
+  {
+    "id": "DPP-00061",
+    "title": "Flagrante facultativo e obrigatório",
+    "disc": "Direito Processual Penal",
+    "topic": "Prisões e cautelares",
+    "subtopic": "Flagrante facultativo e obrigatório",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "Qualquer pessoa pode prender quem esteja em flagrante, enquanto as autoridades policiais e seus agentes devem fazê-lo.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 0,
+    "comment": "A faculdade do particular contrasta com o dever funcional da autoridade policial e de seus agentes.",
+    "optionComments": [
+      "Correto. A faculdade do particular contrasta com o dever funcional da autoridade policial e de seus agentes.",
+      "Incorreto. A faculdade do particular contrasta com o dever funcional da autoridade policial e de seus agentes."
+    ],
+    "legalBasis": "CPP, art. 301",
+    "reference": "CPP, art. 301",
+    "trap": "A faculdade do particular contrasta com o dever funcional da autoridade policial e de seus agentes.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00062",
+    "title": "Flagrante impróprio",
+    "disc": "Direito Processual Penal",
+    "topic": "Prisões e cautelares",
+    "subtopic": "Flagrante impróprio",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "A perseguição iniciada logo após o crime, em situação que faça presumir a autoria, exige que a captura ocorra necessariamente em até 24 horas.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 1,
+    "comment": "O dispositivo exige perseguição logo após o fato e circunstâncias indicativas de autoria, não estabelece limite fixo de 24 horas para a captura.",
+    "optionComments": [
+      "Incorreto. O dispositivo exige perseguição logo após o fato e circunstâncias indicativas de autoria, não estabelece limite fixo de 24 horas para a captura.",
+      "Correto. O dispositivo exige perseguição logo após o fato e circunstâncias indicativas de autoria, não estabelece limite fixo de 24 horas para a captura."
+    ],
+    "legalBasis": "CPP, art. 302, III",
+    "reference": "CPP, art. 302, III",
+    "trap": "O dispositivo exige perseguição logo após o fato e circunstâncias indicativas de autoria, não estabelece limite fixo de 24 horas para a captura.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00063",
+    "title": "Crime permanente",
+    "disc": "Direito Processual Penal",
+    "topic": "Prisões e cautelares",
+    "subtopic": "Crime permanente",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "Em infração permanente, considera-se o agente em flagrante enquanto não cessar a permanência.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 0,
+    "comment": "A permanência da consumação prolonga a situação de flagrância, sem dispensar os requisitos constitucionais de ingresso domiciliar.",
+    "optionComments": [
+      "Correto. A permanência da consumação prolonga a situação de flagrância, sem dispensar os requisitos constitucionais de ingresso domiciliar.",
+      "Incorreto. A permanência da consumação prolonga a situação de flagrância, sem dispensar os requisitos constitucionais de ingresso domiciliar."
+    ],
+    "legalBasis": "CPP, art. 303",
+    "reference": "CPP, art. 303",
+    "trap": "A permanência da consumação prolonga a situação de flagrância, sem dispensar os requisitos constitucionais de ingresso domiciliar.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00064",
+    "title": "Comunicação da prisão",
+    "disc": "Direito Processual Penal",
+    "topic": "Prisões e cautelares",
+    "subtopic": "Comunicação da prisão",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "A comunicação da prisão ao juiz pode aguardar o prazo de 24 horas destinado ao encaminhamento do auto.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 1,
+    "comment": "A comunicação é imediata; o prazo para encaminhar o auto não se confunde com o dever de comunicar a prisão.",
+    "optionComments": [
+      "Incorreto. A comunicação é imediata; o prazo para encaminhar o auto não se confunde com o dever de comunicar a prisão.",
+      "Correto. A comunicação é imediata; o prazo para encaminhar o auto não se confunde com o dever de comunicar a prisão."
+    ],
+    "legalBasis": "CPP, art. 306",
+    "reference": "CPP, art. 306",
+    "trap": "A comunicação é imediata; o prazo para encaminhar o auto não se confunde com o dever de comunicar a prisão.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00065",
+    "title": "Nota de culpa",
+    "disc": "Direito Processual Penal",
+    "topic": "Prisões e cautelares",
+    "subtopic": "Nota de culpa",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "A nota de culpa deve ser entregue ao preso em até 24 horas, mediante recibo, com motivo da prisão e nomes do condutor e das testemunhas.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 0,
+    "comment": "A nota de culpa documenta o motivo e os responsáveis pela condução e testemunho, permitindo controle defensivo.",
+    "optionComments": [
+      "Correto. A nota de culpa documenta o motivo e os responsáveis pela condução e testemunho, permitindo controle defensivo.",
+      "Incorreto. A nota de culpa documenta o motivo e os responsáveis pela condução e testemunho, permitindo controle defensivo."
+    ],
+    "legalBasis": "CPP, art. 306, § 2º",
+    "reference": "CPP, art. 306, § 2º",
+    "trap": "A nota de culpa documenta o motivo e os responsáveis pela condução e testemunho, permitindo controle defensivo.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00066",
+    "title": "Relaxamento",
+    "disc": "Direito Processual Penal",
+    "topic": "Prisões e cautelares",
+    "subtopic": "Relaxamento",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "A ilegalidade da prisão em flagrante deve ser sanada mediante concessão de fiança, sem relaxamento.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 1,
+    "comment": "Prisão ilegal deve ser relaxada; fiança não convalida a ilegalidade da captura.",
+    "optionComments": [
+      "Incorreto. Prisão ilegal deve ser relaxada; fiança não convalida a ilegalidade da captura.",
+      "Correto. Prisão ilegal deve ser relaxada; fiança não convalida a ilegalidade da captura."
+    ],
+    "legalBasis": "CPP, art. 310, I",
+    "reference": "CPP, art. 310, I",
+    "trap": "Prisão ilegal deve ser relaxada; fiança não convalida a ilegalidade da captura.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00067",
+    "title": "Preventiva e provocação",
+    "disc": "Direito Processual Penal",
+    "topic": "Prisões e cautelares",
+    "subtopic": "Preventiva e provocação",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Durante investigação, o juiz pode decretar prisão preventiva de ofício, desde que fundamente concretamente a necessidade.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 1,
+    "comment": "A fundamentação não substitui a provocação legalmente exigida: requerimento ou representação de legitimado.",
+    "optionComments": [
+      "Incorreto. A fundamentação não substitui a provocação legalmente exigida: requerimento ou representação de legitimado.",
+      "Correto. A fundamentação não substitui a provocação legalmente exigida: requerimento ou representação de legitimado."
+    ],
+    "legalBasis": "CPP, art. 311",
+    "reference": "CPP, art. 311",
+    "trap": "A fundamentação não substitui a provocação legalmente exigida: requerimento ou representação de legitimado.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00068",
+    "title": "Fundamentação cautelar",
+    "disc": "Direito Processual Penal",
+    "topic": "Prisões e cautelares",
+    "subtopic": "Fundamentação cautelar",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "A gravidade abstrata do delito, isoladamente, basta para justificar a prisão preventiva.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 1,
+    "comment": "A cautelar exige suporte concreto, prova da existência do crime, indício suficiente de autoria e perigo decorrente da liberdade, além dos pressupostos legais.",
+    "optionComments": [
+      "Incorreto. A cautelar exige suporte concreto, prova da existência do crime, indício suficiente de autoria e perigo decorrente da liberdade, além dos pressupostos legais.",
+      "Correto. A cautelar exige suporte concreto, prova da existência do crime, indício suficiente de autoria e perigo decorrente da liberdade, além dos pressupostos legais."
+    ],
+    "legalBasis": "CPP, art. 312",
+    "reference": "CPP, art. 312",
+    "trap": "A cautelar exige suporte concreto, prova da existência do crime, indício suficiente de autoria e perigo decorrente da liberdade, além dos pressupostos legais.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00069",
+    "title": "Necessidade e adequação",
+    "disc": "Direito Processual Penal",
+    "topic": "Prisões e cautelares",
+    "subtopic": "Necessidade e adequação",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Em investigação, o delegado representa por cautelar pessoal. Qual critério deve orientar a escolha judicial?",
+    "opts": [
+      "Necessidade e adequação às circunstâncias do fato e condições pessoais.",
+      "Aplicação automática da medida mais severa.",
+      "Apenas a repercussão na imprensa.",
+      "Somente a pena mínima abstrata.",
+      "Preferência obrigatória pela prisão."
+    ],
+    "right": 0,
+    "comment": "São critérios legais cumulativamente considerados.",
+    "optionComments": [
+      "São critérios legais cumulativamente considerados.",
+      "A severidade não é critério automático.",
+      "Repercussão não substitui requisitos.",
+      "A pena mínima isolada não resolve a adequação.",
+      "A prisão é subsidiária."
+    ],
+    "legalBasis": "CPP, art. 282",
+    "reference": "CPP, art. 282",
+    "trap": "Distinguir os requisitos legais da medida e a competência para sua aplicação. São critérios legais cumulativamente considerados.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00070",
+    "title": "Subsidiariedade da preventiva",
+    "disc": "Direito Processual Penal",
+    "topic": "Prisões e cautelares",
+    "subtopic": "Subsidiariedade da preventiva",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "O juiz verifica que medida cautelar diversa é suficiente para neutralizar o risco concreto. Qual solução se ajusta ao CPP?",
+    "opts": [
+      "Decretar preventiva para antecipar a pena.",
+      "Aplicar medida adequada diversa da prisão.",
+      "Decretar preventiva obrigatoriamente.",
+      "Arquivar o inquérito.",
+      "Declarar extinta a punibilidade."
+    ],
+    "right": 1,
+    "comment": "A preventiva é subsidiária.",
+    "optionComments": [
+      "Cautelar não antecipa pena.",
+      "A preventiva é subsidiária.",
+      "Não há obrigatoriedade nesse cenário.",
+      "A suficiência da cautelar não implica arquivamento.",
+      "Não constitui causa extintiva."
+    ],
+    "legalBasis": "CPP, art. 282, § 6º",
+    "reference": "CPP, art. 282, § 6º",
+    "trap": "Distinguir os requisitos legais da medida e a competência para sua aplicação. A preventiva é subsidiária.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00071",
+    "title": "Cabimento da preventiva",
+    "disc": "Direito Processual Penal",
+    "topic": "Prisões e cautelares",
+    "subtopic": "Cabimento da preventiva",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Considerando exclusivamente a hipótese do inciso I do art. 313, qual crime satisfaz o requisito objetivo de pena?",
+    "opts": [
+      "Crime culposo com pena máxima de seis anos.",
+      "Crime doloso com pena máxima de quatro anos.",
+      "Crime doloso com pena máxima de cinco anos.",
+      "Contravenção penal.",
+      "Crime doloso com pena máxima de dois anos."
+    ],
+    "right": 2,
+    "comment": "Satisfaz o requisito objetivo, sem dispensar os demais.",
+    "optionComments": [
+      "O inciso exige crime doloso.",
+      "Exige pena máxima superior a quatro anos.",
+      "Satisfaz o requisito objetivo, sem dispensar os demais.",
+      "Não é crime doloso.",
+      "Não supera quatro anos."
+    ],
+    "legalBasis": "CPP, art. 313, I",
+    "reference": "CPP, art. 313, I",
+    "trap": "Distinguir os requisitos legais da medida e a competência para sua aplicação. Satisfaz o requisito objetivo, sem dispensar os demais.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00072",
+    "title": "Identidade civil",
+    "disc": "Direito Processual Penal",
+    "topic": "Prisões e cautelares",
+    "subtopic": "Identidade civil",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Preso preventivamente exclusivamente por dúvida sobre identidade civil, o investigado fornece identificação suficiente. Não existe outro fundamento cautelar. Qual consequência?",
+    "opts": [
+      "Manutenção até sentença.",
+      "Conversão automática em temporária.",
+      "Fiança obrigatória.",
+      "Liberação imediata.",
+      "Manutenção por noventa dias."
+    ],
+    "right": 3,
+    "comment": "Cessado o motivo, deve ser liberado salvo outra hipótese legal.",
+    "optionComments": [
+      "Não há fundamento para manter.",
+      "Não existe conversão automática.",
+      "A lei não exige fiança nesse caso.",
+      "Cessado o motivo, deve ser liberado salvo outra hipótese legal.",
+      "O prazo não autoriza manutenção."
+    ],
+    "legalBasis": "CPP, art. 313, § 1º",
+    "reference": "CPP, art. 313, § 1º",
+    "trap": "Distinguir os requisitos legais da medida e a competência para sua aplicação. Cessado o motivo, deve ser liberado salvo outra hipótese legal.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00073",
+    "title": "Prisão domiciliar",
+    "disc": "Direito Processual Penal",
+    "topic": "Prisões e cautelares",
+    "subtopic": "Prisão domiciliar",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Qual definição corresponde à prisão domiciliar prevista no CPP?",
+    "opts": [
+      "Comparecimento mensal em juízo.",
+      "Proibição de contato com testemunha.",
+      "Recolhimento apenas noturno.",
+      "Monitoramento eletrônico isolado.",
+      "Recolhimento na residência, com saída mediante autorização judicial."
+    ],
+    "right": 4,
+    "comment": "É a definição legal.",
+    "optionComments": [
+      "É cautelar diversa.",
+      "É cautelar diversa.",
+      "Não corresponde à definição do art. 317.",
+      "Não equivale necessariamente à domiciliar.",
+      "É a definição legal."
+    ],
+    "legalBasis": "CPP, art. 317",
+    "reference": "CPP, art. 317",
+    "trap": "Distinguir os requisitos legais da medida e a competência para sua aplicação. É a definição legal.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00074",
+    "title": "Cautelares diversas",
+    "disc": "Direito Processual Penal",
+    "topic": "Prisões e cautelares",
+    "subtopic": "Cautelares diversas",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Qual medida consta expressamente do rol de cautelares diversas da prisão?",
+    "opts": [
+      "Monitoração eletrônica.",
+      "Perda definitiva do cargo.",
+      "Pena de multa.",
+      "Confisco definitivo.",
+      "Suspensão de direitos políticos como pena."
+    ],
+    "right": 0,
+    "comment": "Prevista no inciso IX.",
+    "optionComments": [
+      "Prevista no inciso IX.",
+      "Não integra o rol.",
+      "É sanção penal, não esta cautelar.",
+      "Não é cautelar pessoal do art. 319.",
+      "Não integra o rol."
+    ],
+    "legalBasis": "CPP, art. 319",
+    "reference": "CPP, art. 319",
+    "trap": "Distinguir os requisitos legais da medida e a competência para sua aplicação. Prevista no inciso IX.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00075",
+    "title": "Fiança policial",
+    "disc": "Direito Processual Penal",
+    "topic": "Prisões e cautelares",
+    "subtopic": "Fiança policial",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FCC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Em crime cuja pena privativa de liberdade máxima é de quatro anos, sem vedação legal à fiança, quem pode concedê-la na fase policial?",
+    "opts": [
+      "Somente o tribunal.",
+      "A autoridade policial.",
+      "Somente o Ministério Público.",
+      "O escrivão autonomamente.",
+      "A vítima."
+    ],
+    "right": 1,
+    "comment": "O limite legal é pena máxima não superior a quatro anos.",
+    "optionComments": [
+      "Não há reserva ao tribunal.",
+      "O limite legal é pena máxima não superior a quatro anos.",
+      "O MP não concede fiança policial.",
+      "Não compete autonomamente ao escrivão.",
+      "A vítima não possui essa atribuição."
+    ],
+    "legalBasis": "CPP, art. 322",
+    "reference": "CPP, art. 322",
+    "trap": "Distinguir os requisitos legais da medida e a competência para sua aplicação. O limite legal é pena máxima não superior a quatro anos.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00076",
+    "title": "Fiança judicial",
+    "disc": "Direito Processual Penal",
+    "topic": "Prisões e cautelares",
+    "subtopic": "Fiança judicial",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FCC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Em crime afiançável com pena máxima superior a quatro anos, qual autoridade decide o pedido de fiança?",
+    "opts": [
+      "Delegado, sem limite de pena.",
+      "Ministério Público.",
+      "Juiz, em 48 horas.",
+      "Tribunal do Júri.",
+      "Escrivão."
+    ],
+    "right": 2,
+    "comment": "É a regra expressa do parágrafo único.",
+    "optionComments": [
+      "Excede a competência policial.",
+      "Não é atribuição decisória do MP.",
+      "É a regra expressa do parágrafo único.",
+      "Não depende do conselho de sentença.",
+      "Não possui competência decisória."
+    ],
+    "legalBasis": "CPP, art. 322, parágrafo único",
+    "reference": "CPP, art. 322, parágrafo único",
+    "trap": "Distinguir os requisitos legais da medida e a competência para sua aplicação. É a regra expressa do parágrafo único.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00077",
+    "title": "Liberdade provisória",
+    "disc": "Direito Processual Penal",
+    "topic": "Prisões e cautelares",
+    "subtopic": "Liberdade provisória",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FCC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Ausentes os requisitos autorizadores da preventiva, qual providência cabe ao juiz diante de prisão em flagrante legal?",
+    "opts": [
+      "Manter a prisão por conveniência administrativa.",
+      "Impor pena antecipada.",
+      "Aguardar denúncia obrigatoriamente.",
+      "Conceder liberdade provisória, impondo cautelares se cabíveis.",
+      "Decretar temporária de ofício."
+    ],
+    "right": 3,
+    "comment": "É a regra do art. 321.",
+    "optionComments": [
+      "Conveniência administrativa não basta.",
+      "É vedada antecipação de pena.",
+      "Não há necessidade de aguardar denúncia.",
+      "É a regra do art. 321.",
+      "Não cabe decretação de ofício."
+    ],
+    "legalBasis": "CPP, art. 321",
+    "reference": "CPP, art. 321",
+    "trap": "Distinguir os requisitos legais da medida e a competência para sua aplicação. É a regra do art. 321.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00078",
+    "title": "Prisão temporária",
+    "disc": "Direito Processual Penal",
+    "topic": "Prisões e cautelares",
+    "subtopic": "Prisão temporária",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FUNDATEC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "Qual é o prazo ordinário da prisão temporária, fora das hipóteses de prazo especial?",
+    "opts": [
+      "24 horas improrrogáveis.",
+      "10 dias improrrogáveis.",
+      "30 dias sempre.",
+      "90 dias.",
+      "5 dias, prorrogáveis por igual período em extrema e comprovada necessidade."
+    ],
+    "right": 4,
+    "comment": "É a regra do art. 2º.",
+    "optionComments": [
+      "Não é o prazo legal.",
+      "A prorrogação é condicionada.",
+      "Há regime especial, não regra universal.",
+      "Não é o prazo ordinário.",
+      "É a regra do art. 2º."
+    ],
+    "legalBasis": "Lei 7.960/1989, art. 2º",
+    "reference": "Lei 7.960/1989, art. 2º",
+    "trap": "Distinguir os requisitos legais da medida e a competência para sua aplicação. É a regra do art. 2º.",
+    "sources": [
+      {
+        "title": "Lei 7.960/1989 — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l7960.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00079",
+    "title": "Temporária e iniciativa",
+    "disc": "Direito Processual Penal",
+    "topic": "Prisões e cautelares",
+    "subtopic": "Temporária e iniciativa",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FUNDATEC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "A autoridade policial identifica necessidade de prisão temporária. Qual procedimento é legalmente previsto?",
+    "opts": [
+      "Representar ao juiz, que ouvirá o MP antes de decidir.",
+      "Decretar diretamente a prisão temporária.",
+      "Solicitar ao escrivão que expeça mandado.",
+      "Obter autorização da vítima.",
+      "Pedir ao juiz que decrete de ofício."
+    ],
+    "right": 0,
+    "comment": "A representação policial exige prévia oitiva do MP.",
+    "optionComments": [
+      "A representação policial exige prévia oitiva do MP.",
+      "A decretação é judicial.",
+      "Escrivão não decreta nem expede autonomamente mandado judicial.",
+      "A autorização da vítima não substitui decisão judicial.",
+      "A lei exige representação ou requerimento."
+    ],
+    "legalBasis": "Lei 7.960/1989, art. 2º",
+    "reference": "Lei 7.960/1989, art. 2º",
+    "trap": "Distinguir os requisitos legais da medida e a competência para sua aplicação. A representação policial exige prévia oitiva do MP.",
+    "sources": [
+      {
+        "title": "Lei 7.960/1989 — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l7960.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00080",
+    "title": "Revogação da preventiva",
+    "disc": "Direito Processual Penal",
+    "topic": "Prisões e cautelares",
+    "subtopic": "Revogação da preventiva",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FUNDATEC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "No curso do processo, desaparecem os motivos que sustentavam a preventiva. Qual medida é compatível com o CPP?",
+    "opts": [
+      "Manter a prisão até trânsito em julgado.",
+      "Revogar a preventiva, sem prejuízo de nova decretação se sobrevierem razões legais.",
+      "Converter em pena definitiva.",
+      "Impor automaticamente prisão temporária.",
+      "Extinguir o processo."
+    ],
+    "right": 1,
+    "comment": "É a regra do art. 316, observados os requisitos para nova decretação.",
+    "optionComments": [
+      "A cautelar depende da persistência dos motivos.",
+      "É a regra do art. 316, observados os requisitos para nova decretação.",
+      "Não há condenação definitiva pressuposta.",
+      "Não existe conversão automática.",
+      "Revogação não extingue a ação penal."
+    ],
+    "legalBasis": "CPP, art. 316",
+    "reference": "CPP, art. 316",
+    "trap": "Distinguir os requisitos legais da medida e a competência para sua aplicação. É a regra do art. 316, observados os requisitos para nova decretação.",
+    "sources": [
+      {
+        "title": "Código de Processo Penal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
   }
 ]
