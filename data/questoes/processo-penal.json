@@ -890,5 +890,891 @@
     ],
     "status": "pendente_verificacao",
     "reviewedAt": null
+  },
+  {
+    "id": "DPP-00021",
+    "title": "Lugar da infração",
+    "disc": "Direito Processual Penal",
+    "topic": "Jurisdição e competência",
+    "subtopic": "Lugar da infração",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "Um furto consumado em comarca A é descoberto em comarca B. Pela regra territorial geral, qual foro é competente?",
+    "opts": [
+      "Comarca A",
+      "Capital do estado",
+      "Domicílio da vítima",
+      "Local da prisão",
+      "Comarca B"
+    ],
+    "right": 0,
+    "comment": "A regra geral é o lugar da consumação.",
+    "optionComments": [
+      "Correta. A regra geral é o lugar da consumação.",
+      "Incorreta. Não há regra geral de concentração na capital.",
+      "Incorreta. Não é a regra geral.",
+      "Incorreta. A prisão não fixa por si a competência.",
+      "Incorreta. A descoberta não determina o foro."
+    ],
+    "legalBasis": "CPP, art. 70",
+    "reference": "CPP, art. 70",
+    "trap": "Não confunda lugar da infração com critérios de competência distintos.",
+    "sources": [
+      {
+        "title": "CPP, art. 70 — fonte oficial para conferência",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00022",
+    "title": "Tentativa",
+    "disc": "Direito Processual Penal",
+    "topic": "Jurisdição e competência",
+    "subtopic": "Tentativa",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Na tentativa, a competência territorial é determinada pelo lugar do último ato de execução.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 0,
+    "comment": "O último ato executório é o critério legal para a tentativa.",
+    "optionComments": [
+      "Correta. O último ato executório é o critério legal para a tentativa.",
+      "Incorreta. Confunde tentativa com consumação."
+    ],
+    "legalBasis": "CPP, art. 70",
+    "reference": "CPP, art. 70",
+    "trap": "Não confunda tentativa com critérios de competência distintos.",
+    "sources": [
+      {
+        "title": "CPP, art. 70 — fonte oficial para conferência",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00023",
+    "title": "Crime permanente",
+    "disc": "Direito Processual Penal",
+    "topic": "Jurisdição e competência",
+    "subtopic": "Crime permanente",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FUNDATEC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Um sequestro prolonga-se por duas comarcas. Qual critério resolve a competência territorial entre juízos igualmente competentes?",
+    "opts": [
+      "Local de nascimento do réu",
+      "Domicílio da vítima",
+      "Lugar da denúncia",
+      "Prevenção",
+      "Sorteio obrigatório"
+    ],
+    "right": 3,
+    "comment": "A permanência em duas jurisdições atrai a prevenção.",
+    "optionComments": [
+      "Incorreta. Irrelevante para a hipótese.",
+      "Incorreta. Não é o critério do art. 71.",
+      "Incorreta. O oferecimento não é o critério legal.",
+      "Correta. A permanência em duas jurisdições atrai a prevenção.",
+      "Incorreta. A prevenção prevalece."
+    ],
+    "legalBasis": "CPP, art. 71",
+    "reference": "CPP, art. 71",
+    "trap": "Não confunda crime permanente com critérios de competência distintos.",
+    "sources": [
+      {
+        "title": "CPP, art. 71 — fonte oficial para conferência",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00024",
+    "title": "Domicílio subsidiário",
+    "disc": "Direito Processual Penal",
+    "topic": "Jurisdição e competência",
+    "subtopic": "Domicílio subsidiário",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "Desconhecido o lugar da infração, a competência será regulada pelo domicílio ou residência do réu.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 0,
+    "comment": "O domicílio funciona como critério subsidiário.",
+    "optionComments": [
+      "Correta. O domicílio funciona como critério subsidiário.",
+      "Incorreta. Desconsidera a regra subsidiária."
+    ],
+    "legalBasis": "CPP, art. 72",
+    "reference": "CPP, art. 72",
+    "trap": "Não confunda domicílio subsidiário com critérios de competência distintos.",
+    "sources": [
+      {
+        "title": "CPP, art. 72 — fonte oficial para conferência",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00025",
+    "title": "Ação exclusivamente privada",
+    "disc": "Direito Processual Penal",
+    "topic": "Jurisdição e competência",
+    "subtopic": "Ação exclusivamente privada",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Em ação exclusivamente privada, o querelante pode preferir o foro do domicílio do réu, mesmo conhecido o lugar da infração.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 0,
+    "comment": "O art. 73 confere essa faculdade ao querelante.",
+    "optionComments": [
+      "Correta. O art. 73 confere essa faculdade ao querelante.",
+      "Incorreta. Ignora a opção legal."
+    ],
+    "legalBasis": "CPP, art. 73",
+    "reference": "CPP, art. 73",
+    "trap": "Não confunda ação exclusivamente privada com critérios de competência distintos.",
+    "sources": [
+      {
+        "title": "CPP, art. 73 — fonte oficial para conferência",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00026",
+    "title": "Conexão instrumental",
+    "disc": "Direito Processual Penal",
+    "topic": "Jurisdição e competência",
+    "subtopic": "Conexão instrumental",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FUNDATEC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "A prova de uma falsificação influencia diretamente a prova de outro delito investigado. Qual modalidade de conexão pode ocorrer?",
+    "opts": [
+      "Conexão por reciprocidade",
+      "Instrumental ou probatória",
+      "Prevenção isolada",
+      "Conexão meramente territorial",
+      "Continência subjetiva"
+    ],
+    "right": 1,
+    "comment": "A influência probatória entre infrações caracteriza a conexão instrumental.",
+    "optionComments": [
+      "Incorreta. Exige infrações praticadas reciprocamente.",
+      "Correta. A influência probatória entre infrações caracteriza a conexão instrumental.",
+      "Incorreta. É critério de fixação, não modalidade de conexão.",
+      "Incorreta. Coincidência territorial não basta.",
+      "Incorreta. Pressupõe pluralidade de acusados pela mesma infração."
+    ],
+    "legalBasis": "CPP, art. 76, III",
+    "reference": "CPP, art. 76, III",
+    "trap": "Não confunda conexão instrumental com critérios de competência distintos.",
+    "sources": [
+      {
+        "title": "CPP, art. 76, III — fonte oficial para conferência",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00027",
+    "title": "Conexão teleológica",
+    "disc": "Direito Processual Penal",
+    "topic": "Jurisdição e competência",
+    "subtopic": "Conexão teleológica",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "Um agente pratica delito para facilitar a execução de outro. A conexão pode decorrer dessa finalidade.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 0,
+    "comment": "A conexão teleológica decorre da finalidade de facilitar outro delito.",
+    "optionComments": [
+      "Correta. A conexão teleológica decorre da finalidade de facilitar outro delito.",
+      "Incorreta. Não se exige identidade de tipos penais."
+    ],
+    "legalBasis": "CPP, art. 76, II",
+    "reference": "CPP, art. 76, II",
+    "trap": "Não confunda conexão teleológica com critérios de competência distintos.",
+    "sources": [
+      {
+        "title": "CPP, art. 76, II — fonte oficial para conferência",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00028",
+    "title": "Continência subjetiva",
+    "disc": "Direito Processual Penal",
+    "topic": "Jurisdição e competência",
+    "subtopic": "Continência subjetiva",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FCC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Dois acusados respondem pela mesma infração penal praticada em concurso de pessoas. Qual instituto está configurado?",
+    "opts": [
+      "Prevenção",
+      "Desaforamento",
+      "Conexão teleológica",
+      "Conexão instrumental",
+      "Continência"
+    ],
+    "right": 4,
+    "comment": "Duas ou mais pessoas acusadas pela mesma infração configuram continência subjetiva.",
+    "optionComments": [
+      "Incorreta. Não é o instituto descrito.",
+      "Incorreta. É medida própria do júri.",
+      "Incorreta. Não há descrição de delito para facilitar outro.",
+      "Incorreta. Não depende de influência entre provas de crimes distintos.",
+      "Correta. Duas ou mais pessoas acusadas pela mesma infração configuram continência subjetiva."
+    ],
+    "legalBasis": "CPP, art. 77, I",
+    "reference": "CPP, art. 77, I",
+    "trap": "Não confunda continência subjetiva com critérios de competência distintos.",
+    "sources": [
+      {
+        "title": "CPP, art. 77, I — fonte oficial para conferência",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00029",
+    "title": "Júri e juízo comum",
+    "disc": "Direito Processual Penal",
+    "topic": "Jurisdição e competência",
+    "subtopic": "Júri e juízo comum",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Em concurso entre competência do júri e de outro órgão da jurisdição comum, prevalece, em regra, a competência do júri.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 0,
+    "comment": "O art. 78, I, estabelece essa prevalência, respeitadas competências constitucionais.",
+    "optionComments": [
+      "Correta. O art. 78, I, estabelece essa prevalência, respeitadas competências constitucionais.",
+      "Incorreta. Ignora a regra legal de prevalência."
+    ],
+    "legalBasis": "CPP, art. 78, I",
+    "reference": "CPP, art. 78, I",
+    "trap": "Não confunda júri e juízo comum com critérios de competência distintos.",
+    "sources": [
+      {
+        "title": "CPP, art. 78, I — fonte oficial para conferência",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00030",
+    "title": "Conexão e separação obrigatória",
+    "disc": "Direito Processual Penal",
+    "topic": "Jurisdição e competência",
+    "subtopic": "Conexão e separação obrigatória",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "Há conexão entre crime militar e crime comum, sujeitos às respectivas jurisdições. Qual solução prevê o CPP?",
+    "opts": [
+      "Reunião na justiça militar",
+      "Separação dos processos",
+      "Reunião na justiça federal",
+      "Reunião no júri",
+      "Extinção de um processo"
+    ],
+    "right": 1,
+    "comment": "O concurso entre jurisdição comum e militar excepciona a unidade processual.",
+    "optionComments": [
+      "Incorreta. A conexão não desloca automaticamente o crime comum.",
+      "Correta. O concurso entre jurisdição comum e militar excepciona a unidade processual.",
+      "Incorreta. Não é consequência automática.",
+      "Incorreta. Não há fundamento para isso.",
+      "Incorreta. A separação não extingue a pretensão punitiva."
+    ],
+    "legalBasis": "CPP, art. 79, I",
+    "reference": "CPP, art. 79, I",
+    "trap": "Não confunda conexão e separação obrigatória com critérios de competência distintos.",
+    "sources": [
+      {
+        "title": "CPP, art. 79, I — fonte oficial para conferência",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00031",
+    "title": "Separação facultativa",
+    "disc": "Direito Processual Penal",
+    "topic": "Jurisdição e competência",
+    "subtopic": "Separação facultativa",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "O número excessivo de acusados pode justificar separação facultativa dos processos para evitar prolongamento da prisão provisória.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 0,
+    "comment": "O dispositivo autoriza a separação por esse motivo.",
+    "optionComments": [
+      "Correta. O dispositivo autoriza a separação por esse motivo.",
+      "Incorreta. Confunde separação facultativa com obrigatória."
+    ],
+    "legalBasis": "CPP, art. 80",
+    "reference": "CPP, art. 80",
+    "trap": "Não confunda separação facultativa com critérios de competência distintos.",
+    "sources": [
+      {
+        "title": "CPP, art. 80 — fonte oficial para conferência",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00032",
+    "title": "Prevenção",
+    "disc": "Direito Processual Penal",
+    "topic": "Jurisdição e competência",
+    "subtopic": "Prevenção",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FUNDATEC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Dois juízos igualmente competentes concorrem; um deles pratica primeiro medida judicial relativa ao processo, antes da denúncia. Qual critério pode fixar a competência?",
+    "opts": [
+      "Domicílio da vítima",
+      "Data do fato",
+      "Escolha livre do MP",
+      "Hierarquia",
+      "Prevenção"
+    ],
+    "right": 4,
+    "comment": "A anterioridade de ato processual ou medida relativa ao processo pode prevenir o juízo.",
+    "optionComments": [
+      "Incorreta. Não resolve a concorrência descrita.",
+      "Incorreta. Não identifica o juízo prevento.",
+      "Incorreta. Não substitui o juiz natural.",
+      "Incorreta. Os juízos são igualmente competentes.",
+      "Correta. A anterioridade de ato processual ou medida relativa ao processo pode prevenir o juízo."
+    ],
+    "legalBasis": "CPP, art. 83",
+    "reference": "CPP, art. 83",
+    "trap": "Não confunda prevenção com critérios de competência distintos.",
+    "sources": [
+      {
+        "title": "CPP, art. 83 — fonte oficial para conferência",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00033",
+    "title": "Contravenções",
+    "disc": "Direito Processual Penal",
+    "topic": "Jurisdição e competência",
+    "subtopic": "Contravenções",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "A Justiça Federal possui competência criminal comum para julgar contravenção penal apenas porque praticada em detrimento de bem da União.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 1,
+    "comment": "O art. 109, IV, exclui expressamente as contravenções da competência ali prevista.",
+    "optionComments": [
+      "Incorreta. Ignora a exceção constitucional.",
+      "Correta. O art. 109, IV, exclui expressamente as contravenções da competência ali prevista."
+    ],
+    "legalBasis": "CF, art. 109, IV",
+    "reference": "CF, art. 109, IV",
+    "trap": "Não confunda contravenções com critérios de competência distintos.",
+    "sources": [
+      {
+        "title": "CF, art. 109, IV — fonte oficial para conferência",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00034",
+    "title": "Autarquia federal",
+    "disc": "Direito Processual Penal",
+    "topic": "Jurisdição e competência",
+    "subtopic": "Autarquia federal",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FCC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Uma fraude atinge diretamente patrimônio de autarquia federal. Ausentes competências especiais, qual justiça julga o crime?",
+    "opts": [
+      "Justiça Estadual",
+      "Justiça Federal",
+      "Justiça Militar",
+      "Justiça Eleitoral",
+      "STF originariamente"
+    ],
+    "right": 1,
+    "comment": "A lesão direta a bens, serviços ou interesses de autarquia federal atrai a competência federal.",
+    "optionComments": [
+      "Incorreta. Desconsidera o interesse federal direto.",
+      "Correta. A lesão direta a bens, serviços ou interesses de autarquia federal atrai a competência federal.",
+      "Incorreta. Não há crime militar descrito.",
+      "Incorreta. Não há crime eleitoral descrito.",
+      "Incorreta. Não há prerrogativa indicada."
+    ],
+    "legalBasis": "CF, art. 109, IV",
+    "reference": "CF, art. 109, IV",
+    "trap": "Não confunda autarquia federal com critérios de competência distintos.",
+    "sources": [
+      {
+        "title": "CF, art. 109, IV — fonte oficial para conferência",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00035",
+    "title": "Sociedade de economia mista",
+    "disc": "Direito Processual Penal",
+    "topic": "Jurisdição e competência",
+    "subtopic": "Sociedade de economia mista",
+    "contentType": "sumula",
+    "court": "STJ",
+    "sumula": "42",
+    "bank": "FUNDATEC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Crime comum atinge exclusivamente patrimônio de sociedade de economia mista federal, sem outro interesse federal direto. Qual justiça é competente?",
+    "opts": [
+      "Justiça Militar",
+      "Justiça Federal automaticamente",
+      "Justiça Estadual",
+      "Justiça do Trabalho",
+      "STJ originariamente"
+    ],
+    "right": 2,
+    "comment": "A Súmula 42 do STJ atribui à Justiça Estadual os crimes em detrimento de sociedade de economia mista.",
+    "optionComments": [
+      "Incorreta. Não há hipótese militar.",
+      "Incorreta. A natureza da sociedade não basta.",
+      "Correta. A Súmula 42 do STJ atribui à Justiça Estadual os crimes em detrimento de sociedade de economia mista.",
+      "Incorreta. Não julga a ação penal comum.",
+      "Incorreta. Não existe prerrogativa indicada."
+    ],
+    "legalBasis": "STJ, Súmula 42",
+    "reference": "STJ, Súmula 42",
+    "trap": "Não confunda sociedade de economia mista com critérios de competência distintos.",
+    "sources": [
+      {
+        "title": "STJ, Súmula 42 — fonte oficial para conferência",
+        "url": "https://scon.stj.jus.br/SCON/sumstj/"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00036",
+    "title": "Conexão federal e estadual",
+    "disc": "Direito Processual Penal",
+    "topic": "Jurisdição e competência",
+    "subtopic": "Conexão federal e estadual",
+    "contentType": "sumula",
+    "court": "STJ",
+    "sumula": "122",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "Em regra, compete à Justiça Federal o julgamento unificado dos crimes conexos de competência federal e estadual.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 0,
+    "comment": "A Súmula 122 estabelece a reunião na Justiça Federal, ressalvadas competências constitucionais especiais.",
+    "optionComments": [
+      "Correta. A Súmula 122 estabelece a reunião na Justiça Federal, ressalvadas competências constitucionais especiais.",
+      "Incorreta. Ignora a orientação sumulada."
+    ],
+    "legalBasis": "STJ, Súmula 122",
+    "reference": "STJ, Súmula 122",
+    "trap": "Não confunda conexão federal e estadual com critérios de competência distintos.",
+    "sources": [
+      {
+        "title": "STJ, Súmula 122 — fonte oficial para conferência",
+        "url": "https://scon.stj.jus.br/SCON/sumstj/"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00037",
+    "title": "Competência do júri",
+    "disc": "Direito Processual Penal",
+    "topic": "Jurisdição e competência",
+    "subtopic": "Competência do júri",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FCC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Qual competência é assegurada constitucionalmente ao Tribunal do Júri?",
+    "opts": [
+      "Todos os crimes com morte",
+      "Crimes culposos contra a vida",
+      "Todos os crimes hediondos",
+      "Crimes dolosos contra a vida",
+      "Todos os crimes violentos"
+    ],
+    "right": 3,
+    "comment": "A Constituição assegura essa competência, sem excluir hipóteses legais de atração por conexão.",
+    "optionComments": [
+      "Incorreta. Resultado morte não basta.",
+      "Incorreta. Não integram a competência constitucional mínima.",
+      "Incorreta. Hediondez não determina competência do júri.",
+      "Correta. A Constituição assegura essa competência, sem excluir hipóteses legais de atração por conexão.",
+      "Incorreta. Violência não é o critério constitucional."
+    ],
+    "legalBasis": "CF, art. 5º, XXXVIII, d",
+    "reference": "CF, art. 5º, XXXVIII, d",
+    "trap": "Não confunda competência do júri com critérios de competência distintos.",
+    "sources": [
+      {
+        "title": "CF, art. 5º, XXXVIII, d — fonte oficial para conferência",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00038",
+    "title": "Foro constitucional estadual",
+    "disc": "Direito Processual Penal",
+    "topic": "Jurisdição e competência",
+    "subtopic": "Foro constitucional estadual",
+    "contentType": "sumula_vinculante",
+    "court": "STF",
+    "sumula": "45",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "A competência constitucional do júri prevalece sobre foro por prerrogativa de função estabelecido exclusivamente por constituição estadual.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 0,
+    "comment": "A SV 45 resolve o conflito em favor do júri quando o foro é exclusivamente estadual.",
+    "optionComments": [
+      "Correta. A SV 45 resolve o conflito em favor do júri quando o foro é exclusivamente estadual.",
+      "Incorreta. Confunde foro estadual com prerrogativa prevista na Constituição Federal."
+    ],
+    "legalBasis": "STF, Súmula Vinculante 45",
+    "reference": "STF, Súmula Vinculante 45",
+    "trap": "Não confunda foro constitucional estadual com critérios de competência distintos.",
+    "sources": [
+      {
+        "title": "STF, Súmula Vinculante 45 — fonte oficial para conferência",
+        "url": "https://portal.stf.jus.br/jurisprudencia/"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00039",
+    "title": "Incompetência territorial",
+    "disc": "Direito Processual Penal",
+    "topic": "Jurisdição e competência",
+    "subtopic": "Incompetência territorial",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "A defesa pretende arguir incompetência territorial relativa por exceção. Qual momento é previsto pelo CPP para a oposição da exceção?",
+    "opts": [
+      "Somente no recurso especial",
+      "Prazo de defesa",
+      "Exclusivamente na execução",
+      "Apenas antes do inquérito",
+      "Somente após sentença"
+    ],
+    "right": 1,
+    "comment": "O art. 108 prevê oposição verbal ou escrita no prazo de defesa; a matéria relativa está sujeita à preclusão.",
+    "optionComments": [
+      "Incorreta. Não corresponde ao momento legal.",
+      "Correta. O art. 108 prevê oposição verbal ou escrita no prazo de defesa; a matéria relativa está sujeita à preclusão.",
+      "Incorreta. É tardio para a exceção.",
+      "Incorreta. A exceção é processual.",
+      "Incorreta. Não é o prazo legal."
+    ],
+    "legalBasis": "CPP, arts. 108 e 109",
+    "reference": "CPP, arts. 108 e 109",
+    "trap": "Não confunda incompetência territorial com critérios de competência distintos.",
+    "sources": [
+      {
+        "title": "CPP, arts. 108 e 109 — fonte oficial para conferência",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DPP-00040",
+    "title": "Juiz natural",
+    "disc": "Direito Processual Penal",
+    "topic": "Jurisdição e competência",
+    "subtopic": "Juiz natural",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FCC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Após um crime de repercussão, cria-se tribunal de exceção exclusivamente para julgar o acusado. Qual princípio é violado?",
+    "opts": [
+      "Identidade física apenas",
+      "Publicidade apenas",
+      "Indivisibilidade da ação privada",
+      "Juiz natural",
+      "Disponibilidade da ação"
+    ],
+    "right": 3,
+    "comment": "A Constituição veda tribunal de exceção e exige autoridade competente previamente definida.",
+    "optionComments": [
+      "Incorreta. Não se trata de substituição do juiz da instrução.",
+      "Incorreta. O problema é a constituição do órgão julgador.",
+      "Incorreta. Não se refere à pluralidade de querelados.",
+      "Correta. A Constituição veda tribunal de exceção e exige autoridade competente previamente definida.",
+      "Incorreta. Não é questão de titularidade."
+    ],
+    "legalBasis": "CF, art. 5º, XXXVII e LIII",
+    "reference": "CF, art. 5º, XXXVII e LIII",
+    "trap": "Não confunda juiz natural com critérios de competência distintos.",
+    "sources": [
+      {
+        "title": "CF, art. 5º, XXXVII e LIII — fonte oficial para conferência",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
   }
 ]
