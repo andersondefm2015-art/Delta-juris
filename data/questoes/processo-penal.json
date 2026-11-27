@@ -2801,22 +2801,26 @@
       "Errado"
     ],
     "right": 0,
-    "comment": "A faculdade do particular contrasta com o dever funcional da autoridade policial e de seus agentes.",
+    "comment": "O particular tem faculdade de prender em flagrante; a polícia tem dever funcional.",
     "optionComments": [
-      "Correto. A faculdade do particular contrasta com o dever funcional da autoridade policial e de seus agentes.",
-      "Incorreto. A faculdade do particular contrasta com o dever funcional da autoridade policial e de seus agentes."
+      "Correto. O particular tem faculdade de prender em flagrante; a polícia tem dever funcional.",
+      "Incorreto. O particular tem faculdade de prender em flagrante; a polícia tem dever funcional."
     ],
     "legalBasis": "CPP, art. 301",
     "reference": "CPP, art. 301",
-    "trap": "A faculdade do particular contrasta com o dever funcional da autoridade policial e de seus agentes.",
+    "trap": "Não confundir faculdade do cidadão com dever policial.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      },
+      {
+        "title": "CPP — Senado Federal",
+        "url": "https://legis.senado.gov.br/norma/528776/publicacao/34620736"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00062",
@@ -2842,22 +2846,26 @@
       "Errado"
     ],
     "right": 1,
-    "comment": "O dispositivo exige perseguição logo após o fato e circunstâncias indicativas de autoria, não estabelece limite fixo de 24 horas para a captura.",
+    "comment": "O flagrante impróprio depende de perseguição logo após o fato e circunstâncias indicativas de autoria; não existe limite geral de 24 horas para captura.",
     "optionComments": [
-      "Incorreto. O dispositivo exige perseguição logo após o fato e circunstâncias indicativas de autoria, não estabelece limite fixo de 24 horas para a captura.",
-      "Correto. O dispositivo exige perseguição logo após o fato e circunstâncias indicativas de autoria, não estabelece limite fixo de 24 horas para a captura."
+      "Incorreto. O flagrante impróprio depende de perseguição logo após o fato e circunstâncias indicativas de autoria; não existe limite geral de 24 horas para captura.",
+      "Correto. O flagrante impróprio depende de perseguição logo após o fato e circunstâncias indicativas de autoria; não existe limite geral de 24 horas para captura."
     ],
     "legalBasis": "CPP, art. 302, III",
     "reference": "CPP, art. 302, III",
-    "trap": "O dispositivo exige perseguição logo após o fato e circunstâncias indicativas de autoria, não estabelece limite fixo de 24 horas para a captura.",
+    "trap": "O prazo de remessa do auto não é prazo de duração da perseguição.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      },
+      {
+        "title": "CPP — Senado Federal",
+        "url": "https://legis.senado.gov.br/norma/528776/publicacao/34620736"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00063",
@@ -2883,22 +2891,26 @@
       "Errado"
     ],
     "right": 0,
-    "comment": "A permanência da consumação prolonga a situação de flagrância, sem dispensar os requisitos constitucionais de ingresso domiciliar.",
+    "comment": "O flagrante persiste durante a consumação da infração permanente.",
     "optionComments": [
-      "Correto. A permanência da consumação prolonga a situação de flagrância, sem dispensar os requisitos constitucionais de ingresso domiciliar.",
-      "Incorreto. A permanência da consumação prolonga a situação de flagrância, sem dispensar os requisitos constitucionais de ingresso domiciliar."
+      "Correto. O flagrante persiste durante a consumação da infração permanente.",
+      "Incorreto. O flagrante persiste durante a consumação da infração permanente."
     ],
     "legalBasis": "CPP, art. 303",
     "reference": "CPP, art. 303",
-    "trap": "A permanência da consumação prolonga a situação de flagrância, sem dispensar os requisitos constitucionais de ingresso domiciliar.",
+    "trap": "Crime permanente não se confunde com crime instantâneo de efeitos permanentes.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      },
+      {
+        "title": "CPP — Senado Federal",
+        "url": "https://legis.senado.gov.br/norma/528776/publicacao/34620736"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00064",
@@ -2924,14 +2936,14 @@
       "Errado"
     ],
     "right": 1,
-    "comment": "A comunicação é imediata; o prazo para encaminhar o auto não se confunde com o dever de comunicar a prisão.",
+    "comment": "A comunicação é imediata; a remessa do auto tem prazo próprio de até 24 horas.",
     "optionComments": [
-      "Incorreto. A comunicação é imediata; o prazo para encaminhar o auto não se confunde com o dever de comunicar a prisão.",
-      "Correto. A comunicação é imediata; o prazo para encaminhar o auto não se confunde com o dever de comunicar a prisão."
+      "Incorreto. A comunicação é imediata; a remessa do auto tem prazo próprio de até 24 horas.",
+      "Correto. A comunicação é imediata; a remessa do auto tem prazo próprio de até 24 horas."
     ],
     "legalBasis": "CPP, art. 306",
     "reference": "CPP, art. 306",
-    "trap": "A comunicação é imediata; o prazo para encaminhar o auto não se confunde com o dever de comunicar a prisão.",
+    "trap": "Comunicação e encaminhamento do auto são atos distintos.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
@@ -2965,22 +2977,26 @@
       "Errado"
     ],
     "right": 0,
-    "comment": "A nota de culpa documenta o motivo e os responsáveis pela condução e testemunho, permitindo controle defensivo.",
+    "comment": "A nota de culpa informa o motivo da prisão e identifica condutor e testemunhas, sendo entregue mediante recibo no prazo legal.",
     "optionComments": [
-      "Correto. A nota de culpa documenta o motivo e os responsáveis pela condução e testemunho, permitindo controle defensivo.",
-      "Incorreto. A nota de culpa documenta o motivo e os responsáveis pela condução e testemunho, permitindo controle defensivo."
+      "Correto. A nota de culpa informa o motivo da prisão e identifica condutor e testemunhas, sendo entregue mediante recibo no prazo legal.",
+      "Incorreto. A nota de culpa informa o motivo da prisão e identifica condutor e testemunhas, sendo entregue mediante recibo no prazo legal."
     ],
     "legalBasis": "CPP, art. 306, § 2º",
     "reference": "CPP, art. 306, § 2º",
-    "trap": "A nota de culpa documenta o motivo e os responsáveis pela condução e testemunho, permitindo controle defensivo.",
+    "trap": "O prazo de 24 horas não dispensa comunicação imediata.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      },
+      {
+        "title": "CPP — Senado Federal",
+        "url": "https://legis.senado.gov.br/norma/528776/publicacao/34620736"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00066",
@@ -3006,22 +3022,26 @@
       "Errado"
     ],
     "right": 1,
-    "comment": "Prisão ilegal deve ser relaxada; fiança não convalida a ilegalidade da captura.",
+    "comment": "Prisão ilegal exige relaxamento. Fiança é instituto de liberdade provisória, não convalidação de ilegalidade.",
     "optionComments": [
-      "Incorreto. Prisão ilegal deve ser relaxada; fiança não convalida a ilegalidade da captura.",
-      "Correto. Prisão ilegal deve ser relaxada; fiança não convalida a ilegalidade da captura."
+      "Incorreto. Prisão ilegal exige relaxamento. Fiança é instituto de liberdade provisória, não convalidação de ilegalidade.",
+      "Correto. Prisão ilegal exige relaxamento. Fiança é instituto de liberdade provisória, não convalidação de ilegalidade."
     ],
     "legalBasis": "CPP, art. 310, I",
     "reference": "CPP, art. 310, I",
-    "trap": "Prisão ilegal deve ser relaxada; fiança não convalida a ilegalidade da captura.",
+    "trap": "Distinguir relaxamento, revogação e liberdade provisória.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      },
+      {
+        "title": "CPP — Senado Federal",
+        "url": "https://legis.senado.gov.br/norma/528776/publicacao/34620736"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00067",
@@ -3047,22 +3067,26 @@
       "Errado"
     ],
     "right": 1,
-    "comment": "A fundamentação não substitui a provocação legalmente exigida: requerimento ou representação de legitimado.",
+    "comment": "A decretação da preventiva exige provocação legitimada; fundamentação concreta não supre a falta de requerimento ou representação.",
     "optionComments": [
-      "Incorreto. A fundamentação não substitui a provocação legalmente exigida: requerimento ou representação de legitimado.",
-      "Correto. A fundamentação não substitui a provocação legalmente exigida: requerimento ou representação de legitimado."
+      "Incorreto. A decretação da preventiva exige provocação legitimada; fundamentação concreta não supre a falta de requerimento ou representação.",
+      "Correto. A decretação da preventiva exige provocação legitimada; fundamentação concreta não supre a falta de requerimento ou representação."
     ],
     "legalBasis": "CPP, art. 311",
     "reference": "CPP, art. 311",
-    "trap": "A fundamentação não substitui a provocação legalmente exigida: requerimento ou representação de legitimado.",
+    "trap": "Não confundir decretação com revogação de ofício.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      },
+      {
+        "title": "CPP — Senado Federal",
+        "url": "https://legis.senado.gov.br/norma/528776/publicacao/34620736"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00068",
@@ -3088,22 +3112,26 @@
       "Errado"
     ],
     "right": 1,
-    "comment": "A cautelar exige suporte concreto, prova da existência do crime, indício suficiente de autoria e perigo decorrente da liberdade, além dos pressupostos legais.",
+    "comment": "A Lei 15.272/2025 acrescentou o § 4º ao art. 312, vedando fundamentação exclusivamente na gravidade abstrata. É necessário demonstrar risco concreto.",
     "optionComments": [
-      "Incorreto. A cautelar exige suporte concreto, prova da existência do crime, indício suficiente de autoria e perigo decorrente da liberdade, além dos pressupostos legais.",
-      "Correto. A cautelar exige suporte concreto, prova da existência do crime, indício suficiente de autoria e perigo decorrente da liberdade, além dos pressupostos legais."
+      "Incorreto. A Lei 15.272/2025 acrescentou o § 4º ao art. 312, vedando fundamentação exclusivamente na gravidade abstrata. É necessário demonstrar risco concreto.",
+      "Correto. A Lei 15.272/2025 acrescentou o § 4º ao art. 312, vedando fundamentação exclusivamente na gravidade abstrata. É necessário demonstrar risco concreto."
     ],
     "legalBasis": "CPP, art. 312",
     "reference": "CPP, art. 312",
-    "trap": "A cautelar exige suporte concreto, prova da existência do crime, indício suficiente de autoria e perigo decorrente da liberdade, além dos pressupostos legais.",
+    "trap": "Gravidade abstrata não equivale a periculosidade concretamente demonstrada.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      },
+      {
+        "title": "CPP — Senado Federal",
+        "url": "https://legis.senado.gov.br/norma/528776/publicacao/34620736"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00069",
@@ -3132,25 +3160,29 @@
       "Preferência obrigatória pela prisão."
     ],
     "right": 0,
-    "comment": "São critérios legais cumulativamente considerados.",
+    "comment": "A cautelar deve atender a necessidade concreta e adequação ao caso.",
     "optionComments": [
-      "São critérios legais cumulativamente considerados.",
-      "A severidade não é critério automático.",
-      "Repercussão não substitui requisitos.",
-      "A pena mínima isolada não resolve a adequação.",
+      "A medida deve ser necessária e adequada.",
+      "Severidade não é critério automático.",
+      "Imprensa não é fundamento autônomo.",
+      "Pena mínima isolada é insuficiente.",
       "A prisão é subsidiária."
     ],
     "legalBasis": "CPP, art. 282",
     "reference": "CPP, art. 282",
-    "trap": "Distinguir os requisitos legais da medida e a competência para sua aplicação. São critérios legais cumulativamente considerados.",
+    "trap": "Repercussão pública não substitui requisitos cautelares.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      },
+      {
+        "title": "CPP — Senado Federal",
+        "url": "https://legis.senado.gov.br/norma/528776/publicacao/34620736"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00070",
@@ -3179,25 +3211,29 @@
       "Declarar extinta a punibilidade."
     ],
     "right": 1,
-    "comment": "A preventiva é subsidiária.",
+    "comment": "A preventiva é subsidiária; a insuficiência de alternativas deve ser motivada individualmente.",
     "optionComments": [
       "Cautelar não antecipa pena.",
-      "A preventiva é subsidiária.",
-      "Não há obrigatoriedade nesse cenário.",
-      "A suficiência da cautelar não implica arquivamento.",
-      "Não constitui causa extintiva."
+      "A alternativa suficiente deve prevalecer.",
+      "Preventiva não é obrigatória.",
+      "A cautelar não determina arquivamento.",
+      "Não há causa extintiva indicada."
     ],
     "legalBasis": "CPP, art. 282, § 6º",
     "reference": "CPP, art. 282, § 6º",
-    "trap": "Distinguir os requisitos legais da medida e a competência para sua aplicação. A preventiva é subsidiária.",
+    "trap": "Prisão cautelar não é antecipação de pena.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      },
+      {
+        "title": "CPP — Senado Federal",
+        "url": "https://legis.senado.gov.br/norma/528776/publicacao/34620736"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00071",
@@ -3226,25 +3262,29 @@
       "Crime doloso com pena máxima de dois anos."
     ],
     "right": 2,
-    "comment": "Satisfaz o requisito objetivo, sem dispensar os demais.",
+    "comment": "No inciso I, exige-se delito doloso com máximo superior a quatro anos. Existem outras hipóteses no art. 313, inclusive incisos V e VI acrescentados em 2026.",
     "optionComments": [
-      "O inciso exige crime doloso.",
-      "Exige pena máxima superior a quatro anos.",
-      "Satisfaz o requisito objetivo, sem dispensar os demais.",
-      "Não é crime doloso.",
-      "Não supera quatro anos."
+      "O inciso I exige dolo.",
+      "Quatro anos não supera o limite.",
+      "Cinco anos e dolo satisfazem o inciso I.",
+      "Contravenção não é crime doloso.",
+      "Dois anos não supera o limite."
     ],
     "legalBasis": "CPP, art. 313, I",
     "reference": "CPP, art. 313, I",
-    "trap": "Distinguir os requisitos legais da medida e a competência para sua aplicação. Satisfaz o requisito objetivo, sem dispensar os demais.",
+    "trap": "Superior a quatro não significa igual a quatro.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      },
+      {
+        "title": "CPP — Senado Federal",
+        "url": "https://legis.senado.gov.br/norma/528776/publicacao/34620736"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00072",
@@ -3273,25 +3313,29 @@
       "Manutenção por noventa dias."
     ],
     "right": 3,
-    "comment": "Cessado o motivo, deve ser liberado salvo outra hipótese legal.",
+    "comment": "Resolvida a dúvida de identidade, cessa esse fundamento de prisão, salvo outro motivo legal.",
     "optionComments": [
-      "Não há fundamento para manter.",
+      "Identificação elimina o fundamento exclusivo.",
       "Não existe conversão automática.",
-      "A lei não exige fiança nesse caso.",
-      "Cessado o motivo, deve ser liberado salvo outra hipótese legal.",
-      "O prazo não autoriza manutenção."
+      "Fiança não é condição nesse caso.",
+      "A soltura é imediata sem outro fundamento.",
+      "Noventa dias não é prazo mínimo."
     ],
     "legalBasis": "CPP, art. 313, § 1º",
     "reference": "CPP, art. 313, § 1º",
-    "trap": "Distinguir os requisitos legais da medida e a competência para sua aplicação. Cessado o motivo, deve ser liberado salvo outra hipótese legal.",
+    "trap": "Não há prazo mínimo de custódia após identificação.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      },
+      {
+        "title": "CPP — Senado Federal",
+        "url": "https://legis.senado.gov.br/norma/528776/publicacao/34620736"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00073",
@@ -3320,25 +3364,29 @@
       "Recolhimento na residência, com saída mediante autorização judicial."
     ],
     "right": 4,
-    "comment": "É a definição legal.",
+    "comment": "A domiciliar restringe a saída da residência, condicionada a autorização judicial.",
     "optionComments": [
-      "É cautelar diversa.",
-      "É cautelar diversa.",
-      "Não corresponde à definição do art. 317.",
-      "Não equivale necessariamente à domiciliar.",
-      "É a definição legal."
+      "É cautelar do art. 319.",
+      "É cautelar distinta.",
+      "Recolhimento noturno é medida distinta.",
+      "Monitoração isolada não define domiciliar.",
+      "Corresponde ao art. 317."
     ],
     "legalBasis": "CPP, art. 317",
     "reference": "CPP, art. 317",
-    "trap": "Distinguir os requisitos legais da medida e a competência para sua aplicação. É a definição legal.",
+    "trap": "Distinguir prisão domiciliar de recolhimento noturno do art. 319, V.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      },
+      {
+        "title": "CPP — Senado Federal",
+        "url": "https://legis.senado.gov.br/norma/528776/publicacao/34620736"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00074",
@@ -3367,25 +3415,29 @@
       "Suspensão de direitos políticos como pena."
     ],
     "right": 0,
-    "comment": "Prevista no inciso IX.",
+    "comment": "A monitoração eletrônica integra o art. 319, IX.",
     "optionComments": [
-      "Prevista no inciso IX.",
-      "Não integra o rol.",
-      "É sanção penal, não esta cautelar.",
-      "Não é cautelar pessoal do art. 319.",
-      "Não integra o rol."
+      "Consta do inciso IX.",
+      "É consequência definitiva, não esta cautelar.",
+      "É sanção penal.",
+      "Não consta do rol como cautelar pessoal.",
+      "Não é cautelar do art. 319."
     ],
     "legalBasis": "CPP, art. 319",
     "reference": "CPP, art. 319",
-    "trap": "Distinguir os requisitos legais da medida e a competência para sua aplicação. Prevista no inciso IX.",
+    "trap": "Medida cautelar não se confunde com sanção definitiva.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      },
+      {
+        "title": "CPP — Senado Federal",
+        "url": "https://legis.senado.gov.br/norma/528776/publicacao/34620736"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00075",
@@ -3414,25 +3466,29 @@
       "A vítima."
     ],
     "right": 1,
-    "comment": "O limite legal é pena máxima não superior a quatro anos.",
+    "comment": "A polícia pode arbitrar fiança quando a pena máxima não ultrapassa quatro anos, respeitadas as vedações.",
     "optionComments": [
-      "Não há reserva ao tribunal.",
-      "O limite legal é pena máxima não superior a quatro anos.",
-      "O MP não concede fiança policial.",
-      "Não compete autonomamente ao escrivão.",
-      "A vítima não possui essa atribuição."
+      "Não há exclusividade do tribunal.",
+      "Cabe à autoridade policial dentro do limite.",
+      "MP não arbitra fiança policial.",
+      "Escrivão não tem atribuição autônoma.",
+      "Vítima não arbitra fiança."
     ],
     "legalBasis": "CPP, art. 322",
     "reference": "CPP, art. 322",
-    "trap": "Distinguir os requisitos legais da medida e a competência para sua aplicação. O limite legal é pena máxima não superior a quatro anos.",
+    "trap": "O limite inclui exatamente quatro anos.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      },
+      {
+        "title": "CPP — Senado Federal",
+        "url": "https://legis.senado.gov.br/norma/528776/publicacao/34620736"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00076",
@@ -3461,25 +3517,29 @@
       "Escrivão."
     ],
     "right": 2,
-    "comment": "É a regra expressa do parágrafo único.",
+    "comment": "Acima do limite policial, em delito afiançável, cabe ao juiz apreciar o pedido em 48 horas.",
     "optionComments": [
-      "Excede a competência policial.",
-      "Não é atribuição decisória do MP.",
-      "É a regra expressa do parágrafo único.",
-      "Não depende do conselho de sentença.",
-      "Não possui competência decisória."
+      "Excede limite policial.",
+      "MP não decide o pedido.",
+      "Prazo judicial de 48 horas.",
+      "Júri não é autoridade competente para o ato.",
+      "Escrivão não decide."
     ],
     "legalBasis": "CPP, art. 322, parágrafo único",
     "reference": "CPP, art. 322, parágrafo único",
-    "trap": "Distinguir os requisitos legais da medida e a competência para sua aplicação. É a regra expressa do parágrafo único.",
+    "trap": "Não trocar 48 horas por 24 horas.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      },
+      {
+        "title": "CPP — Senado Federal",
+        "url": "https://legis.senado.gov.br/norma/528776/publicacao/34620736"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00077",
@@ -3508,17 +3568,17 @@
       "Decretar temporária de ofício."
     ],
     "right": 3,
-    "comment": "É a regra do art. 321.",
+    "comment": "Sem requisitos da preventiva, aplica-se a liberdade provisória conforme art. 321, com cautelares adequadas se necessárias.",
     "optionComments": [
       "Conveniência administrativa não basta.",
       "É vedada antecipação de pena.",
-      "Não há necessidade de aguardar denúncia.",
-      "É a regra do art. 321.",
-      "Não cabe decretação de ofício."
+      "Denúncia não é condição de soltura.",
+      "Aplica-se o art. 321.",
+      "Temporária de ofício é incabível."
     ],
     "legalBasis": "CPP, art. 321",
     "reference": "CPP, art. 321",
-    "trap": "Distinguir os requisitos legais da medida e a competência para sua aplicação. É a regra do art. 321.",
+    "trap": "Legalidade do flagrante não implica manutenção automática da custódia.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
@@ -3555,25 +3615,25 @@
       "5 dias, prorrogáveis por igual período em extrema e comprovada necessidade."
     ],
     "right": 4,
-    "comment": "É a regra do art. 2º.",
+    "comment": "O prazo ordinário é de cinco dias, com uma prorrogação de igual duração mediante necessidade extrema comprovada.",
     "optionComments": [
-      "Não é o prazo legal.",
-      "A prorrogação é condicionada.",
-      "Há regime especial, não regra universal.",
-      "Não é o prazo ordinário.",
-      "É a regra do art. 2º."
+      "Não é prazo ordinário.",
+      "Dez dias podem resultar de prorrogação, não prazo inicial.",
+      "Há regimes especiais, não regra universal.",
+      "Não é prazo ordinário.",
+      "Cinco mais cinco sob condição legal."
     ],
     "legalBasis": "Lei 7.960/1989, art. 2º",
     "reference": "Lei 7.960/1989, art. 2º",
-    "trap": "Distinguir os requisitos legais da medida e a competência para sua aplicação. É a regra do art. 2º.",
+    "trap": "Não aplicar indistintamente prazos especiais.",
     "sources": [
       {
         "title": "Lei 7.960/1989 — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/leis/l7960.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00079",
@@ -3602,25 +3662,25 @@
       "Pedir ao juiz que decrete de ofício."
     ],
     "right": 0,
-    "comment": "A representação policial exige prévia oitiva do MP.",
+    "comment": "A temporária depende de decisão judicial provocada pela polícia ou MP; na representação policial, o MP é ouvido previamente.",
     "optionComments": [
-      "A representação policial exige prévia oitiva do MP.",
-      "A decretação é judicial.",
-      "Escrivão não decreta nem expede autonomamente mandado judicial.",
-      "A autorização da vítima não substitui decisão judicial.",
-      "A lei exige representação ou requerimento."
+      "É o procedimento do art. 2º, § 1º.",
+      "Polícia não decreta.",
+      "Mandado depende de decisão judicial.",
+      "Vítima não autoriza a prisão.",
+      "Decretação de ofício não cabe."
     ],
     "legalBasis": "Lei 7.960/1989, art. 2º",
     "reference": "Lei 7.960/1989, art. 2º",
-    "trap": "Distinguir os requisitos legais da medida e a competência para sua aplicação. A representação policial exige prévia oitiva do MP.",
+    "trap": "Representação não equivale a decretação.",
     "sources": [
       {
         "title": "Lei 7.960/1989 — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/leis/l7960.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00080",
@@ -3649,25 +3709,29 @@
       "Extinguir o processo."
     ],
     "right": 1,
-    "comment": "É a regra do art. 316, observados os requisitos para nova decretação.",
+    "comment": "A preventiva perde sua razão de ser quando cessam os fundamentos; fatos supervenientes podem justificar nova decisão, respeitados os requisitos legais.",
     "optionComments": [
-      "A cautelar depende da persistência dos motivos.",
-      "É a regra do art. 316, observados os requisitos para nova decretação.",
-      "Não há condenação definitiva pressuposta.",
-      "Não existe conversão automática.",
-      "Revogação não extingue a ação penal."
+      "Custódia depende de fundamento atual.",
+      "Revogação e eventual nova decretação são previstas.",
+      "Não cabe conversão automática em pena.",
+      "Temporária exige requisitos próprios.",
+      "Revogação não extingue processo."
     ],
     "legalBasis": "CPP, art. 316",
     "reference": "CPP, art. 316",
-    "trap": "Distinguir os requisitos legais da medida e a competência para sua aplicação. É a regra do art. 316, observados os requisitos para nova decretação.",
+    "trap": "Distinguir revogação por perda do fundamento de relaxamento por ilegalidade.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      },
+      {
+        "title": "CPP — Senado Federal",
+        "url": "https://legis.senado.gov.br/norma/528776/publicacao/34620736"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00081",
