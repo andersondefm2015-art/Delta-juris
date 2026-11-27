@@ -1,0 +1,894 @@
+[
+  {
+    "id": "DC-00001",
+    "title": "Constituição rígida",
+    "disc": "Direito Constitucional",
+    "topic": "Teoria da Constituição e poder constituinte",
+    "subtopic": "Constituição rígida",
+    "contentType": "doutrina",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Básico",
+    "prompt": "A Constituição de 1988 é rígida porque sua alteração formal exige procedimento mais solene que o da legislação ordinária.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 0,
+    "comment": "Correto. O rito de emenda exige votação em dois turnos em cada Casa, com quórum qualificado. Rigidez não significa imutabilidade.",
+    "optionComments": [
+      "Correto. O rito de emenda exige votação em dois turnos em cada Casa, com quórum qualificado. Rigidez não significa imutabilidade.",
+      "Incorreto. O rito de emenda exige votação em dois turnos em cada Casa, com quórum qualificado. Rigidez não significa imutabilidade."
+    ],
+    "legalBasis": "CF, art. 60, § 2º",
+    "reference": "CF, art. 60, § 2º",
+    "trap": "Não confundir rigidez com imutabilidade.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00002",
+    "title": "Poder originário",
+    "disc": "Direito Constitucional",
+    "topic": "Teoria da Constituição e poder constituinte",
+    "subtopic": "Poder originário",
+    "contentType": "doutrina",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "O poder constituinte originário está juridicamente subordinado ao procedimento de emenda previsto na Constituição anterior.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 1,
+    "comment": "Correto. Na teoria clássica, o poder originário inaugura nova ordem jurídica, sem submissão ao rito de reforma anterior. Isso não exclui condicionamentos políticos e sociais.",
+    "optionComments": [
+      "Incorreto. Na teoria clássica, o poder originário inaugura nova ordem jurídica, sem submissão ao rito de reforma anterior. Isso não exclui condicionamentos políticos e sociais.",
+      "Correto. Na teoria clássica, o poder originário inaugura nova ordem jurídica, sem submissão ao rito de reforma anterior. Isso não exclui condicionamentos políticos e sociais."
+    ],
+    "legalBasis": "Teoria do poder constituinte; CF, art. 60 (contraste)",
+    "reference": "Teoria do poder constituinte; CF, art. 60 (contraste)",
+    "trap": "O rito de reforma vincula o poder derivado, não o originário.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00003",
+    "title": "Limite circunstancial",
+    "disc": "Direito Constitucional",
+    "topic": "Teoria da Constituição e poder constituinte",
+    "subtopic": "Limite circunstancial",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Durante intervenção federal, é possível promulgar emenda constitucional sobre matéria sem relação com a intervenção.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 1,
+    "comment": "Correto. A vedação circunstancial alcança a alteração da Constituição durante a intervenção federal, independentemente do tema da emenda.",
+    "optionComments": [
+      "Incorreto. A vedação circunstancial alcança a alteração da Constituição durante a intervenção federal, independentemente do tema da emenda.",
+      "Correto. A vedação circunstancial alcança a alteração da Constituição durante a intervenção federal, independentemente do tema da emenda."
+    ],
+    "legalBasis": "CF, art. 60, § 1º",
+    "reference": "CF, art. 60, § 1º",
+    "trap": "A ausência de relação temática não afasta o limite.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00004",
+    "title": "Iniciativa estadual",
+    "disc": "Direito Constitucional",
+    "topic": "Teoria da Constituição e poder constituinte",
+    "subtopic": "Iniciativa estadual",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Uma proposta de emenda subscrita por mais da metade das Assembleias Legislativas, cada qual pela maioria relativa de seus membros, satisfaz a hipótese estadual de iniciativa.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 0,
+    "comment": "Correto. A iniciativa coletiva estadual exige mais da metade das Assembleias e manifestação pela maioria relativa em cada uma.",
+    "optionComments": [
+      "Correto. A iniciativa coletiva estadual exige mais da metade das Assembleias e manifestação pela maioria relativa em cada uma.",
+      "Incorreto. A iniciativa coletiva estadual exige mais da metade das Assembleias e manifestação pela maioria relativa em cada uma."
+    ],
+    "legalBasis": "CF, art. 60, III",
+    "reference": "CF, art. 60, III",
+    "trap": "Não trocar maioria relativa por absoluta.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00005",
+    "title": "Reapresentação de PEC",
+    "disc": "Direito Constitucional",
+    "topic": "Teoria da Constituição e poder constituinte",
+    "subtopic": "Reapresentação de PEC",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "PEC rejeitada pode ser reapresentada na mesma sessão legislativa se houver aprovação da maioria absoluta dos deputados.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 1,
+    "comment": "Correto. A vedação de reapresentação na mesma sessão legislativa não contém essa ressalva.",
+    "optionComments": [
+      "Incorreto. A vedação de reapresentação na mesma sessão legislativa não contém essa ressalva.",
+      "Correto. A vedação de reapresentação na mesma sessão legislativa não contém essa ressalva."
+    ],
+    "legalBasis": "CF, art. 60, § 5º",
+    "reference": "CF, art. 60, § 5º",
+    "trap": "Não importar a exceção do art. 67 para PEC.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00006",
+    "title": "Eficácia contida",
+    "disc": "Direito Constitucional",
+    "topic": "Teoria da Constituição e poder constituinte",
+    "subtopic": "Eficácia contida",
+    "contentType": "doutrina",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "A liberdade profissional prevista no art. 5º, XIII, é exemplo clássico de norma de eficácia contida.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 0,
+    "comment": "Correto. A liberdade pode ser exercida desde logo, mas a lei pode estabelecer qualificações profissionais constitucionalmente legítimas.",
+    "optionComments": [
+      "Correto. A liberdade pode ser exercida desde logo, mas a lei pode estabelecer qualificações profissionais constitucionalmente legítimas.",
+      "Incorreto. A liberdade pode ser exercida desde logo, mas a lei pode estabelecer qualificações profissionais constitucionalmente legítimas."
+    ],
+    "legalBasis": "CF, art. 5º, XIII; classificação doutrinária",
+    "reference": "CF, art. 5º, XIII; classificação doutrinária",
+    "trap": "Restrição posterior não equivale à necessidade de regulamentação inicial.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00007",
+    "title": "Eficácia limitada",
+    "disc": "Direito Constitucional",
+    "topic": "Teoria da Constituição e poder constituinte",
+    "subtopic": "Eficácia limitada",
+    "contentType": "doutrina",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Normas constitucionais de eficácia limitada são juridicamente irrelevantes até que sobrevenha regulamentação.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 1,
+    "comment": "Correto. Embora dependam de integração para produzir integralmente seus efeitos positivos, vinculam os poderes públicos e servem de parâmetro de compatibilidade normativa.",
+    "optionComments": [
+      "Incorreto. Embora dependam de integração para produzir integralmente seus efeitos positivos, vinculam os poderes públicos e servem de parâmetro de compatibilidade normativa.",
+      "Correto. Embora dependam de integração para produzir integralmente seus efeitos positivos, vinculam os poderes públicos e servem de parâmetro de compatibilidade normativa."
+    ],
+    "legalBasis": "CF, art. 5º, LXXI; teoria da eficácia",
+    "reference": "CF, art. 5º, LXXI; teoria da eficácia",
+    "trap": "Eficácia limitada não é ausência total de eficácia.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00008",
+    "title": "Titularidade do poder",
+    "disc": "Direito Constitucional",
+    "topic": "Teoria da Constituição e poder constituinte",
+    "subtopic": "Titularidade do poder",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "Na ordem constitucional brasileira, o povo pode exercer o poder diretamente, nas hipóteses constitucionais, além de fazê-lo por representantes.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 0,
+    "comment": "Correto. A Constituição combina representação política e mecanismos de participação direta.",
+    "optionComments": [
+      "Correto. A Constituição combina representação política e mecanismos de participação direta.",
+      "Incorreto. A Constituição combina representação política e mecanismos de participação direta."
+    ],
+    "legalBasis": "CF, art. 1º, parágrafo único; art. 14",
+    "reference": "CF, art. 1º, parágrafo único; art. 14",
+    "trap": "Não reduzir a soberania popular ao voto representativo.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00009",
+    "title": "Promulgação da emenda",
+    "disc": "Direito Constitucional",
+    "topic": "Teoria da Constituição e poder constituinte",
+    "subtopic": "Promulgação da emenda",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Após aprovação regular de PEC nas duas Casas, o Presidente da República anuncia que vetará parte do texto. Qual providência é constitucionalmente adequada?",
+    "opts": [
+      "Submeter a PEC ao veto parcial.",
+      "Promulgar pelas Mesas da Câmara e do Senado.",
+      "Remeter ao STF para sanção.",
+      "Realizar referendo obrigatório.",
+      "Promulgar somente pela Mesa do Senado."
+    ],
+    "right": 1,
+    "comment": "A promulgação compete às duas Mesas, sem sanção presidencial.",
+    "optionComments": [
+      "Emendas não se submetem a veto presidencial.",
+      "A promulgação compete às duas Mesas, sem sanção presidencial.",
+      "O STF não sanciona emendas.",
+      "Não há referendo obrigatório nesse procedimento.",
+      "A competência é conjunta."
+    ],
+    "legalBasis": "CF, art. 60, § 3º",
+    "reference": "CF, art. 60, § 3º",
+    "trap": "Não aplicar o rito de sanção das leis à PEC.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00010",
+    "title": "Quórum de reforma",
+    "disc": "Direito Constitucional",
+    "topic": "Teoria da Constituição e poder constituinte",
+    "subtopic": "Quórum de reforma",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Uma PEC recebeu 308 votos na Câmara, em apenas um turno, e 49 votos no Senado em dois turnos. Qual conclusão?",
+    "opts": [
+      "Está aprovada.",
+      "Depende de sanção.",
+      "O Senado deve votar novamente por maioria simples.",
+      "Ainda precisa de segundo turno na Câmara, com três quintos.",
+      "Basta sessão conjunta."
+    ],
+    "right": 3,
+    "comment": "O quórum e os dois turnos são exigidos em cada Casa.",
+    "optionComments": [
+      "Falta o segundo turno na Câmara.",
+      "Não existe sanção de PEC.",
+      "O quórum é de três quintos em ambos os turnos.",
+      "O quórum e os dois turnos são exigidos em cada Casa.",
+      "Sessão conjunta não substitui o rito."
+    ],
+    "legalBasis": "CF, art. 60, § 2º",
+    "reference": "CF, art. 60, § 2º",
+    "trap": "Quórum suficiente em um turno não supre o outro.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00011",
+    "title": "Cláusulas pétreas",
+    "disc": "Direito Constitucional",
+    "topic": "Teoria da Constituição e poder constituinte",
+    "subtopic": "Cláusulas pétreas",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Muito difícil",
+    "prompt": "PEC pretende extinguir a independência do Judiciário, subordinando suas decisões ao Executivo. A comissão sustenta que somente a revogação literal do art. 2º seria proibida. Assinale a conclusão correta.",
+    "opts": [
+      "A proposta é inadmissível por tender a abolir a separação dos Poderes.",
+      "É válida se aprovada por unanimidade.",
+      "É válida mediante plebiscito.",
+      "Somente o federalismo é protegido.",
+      "A vedação vale apenas para leis ordinárias."
+    ],
+    "right": 0,
+    "comment": "A proteção material alcança medidas tendentes à abolição, não só supressão textual.",
+    "optionComments": [
+      "A proteção material alcança medidas tendentes à abolição, não só supressão textual.",
+      "Quórum não supera limite material.",
+      "Consulta popular não elimina o limite do poder derivado.",
+      "Separação dos Poderes também é protegida.",
+      "O art. 60 limita expressamente PECs."
+    ],
+    "legalBasis": "CF, art. 60, § 4º, III",
+    "reference": "CF, art. 60, § 4º, III",
+    "trap": "A expressão tendente a abolir alcança esvaziamentos indiretos.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00012",
+    "title": "Recepção",
+    "disc": "Direito Constitucional",
+    "topic": "Teoria da Constituição e poder constituinte",
+    "subtopic": "Recepção",
+    "contentType": "doutrina",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Muito difícil",
+    "prompt": "Lei ordinária anterior à Constituição disciplina matéria que a nova ordem reserva à lei complementar. Seu conteúdo é integralmente compatível com a nova Constituição. Considerando a teoria da recepção, assinale a alternativa correta.",
+    "opts": [
+      "É automaticamente nula pela forma original.",
+      "Deve ser republicada como emenda.",
+      "Pode ser recebida com força de lei complementar na matéria reservada.",
+      "É recebida com hierarquia constitucional.",
+      "Depende sempre de ratificação expressa."
+    ],
+    "right": 2,
+    "comment": "A forma exigida pela nova ordem rege alterações futuras; a compatibilidade material permite a recepção.",
+    "optionComments": [
+      "A recepção examina compatibilidade material.",
+      "Republicação como emenda não é requisito.",
+      "A forma exigida pela nova ordem rege alterações futuras; a compatibilidade material permite a recepção.",
+      "Recepção não a transforma em norma constitucional.",
+      "A recepção não exige ratificação geral."
+    ],
+    "legalBasis": "Teoria da recepção constitucional; CF, art. 59",
+    "reference": "Teoria da recepção constitucional; CF, art. 59",
+    "trap": "Não confundir recepção material com validade formal originária.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00013",
+    "title": "Mutação constitucional",
+    "disc": "Direito Constitucional",
+    "topic": "Teoria da Constituição e poder constituinte",
+    "subtopic": "Mutação constitucional",
+    "contentType": "doutrina",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Muito difícil",
+    "prompt": "Sem alteração da redação constitucional, a interpretação consolidada de uma disposição evolui dentro de seus limites semânticos e estruturais. Qual fenômeno descreve essa hipótese?",
+    "opts": [
+      "Repristinação.",
+      "Revisão constitucional formal.",
+      "Desconstitucionalização.",
+      "Recepção.",
+      "Mutação constitucional."
+    ],
+    "right": 4,
+    "comment": "É mudança informal de sentido, sujeita aos limites da Constituição.",
+    "optionComments": [
+      "Repristinação refere-se ao retorno de norma revogada.",
+      "Revisão pressupõe mudança formal.",
+      "Refere-se à subsistência de antigas normas constitucionais como infraconstitucionais.",
+      "Recepção examina normas anteriores à nova ordem.",
+      "É mudança informal de sentido, sujeita aos limites da Constituição."
+    ],
+    "legalBasis": "Teoria da mutação constitucional; CF, art. 60 (contraste)",
+    "reference": "Teoria da mutação constitucional; CF, art. 60 (contraste)",
+    "trap": "Mudança interpretativa não autoriza reescrever livremente a Constituição.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00014",
+    "title": "Mandado de injunção",
+    "disc": "Direito Constitucional",
+    "topic": "Teoria da Constituição e poder constituinte",
+    "subtopic": "Mandado de injunção",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Muito difícil",
+    "prompt": "Servidor demonstra que a ausência de norma regulamentadora inviabiliza direito constitucional de sua titularidade. Qual instrumento constitucional se destina especificamente a enfrentar essa inviabilidade?",
+    "opts": [
+      "Habeas data.",
+      "Mandado de injunção.",
+      "Habeas corpus em qualquer hipótese.",
+      "Ação popular independentemente de lesão.",
+      "Reclamação administrativa obrigatória."
+    ],
+    "right": 1,
+    "comment": "O remédio enfrenta omissão normativa que inviabiliza o exercício do direito constitucional.",
+    "optionComments": [
+      "Destina-se a dados pessoais.",
+      "O remédio enfrenta omissão normativa que inviabiliza o exercício do direito constitucional.",
+      "Protege a liberdade de locomoção.",
+      "Tem objetos e requisitos próprios.",
+      "Não é o remédio constitucional específico."
+    ],
+    "legalBasis": "CF, art. 5º, LXXI",
+    "reference": "CF, art. 5º, LXXI",
+    "trap": "Distinguir omissão normativa de simples ilegalidade administrativa.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00015",
+    "title": "Iniciativa de PEC",
+    "disc": "Direito Constitucional",
+    "topic": "Teoria da Constituição e poder constituinte",
+    "subtopic": "Iniciativa de PEC",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FCC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "É legitimado a apresentar proposta de emenda à Constituição Federal:",
+    "opts": [
+      "Qualquer governador isoladamente.",
+      "O presidente do STF.",
+      "Um quinto dos senadores.",
+      "O Presidente da República.",
+      "Qualquer comissão parlamentar."
+    ],
+    "right": 3,
+    "comment": "Está expressamente legitimado.",
+    "optionComments": [
+      "Não há essa hipótese.",
+      "Não integra o rol.",
+      "O mínimo parlamentar é um terço.",
+      "Está expressamente legitimado.",
+      "Comissão não é legitimada de forma autônoma."
+    ],
+    "legalBasis": "CF, art. 60, I a III",
+    "reference": "CF, art. 60, I a III",
+    "trap": "Não confundir iniciativa de lei com iniciativa de PEC.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00016",
+    "title": "Hierarquia dos tratados",
+    "disc": "Direito Constitucional",
+    "topic": "Teoria da Constituição e poder constituinte",
+    "subtopic": "Hierarquia dos tratados",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FCC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Muito difícil",
+    "prompt": "Tratado de direitos humanos aprovado em cada Casa do Congresso, em dois turnos, por três quintos dos respectivos membros, será equivalente a:",
+    "opts": [
+      "Lei ordinária.",
+      "Decreto autônomo.",
+      "Emenda constitucional.",
+      "Lei delegada.",
+      "Resolução do Senado."
+    ],
+    "right": 2,
+    "comment": "É a equivalência expressamente prevista.",
+    "optionComments": [
+      "O rito especial confere equivalência constitucional.",
+      "Não se trata de decreto autônomo.",
+      "É a equivalência expressamente prevista.",
+      "Não há delegação legislativa.",
+      "A aprovação ocorre nas duas Casas."
+    ],
+    "legalBasis": "CF, art. 5º, § 3º",
+    "reference": "CF, art. 5º, § 3º",
+    "trap": "O rito qualificado é indispensável para essa equivalência.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00017",
+    "title": "Fundamentos e objetivos",
+    "disc": "Direito Constitucional",
+    "topic": "Teoria da Constituição e poder constituinte",
+    "subtopic": "Fundamentos e objetivos",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FCC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Qual elemento é expressamente classificado como fundamento da República, e não como objetivo fundamental ou princípio internacional?",
+    "opts": [
+      "Defesa da paz.",
+      "Redução das desigualdades regionais.",
+      "Solução pacífica dos conflitos.",
+      "Garantia do desenvolvimento nacional.",
+      "Pluralismo político."
+    ],
+    "right": 4,
+    "comment": "Fundamento previsto no art. 1º.",
+    "optionComments": [
+      "Princípio internacional.",
+      "Objetivo fundamental.",
+      "Princípio internacional.",
+      "Objetivo fundamental.",
+      "Fundamento previsto no art. 1º."
+    ],
+    "legalBasis": "CF, arts. 1º, 3º e 4º",
+    "reference": "CF, arts. 1º, 3º e 4º",
+    "trap": "Separar os três róis constitucionais.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00018",
+    "title": "Limites circunstanciais",
+    "disc": "Direito Constitucional",
+    "topic": "Teoria da Constituição e poder constituinte",
+    "subtopic": "Limites circunstanciais",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FUNDATEC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Qual situação impede a alteração formal da Constituição Federal?",
+    "opts": [
+      "Estado de defesa.",
+      "Recesso parlamentar, por si só.",
+      "Ano eleitoral.",
+      "Calamidade municipal, por si só.",
+      "Vacância ministerial."
+    ],
+    "right": 0,
+    "comment": "É limite circunstancial expresso.",
+    "optionComments": [
+      "É limite circunstancial expresso.",
+      "Não integra o rol do § 1º.",
+      "Não é limite circunstancial constitucional.",
+      "Não equivale automaticamente a estado de defesa.",
+      "Não impede reforma constitucional."
+    ],
+    "legalBasis": "CF, art. 60, § 1º",
+    "reference": "CF, art. 60, § 1º",
+    "trap": "Não ampliar o rol de limites circunstanciais.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00019",
+    "title": "Direitos fundamentais",
+    "disc": "Direito Constitucional",
+    "topic": "Teoria da Constituição e poder constituinte",
+    "subtopic": "Direitos fundamentais",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FUNDATEC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Difícil",
+    "prompt": "Sobre a aplicação das normas definidoras de direitos e garantias fundamentais, assinale a alternativa correta.",
+    "opts": [
+      "Todas são necessariamente de eficácia plena.",
+      "A Constituição determina aplicação imediata.",
+      "Dependem sempre de lei complementar.",
+      "São apenas recomendações políticas.",
+      "Somente direitos individuais possuem força normativa."
+    ],
+    "right": 1,
+    "comment": "É a diretriz expressa; certas normas ainda exigem concretização legislativa.",
+    "optionComments": [
+      "Aplicação imediata não elimina diferentes graus de eficácia.",
+      "É a diretriz expressa; certas normas ainda exigem concretização legislativa.",
+      "Não existe essa exigência geral.",
+      "Possuem força normativa.",
+      "A força normativa não se restringe a essa categoria."
+    ],
+    "legalBasis": "CF, art. 5º, § 1º",
+    "reference": "CF, art. 5º, § 1º",
+    "trap": "Aplicação imediata não significa eficácia plena universal.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00020",
+    "title": "Federalismo e soberania",
+    "disc": "Direito Constitucional",
+    "topic": "Teoria da Constituição e poder constituinte",
+    "subtopic": "Federalismo e soberania",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FUNDATEC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Muito difícil",
+    "prompt": "Um Estado-membro aprova ato declarando sua independência da Federação brasileira. Qual fundamento constitucional impede essa pretensão?",
+    "opts": [
+      "A autonomia estadual é soberania internacional.",
+      "A União pode admitir secessão por lei ordinária.",
+      "A separação depende apenas de referendo estadual.",
+      "A forma federativa e a união indissolúvel impedem a secessão unilateral.",
+      "A Federação é mera opção administrativa revogável."
+    ],
+    "right": 3,
+    "comment": "A Federação é indissolúvel e protegida contra propostas tendentes à sua abolição.",
+    "optionComments": [
+      "Autonomia não equivale a soberania.",
+      "Lei ordinária não supera a indissolubilidade.",
+      "Referendo não cria direito de secessão.",
+      "A Federação é indissolúvel e protegida contra propostas tendentes à sua abolição.",
+      "É elemento estrutural constitucional."
+    ],
+    "legalBasis": "CF, arts. 1º, 18 e 60, § 4º, I",
+    "reference": "CF, arts. 1º, 18 e 60, § 4º, I",
+    "trap": "Autonomia dos entes não significa direito de secessão.",
+    "sources": [
+      {
+        "title": "Constituição Federal — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  }
+]
