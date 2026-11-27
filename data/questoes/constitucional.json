@@ -1782,5 +1782,897 @@
     ],
     "status": "pendente_verificacao",
     "reviewedAt": null
+  },
+  {
+    "id": "DC-00041",
+    "title": "Reserva de plenário",
+    "disc": "Direito Constitucional",
+    "topic": "Controle de constitucionalidade",
+    "subtopic": "Reserva de plenário",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "A declaração de inconstitucionalidade por tribunal exige maioria absoluta dos membros do tribunal ou do órgão especial.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 0,
+    "comment": "A reserva de plenário exige maioria absoluta, não maioria simples.",
+    "optionComments": [
+      "A reserva de plenário exige maioria absoluta, não maioria simples.",
+      "Incorreto: A reserva de plenário exige maioria absoluta, não maioria simples."
+    ],
+    "legalBasis": "CF, art. 97",
+    "reference": "CF, art. 97",
+    "trap": "Distinguir a regra específica de institutos próximos: Reserva de plenário.",
+    "sources": [
+      {
+        "title": "CF — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00042",
+    "title": "Controle difuso",
+    "disc": "Direito Constitucional",
+    "topic": "Controle de constitucionalidade",
+    "subtopic": "Controle difuso",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "O controle difuso é reservado exclusivamente ao STF.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 1,
+    "comment": "Juízes e tribunais podem exercer controle incidental, observadas as regras aplicáveis.",
+    "optionComments": [
+      "Incorreto: Juízes e tribunais podem exercer controle incidental, observadas as regras aplicáveis.",
+      "Juízes e tribunais podem exercer controle incidental, observadas as regras aplicáveis."
+    ],
+    "legalBasis": "CF, arts. 97 e 102, III",
+    "reference": "CF, arts. 97 e 102, III",
+    "trap": "Distinguir a regra específica de institutos próximos: Controle difuso.",
+    "sources": [
+      {
+        "title": "CF — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00043",
+    "title": "ADI federal",
+    "disc": "Direito Constitucional",
+    "topic": "Controle de constitucionalidade",
+    "subtopic": "ADI federal",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "O STF julga ADI contra lei ou ato normativo federal ou estadual.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 0,
+    "comment": "A competência originária indicada abrange atos federais e estaduais, não municipais.",
+    "optionComments": [
+      "A competência originária indicada abrange atos federais e estaduais, não municipais.",
+      "Incorreto: A competência originária indicada abrange atos federais e estaduais, não municipais."
+    ],
+    "legalBasis": "CF, art. 102, I, a",
+    "reference": "CF, art. 102, I, a",
+    "trap": "Distinguir a regra específica de institutos próximos: ADI federal.",
+    "sources": [
+      {
+        "title": "CF — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00044",
+    "title": "ADC",
+    "disc": "Direito Constitucional",
+    "topic": "Controle de constitucionalidade",
+    "subtopic": "ADC",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "A ADC perante o STF pode ter por objeto lei estadual.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 1,
+    "comment": "A Constituição restringe o objeto da ADC federal a atos federais.",
+    "optionComments": [
+      "Incorreto: A Constituição restringe o objeto da ADC federal a atos federais.",
+      "A Constituição restringe o objeto da ADC federal a atos federais."
+    ],
+    "legalBasis": "CF, art. 102, I, a",
+    "reference": "CF, art. 102, I, a",
+    "trap": "Distinguir a regra específica de institutos próximos: ADC.",
+    "sources": [
+      {
+        "title": "CF — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00045",
+    "title": "Legitimidade do PGR",
+    "disc": "Direito Constitucional",
+    "topic": "Controle de constitucionalidade",
+    "subtopic": "Legitimidade do PGR",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "O Procurador-Geral da República pode propor ADI e ADC.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 0,
+    "comment": "A legitimidade decorre diretamente do art. 103.",
+    "optionComments": [
+      "A legitimidade decorre diretamente do art. 103.",
+      "Incorreto: A legitimidade decorre diretamente do art. 103."
+    ],
+    "legalBasis": "CF, art. 103, VI",
+    "reference": "CF, art. 103, VI",
+    "trap": "Distinguir a regra específica de institutos próximos: Legitimidade do PGR.",
+    "sources": [
+      {
+        "title": "CF — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00046",
+    "title": "Partido político",
+    "disc": "Direito Constitucional",
+    "topic": "Controle de constitucionalidade",
+    "subtopic": "Partido político",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "Qualquer partido registrado possui legitimidade para ADI, mesmo sem representação no Congresso.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 1,
+    "comment": "A representação no Congresso é requisito constitucional.",
+    "optionComments": [
+      "Incorreto: A representação no Congresso é requisito constitucional.",
+      "A representação no Congresso é requisito constitucional."
+    ],
+    "legalBasis": "CF, art. 103, VIII",
+    "reference": "CF, art. 103, VIII",
+    "trap": "Distinguir a regra específica de institutos próximos: Partido político.",
+    "sources": [
+      {
+        "title": "CF — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00047",
+    "title": "Mesa legislativa",
+    "disc": "Direito Constitucional",
+    "topic": "Controle de constitucionalidade",
+    "subtopic": "Mesa legislativa",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "A Mesa do Senado Federal é legitimada para propor ADI.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 0,
+    "comment": "O rol contempla a Mesa, não cada parlamentar individualmente.",
+    "optionComments": [
+      "O rol contempla a Mesa, não cada parlamentar individualmente.",
+      "Incorreto: O rol contempla a Mesa, não cada parlamentar individualmente."
+    ],
+    "legalBasis": "CF, art. 103, II a IV",
+    "reference": "CF, art. 103, II a IV",
+    "trap": "Distinguir a regra específica de institutos próximos: Mesa legislativa.",
+    "sources": [
+      {
+        "title": "CF — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00048",
+    "title": "Efeitos vinculantes",
+    "disc": "Direito Constitucional",
+    "topic": "Controle de constitucionalidade",
+    "subtopic": "Efeitos vinculantes",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "CEBRASPE",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "Decisões definitivas de mérito em ADI e ADC vinculam apenas a administração federal.",
+    "opts": [
+      "Certo",
+      "Errado"
+    ],
+    "right": 1,
+    "comment": "A eficácia vinculante alcança também as esferas estadual e municipal.",
+    "optionComments": [
+      "Incorreto: A eficácia vinculante alcança também as esferas estadual e municipal.",
+      "A eficácia vinculante alcança também as esferas estadual e municipal."
+    ],
+    "legalBasis": "CF, art. 102, § 2º",
+    "reference": "CF, art. 102, § 2º",
+    "trap": "Distinguir a regra específica de institutos próximos: Efeitos vinculantes.",
+    "sources": [
+      {
+        "title": "CF — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00049",
+    "title": "ADO",
+    "disc": "Direito Constitucional",
+    "topic": "Controle de constitucionalidade",
+    "subtopic": "ADO",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "Considerando especificamente ado e o disposto em CF, art. 103, § 2º, assinale a alternativa que descreve corretamente a regra desse dispositivo.",
+    "opts": [
+      "Reconhecida omissão inconstitucional, o Congresso é automaticamente dissolvido.",
+      "O texto constitucional estabelece prazo de trinta dias para providências de órgão administrativo diante de omissão declarada.",
+      "A ADPF busca evitar ou reparar lesão a preceito fundamental resultante de ato do Poder Público.",
+      "Reconhecida omissão inconstitucional, dá-se ciência ao Poder competente para adoção das providências necessárias.",
+      "Não se admite ADPF quando houver outro meio eficaz de sanar a lesividade."
+    ],
+    "right": 3,
+    "comment": "A Constituição prevê ciência ao Poder competente, não dissolução.",
+    "optionComments": [
+      "Incorreto: A Constituição prevê ciência ao Poder competente, não dissolução.",
+      "A afirmação trata de omissão administrativa, não da regra específica solicitada.",
+      "A afirmação trata de adpf, não da regra específica solicitada.",
+      "A Constituição prevê ciência ao Poder competente, não dissolução.",
+      "A afirmação trata de subsidiariedade, não da regra específica solicitada."
+    ],
+    "legalBasis": "CF, art. 103, § 2º",
+    "reference": "CF, art. 103, § 2º",
+    "trap": "Distinguir a regra específica de institutos próximos: ADO.",
+    "sources": [
+      {
+        "title": "CF — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00050",
+    "title": "Omissão administrativa",
+    "disc": "Direito Constitucional",
+    "topic": "Controle de constitucionalidade",
+    "subtopic": "Omissão administrativa",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "Considerando especificamente omissão administrativa e o disposto em CF, art. 103, § 2º, assinale a alternativa que descreve corretamente a regra desse dispositivo.",
+    "opts": [
+      "O texto constitucional estabelece prazo de cento e vinte dias para órgão administrativo.",
+      "A ADPF busca evitar ou reparar lesão a preceito fundamental resultante de ato do Poder Público.",
+      "Não se admite ADPF quando houver outro meio eficaz de sanar a lesividade.",
+      "Por segurança jurídica ou excepcional interesse social, o STF pode modular efeitos por maioria de dois terços de seus membros.",
+      "O texto constitucional estabelece prazo de trinta dias para providências de órgão administrativo diante de omissão declarada."
+    ],
+    "right": 4,
+    "comment": "O prazo constitucional expresso é de trinta dias; a legislação admite excepcionalmente prazo razoável diverso.",
+    "optionComments": [
+      "Incorreto: O prazo constitucional expresso é de trinta dias; a legislação admite excepcionalmente prazo razoável diverso.",
+      "A afirmação trata de adpf, não da regra específica solicitada.",
+      "A afirmação trata de subsidiariedade, não da regra específica solicitada.",
+      "A afirmação trata de modulação na adi, não da regra específica solicitada.",
+      "O prazo constitucional expresso é de trinta dias; a legislação admite excepcionalmente prazo razoável diverso."
+    ],
+    "legalBasis": "CF, art. 103, § 2º",
+    "reference": "CF, art. 103, § 2º",
+    "trap": "Distinguir a regra específica de institutos próximos: Omissão administrativa.",
+    "sources": [
+      {
+        "title": "CF — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00051",
+    "title": "ADPF",
+    "disc": "Direito Constitucional",
+    "topic": "Controle de constitucionalidade",
+    "subtopic": "ADPF",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "Considerando especificamente adpf e o disposto em Lei 9.882/1999, art. 1º, assinale a alternativa que descreve corretamente a regra desse dispositivo.",
+    "opts": [
+      "A ADPF busca evitar ou reparar lesão a preceito fundamental resultante de ato do Poder Público.",
+      "A ADPF destina-se exclusivamente à cobrança de tributos federais.",
+      "Não se admite ADPF quando houver outro meio eficaz de sanar a lesividade.",
+      "Por segurança jurídica ou excepcional interesse social, o STF pode modular efeitos por maioria de dois terços de seus membros.",
+      "Proposta a ADI, não se admite desistência."
+    ],
+    "right": 0,
+    "comment": "Seu objeto é a proteção de preceitos fundamentais contra atos do Poder Público.",
+    "optionComments": [
+      "Seu objeto é a proteção de preceitos fundamentais contra atos do Poder Público.",
+      "Incorreto: Seu objeto é a proteção de preceitos fundamentais contra atos do Poder Público.",
+      "A afirmação trata de subsidiariedade, não da regra específica solicitada.",
+      "A afirmação trata de modulação na adi, não da regra específica solicitada.",
+      "A afirmação trata de desistência da adi, não da regra específica solicitada."
+    ],
+    "legalBasis": "Lei 9.882/1999, art. 1º",
+    "reference": "Lei 9.882/1999, art. 1º",
+    "trap": "Distinguir a regra específica de institutos próximos: ADPF.",
+    "sources": [
+      {
+        "title": "Lei 9.882/1999 — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l9882.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00052",
+    "title": "Subsidiariedade",
+    "disc": "Direito Constitucional",
+    "topic": "Controle de constitucionalidade",
+    "subtopic": "Subsidiariedade",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "Considerando especificamente subsidiariedade e o disposto em Lei 9.882/1999, art. 4º, § 1º, assinale a alternativa que descreve corretamente a regra desse dispositivo.",
+    "opts": [
+      "A ADPF deve ser admitida mesmo quando houver outro meio eficaz de sanar a lesividade.",
+      "Não se admite ADPF quando houver outro meio eficaz de sanar a lesividade.",
+      "Por segurança jurídica ou excepcional interesse social, o STF pode modular efeitos por maioria de dois terços de seus membros.",
+      "Proposta a ADI, não se admite desistência.",
+      "Proposta a ADC, não se admite desistência."
+    ],
+    "right": 1,
+    "comment": "A subsidiariedade é requisito legal de admissibilidade.",
+    "optionComments": [
+      "Incorreto: A subsidiariedade é requisito legal de admissibilidade.",
+      "A subsidiariedade é requisito legal de admissibilidade.",
+      "A afirmação trata de modulação na adi, não da regra específica solicitada.",
+      "A afirmação trata de desistência da adi, não da regra específica solicitada.",
+      "A afirmação trata de desistência da adc, não da regra específica solicitada."
+    ],
+    "legalBasis": "Lei 9.882/1999, art. 4º, § 1º",
+    "reference": "Lei 9.882/1999, art. 4º, § 1º",
+    "trap": "Distinguir a regra específica de institutos próximos: Subsidiariedade.",
+    "sources": [
+      {
+        "title": "Lei 9.882/1999 — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l9882.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00053",
+    "title": "Modulação na ADI",
+    "disc": "Direito Constitucional",
+    "topic": "Controle de constitucionalidade",
+    "subtopic": "Modulação na ADI",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "Considerando especificamente modulação na adi e o disposto em Lei 9.868/1999, art. 27, assinale a alternativa que descreve corretamente a regra desse dispositivo.",
+    "opts": [
+      "A modulação na ADI exige somente maioria simples dos presentes.",
+      "Proposta a ADI, não se admite desistência.",
+      "Por segurança jurídica ou excepcional interesse social, o STF pode modular efeitos por maioria de dois terços de seus membros.",
+      "Proposta a ADC, não se admite desistência.",
+      "A decisão sobre constitucionalidade ou inconstitucionalidade exige presença de pelo menos oito ministros."
+    ],
+    "right": 2,
+    "comment": "O quórum legal é de dois terços dos membros.",
+    "optionComments": [
+      "Incorreto: O quórum legal é de dois terços dos membros.",
+      "A afirmação trata de desistência da adi, não da regra específica solicitada.",
+      "O quórum legal é de dois terços dos membros.",
+      "A afirmação trata de desistência da adc, não da regra específica solicitada.",
+      "A afirmação trata de quórum de julgamento, não da regra específica solicitada."
+    ],
+    "legalBasis": "Lei 9.868/1999, art. 27",
+    "reference": "Lei 9.868/1999, art. 27",
+    "trap": "Distinguir a regra específica de institutos próximos: Modulação na ADI.",
+    "sources": [
+      {
+        "title": "Lei 9.868/1999 — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l9868.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00054",
+    "title": "Desistência da ADI",
+    "disc": "Direito Constitucional",
+    "topic": "Controle de constitucionalidade",
+    "subtopic": "Desistência da ADI",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FGV",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "Considerando especificamente desistência da adi e o disposto em Lei 9.868/1999, art. 5º, assinale a alternativa que descreve corretamente a regra desse dispositivo.",
+    "opts": [
+      "O autor da ADI pode desistir livremente antes do julgamento.",
+      "Proposta a ADC, não se admite desistência.",
+      "A decisão sobre constitucionalidade ou inconstitucionalidade exige presença de pelo menos oito ministros.",
+      "Proposta a ADI, não se admite desistência.",
+      "A decisão de mérito em ADI é irrecorrível, ressalvados embargos de declaração, e não admite ação rescisória."
+    ],
+    "right": 3,
+    "comment": "A natureza objetiva do processo impede a desistência.",
+    "optionComments": [
+      "Incorreto: A natureza objetiva do processo impede a desistência.",
+      "A afirmação trata de desistência da adc, não da regra específica solicitada.",
+      "A afirmação trata de quórum de julgamento, não da regra específica solicitada.",
+      "A natureza objetiva do processo impede a desistência.",
+      "A afirmação trata de recurso em adi, não da regra específica solicitada."
+    ],
+    "legalBasis": "Lei 9.868/1999, art. 5º",
+    "reference": "Lei 9.868/1999, art. 5º",
+    "trap": "Distinguir a regra específica de institutos próximos: Desistência da ADI.",
+    "sources": [
+      {
+        "title": "Lei 9.868/1999 — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l9868.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00055",
+    "title": "Desistência da ADC",
+    "disc": "Direito Constitucional",
+    "topic": "Controle de constitucionalidade",
+    "subtopic": "Desistência da ADC",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FCC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "Considerando especificamente desistência da adc e o disposto em Lei 9.868/1999, art. 16, assinale a alternativa que descreve corretamente a regra desse dispositivo.",
+    "opts": [
+      "A desistência da ADC depende apenas da concordância do relator.",
+      "A decisão sobre constitucionalidade ou inconstitucionalidade exige presença de pelo menos oito ministros.",
+      "A decisão de mérito em ADI é irrecorrível, ressalvados embargos de declaração, e não admite ação rescisória.",
+      "Cabe reclamação ao STF contra ato administrativo ou decisão judicial que contrarie súmula vinculante aplicável.",
+      "Proposta a ADC, não se admite desistência."
+    ],
+    "right": 4,
+    "comment": "A lei veda a desistência após a propositura.",
+    "optionComments": [
+      "Incorreto: A lei veda a desistência após a propositura.",
+      "A afirmação trata de quórum de julgamento, não da regra específica solicitada.",
+      "A afirmação trata de recurso em adi, não da regra específica solicitada.",
+      "A afirmação trata de reclamação e súmula vinculante, não da regra específica solicitada.",
+      "A lei veda a desistência após a propositura."
+    ],
+    "legalBasis": "Lei 9.868/1999, art. 16",
+    "reference": "Lei 9.868/1999, art. 16",
+    "trap": "Distinguir a regra específica de institutos próximos: Desistência da ADC.",
+    "sources": [
+      {
+        "title": "Lei 9.868/1999 — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l9868.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00056",
+    "title": "Quórum de julgamento",
+    "disc": "Direito Constitucional",
+    "topic": "Controle de constitucionalidade",
+    "subtopic": "Quórum de julgamento",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FCC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "Considerando especificamente quórum de julgamento e o disposto em Lei 9.868/1999, art. 22, assinale a alternativa que descreve corretamente a regra desse dispositivo.",
+    "opts": [
+      "A decisão sobre constitucionalidade ou inconstitucionalidade exige presença de pelo menos oito ministros.",
+      "A presença de cinco ministros basta para o julgamento de mérito da ADI.",
+      "A decisão de mérito em ADI é irrecorrível, ressalvados embargos de declaração, e não admite ação rescisória.",
+      "Cabe reclamação ao STF contra ato administrativo ou decisão judicial que contrarie súmula vinculante aplicável.",
+      "O STF pode aprovar súmula vinculante por decisão de dois terços de seus membros após reiteradas decisões sobre matéria constitucional."
+    ],
+    "right": 0,
+    "comment": "O quórum de presença previsto é de oito ministros.",
+    "optionComments": [
+      "O quórum de presença previsto é de oito ministros.",
+      "Incorreto: O quórum de presença previsto é de oito ministros.",
+      "A afirmação trata de recurso em adi, não da regra específica solicitada.",
+      "A afirmação trata de reclamação e súmula vinculante, não da regra específica solicitada.",
+      "A afirmação trata de edição de súmula vinculante, não da regra específica solicitada."
+    ],
+    "legalBasis": "Lei 9.868/1999, art. 22",
+    "reference": "Lei 9.868/1999, art. 22",
+    "trap": "Distinguir a regra específica de institutos próximos: Quórum de julgamento.",
+    "sources": [
+      {
+        "title": "Lei 9.868/1999 — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l9868.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00057",
+    "title": "Recurso em ADI",
+    "disc": "Direito Constitucional",
+    "topic": "Controle de constitucionalidade",
+    "subtopic": "Recurso em ADI",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FCC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "Considerando especificamente recurso em adi e o disposto em Lei 9.868/1999, art. 26, assinale a alternativa que descreve corretamente a regra desse dispositivo.",
+    "opts": [
+      "A decisão de mérito em ADI admite ação rescisória no prazo de dois anos.",
+      "A decisão de mérito em ADI é irrecorrível, ressalvados embargos de declaração, e não admite ação rescisória.",
+      "Cabe reclamação ao STF contra ato administrativo ou decisão judicial que contrarie súmula vinculante aplicável.",
+      "O STF pode aprovar súmula vinculante por decisão de dois terços de seus membros após reiteradas decisões sobre matéria constitucional.",
+      "Os Estados podem instituir representação de inconstitucionalidade de leis ou atos normativos estaduais ou municipais em face da Constituição estadual."
+    ],
+    "right": 1,
+    "comment": "A lei exclui a ação rescisória e ressalva embargos declaratórios.",
+    "optionComments": [
+      "Incorreto: A lei exclui a ação rescisória e ressalva embargos declaratórios.",
+      "A lei exclui a ação rescisória e ressalva embargos declaratórios.",
+      "A afirmação trata de reclamação e súmula vinculante, não da regra específica solicitada.",
+      "A afirmação trata de edição de súmula vinculante, não da regra específica solicitada.",
+      "A afirmação trata de controle estadual, não da regra específica solicitada."
+    ],
+    "legalBasis": "Lei 9.868/1999, art. 26",
+    "reference": "Lei 9.868/1999, art. 26",
+    "trap": "Distinguir a regra específica de institutos próximos: Recurso em ADI.",
+    "sources": [
+      {
+        "title": "Lei 9.868/1999 — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l9868.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00058",
+    "title": "Reclamação e súmula vinculante",
+    "disc": "Direito Constitucional",
+    "topic": "Controle de constitucionalidade",
+    "subtopic": "Reclamação e súmula vinculante",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FUNDATEC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "Considerando especificamente reclamação e súmula vinculante e o disposto em CF, art. 103-A, § 3º, assinale a alternativa que descreve corretamente a regra desse dispositivo.",
+    "opts": [
+      "A contrariedade a súmula vinculante nunca permite reclamação ao STF.",
+      "O STF pode aprovar súmula vinculante por decisão de dois terços de seus membros após reiteradas decisões sobre matéria constitucional.",
+      "Cabe reclamação ao STF contra ato administrativo ou decisão judicial que contrarie súmula vinculante aplicável.",
+      "Os Estados podem instituir representação de inconstitucionalidade de leis ou atos normativos estaduais ou municipais em face da Constituição estadual.",
+      "A declaração de inconstitucionalidade por tribunal exige maioria absoluta dos membros do tribunal ou do órgão especial."
+    ],
+    "right": 2,
+    "comment": "A reclamação é expressamente prevista na Constituição.",
+    "optionComments": [
+      "Incorreto: A reclamação é expressamente prevista na Constituição.",
+      "A afirmação trata de edição de súmula vinculante, não da regra específica solicitada.",
+      "A reclamação é expressamente prevista na Constituição.",
+      "A afirmação trata de controle estadual, não da regra específica solicitada.",
+      "A afirmação trata de reserva de plenário, não da regra específica solicitada."
+    ],
+    "legalBasis": "CF, art. 103-A, § 3º",
+    "reference": "CF, art. 103-A, § 3º",
+    "trap": "Distinguir a regra específica de institutos próximos: Reclamação e súmula vinculante.",
+    "sources": [
+      {
+        "title": "CF — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00059",
+    "title": "Edição de súmula vinculante",
+    "disc": "Direito Constitucional",
+    "topic": "Controle de constitucionalidade",
+    "subtopic": "Edição de súmula vinculante",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FUNDATEC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "Considerando especificamente edição de súmula vinculante e o disposto em CF, art. 103-A, assinale a alternativa que descreve corretamente a regra desse dispositivo.",
+    "opts": [
+      "O STJ pode editar súmula vinculante nos termos do art. 103-A da Constituição.",
+      "Os Estados podem instituir representação de inconstitucionalidade de leis ou atos normativos estaduais ou municipais em face da Constituição estadual.",
+      "A declaração de inconstitucionalidade por tribunal exige maioria absoluta dos membros do tribunal ou do órgão especial.",
+      "O STF pode aprovar súmula vinculante por decisão de dois terços de seus membros após reiteradas decisões sobre matéria constitucional.",
+      "A questão constitucional pode ser examinada incidentalmente em um caso concreto."
+    ],
+    "right": 3,
+    "comment": "A competência constitucional é do STF, com quórum qualificado.",
+    "optionComments": [
+      "Incorreto: A competência constitucional é do STF, com quórum qualificado.",
+      "A afirmação trata de controle estadual, não da regra específica solicitada.",
+      "A afirmação trata de reserva de plenário, não da regra específica solicitada.",
+      "A competência constitucional é do STF, com quórum qualificado.",
+      "A afirmação trata de controle difuso, não da regra específica solicitada."
+    ],
+    "legalBasis": "CF, art. 103-A",
+    "reference": "CF, art. 103-A",
+    "trap": "Distinguir a regra específica de institutos próximos: Edição de súmula vinculante.",
+    "sources": [
+      {
+        "title": "CF — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
+  },
+  {
+    "id": "DC-00060",
+    "title": "Controle estadual",
+    "disc": "Direito Constitucional",
+    "topic": "Controle de constitucionalidade",
+    "subtopic": "Controle estadual",
+    "contentType": "legislacao",
+    "court": "",
+    "sumula": "",
+    "bank": "FUNDATEC",
+    "careers": [
+      "Delegado PC",
+      "Delegado PF",
+      "Juiz de Direito",
+      "Promotor de Justiça",
+      "Defensor Público"
+    ],
+    "difficulty": "Intermediário",
+    "prompt": "Considerando especificamente controle estadual e o disposto em CF, art. 125, § 2º, assinale a alternativa que descreve corretamente a regra desse dispositivo.",
+    "opts": [
+      "A Constituição exige que a legitimidade para representação estadual seja atribuída a um único órgão.",
+      "A declaração de inconstitucionalidade por tribunal exige maioria absoluta dos membros do tribunal ou do órgão especial.",
+      "A questão constitucional pode ser examinada incidentalmente em um caso concreto.",
+      "O STF julga ADI contra lei ou ato normativo federal ou estadual.",
+      "Os Estados podem instituir representação de inconstitucionalidade de leis ou atos normativos estaduais ou municipais em face da Constituição estadual."
+    ],
+    "right": 4,
+    "comment": "A Constituição veda atribuir a legitimidade a um único órgão.",
+    "optionComments": [
+      "Incorreto: A Constituição veda atribuir a legitimidade a um único órgão.",
+      "A afirmação trata de reserva de plenário, não da regra específica solicitada.",
+      "A afirmação trata de controle difuso, não da regra específica solicitada.",
+      "A afirmação trata de adi federal, não da regra específica solicitada.",
+      "A Constituição veda atribuir a legitimidade a um único órgão."
+    ],
+    "legalBasis": "CF, art. 125, § 2º",
+    "reference": "CF, art. 125, § 2º",
+    "trap": "Distinguir a regra específica de institutos próximos: Controle estadual.",
+    "sources": [
+      {
+        "title": "CF — Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      }
+    ],
+    "status": "pendente_verificacao",
+    "reviewedAt": null
   }
 ]
