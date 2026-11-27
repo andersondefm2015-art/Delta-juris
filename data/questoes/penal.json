@@ -3691,8 +3691,8 @@
       "Procurador da República",
       "Defensor Público"
     ],
-    "difficulty": "Muito difícil",
-    "prompt": "Um servidor público, embora não possua a posse de determinado equipamento da repartição, subtrai o bem em proveito próprio, valendo-se da facilidade proporcionada por sua condição funcional. Qual delito está configurado?",
+    "difficulty": "Intermediário",
+    "prompt": "Um servidor público, embora não tenha a posse de determinado equipamento da repartição, subtrai o bem em proveito próprio, valendo-se da facilidade proporcionada por sua condição funcional. Qual delito está configurado?",
     "opts": [
       "Peculato-apropriação.",
       "Concussão.",
@@ -3718,8 +3718,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00082",
@@ -3738,7 +3738,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Muito difícil",
+    "difficulty": "Difícil",
     "prompt": "No peculato culposo, a reparação do dano anterior à sentença irrecorrível extingue a punibilidade, enquanto a reparação posterior reduz de metade a pena imposta.",
     "opts": [
       "Certo",
@@ -3759,8 +3759,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00083",
@@ -3779,8 +3779,8 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Muito difícil",
-    "prompt": "Um funcionário público exige vantagem econômica indevida de particular em razão de sua função. O particular recusa o pagamento e comunica o fato à autoridade policial. Qual classificação é adequada?",
+    "difficulty": "Intermediário",
+    "prompt": "Um funcionário público exige vantagem econômica indevida para si de particular em razão de sua função. O particular recusa o pagamento e comunica o fato à autoridade policial. Qual classificação é adequada?",
     "opts": [
       "Corrupção ativa consumada.",
       "Concussão necessariamente tentada.",
@@ -3806,8 +3806,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00084",
@@ -3847,8 +3847,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00085",
@@ -3867,7 +3867,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Muito difícil",
+    "difficulty": "Intermediário",
     "prompt": "Por sentimento pessoal de amizade, um servidor público deixa indevidamente de praticar ato de ofício que estava legalmente obrigado a realizar. Não recebe nem solicita vantagem indevida. Qual crime está configurado, presentes os demais requisitos típicos?",
     "opts": [
       "Prevaricação.",
@@ -3894,8 +3894,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00086",
@@ -3915,7 +3915,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Difícil",
+    "difficulty": "Básico",
     "prompt": "Para efeitos penais, considera-se funcionário público quem exerce cargo, emprego ou função pública, ainda que transitoriamente ou sem remuneração.",
     "opts": [
       "Certo",
@@ -3936,8 +3936,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00087",
@@ -4003,7 +4003,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Muito difícil",
+    "difficulty": "Intermediário",
     "prompt": "Em documento formalmente autêntico, um agente insere declaração falsa sobre fato juridicamente relevante, com a finalidade de alterar a verdade sobre esse fato. Não existe adulteração da estrutura material do documento. Qual delito está configurado?",
     "opts": [
       "Falsificação material de documento público necessariamente.",
@@ -4030,8 +4030,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00089",
@@ -4096,7 +4096,7 @@
       "Procurador da República",
       "Defensor Público"
     ],
-    "difficulty": "Muito difícil",
+    "difficulty": "Intermediário",
     "prompt": "Um comerciante recebe de boa-fé uma cédula falsa como verdadeira. Posteriormente, toma conhecimento da falsidade e, conscientemente, restitui a cédula à circulação. Qual dispositivo disciplina especificamente essa conduta?",
     "opts": [
       "Art. 289, caput, exclusivamente.",
@@ -4123,8 +4123,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00091",
@@ -4164,8 +4164,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00092",
@@ -4235,7 +4235,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Muito difícil",
+    "difficulty": "Intermediário",
     "prompt": "Um agente pratica ato libidinoso contra pessoa adulta, sem sua anuência, com objetivo de satisfazer a própria lascívia. Não há violência ou grave ameaça, nem circunstâncias que configurem delito mais grave. Qual classificação é adequada?",
     "opts": [
       "Importunação sexual.",
@@ -4262,8 +4262,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00094",
@@ -4303,8 +4303,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00095",
@@ -4323,7 +4323,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Muito difícil",
+    "difficulty": "Básico",
     "prompt": "Após a entrada em vigor da Lei nº 13.718/2018, é praticado crime de estupro contra vítima adulta. Considerando o regime de ação penal estabelecido pela referida alteração legislativa, assinale a alternativa correta.",
     "opts": [
       "A ação penal é exclusivamente privada.",
@@ -4354,8 +4354,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13718.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00096",
@@ -4426,7 +4426,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Especialista",
+    "difficulty": "Difícil",
     "prompt": "O princípio da especialidade permite solucionar o concurso aparente de normas mediante a prevalência da norma especial, que contém os elementos da norma geral acrescidos de elementos especializantes, independentemente de possuir pena abstratamente mais grave.",
     "opts": [
       "Certo",
@@ -4448,8 +4448,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00098",
@@ -4468,8 +4468,8 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Muito difícil",
-    "prompt": "Determinado crime possui pena privativa de liberdade máxima abstratamente cominada de quatro anos. Antes do trânsito em julgado da sentença final, desconsideradas causas modificadoras, suspensivas, interruptivas e hipóteses especiais, qual prazo prescricional decorre do art. 109 do Código Penal?",
+    "difficulty": "Intermediário",
+    "prompt": "Determinado crime possui pena privativa de liberdade máxima abstratamente cominada de quatro anos. Considerando a prescrição pela pena em abstrato, desconsideradas causas modificadoras, suspensivas, interruptivas e hipóteses especiais, qual prazo prescricional decorre do art. 109 do Código Penal?",
     "opts": [
       "Dois anos.",
       "Oito anos.",
@@ -4495,8 +4495,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00099",
@@ -4516,7 +4516,7 @@
       "Promotor de Justiça",
       "Defensor Público"
     ],
-    "difficulty": "Especialista",
+    "difficulty": "Intermediário",
     "prompt": "Durante a apuração de determinado crime, ocorreram a instauração do inquérito policial, o indiciamento, o oferecimento da denúncia e seu posterior recebimento pelo juiz. Qual desses acontecimentos constitui causa interruptiva da prescrição expressamente prevista no art. 117 do Código Penal?",
     "opts": [
       "Instauração do inquérito policial.",
@@ -4543,8 +4543,8 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-26"
   },
   {
     "id": "DP-00100",
