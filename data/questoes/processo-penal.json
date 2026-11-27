@@ -1690,25 +1690,29 @@
       "Todos os crimes violentos"
     ],
     "right": 3,
-    "comment": "A Constituição assegura essa competência, sem excluir hipóteses legais de atração por conexão.",
+    "comment": "A Constituição assegura ao júri o julgamento de crimes dolosos contra a vida, consumados ou tentados. Não basta que haja resultado morte.",
     "optionComments": [
       "Incorreta. Resultado morte não basta.",
       "Incorreta. Não integram a competência constitucional mínima.",
       "Incorreta. Hediondez não determina competência do júri.",
-      "Correta. A Constituição assegura essa competência, sem excluir hipóteses legais de atração por conexão.",
+      "Correto. A Constituição assegura ao júri o julgamento de crimes dolosos contra a vida, consumados ou tentados. Não basta que haja resultado morte.",
       "Incorreta. Violência não é o critério constitucional."
     ],
     "legalBasis": "CF, art. 5º, XXXVIII, d",
     "reference": "CF, art. 5º, XXXVIII, d",
-    "trap": "Não confunda competência do júri com critérios de competência distintos.",
+    "trap": "Latrocínio não se confunde com crime doloso contra a vida.",
     "sources": [
       {
         "title": "CF, art. 5º, XXXVIII, d — fonte oficial para conferência",
         "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      },
+      {
+        "title": "Legislação oficial consultada",
+        "url": "https://www4.planalto.gov.br/legislacao/portal-legis/legislacao-1/constituicao"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00038",
@@ -1825,25 +1829,29 @@
       "Disponibilidade da ação"
     ],
     "right": 3,
-    "comment": "A Constituição veda tribunal de exceção e exige autoridade competente previamente definida.",
+    "comment": "A vedação de tribunal de exceção protege o juiz natural: o órgão julgador não pode ser criado especificamente para julgar determinado acusado após o fato.",
     "optionComments": [
       "Incorreta. Não se trata de substituição do juiz da instrução.",
       "Incorreta. O problema é a constituição do órgão julgador.",
       "Incorreta. Não se refere à pluralidade de querelados.",
-      "Correta. A Constituição veda tribunal de exceção e exige autoridade competente previamente definida.",
+      "Correto. A vedação de tribunal de exceção protege o juiz natural: o órgão julgador não pode ser criado especificamente para julgar determinado acusado após o fato.",
       "Incorreta. Não é questão de titularidade."
     ],
     "legalBasis": "CF, art. 5º, XXXVII e LIII",
     "reference": "CF, art. 5º, XXXVII e LIII",
-    "trap": "Não confunda juiz natural com critérios de competência distintos.",
+    "trap": "Publicidade e juiz natural são garantias distintas.",
     "sources": [
       {
         "title": "CF, art. 5º, XXXVII e LIII — fonte oficial para conferência",
         "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      },
+      {
+        "title": "Legislação oficial consultada",
+        "url": "https://www4.planalto.gov.br/legislacao/portal-legis/legislacao-1/constituicao"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00041",
@@ -2341,9 +2349,9 @@
       "Seu parentesco extingue a ação penal."
     ],
     "right": 0,
-    "comment": "Correto. É a ressalva expressa do art. 206.",
+    "comment": "A faculdade de recusa do irmão não é absoluta: cede se a prova não puder ser obtida ou complementada de outra maneira. O art. 208 dispensa o compromisso dessas pessoas.",
     "optionComments": [
-      "Correto. É a ressalva expressa do art. 206.",
+      "Correto. A faculdade de recusa do irmão não é absoluta: cede se a prova não puder ser obtida ou complementada de outra maneira. O art. 208 dispensa o compromisso dessas pessoas.",
       "Incorreto. Não há proibição absoluta.",
       "Incorreto. Há faculdade legal de recusa.",
       "Incorreto. A lei não exige essa autorização.",
@@ -2351,15 +2359,19 @@
     ],
     "legalBasis": "CPP, art. 206",
     "reference": "CPP, art. 206",
-    "trap": "Atenção aos requisitos, ressalvas e limites da regra legal: Correto. É a ressalva expressa do art. 206.",
+    "trap": "Não confundir faculdade de recusa com proibição de testemunhar.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      },
+      {
+        "title": "Legislação oficial consultada",
+        "url": "https://legis.senado.gov.br/norma/528776/publicacao/34620736"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00053",
@@ -2388,25 +2400,29 @@
       "É proibido depor, salvo se desobrigado pela parte interessada e quiser testemunhar."
     ],
     "right": 4,
-    "comment": "Correto. O art. 207 exige ambas as condições.",
+    "comment": "O dever profissional de sigilo impede o depoimento sobre o fato protegido. A exceção legal exige liberação pela parte interessada e vontade do profissional de depor, cumulativamente.",
     "optionComments": [
       "Incorreto. A intimação não elimina o dever.",
       "Incorreto. A regra legal é de proibição.",
       "Incorreto. Abrange função, ministério, ofício ou profissão.",
       "Incorreto. A desobrigação cabe à parte interessada.",
-      "Correto. O art. 207 exige ambas as condições."
+      "Correto. O dever profissional de sigilo impede o depoimento sobre o fato protegido. A exceção legal exige liberação pela parte interessada e vontade do profissional de depor, cumulativamente."
     ],
     "legalBasis": "CPP, art. 207",
     "reference": "CPP, art. 207",
-    "trap": "Atenção aos requisitos, ressalvas e limites da regra legal: Correto. O art. 207 exige ambas as condições.",
+    "trap": "A intimação judicial, por si só, não elimina o sigilo.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      },
+      {
+        "title": "Legislação oficial consultada",
+        "url": "https://legis.senado.gov.br/norma/528776/publicacao/34620736"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00054",
@@ -2482,25 +2498,29 @@
       "Dispensa de assinatura judicial."
     ],
     "right": 2,
-    "comment": "Correto. O art. 243 disciplina esses requisitos.",
+    "comment": "O mandado deve individualizar o imóvel e seu proprietário ou morador tanto quanto possível, explicitar a finalidade e motivação, e observar subscrição e assinatura exigidas.",
     "optionComments": [
       "Incorreto. O local deve ser individualizado tanto quanto possível.",
       "Incorreto. Isso não satisfaz os requisitos.",
-      "Correto. O art. 243 disciplina esses requisitos.",
+      "Correto. O mandado deve individualizar o imóvel e seu proprietário ou morador tanto quanto possível, explicitar a finalidade e motivação, e observar subscrição e assinatura exigidas.",
       "Incorreto. A finalidade e o local também importam.",
       "Incorreto. A assinatura integra as formalidades."
     ],
     "legalBasis": "CPP, art. 243",
     "reference": "CPP, art. 243",
-    "trap": "Atenção aos requisitos, ressalvas e limites da regra legal: Correto. O art. 243 disciplina esses requisitos.",
+    "trap": "Mandado genérico não satisfaz a exigência de individualização.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      },
+      {
+        "title": "Legislação oficial consultada",
+        "url": "https://legis.senado.gov.br/norma/528776/publicacao/34620736"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00056",
@@ -2529,25 +2549,29 @@
       "Só é possível após sentença."
     ],
     "right": 3,
-    "comment": "Correto. É hipótese expressa do art. 244.",
+    "comment": "A fundada suspeita deve se referir à posse de objeto pertinente ao delito, não à mera impressão subjetiva. O art. 244 também prevê dispensa de mandado em caso de prisão ou durante busca domiciliar.",
     "optionComments": [
       "Incorreto. O art. 244 prevê hipóteses de dispensa.",
       "Incorreto. Exige fundamento legal.",
       "Incorreto. Confissão não é requisito.",
-      "Correto. É hipótese expressa do art. 244.",
+      "Correto. A fundada suspeita deve se referir à posse de objeto pertinente ao delito, não à mera impressão subjetiva. O art. 244 também prevê dispensa de mandado em caso de prisão ou durante busca domiciliar.",
       "Incorreto. Pode ocorrer na investigação."
     ],
     "legalBasis": "CPP, art. 244",
     "reference": "CPP, art. 244",
-    "trap": "Atenção aos requisitos, ressalvas e limites da regra legal: Correto. É hipótese expressa do art. 244.",
+    "trap": "Busca pessoal não se confunde com ingresso domiciliar.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      },
+      {
+        "title": "Legislação oficial consultada",
+        "url": "https://legis.senado.gov.br/norma/528776/publicacao/34620736"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00057",
@@ -2576,9 +2600,9 @@
       "A medida independe de necessidade."
     ],
     "right": 0,
-    "comment": "Correto. O inciso II exige subsidiariedade.",
+    "comment": "A interceptação é subsidiária: se a prova puder ser obtida por meios disponíveis alternativos, incide a vedação do art. 2º, II. Ordem judicial é requisito adicional.",
     "optionComments": [
-      "Correto. O inciso II exige subsidiariedade.",
+      "Correto. A interceptação é subsidiária: se a prova puder ser obtida por meios disponíveis alternativos, incide a vedação do art. 2º, II. Ordem judicial é requisito adicional.",
       "Incorreto. A lei estabelece vedação.",
       "Incorreto. Exige ordem judicial.",
       "Incorreto. Não substitui ordem judicial.",
@@ -2586,15 +2610,19 @@
     ],
     "legalBasis": "Lei 9.296/1996, art. 2º",
     "reference": "Lei 9.296/1996, art. 2º",
-    "trap": "Atenção aos requisitos, ressalvas e limites da regra legal: Correto. O inciso II exige subsidiariedade.",
+    "trap": "A autorização judicial não substitui a demonstração de necessidade.",
     "sources": [
       {
         "title": "Lei de Interceptação Telefônica — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/leis/l9296.htm"
+      },
+      {
+        "title": "Legislação oficial consultada",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l9296.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00058",
@@ -2623,25 +2651,29 @@
       "Não será admitida nessa hipótese."
     ],
     "right": 4,
-    "comment": "Correto. O inciso III estabelece a restrição.",
+    "comment": "A investigação exclusivamente de infração cuja pena máxima seja detenção não admite interceptação, conforme art. 2º, III.",
     "optionComments": [
       "Incorreto. Há vedação expressa.",
       "Incorreto. A ordem judicial é necessária, mas não supera a vedação.",
       "Incorreto. Repercussão não altera o requisito legal.",
       "Incorreto. Consentimento não supera a vedação.",
-      "Correto. O inciso III estabelece a restrição."
+      "Correto. A investigação exclusivamente de infração cuja pena máxima seja detenção não admite interceptação, conforme art. 2º, III."
     ],
     "legalBasis": "Lei 9.296/1996, art. 2º, III",
     "reference": "Lei 9.296/1996, art. 2º, III",
-    "trap": "Atenção aos requisitos, ressalvas e limites da regra legal: Correto. O inciso III estabelece a restrição.",
+    "trap": "O critério legal é a espécie da pena, não a repercussão social.",
     "sources": [
       {
         "title": "Lei de Interceptação Telefônica — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/leis/l9296.htm"
+      },
+      {
+        "title": "Legislação oficial consultada",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l9296.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00059",
@@ -2670,25 +2702,29 @@
       "Prazo indeterminado."
     ],
     "right": 1,
-    "comment": "Correto. É a previsão expressa do art. 5º; a questão não trata do número de renovações.",
+    "comment": "O período inicial não excede quinze dias. A renovação por igual período exige demonstração de indispensabilidade; a decisão deve ser fundamentada. A questão não pergunta pelo limite total de renovações.",
     "optionComments": [
       "Incorreto. Não é o prazo legal.",
-      "Correto. É a previsão expressa do art. 5º; a questão não trata do número de renovações.",
+      "Correto. O período inicial não excede quinze dias. A renovação por igual período exige demonstração de indispensabilidade; a decisão deve ser fundamentada. A questão não pergunta pelo limite total de renovações.",
       "Incorreto. Não corresponde ao dispositivo.",
       "Incorreto. Não há renovação automática.",
       "Incorreto. A decisão deve delimitar a medida."
     ],
     "legalBasis": "Lei 9.296/1996, art. 5º",
     "reference": "Lei 9.296/1996, art. 5º",
-    "trap": "Atenção aos requisitos, ressalvas e limites da regra legal: Correto. É a previsão expressa do art. 5º; a questão não trata do número de renovações.",
+    "trap": "Prazo inicial não equivale a limite global de duração.",
     "sources": [
       {
         "title": "Lei de Interceptação Telefônica — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/leis/l9296.htm"
+      },
+      {
+        "title": "Legislação oficial consultada",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l9296.htm"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00060",
@@ -2717,25 +2753,29 @@
       "Presunção absoluta de culpa."
     ],
     "right": 2,
-    "comment": "Correto. É o conceito legal do art. 239.",
+    "comment": "O indício parte de fato demonstrado que permite inferir outro fato relacionado. Não constitui necessariamente presunção absoluta nem confissão.",
     "optionComments": [
       "Incorreto. Não decorre de declaração do acusado.",
       "Incorreto. Não é sistema de valoração.",
-      "Correto. É o conceito legal do art. 239.",
+      "Correto. O indício parte de fato demonstrado que permite inferir outro fato relacionado. Não constitui necessariamente presunção absoluta nem confissão.",
       "Incorreto. Não se trata de decisão definitiva.",
       "Incorreto. Indício não implica culpa automática."
     ],
     "legalBasis": "CPP, art. 239",
     "reference": "CPP, art. 239",
-    "trap": "Atenção aos requisitos, ressalvas e limites da regra legal: Correto. É o conceito legal do art. 239.",
+    "trap": "Distinguir fato-base provado de mera conjectura.",
     "sources": [
       {
         "title": "Código de Processo Penal — Planalto",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      },
+      {
+        "title": "Legislação oficial consultada",
+        "url": "https://legis.senado.gov.br/norma/528776/publicacao/34620736"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00061",
