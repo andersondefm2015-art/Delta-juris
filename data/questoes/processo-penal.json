@@ -1127,22 +1127,26 @@
       "Errado"
     ],
     "right": 0,
-    "comment": "O art. 73 confere essa faculdade ao querelante.",
+    "comment": "A escolha do foro do réu é faculdade do querelante na ação exclusivamente privada, mesmo quando conhecido o local do fato.",
     "optionComments": [
       "Correta. O art. 73 confere essa faculdade ao querelante.",
       "Incorreta. Ignora a opção legal."
     ],
     "legalBasis": "CPP, art. 73",
     "reference": "CPP, art. 73",
-    "trap": "Não confunda ação exclusivamente privada com critérios de competência distintos.",
+    "trap": "Não confundir com a regra subsidiária do art. 72, que pressupõe local desconhecido.",
     "sources": [
       {
         "title": "CPP, art. 73 — fonte oficial para conferência",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      },
+      {
+        "title": "CPP atualizado — Senado Federal",
+        "url": "https://legis.senado.leg.br/norma/528776/publicacao/34620736"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00026",
@@ -1171,7 +1175,7 @@
       "Continência subjetiva"
     ],
     "right": 1,
-    "comment": "A influência probatória entre infrações caracteriza a conexão instrumental.",
+    "comment": "A influência da prova de um delito sobre a demonstração de outro caracteriza conexão probatória.",
     "optionComments": [
       "Incorreta. Exige infrações praticadas reciprocamente.",
       "Correta. A influência probatória entre infrações caracteriza a conexão instrumental.",
@@ -1181,15 +1185,19 @@
     ],
     "legalBasis": "CPP, art. 76, III",
     "reference": "CPP, art. 76, III",
-    "trap": "Não confunda conexão instrumental com critérios de competência distintos.",
+    "trap": "A mera coincidência de local não demonstra dependência probatória.",
     "sources": [
       {
         "title": "CPP, art. 76, III — fonte oficial para conferência",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      },
+      {
+        "title": "CPP atualizado — Senado Federal",
+        "url": "https://legis.senado.leg.br/norma/528776/publicacao/34620736"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00027",
@@ -1215,22 +1223,26 @@
       "Errado"
     ],
     "right": 0,
-    "comment": "A conexão teleológica decorre da finalidade de facilitar outro delito.",
+    "comment": "A finalidade de facilitar outro crime caracteriza conexão teleológica; ocultação ou obtenção de vantagem também são hipóteses legais.",
     "optionComments": [
       "Correta. A conexão teleológica decorre da finalidade de facilitar outro delito.",
       "Incorreta. Não se exige identidade de tipos penais."
     ],
     "legalBasis": "CPP, art. 76, II",
     "reference": "CPP, art. 76, II",
-    "trap": "Não confunda conexão teleológica com critérios de competência distintos.",
+    "trap": "Não exigir simultaneidade dos delitos.",
     "sources": [
       {
         "title": "CPP, art. 76, II — fonte oficial para conferência",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      },
+      {
+        "title": "CPP atualizado — Senado Federal",
+        "url": "https://legis.senado.leg.br/norma/528776/publicacao/34620736"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00028",
@@ -1259,7 +1271,7 @@
       "Continência"
     ],
     "right": 4,
-    "comment": "Duas ou mais pessoas acusadas pela mesma infração configuram continência subjetiva.",
+    "comment": "A acusação de várias pessoas pela mesma infração configura continência subjetiva.",
     "optionComments": [
       "Incorreta. Não é o instituto descrito.",
       "Incorreta. É medida própria do júri.",
@@ -1269,15 +1281,19 @@
     ],
     "legalBasis": "CPP, art. 77, I",
     "reference": "CPP, art. 77, I",
-    "trap": "Não confunda continência subjetiva com critérios de competência distintos.",
+    "trap": "Distinguir pluralidade de acusados pela mesma infração de conexão entre infrações distintas.",
     "sources": [
       {
         "title": "CPP, art. 77, I — fonte oficial para conferência",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      },
+      {
+        "title": "CPP atualizado — Senado Federal",
+        "url": "https://legis.senado.leg.br/norma/528776/publicacao/34620736"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00029",
@@ -1303,18 +1319,22 @@
       "Errado"
     ],
     "right": 0,
-    "comment": "O art. 78, I, estabelece essa prevalência, respeitadas competências constitucionais.",
+    "comment": "A prevalência do júri continua sendo a regra geral. A Lei 15.358/2026 introduziu ressalva no art. 78, I, para certos homicídios consumados ou tentados ligados a organizações criminosas ultraviolentas, grupos paramilitares ou milícias privadas. A compatibilidade constitucional e eventual controle judicial dessa alteração exigem conferência adicional.",
     "optionComments": [
-      "Correta. O art. 78, I, estabelece essa prevalência, respeitadas competências constitucionais.",
-      "Incorreta. Ignora a regra legal de prevalência."
+      "A regra geral permanece, mas a redação de 2026 contém ressalva expressa.",
+      "A afirmação enuncia regra geral, não absoluta; a ressalva e seu alcance constitucional exigem revisão."
     ],
     "legalBasis": "CPP, art. 78, I",
     "reference": "CPP, art. 78, I",
-    "trap": "Não confunda júri e juízo comum com critérios de competência distintos.",
+    "trap": "Não tratar a prevalência do júri como regra legal sem ressalvas após a alteração de 2026.",
     "sources": [
       {
         "title": "CPP, art. 78, I — fonte oficial para conferência",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      },
+      {
+        "title": "CPP, art. 78, I, redação de 2026 — Senado Federal",
+        "url": "https://legis.senado.leg.br/norma/528776/publicacao/34620736"
       }
     ],
     "status": "pendente_verificacao",
@@ -1347,7 +1367,7 @@
       "Extinção de um processo"
     ],
     "right": 1,
-    "comment": "O concurso entre jurisdição comum e militar excepciona a unidade processual.",
+    "comment": "A unidade processual cede quando concorrem as jurisdições comum e militar.",
     "optionComments": [
       "Incorreta. A conexão não desloca automaticamente o crime comum.",
       "Correta. O concurso entre jurisdição comum e militar excepciona a unidade processual.",
@@ -1357,15 +1377,19 @@
     ],
     "legalBasis": "CPP, art. 79, I",
     "reference": "CPP, art. 79, I",
-    "trap": "Não confunda conexão e separação obrigatória com critérios de competência distintos.",
+    "trap": "A separação é obrigatória nessa hipótese, não simples conveniência judicial.",
     "sources": [
       {
         "title": "CPP, art. 79, I — fonte oficial para conferência",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      },
+      {
+        "title": "CPP atualizado — Senado Federal",
+        "url": "https://legis.senado.leg.br/norma/528776/publicacao/34620736"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00031",
@@ -1391,22 +1415,26 @@
       "Errado"
     ],
     "right": 0,
-    "comment": "O dispositivo autoriza a separação por esse motivo.",
+    "comment": "O juiz pode separar processos quando o excesso de acusados ameaça prolongar a prisão provisória.",
     "optionComments": [
       "Correta. O dispositivo autoriza a separação por esse motivo.",
       "Incorreta. Confunde separação facultativa com obrigatória."
     ],
     "legalBasis": "CPP, art. 80",
     "reference": "CPP, art. 80",
-    "trap": "Não confunda separação facultativa com critérios de competência distintos.",
+    "trap": "A medida é facultativa e deve ser justificada.",
     "sources": [
       {
         "title": "CPP, art. 80 — fonte oficial para conferência",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      },
+      {
+        "title": "CPP atualizado — Senado Federal",
+        "url": "https://legis.senado.leg.br/norma/528776/publicacao/34620736"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00032",
@@ -1435,7 +1463,7 @@
       "Prevenção"
     ],
     "right": 4,
-    "comment": "A anterioridade de ato processual ou medida relativa ao processo pode prevenir o juízo.",
+    "comment": "Entre juízos igualmente competentes, a anterioridade de ato judicial relativo ao processo pode definir a prevenção, mesmo antes da acusação.",
     "optionComments": [
       "Incorreta. Não resolve a concorrência descrita.",
       "Incorreta. Não identifica o juízo prevento.",
@@ -1445,15 +1473,19 @@
     ],
     "legalBasis": "CPP, art. 83",
     "reference": "CPP, art. 83",
-    "trap": "Não confunda prevenção com critérios de competência distintos.",
+    "trap": "Prevenção não autoriza afastar competência constitucional nem confundir as funções do juiz das garantias e do juiz da instrução.",
     "sources": [
       {
         "title": "CPP, art. 83 — fonte oficial para conferência",
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm"
+      },
+      {
+        "title": "CPP atualizado — Senado Federal",
+        "url": "https://legis.senado.leg.br/norma/528776/publicacao/34620736"
       }
     ],
-    "status": "pendente_verificacao",
-    "reviewedAt": null
+    "status": "validada",
+    "reviewedAt": "2026-11-27"
   },
   {
     "id": "DPP-00033",
